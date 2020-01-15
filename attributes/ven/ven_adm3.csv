@@ -1,0 +1,1112 @@
+﻿COD_ESTADO,COD_MUNIC,COD_PARROQ,ADM3_ES,ADM3_PCODE,ADM2_ES,ADM2_PCODE,ADM1_ES,ADM1_PCODE,ADM0_ES,ADM0_EN,ADM0_PCODE
+1,1,1,Altagracia,VE010101,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,2,Antimano,VE010102,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,3,Candelaria,VE010103,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,4,Caricuao,VE010104,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,5,Catedral,VE010105,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,6,Coche,VE010106,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,7,El Junquito,VE010107,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,8,El Paraiso,VE010108,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,9,El Recreo,VE010109,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,10,El Valle,VE010110,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,11,La Pastora,VE010111,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,12,La Vega,VE010112,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,13,Macarao,VE010113,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,14,San Agustin,VE010114,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,15,San Benardino,VE010115,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,16,San Jose,VE010116,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,17,San Juan,VE010117,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,18,San Pedro,VE010118,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,19,Santa Rosalia,VE010119,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,20,Santa Teresa,VE010120,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,21,Sucre,VE010121,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+1,1,22,23 De Enero,VE010122,Libertador,VE0101,Distrito Federal,VE01,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+2,1,0,Autonomo Alto Orinoco,VE020100,Autonomo Alto Orinoco,VE0201,Amazonas,VE02,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+2,2,0,Autonomo Atabapo,VE020200,Autonomo Atabapo,VE0202,Amazonas,VE02,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+2,3,0,Autonomo Atures,VE020300,Autonomo Atures,VE0203,Amazonas,VE02,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+2,4,0,Autonomo Autana,VE020400,Autonomo Autana,VE0204,Amazonas,VE02,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+2,5,0,Autonomo Maroa,VE020500,Autonomo Maroa,VE0205,Amazonas,VE02,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+2,6,0,Autonomo Manapiare,VE020600,Autonomo Manapiare,VE0206,Amazonas,VE02,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+2,7,0,Autonomo Rio Negro,VE020700,Autonomo Rio Negro,VE0207,Amazonas,VE02,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,1,1,Capital Anaco,VE030101,Anaco,VE0301,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,1,2,San Joaquin,VE030102,Anaco,VE0301,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,2,1,Capital Aragua,VE030201,Aragua,VE0302,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,2,2,Cachipo,VE030202,Aragua,VE0302,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,3,1,Capital Fernando De Peñalv,VE030301,Fernando De Peñalv,VE0303,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,3,2,San Miguel,VE030302,Fernando De Peñalv,VE0303,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,3,3,Sucre,VE030303,Fernando De Peñalv,VE0303,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,4,1,Valle De Guanape,VE030401,Francisco Del Carm,VE0304,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,4,2,Santa Barbara,VE030402,Francisco Del Carm,VE0304,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,5,1,Capital Francisco De Miran,VE030501,Francisco De Miran,VE0305,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,5,2,Atapirire,VE030502,Francisco De Miran,VE0305,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,5,3,Boca Del Pao,VE030503,Francisco De Miran,VE0305,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,5,4,El Pao,VE030504,Francisco De Miran,VE0305,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,6,1,Guanta,VE030601,Guanta,VE0306,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,6,2,Chorreron,VE030602,Guanta,VE0306,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,7,1,Capital Independencia,VE030701,Independencia,VE0307,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,7,2,Mamo,VE030702,Independencia,VE0307,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,8,1,Capital Puerto La Cruz,VE030801,Juan Antonio Sotil,VE0308,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,8,2,Pozuelos,VE030802,Juan Antonio Sotil,VE0308,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,9,1,Capital Onoto,VE030901,Juan Manuel Cajiga,VE0309,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,9,2,San Pablo,VE030902,Juan Manuel Cajiga,VE0309,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,10,1,Capital Jose Gregorio Mona,VE031001,Jose Gregorio Mona,VE0310,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,10,2,Piar,VE031002,Jose Gregorio Mona,VE0310,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,10,3,San Diego De Cabrutica,VE031003,Jose Gregorio Mona,VE0310,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,10,4,Santa Clara,VE031004,Jose Gregorio Mona,VE0310,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,10,5,Uverito,VE031005,Jose Gregorio Mona,VE0310,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,10,6,Zuata,VE031006,Jose Gregorio Mona,VE0310,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,11,1,Capital Libertad,VE031101,Libertad,VE0311,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,11,2,El Carito,VE031102,Libertad,VE0311,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,11,3,Santa Ines,VE031103,Libertad,VE0311,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,12,1,Capital Clarines,VE031201,Manuel Ezequiel Br,VE0312,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,12,2,Guanape,VE031202,Manuel Ezequiel Br,VE0312,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,12,3,Sabana De Uchire,VE031203,Manuel Ezequiel Br,VE0312,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,13,1,Capital Pedro Maria Freite,VE031301,Pedro Maria Freite,VE0313,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,13,2,Libertador,VE031302,Pedro Maria Freite,VE0313,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,13,3,Santa Rosa,VE031303,Pedro Maria Freite,VE0313,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,13,4,Urica,VE031304,Pedro Maria Freite,VE0313,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,14,1,Capital Piritu,VE031401,Piritu,VE0314,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,14,2,San Francisco,VE031402,Piritu,VE0314,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,15,1,Capital San Jose De Guanip,VE031501,San Jose De Guanip,VE0315,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,16,1,Capital Boca De Uchire,VE031601,San Juan De Capist,VE0316,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,16,2,Boca De Chavez,VE031602,San Juan De Capist,VE0316,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,17,1,Capital Santa  Ana,VE031701,Santa Ana,VE0317,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,17,2,Pueblo Nuevo,VE031702,Santa Ana,VE0317,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,18,1,El Carmen,VE031801,Simon Bolivar,VE0318,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,18,2,San Cristobal,VE031802,Simon Bolivar,VE0318,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,18,3,Bergantin,VE031803,Simon Bolivar,VE0318,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,18,4,Caigua,VE031804,Simon Bolivar,VE0318,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,18,5,El Pilar,VE031805,Simon Bolivar,VE0318,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,18,6,Naricual,VE031806,Simon Bolivar,VE0318,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,19,1,Edmundo Barrios,VE031901,Simon Rodriguez,VE0319,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,20,1,El Chaparro,VE032001,Sir Artur Mc Grego,VE0320,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,20,2,Tomas Alfaro Calatrava,VE032002,Sir Artur Mc Grego,VE0320,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,21,1,Lecherias,VE032101,Diego Bautista Urb,VE0321,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+3,21,2,El Morro,VE032102,Diego Bautista Urb,VE0321,Anzoategui,VE03,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,1,1,Urbana Achaguas,VE040101,Achaguas,VE0401,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,1,2,Apurito,VE040102,Achaguas,VE0401,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,1,3,El Yagual,VE040103,Achaguas,VE0401,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,1,4,Guachara,VE040104,Achaguas,VE0401,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,1,5,Mucuritas,VE040105,Achaguas,VE0401,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,1,6,Queseras Del Medio,VE040106,Achaguas,VE0401,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,2,1,Biruaca,VE040201,Biruaca,VE0402,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,3,1,Bruzual,VE040301,Muñoz,VE0403,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,3,2,Mantecal,VE040302,Muñoz,VE0403,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,3,3,Quintero,VE040303,Muñoz,VE0403,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,3,4,Rincon Hondo,VE040304,Muñoz,VE0403,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,3,5,San Vicente,VE040305,Muñoz,VE0403,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,4,1,Guasdualito,VE040401,Paez,VE0404,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,4,2,Aramendi,VE040402,Paez,VE0404,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,4,3,El Amparo,VE040403,Paez,VE0404,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,4,4,San Camilo,VE040404,Paez,VE0404,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,4,5,Urdaneta,VE040405,Paez,VE0404,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,5,1,San Juan De Payara,VE040501,Pedro Camejo,VE0405,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,5,2,Codazzi,VE040502,Pedro Camejo,VE0405,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,5,3,Cunaviche,VE040503,Pedro Camejo,VE0405,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,6,1,Elorza,VE040601,Romulo Gallegos,VE0406,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,6,2,La Trinidad,VE040602,Romulo Gallegos,VE0406,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,7,1,San Fernando,VE040701,San Fernando,VE0407,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,7,2,El Recreo,VE040702,San Fernando,VE0407,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,7,3,Peñalver,VE040703,San Fernando,VE0407,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+4,7,4,San Rafael De Atamaica,VE040704,San Fernando,VE0407,Apure,VE04,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,1,1,Capital Bolivar,VE050101,Bolivar,VE0501,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,2,1,Capital Camatagua,VE050201,Camatagua,VE0502,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,2,2,Carmen De Cura,VE050202,Camatagua,VE0502,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,3,2,Choroni,VE050302,Girardot,VE0503,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,3,3,Las Delicias,VE050303,Girardot,VE0503,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,3,4,Madre Maria De San Jose,VE050304,Girardot,VE0503,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,3,5,Joaquin Crespo,VE050305,Girardot,VE0503,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,3,6,Pedro Jose Ovalles,VE050306,Girardot,VE0503,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,3,7,Jose Casanova Godoy,VE050307,Girardot,VE0503,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,3,8,Andres Eloy Blanco,VE050308,Girardot,VE0503,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,3,9,Los Tacariguas,VE050309,Girardot,VE0503,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,4,0,Capital Jose Angel Lamas,VE050400,Jose Angel Lamas,VE0504,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,5,1,Capital Jose Felix Ribas,VE050501,Jose Felix Ribas,VE0505,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,5,2,Castor Nieves Rios,VE050502,Jose Felix Ribas,VE0505,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,5,3,Las Guacamayas,VE050503,Jose Felix Ribas,VE0505,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,5,4,Pao De Zarate,VE050504,Jose Felix Ribas,VE0505,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,5,5,Zuata,VE050505,Jose Felix Ribas,VE0505,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,6,0,Capital Jose Rafael Reveng,VE050600,Jose Rafael Reveng,VE0506,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,7,1,Capital Libertador,VE050701,Libertador,VE0507,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,7,2,San Martin De Porres,VE050702,Libertador,VE0507,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,8,1,Capital Mario Briceño Irag,VE050801,Mario Briceño Irag,VE0508,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,8,2,Caña De Azucar,VE050802,Mario Briceño Irag,VE0508,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,9,1,Capital San Casimiro,VE050901,San Casimiro,VE0509,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,9,2,Gõiripa,VE050902,San Casimiro,VE0509,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,9,3,Ollas De Caramacate,VE050903,San Casimiro,VE0509,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,9,4,Valle Morin,VE050904,San Casimiro,VE0509,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,10,1,Capital San Sebastian,VE051001,San Sebastian,VE0510,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,11,1,Capital Santiago Mariño,VE051101,Santiago Mariño,VE0511,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,11,2,Arevalo Aponte,VE051102,Santiago Mariño,VE0511,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,11,3,Chuao,VE051103,Santiago Mariño,VE0511,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,11,4,Saman De Gõere,VE051104,Santiago Mariño,VE0511,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,11,5,Alfredo Pacheco Miranda,VE051105,Santiago Mariño,VE0511,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,12,1,Capital Santos Michelena,VE051201,Santos Michelena,VE0512,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,12,2,Tiara,VE051202,Santos Michelena,VE0512,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,13,2,Bella Vista,VE051302,Sucre,VE0513,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,13,1,Capital Sucre,VE051301,Sucre,VE0513,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,14,1,Capital Tovar,VE051401,Tovar,VE0514,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,15,1,Capital Urdaneta,VE051501,Urdaneta,VE0515,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,15,2,Las Peñitas,VE051502,Urdaneta,VE0515,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,15,3,San Francisco De Cara,VE051503,Urdaneta,VE0515,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,15,4,Taguay,VE051504,Urdaneta,VE0515,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,16,1,Capital Zamora,VE051601,Zamora,VE0516,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,16,2,Magdaleno,VE051602,Zamora,VE0516,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,16,3,San Francisco De Asis,VE051603,Zamora,VE0516,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,16,4,Valles Del Tucutunemo,VE051604,Zamora,VE0516,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,16,5,Augusto Mijares,VE051605,Zamora,VE0516,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,17,1,Capital Francisco Linares,VE051701,Francisco Linares,VE0517,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,17,2,Francisco De Miranda,VE051702,Francisco Linares,VE0517,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,17,3,Monseñor Feliciano Gonzale,VE051703,Francisco Linares,VE0517,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+5,18,1,Capital Ocumare De La Cost,VE051801,Ocumare De La Cost,VE0518,Aragua,VE05,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,1,1,Sabaneta,VE060101,Alberto Arvelo Tor,VE0601,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,1,2,Rodriguez Dominguez,VE060102,Alberto Arvelo Tor,VE0601,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,2,1,Ticoporo,VE060201,Antonio Jose De Su,VE0602,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,2,2,Andres Bello,VE060202,Antonio Jose De Su,VE0602,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,2,3,Nicolas Pulido,VE060203,Antonio Jose De Su,VE0602,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,3,1,Arismendi,VE060301,Arismendi,VE0603,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,3,2,Guadarrama,VE060302,Arismendi,VE0603,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,3,3,La Union,VE060303,Arismendi,VE0603,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,3,4,San Antonio,VE060304,Arismendi,VE0603,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,1,Barinas,VE060401,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,2,Alfredo Arvelo Larriva,VE060402,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,3,San Silvestre,VE060403,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,4,Santa Ines,VE060404,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,5,Santa Lucia,VE060405,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,6,Torunos,VE060406,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,7,El Carmen,VE060407,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,8,Romulo Betancourt,VE060408,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,9,Corazon De Jesus,VE060409,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,10,Ramon Ignacio Mendez,VE060410,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,11,Alto Barinas,VE060411,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,12,Manuel Palacios Fajardo,VE060412,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,13,Juan Antonio Rodriguez Dom,VE060413,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,4,14,Dominga Ortiz De Paez,VE060414,Barinas,VE0604,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,5,1,Barinitas,VE060501,Bolivar,VE0605,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,5,2,Altamira,VE060502,Bolivar,VE0605,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,5,3,Calderas,VE060503,Bolivar,VE0605,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,6,1,Barrancas,VE060601,Cruz Paredes,VE0606,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,6,2,El Socorro,VE060602,Cruz Paredes,VE0606,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,6,3,Masparrito,VE060603,Cruz Paredes,VE0606,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,7,1,Santa Barbara,VE060701,Ezequiel Zamora,VE0607,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,7,2,Jose Ignacio Del Pumar,VE060702,Ezequiel Zamora,VE0607,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,7,3,Pedro Briceño Mendez,VE060703,Ezequiel Zamora,VE0607,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,7,4,Ramon Ignacio Mendez,VE060704,Ezequiel Zamora,VE0607,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,8,1,Obispos,VE060801,Obispos,VE0608,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,8,2,El Real,VE060802,Obispos,VE0608,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,8,3,La Luz,VE060803,Obispos,VE0608,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,8,4,Los Guasimitos,VE060804,Obispos,VE0608,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,9,1,Ciudad Bolivia,VE060901,Pedraza,VE0609,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,9,2,Ignacio Briceño,VE060902,Pedraza,VE0609,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,9,3,Jose Felix Ribas,VE060903,Pedraza,VE0609,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,9,4,Paez,VE060904,Pedraza,VE0609,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,10,1,Libertad,VE061001,Rojas,VE0610,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,10,2,Dolores,VE061002,Rojas,VE0610,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,10,3,Palacio Fajardo,VE061003,Rojas,VE0610,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,10,4,Santa Rosa,VE061004,Rojas,VE0610,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,11,1,Ciudad De Nutrias,VE061101,Sosa,VE0611,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,11,2,El Regalo,VE061102,Sosa,VE0611,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,11,3,Puerto De Nutrias,VE061103,Sosa,VE0611,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,11,4,Santa Catalina,VE061104,Sosa,VE0611,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,12,1,El Canton,VE061201,Andres Eloy Blanco,VE0612,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,12,2,Santa Cruz De Guacas,VE061202,Andres Eloy Blanco,VE0612,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+6,12,3,Puerto Vivas,VE061203,Andres Eloy Blanco,VE0612,Barinas,VE06,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,1,1,Cachamay,VE070101,Caroni,VE0701,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,1,2,Chirica,VE070102,Caroni,VE0701,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,1,3,Dalla Costa,VE070103,Caroni,VE0701,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,1,4,Once De Abril,VE070104,Caroni,VE0701,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,1,5,Simon Bolivar,VE070105,Caroni,VE0701,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,1,6,Unare,VE070106,Caroni,VE0701,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,1,7,Universidad,VE070107,Caroni,VE0701,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,1,8,Vista Al Sol,VE070108,Caroni,VE0701,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,1,9,Pozo Verde,VE070109,Caroni,VE0701,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,1,10,Yocoima,VE070110,Caroni,VE0701,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,2,1,Seccion Capital Cedeño,VE070201,Cedeño,VE0702,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,2,2,Altagracia,VE070202,Cedeño,VE0702,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,2,3,Ascencion Farreras,VE070203,Cedeño,VE0702,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,2,4,Guaniamo,VE070204,Cedeño,VE0702,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,2,5,La Urbana,VE070205,Cedeño,VE0702,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,2,6,Pijiguaos,VE070206,Cedeño,VE0702,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,3,1,Capital El Callao,VE070301,El Callao,VE0703,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,4,1,Seccion Capital Gran Saban,VE070401,Gran Sabana,VE0704,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,4,2,Ikabaru,VE070402,Gran Sabana,VE0704,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,5,1,Agua Salada,VE070501,Heres,VE0705,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,5,2,Catedral,VE070502,Heres,VE0705,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,5,3,Jose Antonio Paez,VE070503,Heres,VE0705,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,5,4,La Sabanita,VE070504,Heres,VE0705,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,5,5,Marhuanta,VE070505,Heres,VE0705,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,5,6,Vista Hermosa,VE070506,Heres,VE0705,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,5,7,Orinoco,VE070507,Heres,VE0705,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,5,8,Panapana,VE070508,Heres,VE0705,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,5,9,Zea,VE070509,Heres,VE0705,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,6,1,Seccion Capital Piar,VE070601,Piar,VE0706,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,6,2,Andres Eloy Blanco,VE070602,Piar,VE0706,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,6,3,Pedro Cova,VE070603,Piar,VE0706,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,7,1,Seccion Capital Raul Leoni,VE070701,Raul Leoni,VE0707,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,7,2,Barceloneta,VE070702,Raul Leoni,VE0707,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,7,3,San Francisco,VE070703,Raul Leoni,VE0707,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,7,4,Santa Barbara,VE070704,Raul Leoni,VE0707,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,8,1,Seccion Capital Roscio,VE070801,Roscio,VE0708,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,9,1,Seccion Capital Sifontes,VE070901,Sifontes,VE0709,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,9,2,Dalla Costa,VE070902,Sifontes,VE0709,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,9,3,San Isidro,VE070903,Sifontes,VE0709,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,10,1,Seccion Capital Sucre,VE071001,Sucre,VE0710,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,10,2,Aripao,VE071002,Sucre,VE0710,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,10,3,Guarataro,VE071003,Sucre,VE0710,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,10,4,Las Majadas,VE071004,Sucre,VE0710,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,10,5,Moitaco,VE071005,Sucre,VE0710,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+7,11,1,Capital Padre Pedro Chien,VE071101,Padre Pedro Chien,VE0711,Bolivar,VE07,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,1,1,Bejuma,VE080101,Bejuma,VE0801,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,1,2,Canoabo,VE080102,Bejuma,VE0801,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,1,3,Simon Bolivar,VE080103,Bejuma,VE0801,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,2,1,Gõigõe,VE080201,Carlos Arvelo,VE0802,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,2,2,Belen,VE080202,Carlos Arvelo,VE0802,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,2,3,Tacarigua,VE080203,Carlos Arvelo,VE0802,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,3,1,Aguas Calientes,VE080301,Diego Ibarra,VE0803,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,3,2,Mariara,VE080302,Diego Ibarra,VE0803,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,4,1,Ciudad Alianza,VE080401,Guacara,VE0804,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,4,2,Guacara,VE080402,Guacara,VE0804,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,4,3,Yagua,VE080403,Guacara,VE0804,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,5,1,Moron,VE080501,Juan Jose Mora,VE0805,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,5,2,Urama,VE080502,Juan Jose Mora,VE0805,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,6,1,Tocuyito,VE080601,Libertador,VE0806,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,6,2,Independencia,VE080602,Libertador,VE0806,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,7,1,Los Guayos,VE080701,Los Guayos,VE0807,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,8,1,Miranda,VE080801,Miranda,VE0808,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,9,1,Montalban,VE080901,Montalban,VE0809,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,10,1,Naguanagua,VE081001,Naguanagua,VE0810,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,11,2,Democracia,VE081102,Puerto Cabello,VE0811,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,11,3,Fraternidad,VE081103,Puerto Cabello,VE0811,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,11,4,Goaigoaza,VE081104,Puerto Cabello,VE0811,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,11,5,Juan Jose Flores,VE081105,Puerto Cabello,VE0811,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,11,7,Borburata,VE081107,Puerto Cabello,VE0811,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,11,8,Patanemo,VE081108,Puerto Cabello,VE0811,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,12,1,San Diego,VE081201,San Diego,VE0812,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,13,1,San Joaquin,VE081301,San Joaquin,VE0813,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,14,1,Candelaria,VE081401,Valencia,VE0814,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,14,2,Catedral,VE081402,Valencia,VE0814,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,14,3,El Socorro,VE081403,Valencia,VE0814,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,14,4,Miguel Peña,VE081404,Valencia,VE0814,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,14,5,Rafael Urdaneta,VE081405,Valencia,VE0814,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,14,6,San Blas,VE081406,Valencia,VE0814,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,14,7,San Jose,VE081407,Valencia,VE0814,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,14,8,Santa Rosa,VE081408,Valencia,VE0814,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,14,9,Negro Primero,VE081409,Valencia,VE0814,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,1,1,Cojedes,VE090101,Anzoategui,VE0901,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,1,2,Juan De Mata Suarez,VE090102,Anzoategui,VE0901,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,2,1,Tinaquillo,VE090201,Falcon,VE0902,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,3,1,El Baul,VE090301,Girardot,VE0903,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,3,2,Sucre,VE090302,Girardot,VE0903,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,4,1,Macapo,VE090401,Lima Blanco,VE0904,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,4,2,La Aguadita,VE090402,Lima Blanco,VE0904,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,5,1,El Pao,VE090501,Pao De San Juan Ba,VE0905,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,6,1,Libertad De Cojedes,VE090601,Ricaurte,VE0906,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,6,2,El Amparo,VE090602,Ricaurte,VE0906,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,7,1,Romulo Gallegos,VE090701,Romulo Gallegos,VE0907,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,8,1,San Carlos De Austria,VE090801,San Carlos,VE0908,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,8,2,Juan Angel Bravo,VE090802,San Carlos,VE0908,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,8,3,Manuel Manrique,VE090803,San Carlos,VE0908,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+9,9,1,General En Jefe Jose Laure,VE090901,Tinaco,VE0909,Cojedes,VE09,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,1,1,Curiapo,VE100101,Antonio Diaz,VE1001,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,1,2,Almirante Luis Brion,VE100102,Antonio Diaz,VE1001,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,1,3,Francisco Aniceto Lugo,VE100103,Antonio Diaz,VE1001,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,1,4,Manuel Renaud,VE100104,Antonio Diaz,VE1001,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,1,5,Padre Barral,VE100105,Antonio Diaz,VE1001,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,1,6,Santos De Abelgas,VE100106,Antonio Diaz,VE1001,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,2,1,Imataca,VE100201,Casacoima,VE1002,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,2,2,Cinco De Julio,VE100202,Casacoima,VE1002,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,2,3,Juan Bautista Arismendi,VE100203,Casacoima,VE1002,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,2,4,Manuel Piar,VE100204,Casacoima,VE1002,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,2,5,Romulo Gallegos,VE100205,Casacoima,VE1002,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,3,1,Pedernales,VE100301,Pedernales,VE1003,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,3,2,Luis Beltran Prieto Figuer,VE100302,Pedernales,VE1003,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,4,1,San Jose,VE100401,Tucupita,VE1004,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,4,2,Jose Vidal Marcano,VE100402,Tucupita,VE1004,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,4,3,Juan Millan,VE100403,Tucupita,VE1004,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,4,4,Leonardo Ruiz Pineda,VE100404,Tucupita,VE1004,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,4,5,Mariscal Antonio Jose De S,VE100405,Tucupita,VE1004,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,4,6,Monseñor Argimiro Garcia,VE100406,Tucupita,VE1004,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,4,7,San Rafael,VE100407,Tucupita,VE1004,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+10,4,8,Virgen Del Valle,VE100408,Tucupita,VE1004,Delta Amacuro,VE10,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,1,1,San Juan De Los Cayos,VE110101,Acosta,VE1101,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,1,2,Capadare,VE110102,Acosta,VE1101,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,1,3,La Pastora,VE110103,Acosta,VE1101,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,1,4,Libertador,VE110104,Acosta,VE1101,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,2,2,Aracua,VE110202,Bolivar,VE1102,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,2,3,La Peña,VE110203,Bolivar,VE1102,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,3,1,Capatarida,VE110301,Buchivacoa,VE1103,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,3,2,Bariro,VE110302,Buchivacoa,VE1103,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,3,3,Borojo,VE110303,Buchivacoa,VE1103,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,3,4,Guajiro,VE110304,Buchivacoa,VE1103,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,3,5,Seque,VE110305,Buchivacoa,VE1103,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,3,6,Zazarida,VE110306,Buchivacoa,VE1103,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,4,1,Capital Cacique Manaure,VE110401,Cacique Manaure,VE1104,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,5,1,Carirubana,VE110501,Carirubana,VE1105,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,5,2,Norte,VE110502,Carirubana,VE1105,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,5,3,Punta Cardon,VE110503,Carirubana,VE1105,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,5,4,Santa Ana,VE110504,Carirubana,VE1105,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,6,1,La Vela De Coro,VE110601,Colina,VE1106,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,6,2,Acurigua,VE110602,Colina,VE1106,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,6,3,Guaibacoa,VE110603,Colina,VE1106,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,6,4,Las Calderas,VE110604,Colina,VE1106,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,6,5,Macoruca,VE110605,Colina,VE1106,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,7,1,Capital Dabajuro,VE110701,Dabajuro,VE1107,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,8,1,Pedregal,VE110801,Democracia,VE1108,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,8,2,Agua Clara,VE110802,Democracia,VE1108,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,8,3,Avaria,VE110803,Democracia,VE1108,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,8,4,Piedra Grande,VE110804,Democracia,VE1108,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,8,5,Purureche,VE110805,Democracia,VE1108,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,9,1,Pueblo Nuevo,VE110901,Falcon,VE1109,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,9,2,Adicora,VE110902,Falcon,VE1109,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,9,3,Baraived,VE110903,Falcon,VE1109,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,9,4,Buena Vista,VE110904,Falcon,VE1109,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,9,5,Jadacaquiva,VE110905,Falcon,VE1109,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,9,6,Moruy,VE110906,Falcon,VE1109,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,9,7,Adaure,VE110907,Falcon,VE1109,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,9,8,El Hato,VE110908,Falcon,VE1109,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,9,9,El Vinculo,VE110909,Falcon,VE1109,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,10,1,Churuguara,VE111001,Federacion,VE1110,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,10,2,Agua Larga,VE111002,Federacion,VE1110,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,10,3,El Pauji,VE111003,Federacion,VE1110,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,10,4,Independencia,VE111004,Federacion,VE1110,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,10,5,Maparari,VE111005,Federacion,VE1110,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,11,1,Jacura,VE111101,Jacura,VE1111,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,11,2,Agua Linda,VE111102,Jacura,VE1111,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,11,3,Araurima,VE111103,Jacura,VE1111,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,12,1,Los Taques,VE111201,Los Taques,VE1112,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,12,2,Judibana,VE111202,Los Taques,VE1112,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,13,1,Mene De Mauroa,VE111301,Mauroa,VE1113,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,13,2,Casigua,VE111302,Mauroa,VE1113,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,13,3,San Felix,VE111303,Mauroa,VE1113,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,14,1,San Antonio,VE111401,Miranda,VE1114,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,14,2,San Gabriel,VE111402,Miranda,VE1114,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,14,3,Santa Ana,VE111403,Miranda,VE1114,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,14,4,Guzman Guillermo,VE111404,Miranda,VE1114,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,14,5,Mitare,VE111405,Miranda,VE1114,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,14,6,Rio Seco,VE111406,Miranda,VE1114,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,14,7,Sabaneta,VE111407,Miranda,VE1114,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,15,1,Chichiriviche,VE111501,Monseñor Iturriza,VE1115,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,15,2,Boca De Tocuyo,VE111502,Monseñor Iturriza,VE1115,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,15,3,Tocuyo De La Costa,VE111503,Monseñor Iturriza,VE1115,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,16,1,Capital Palmasola,VE111601,Palmasola,VE1116,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,17,1,Cabure,VE111701,Petit,VE1117,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,17,2,Colina,VE111702,Petit,VE1117,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,17,3,Curimagua,VE111703,Petit,VE1117,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,18,1,Piritu,VE111801,Piritu,VE1118,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,18,2,San Jose De La Costa,VE111802,Piritu,VE1118,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,19,1,Capital San Francisco,VE111901,San Francisco,VE1119,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,20,1,Tucacas,VE112001,Silva,VE1120,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,20,2,Boca De Aroa,VE112002,Silva,VE1120,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,21,1,Sucre,VE112101,Sucre,VE1121,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,21,2,Pecaya,VE112102,Sucre,VE1121,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,22,1,Capital Tocopero,VE112201,Tocopero,VE1122,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,23,1,Santa Cruz De Bucaral,VE112301,Union,VE1123,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,23,2,El Charal,VE112302,Union,VE1123,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,23,3,Las Vegas Del Tuy,VE112303,Union,VE1123,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,24,1,Urumaco,VE112401,Urumaco,VE1124,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,24,2,Bruzual,VE112402,Urumaco,VE1124,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,25,1,Puerto Cumarebo,VE112501,Zamora,VE1125,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,25,2,La Cienaga,VE112502,Zamora,VE1125,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,25,3,La Soledad,VE112503,Zamora,VE1125,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,25,4,Pueblo Cumarebo,VE112504,Zamora,VE1125,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+11,25,5,Zazarida,VE112505,Zamora,VE1125,Falcon,VE11,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,1,1,Capital Camaguan,VE120101,Camaguan,VE1201,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,1,2,Puerto Miranda,VE120102,Camaguan,VE1201,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,1,3,Uverito,VE120103,Camaguan,VE1201,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,2,1,Chaguaramas,VE120201,Chaguaramas,VE1202,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,3,1,El Socorro,VE120301,El Socorro,VE1203,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,4,1,Capital San Geronimo De Gu,VE120401,San Geronimo De Gu,VE1204,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,4,2,Cazorla,VE120402,San Geronimo De Gu,VE1204,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,5,1,Capital Valle De La Pascua,VE120501,Leonardo Infante,VE1205,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,5,2,Espino,VE120502,Leonardo Infante,VE1205,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,6,1,Capital Las Mercedes,VE120601,Las Mercedes,VE1206,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,6,2,Cabruta,VE120602,Las Mercedes,VE1206,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,6,3,Santa Rita De Manapire,VE120603,Las Mercedes,VE1206,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,7,1,Capital El Sombrero,VE120701,Julian Mellado,VE1207,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,7,2,Sosa,VE120702,Julian Mellado,VE1207,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,8,1,Capital Calabozo,VE120801,Francisco De Miran,VE1208,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,8,2,El Calvario,VE120802,Francisco De Miran,VE1208,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,8,3,El Rastro,VE120803,Francisco De Miran,VE1208,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,8,4,Guardatinajas,VE120804,Francisco De Miran,VE1208,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,9,1,Capital Altagracia De Orit,VE120901,Jose Tadeo Monagas,VE1209,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,9,2,Lezama,VE120902,Jose Tadeo Monagas,VE1209,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,9,3,Libertad De Orituco,VE120903,Jose Tadeo Monagas,VE1209,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,9,4,Paso Real De Macaira,VE120904,Jose Tadeo Monagas,VE1209,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,9,5,San Francisco De Macaira,VE120905,Jose Tadeo Monagas,VE1209,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,9,6,San Rafael De Orituco,VE120906,Jose Tadeo Monagas,VE1209,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,9,7,Soublette,VE120907,Jose Tadeo Monagas,VE1209,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,10,1,Capital Ortiz,VE121001,Ortiz,VE1210,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,10,2,San Francisco De Tiznados,VE121002,Ortiz,VE1210,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,10,3,San Jose De Tiznados,VE121003,Ortiz,VE1210,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,10,4,San Lorenzo De Tiznados,VE121004,Ortiz,VE1210,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,11,1,Tucupido,VE121101,Jose Felix Rivas,VE1211,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,11,2,San Rafael De Laya,VE121102,Jose Felix Rivas,VE1211,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,12,1,Capital San Juan De Los Mo,VE121201,Juan German Roscio,VE1212,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,12,2,Cantagallo,VE121202,Juan German Roscio,VE1212,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,12,3,Parapara,VE121203,Juan German Roscio,VE1212,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,13,1,San Jose De Guaribe,VE121301,San Jose De Guarib,VE1213,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,14,1,Capital Santa Maria De Ipi,VE121401,Santa Maria De Ipi,VE1214,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,14,2,Altamira,VE121402,Santa Maria De Ipi,VE1214,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,15,1,Capital Zaraza,VE121501,Zaraza,VE1215,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+12,15,2,San Jose De Unare,VE121502,Zaraza,VE1215,Guarico,VE12,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,1,1,Pio Tamayo,VE130101,Andres Eloy Blanco,VE1301,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,1,2,Quebrada Honda De Guache,VE130102,Andres Eloy Blanco,VE1301,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,1,3,Yacambu,VE130103,Andres Eloy Blanco,VE1301,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,2,1,Freitez,VE130201,Crespo,VE1302,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,2,2,Jose Maria Blanco,VE130202,Crespo,VE1302,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,3,1,Catedral,VE130301,Iribarren,VE1303,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,3,2,Concepcion,VE130302,Iribarren,VE1303,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,3,3,El Cuji,VE130303,Iribarren,VE1303,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,3,4,Juan De Villegas,VE130304,Iribarren,VE1303,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,3,5,Santa Rosa,VE130305,Iribarren,VE1303,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,3,6,Tamaca,VE130306,Iribarren,VE1303,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,3,7,Union,VE130307,Iribarren,VE1303,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,3,8,Aguedo Felipe Alvarado,VE130308,Iribarren,VE1303,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,3,9,Buena Vista,VE130309,Iribarren,VE1303,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,3,10,Juarez,VE130310,Iribarren,VE1303,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,4,1,Juan Bautista Rodriguez,VE130401,Jimenez,VE1304,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,4,2,Cuara,VE130402,Jimenez,VE1304,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,4,3,Diego De Lozada,VE130403,Jimenez,VE1304,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,4,4,Paraiso De San Jose,VE130404,Jimenez,VE1304,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,4,5,San Miguel,VE130405,Jimenez,VE1304,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,4,6,Tintorero,VE130406,Jimenez,VE1304,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,4,7,Jose Bernardo Dorante,VE130407,Jimenez,VE1304,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,4,8,Coronel Mariano Peraza,VE130408,Jimenez,VE1304,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,5,1,Bolivar,VE130501,Moran,VE1305,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,5,2,Anzoategui,VE130502,Moran,VE1305,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,5,3,Guarico,VE130503,Moran,VE1305,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,5,4,Hilario Luna Y Luna,VE130504,Moran,VE1305,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,5,5,Humocaro Alto,VE130505,Moran,VE1305,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,5,6,Hum0Caro Bajo,VE130506,Moran,VE1305,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,5,7,La Candelaria,VE130507,Moran,VE1305,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,5,8,Moran,VE130508,Moran,VE1305,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,6,1,Cabudare,VE130601,Palavecino,VE1306,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,6,2,Jose Gregorio Bastidas,VE130602,Palavecino,VE1306,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,6,3,Agua Viva,VE130603,Palavecino,VE1306,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,7,1,Sarare,VE130701,Simon Planas,VE1307,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,7,2,Buria,VE130702,Simon Planas,VE1307,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,7,3,Gustavo Vegas Leon,VE130703,Simon Planas,VE1307,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,1,Trinidad Samuel,VE130801,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,2,Antonio Diaz,VE130802,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,3,Camacaro,VE130803,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,16,Reyes Vargas,VE130816,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,4,Castañeda,VE130804,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,5,Cecilio Zubillaga,VE130805,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,6,Chiquinquira,VE130806,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,7,El Blanco,VE130807,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,8,Espinoza De Los Monteros,VE130808,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,9,Lara,VE130809,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,10,Las Mercedes,VE130810,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,11,Manuel Morillo,VE130811,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,12,Montaña Verde,VE130812,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,13,Montes De Oca,VE130813,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,14,Torres,VE130814,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,8,17,Altagracia,VE130817,Torres,VE1308,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,9,1,Siquisique,VE130901,Urdaneta,VE1309,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,9,2,Moroturo,VE130902,Urdaneta,VE1309,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,9,3,San Miguel,VE130903,Urdaneta,VE1309,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+13,9,4,Xaguas,VE130904,Urdaneta,VE1309,Lara,VE13,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,1,1,Presidente Betancourt,VE140101,Alberto Adriani,VE1401,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,1,2,Presidente Paez,VE140102,Alberto Adriani,VE1401,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,1,3,Presidente Romulo Gallegos,VE140103,Alberto Adriani,VE1401,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,1,4,Gabriel Picon Gonzalez,VE140104,Alberto Adriani,VE1401,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,1,5,Hector Amable Mora,VE140105,Alberto Adriani,VE1401,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,1,6,Jose Nucete Sardi,VE140106,Alberto Adriani,VE1401,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,1,7,Pulido Mendez,VE140107,Alberto Adriani,VE1401,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,2,1,Capital Andres Bello,VE140201,Andres Bello,VE1402,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,3,1,Capital Antonio Pinto Sali,VE140301,Antonio Pinto Sali,VE1403,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,3,2,Mesa Bolivar,VE140302,Antonio Pinto Sali,VE1403,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,3,3,Mesa De Las Palmas,VE140303,Antonio Pinto Sali,VE1403,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,4,1,Capital Aricagua,VE140401,Aricagua,VE1404,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,4,2,San Antonio,VE140402,Aricagua,VE1404,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,5,1,Capital Arzobispo Chacon,VE140501,Arzobispo Chacon,VE1405,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,5,2,Capuri,VE140502,Arzobispo Chacon,VE1405,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,5,3,Chacanta,VE140503,Arzobispo Chacon,VE1405,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,5,4,El Molino,VE140504,Arzobispo Chacon,VE1405,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,5,5,Guaimaral,VE140505,Arzobispo Chacon,VE1405,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,5,6,Mucutuy,VE140506,Arzobispo Chacon,VE1405,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,5,7,Mucuchachi,VE140507,Arzobispo Chacon,VE1405,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,6,1,Fernandez Peña,VE140601,Campo Elias,VE1406,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,6,2,Matriz,VE140602,Campo Elias,VE1406,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,6,3,Montalban,VE140603,Campo Elias,VE1406,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,6,4,Acequias,VE140604,Campo Elias,VE1406,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,6,5,Jaji,VE140605,Campo Elias,VE1406,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,6,6,La Mesa,VE140606,Campo Elias,VE1406,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,6,7,San Jose Del Sur,VE140607,Campo Elias,VE1406,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,7,1,Capital Caracciolo Parra O,VE140701,Caracciolo Parra O,VE1407,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,7,2,Florencio  Ramirez,VE140702,Caracciolo Parra O,VE1407,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,8,1,Capital Cardenal Quintero,VE140801,Cardenal Quintero,VE1408,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,8,2,Las Piedras,VE140802,Cardenal Quintero,VE1408,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,9,1,Capital Guaraque,VE140901,Guaraque,VE1409,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,9,2,Mesa De Quintero,VE140902,Guaraque,VE1409,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,9,3,Rio Negro,VE140903,Guaraque,VE1409,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,10,2,Palmira,VE141002,Julio Cesar Salas,VE1410,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,11,1,Capital Justo Briceño,VE141101,Justo Briceño,VE1411,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,11,2,San Cristobal De Torondoy,VE141102,Justo Briceño,VE1411,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,1,Antonio Spinetti Dini,VE141201,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,2,Arias,VE141202,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,3,Caracciolo Parra Perez,VE141203,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,4,Domingo Peña,VE141204,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,5,El Llano,VE141205,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,6,Gonzalo Picon Febres,VE141206,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,7,Jacinto Plaza,VE141207,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,8,Juan Rodriguez Suarez,VE141208,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,9,Lasso De La Vega,VE141209,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,10,Mariano Picon Salas,VE141210,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,11,Milla,VE141211,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,12,Osuna Rodriguez,VE141212,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,13,Sagrario,VE141213,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,14,El Morro,VE141214,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,12,15,Los Nevados,VE141215,Libertador,VE1412,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,13,1,Capital Miranda,VE141301,Miranda,VE1413,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,13,3,La Venta,VE141303,Miranda,VE1413,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,13,4,Piñango,VE141304,Miranda,VE1413,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,13,2,Andres Eloy Blanco,VE141302,Miranda,VE1413,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,14,1,Capital Obispo Ramos De Lo,VE141401,Obispo Ramos De Lo,VE1414,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,14,2,Eloy Paredes,VE141402,Obispo Ramos De Lo,VE1414,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,14,3,San Rafael De Alcazar,VE141403,Obispo Ramos De Lo,VE1414,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,15,1,Capital  Padre Noguera,VE141501,Padre Noguera,VE1415,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,16,1,Capital Pueblo Llano,VE141601,Pueblo Llano,VE1416,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,17,1,Capital Rangel,VE141701,Rangel,VE1417,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,17,2,Cacute,VE141702,Rangel,VE1417,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,17,3,La Toma,VE141703,Rangel,VE1417,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,17,4,Mucuruba,VE141704,Rangel,VE1417,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,17,5,San Rafael,VE141705,Rangel,VE1417,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,18,1,Capital Rivas Davila,VE141801,Rivas Davila,VE1418,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,18,2,Geronimo Maldonado,VE141802,Rivas Davila,VE1418,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,19,0,Capital Santos Marquina,VE141900,Santos Marquina,VE1419,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,20,1,Capital Sucre,VE142001,Sucre,VE1420,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,20,2,Chiguara,VE142002,Sucre,VE1420,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,20,3,Estanquez,VE142003,Sucre,VE1420,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,20,4,La Trampa,VE142004,Sucre,VE1420,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,20,5,Pueblo Nuevo Del Sur,VE142005,Sucre,VE1420,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,20,6,San Juan,VE142006,Sucre,VE1420,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,21,1,El Amparo,VE142101,Tovar,VE1421,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,21,2,El Llano,VE142102,Tovar,VE1421,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,21,3,San Francisco,VE142103,Tovar,VE1421,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,21,4,Tovar,VE142104,Tovar,VE1421,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,22,1,Capital Tulio Febres Corde,VE142201,Tulio Febres Corde,VE1422,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,22,2,Independencia,VE142202,Tulio Febres Corde,VE1422,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,22,3,Maria De La Concepcion Pal,VE142203,Tulio Febres Corde,VE1422,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,22,4,Santa Polonia,VE142204,Tulio Febres Corde,VE1422,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,23,1,Capital Zea,VE142301,Zea,VE1423,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+14,23,2,Caño El Tigre,VE142302,Zea,VE1423,Merida,VE14,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,1,1,Caucagua,VE150101,Acevedo,VE1501,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,1,2,Aragõita,VE150102,Acevedo,VE1501,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,1,3,Arvelo Gonzalez,VE150103,Acevedo,VE1501,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,1,4,Capaya,VE150104,Acevedo,VE1501,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,1,5,El Cafe,VE150105,Acevedo,VE1501,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,1,6,Marizapa,VE150106,Acevedo,VE1501,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,1,7,Panaquire,VE150107,Acevedo,VE1501,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,1,8,Ribas,VE150108,Acevedo,VE1501,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,2,1,San Jose De Barlovento,VE150201,Andres Bello,VE1502,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,2,2,El Cumbo,VE150202,Andres Bello,VE1502,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,3,1,Baruta,VE150301,Baruta,VE1503,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,3,2,El Cafetal,VE150302,Baruta,VE1503,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,3,3,Las Minas De Baruta,VE150303,Baruta,VE1503,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,4,1,Higuerote,VE150401,Brion,VE1504,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,4,2,Curiepe,VE150402,Brion,VE1504,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,4,3,Tacarigua,VE150403,Brion,VE1504,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,5,1,Mamporal,VE150501,Buroz,VE1505,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,6,1,Carrizal,VE150601,Carrizal,VE1506,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,7,1,Chacao,VE150701,Chacao,VE1507,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,8,1,Charallave,VE150801,Cristobal Rojas,VE1508,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,8,2,Las Brisas,VE150802,Cristobal Rojas,VE1508,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,9,1,El Hatillo,VE150901,El Hatillo,VE1509,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,10,1,Los Teques,VE151001,Guaicaipuro,VE1510,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,10,2,Altagracia De La Montaña,VE151002,Guaicaipuro,VE1510,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,10,3,Cecilio Acosta,VE151003,Guaicaipuro,VE1510,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,10,4,El Jarillo,VE151004,Guaicaipuro,VE1510,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,10,5,Paracotos,VE151005,Guaicaipuro,VE1510,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,10,6,San Pedro,VE151006,Guaicaipuro,VE1510,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,10,7,Tacata,VE151007,Guaicaipuro,VE1510,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,11,1,Santa Teresa Del Tuy,VE151101,Independencia,VE1511,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,11,2,Cartanal,VE151102,Independencia,VE1511,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,12,1,Ocumare Del Tuy,VE151201,Lander,VE1512,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,12,2,La Democracia,VE151202,Lander,VE1512,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,12,3,Santa Barbara,VE151203,Lander,VE1512,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,13,1,San Antonio De Los Altos,VE151301,Los Salias,VE1513,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,14,1,Rio Chico,VE151401,Paez,VE1514,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,14,2,El Guapo,VE151402,Paez,VE1514,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,14,3,Tacarigua De La Laguna,VE151403,Paez,VE1514,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,14,4,Paparo,VE151404,Paez,VE1514,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,14,5,San Fernando Del Guapo,VE151405,Paez,VE1514,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,15,1,Santa Lucia,VE151501,Paz Castillo,VE1515,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,16,1,Cupira,VE151601,Pedro Gual,VE1516,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,16,2,Machurucuto,VE151602,Pedro Gual,VE1516,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,17,1,Guarenas,VE151701,Plaza,VE1517,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,18,1,San Francisco De Yare,VE151801,Simon Bolivar,VE1518,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,18,2,San Antonio De Yare,VE151802,Simon Bolivar,VE1518,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,19,1,Petare,VE151901,Sucre,VE1519,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,19,2,Caucaguita,VE151902,Sucre,VE1519,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,19,3,Filas De Mariches,VE151903,Sucre,VE1519,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,19,4,La Dolorita,VE151904,Sucre,VE1519,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,19,5,Leoncio Martinez,VE151905,Sucre,VE1519,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,20,1,Cua,VE152001,Urdaneta,VE1520,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,20,2,Nueva Cua,VE152002,Urdaneta,VE1520,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,21,1,Guatire,VE152101,Zamora,VE1521,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+15,21,2,Bolivar,VE152102,Zamora,VE1521,Miranda,VE15,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,1,1,Capital Acosta,VE160101,Acosta,VE1601,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,1,2,San Francisco,VE160102,Acosta,VE1601,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,2,1,Capital Aguasay,VE160201,Aguasay,VE1602,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,3,1,Capital Bolivar,VE160301,Bolivar,VE1603,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,4,1,Capital Caripe,VE160401,Caripe,VE1604,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,4,2,El Guacharo,VE160402,Caripe,VE1604,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,4,3,La Guanota,VE160403,Caripe,VE1604,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,4,4,Sabana De Piedra,VE160404,Caripe,VE1604,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,4,5,San Agustin,VE160405,Caripe,VE1604,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,4,6,Teresen,VE160406,Caripe,VE1604,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,5,1,Capital Cedeño,VE160501,Cedeño,VE1605,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,5,2,Areo,VE160502,Cedeño,VE1605,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,5,3,San Felix,VE160503,Cedeño,VE1605,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,5,4,Viento  Fresco,VE160504,Cedeño,VE1605,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,6,1,Capital Ezequiel Zamora,VE160601,Ezequiel Zamora,VE1606,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,6,2,El Tejero,VE160602,Ezequiel Zamora,VE1606,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,7,1,Capital Libertador,VE160701,Libertador,VE1607,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,7,2,Chaguaramas,VE160702,Libertador,VE1607,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,7,3,La Alhuacas,VE160703,Libertador,VE1607,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,7,4,Tabasca,VE160704,Libertador,VE1607,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,1,Capital Maturin,VE160801,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,2,Alto De Los Godos,VE160802,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,3,Boqueron,VE160803,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,4,Las Cocuizas,VE160804,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,5,San Simon,VE160805,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,6,Santa Cruz,VE160806,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,7,El Corozo,VE160807,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,8,El Furrial,VE160808,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,9,Jusepin,VE160809,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,10,La  Pica,VE160810,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,8,11,San Vicente,VE160811,Maturin,VE1608,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,9,1,Capital Piar,VE160901,Piar,VE1609,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,9,2,Aparicio,VE160902,Piar,VE1609,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,9,3,Chaguaramal,VE160903,Piar,VE1609,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,9,4,El Pinto,VE160904,Piar,VE1609,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,9,5,Guanaguana,VE160905,Piar,VE1609,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,9,6,La Toscana,VE160906,Piar,VE1609,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,9,7,Taguaya,VE160907,Piar,VE1609,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,10,1,Capital Punceres,VE161001,Punceres,VE1610,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,10,2,Cachipo,VE161002,Punceres,VE1610,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,11,1,Capital Santa Barbara,VE161101,Santa Barbara,VE1611,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,12,1,Capital Sotillo,VE161201,Sotillo,VE1612,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,12,2,Los Barrancos De Fajardo,VE161202,Sotillo,VE1612,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+16,13,1,Capital Uracoa,VE161301,Uracoa,VE1613,Monagas,VE16,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,1,1,Capital Antolin Del Campo,VE170101,Antolin Del Campo,VE1701,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,2,0,Capital Arismendi,VE170200,Arismendi,VE1702,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,3,1,Capital Diaz,VE170301,Diaz,VE1703,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,3,2,Zabala,VE170302,Diaz,VE1703,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,4,1,Capital Garcia,VE170401,Garcia,VE1704,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,4,2,Francisco Fajardo,VE170402,Garcia,VE1704,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,5,1,Capital Gomez,VE170501,Gomez,VE1705,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,5,2,Bolivar,VE170502,Gomez,VE1705,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,5,3,Guevara,VE170503,Gomez,VE1705,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,5,4,Matasiete,VE170504,Gomez,VE1705,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,5,5,Sucre,VE170505,Gomez,VE1705,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,6,2,Aguirre,VE170602,Maneiro,VE1706,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,6,1,Capital Maneiro,VE170601,Maneiro,VE1706,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,7,1,Capital Marcano,VE170701,Marcano,VE1707,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,7,2,Adrian,VE170702,Marcano,VE1707,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,8,1,Capital Mariño,VE170801,Mariño,VE1708,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,9,1,Capital Peninsula De Macan,VE170901,Peninsula De Macan,VE1709,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,9,2,San Francisco,VE170902,Peninsula De Macan,VE1709,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,10,1,Los Barales,VE171001,Tubores,VE1710,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,10,2,Los Barales,VE171002,Tubores,VE1710,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,11,1,Capital Villalba,VE171101,Villalba,VE1711,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+17,11,2,Vicente Fuentes,VE171102,Villalba,VE1711,Nueva Esparta,VE17,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,1,1,Capital Agua Blanca,VE180101,Agua Blanca,VE1801,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,2,1,Capital Araure,VE180201,Araure,VE1802,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,2,2,Rio Acarigua,VE180202,Araure,VE1802,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,3,1,Capital Esteller,VE180301,Esteller,VE1803,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,3,2,Uveral,VE180302,Esteller,VE1803,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,4,1,Capital Guanare,VE180401,Guanare,VE1804,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,4,2,Cordoba,VE180402,Guanare,VE1804,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,4,3,San Jose De La Montaña,VE180403,Guanare,VE1804,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,4,4,San Juan De Guanaguanare,VE180404,Guanare,VE1804,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,4,5,Virgen De La Coromoto,VE180405,Guanare,VE1804,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,5,1,Capital Guanarito,VE180501,Guanarito,VE1805,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,5,2,Trinidad De La Capilla,VE180502,Guanarito,VE1805,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,5,3,Divina Pastora,VE180503,Guanarito,VE1805,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,6,1,Capital Monseñor Jose Vice,VE180601,Monseñor Jose Vice,VE1806,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,6,2,Peña Blanca,VE180602,Monseñor Jose Vice,VE1806,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,7,1,Municipio Capital Ospino,VE180701,Ospino,VE1807,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,7,2,Aparicion,VE180702,Ospino,VE1807,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,7,3,La Estacion,VE180703,Ospino,VE1807,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,8,1,Capital Paez,VE180801,Paez,VE1808,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,8,2,Payara,VE180802,Paez,VE1808,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,8,3,Pimpinela,VE180803,Paez,VE1808,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,8,4,Ramon Peraza,VE180804,Paez,VE1808,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,9,1,Capital Papelon,VE180901,Papelon,VE1809,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,9,2,Caño Delgadito,VE180902,Papelon,VE1809,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,10,1,Capital San Genaro De Boco,VE181001,San Genaro De Boco,VE1810,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,10,2,Antolin Tovar,VE181002,San Genaro De Boco,VE1810,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,11,1,Capital San Rafael De Onot,VE181101,San Rafael De Onot,VE1811,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,11,2,Santa Fe,VE181102,San Rafael De Onot,VE1811,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,11,3,Thermo Morles,VE181103,San Rafael De Onot,VE1811,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,12,1,Capital Santa Rosalia,VE181201,Santa Rosalia,VE1812,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,12,2,Florida,VE181202,Santa Rosalia,VE1812,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,13,1,Capital Sucre,VE181301,Sucre,VE1813,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,13,2,Concepcion,VE181302,Sucre,VE1813,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,13,3,San Rafael De Palo Alzao,VE181303,Sucre,VE1813,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,13,4,Uvencio Antonio Velasquez,VE181304,Sucre,VE1813,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,13,5,San Jose De Saguaz,VE181305,Sucre,VE1813,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,13,6,Villa Rosa,VE181306,Sucre,VE1813,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,14,1,Capital Turen,VE181401,Turen,VE1814,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,14,2,Canelones,VE181402,Turen,VE1814,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,14,3,Santa Cruz,VE181403,Turen,VE1814,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+18,14,4,San Isidro Labrador,VE181404,Turen,VE1814,Portuguesa,VE18,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,1,1,Mariño,VE190101,Andres Eloy Blanco,VE1901,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,1,2,Romulo Gallegos,VE190102,Andres Eloy Blanco,VE1901,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,2,1,San Jose De Aerocuar,VE190201,Andres Mata,VE1902,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,2,2,Tavera Acosta,VE190202,Andres Mata,VE1902,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,3,1,Rio Caribe,VE190301,Arismendi,VE1903,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,3,2,Antonio Jose De Sucre,VE190302,Arismendi,VE1903,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,3,3,El Morro De Puerto Santo,VE190303,Arismendi,VE1903,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,3,4,Puerto Santo,VE190304,Arismendi,VE1903,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,3,5,San Juan De Las Galdonas,VE190305,Arismendi,VE1903,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,4,1,El Pilar,VE190401,Benitez,VE1904,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,4,3,General Francisco Antonio,VE190403,Benitez,VE1904,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,4,2,El Rincon,VE190402,Benitez,VE1904,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,4,4,Guaraunos,VE190404,Benitez,VE1904,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,4,5,Tunapuicito,VE190405,Benitez,VE1904,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,4,6,Union,VE190406,Benitez,VE1904,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,5,1,Bolivar,VE190501,Bermudez,VE1905,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,5,2,Macarapana,VE190502,Bermudez,VE1905,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,5,3,Santa Catalina,VE190503,Bermudez,VE1905,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,5,4,Santa Rosa,VE190504,Bermudez,VE1905,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,5,5,Santa Teresa,VE190505,Bermudez,VE1905,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,6,1,Capital Bolivar,VE190601,Bolivar,VE1906,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,7,1,Yaguaraparo,VE190701,Cajigal,VE1907,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,7,2,El Paujil,VE190702,Cajigal,VE1907,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,7,3,Libertad,VE190703,Cajigal,VE1907,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,8,1,Araya,VE190801,Cruz Salmeron Acos,VE1908,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,8,2,Chacopata,VE190802,Cruz Salmeron Acos,VE1908,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,8,3,Manicuare,VE190803,Cruz Salmeron Acos,VE1908,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,9,1,Tunapuy,VE190901,Libertador,VE1909,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,9,2,Campo Elias,VE190902,Libertador,VE1909,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,10,1,Irapa,VE191001,Mariño,VE1910,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,10,2,Campo Claro,VE191002,Mariño,VE1910,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,10,3,Marabal,VE191003,Mariño,VE1910,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,10,4,San Antonio De Irapa,VE191004,Mariño,VE1910,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,10,5,Soro,VE191005,Mariño,VE1910,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,11,1,Capital Mejia,VE191101,Mejia,VE1911,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,12,1,Cumanacoa,VE191201,Montes,VE1912,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,12,2,Arenas,VE191202,Montes,VE1912,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,12,3,Aricagua,VE191203,Montes,VE1912,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,12,4,Cocollar,VE191204,Montes,VE1912,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,12,5,San Fernando,VE191205,Montes,VE1912,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,12,6,San Lorenzo,VE191206,Montes,VE1912,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,13,1,Villa Frontado (Muelle De,VE191301,Ribero,VE1913,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,13,2,Catuaro,VE191302,Ribero,VE1913,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,13,3,Rendon,VE191303,Ribero,VE1913,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,13,4,Santa Cruz,VE191304,Ribero,VE1913,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,13,5,Santa Maria,VE191305,Ribero,VE1913,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,14,1,Altagracia,VE191401,Sucre,VE1914,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,14,2,Ayacucho,VE191402,Sucre,VE1914,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,14,3,Santa Ines,VE191403,Sucre,VE1914,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,14,4,Valentin Valiente,VE191404,Sucre,VE1914,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,14,5,San Juan,VE191405,Sucre,VE1914,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,14,6,Raul Leoni,VE191406,Sucre,VE1914,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,14,7,Santa Fe,VE191407,Sucre,VE1914,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,15,1,Gõiria,VE191501,Valdez,VE1915,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,15,2,Bideau,VE191502,Valdez,VE1915,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,15,3,Cristobal Colon,VE191503,Valdez,VE1915,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+19,15,4,Punta De Piedras,VE191504,Valdez,VE1915,Sucre,VE19,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,1,1,Capital Andres Bello,VE200101,Andres Bello,VE2001,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,2,1,Capital Antonio Romulo Cos,VE200201,Antonio Romulo Cos,VE2002,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,3,1,Ayacucho,VE200301,Ayacucho,VE2003,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,3,2,Rivas Berti,VE200302,Ayacucho,VE2003,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,3,3,San Pedro Del Rio,VE200303,Ayacucho,VE2003,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,4,1,Bolivar,VE200401,Bolivar,VE2004,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,4,2,Palotal,VE200402,Bolivar,VE2004,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,4,3,Juan Vicente Gomez,VE200403,Bolivar,VE2004,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,4,4,Isaias Medina Angarita,VE200404,Bolivar,VE2004,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,5,1,Cardenas,VE200501,Cardenas,VE2005,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,5,2,Amenodoro Rangel Lamus,VE200502,Cardenas,VE2005,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,5,3,La Florida,VE200503,Cardenas,VE2005,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,6,1,Capital Cordoba,VE200601,Cordoba,VE2006,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,7,1,Fernandez Feo,VE200701,Fernandez Feo,VE2007,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,7,2,Alberto Adriani,VE200702,Fernandez Feo,VE2007,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,7,3,Santo Domingo,VE200703,Fernandez Feo,VE2007,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,8,1,Capital Francisco De Miran,VE200801,Francisco De Miran,VE2008,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,9,1,Capital Garcia De Hevia,VE200901,Garcia De Hevia,VE2009,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,9,2,Boca De Grita,VE200902,Garcia De Hevia,VE2009,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,9,3,Jose Antonio Paez,VE200903,Garcia De Hevia,VE2009,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,10,1,Capital Guasimos,VE201001,Guasimos,VE2010,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,11,1,Independencia,VE201101,Independencia,VE2011,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,11,2,Juan German Roscio,VE201102,Independencia,VE2011,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,11,3,Roman Cardenas,VE201103,Independencia,VE2011,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,12,1,Jauregui,VE201201,Jauregui,VE2012,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,12,2,Emilio Constantino Guerrer,VE201202,Jauregui,VE2012,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,12,3,Monseñor Miguel Antonio Sa,VE201203,Jauregui,VE2012,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,13,0,Capital  Jose Maria Vargas,VE201300,Jose Maria Vargas,VE2013,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,14,1,Junin,VE201401,Junin,VE2014,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,14,2,La Petrolea,VE201402,Junin,VE2014,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,14,3,Quinimari,VE201403,Junin,VE2014,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,14,4,Bramon,VE201404,Junin,VE2014,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,15,1,Capital Libertad,VE201501,Libertad,VE2015,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,15,2,Cipriano Castro,VE201502,Libertad,VE2015,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,15,3,Manuel Felipe Rugeles,VE201503,Libertad,VE2015,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,16,1,Libertador,VE201601,Libertador,VE2016,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,16,2,Emeterio Ochoa,VE201602,Libertador,VE2016,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,16,3,Doradas,VE201603,Libertador,VE2016,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,16,4,San Joaquin De Navay,VE201604,Libertador,VE2016,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,17,1,Lobatera,VE201701,Lobatera,VE2017,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,17,2,Constitucion,VE201702,Lobatera,VE2017,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,18,0,Capital Michelena,VE201800,Michelena,VE2018,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,19,1,Panamericano,VE201901,Panamericano,VE2019,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,19,2,La Palmita,VE201902,Panamericano,VE2019,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,20,1,Pedro Maria Ureña,VE202001,Pedro Maria Ureña,VE2020,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,20,2,Nueva Arcadia,VE202002,Pedro Maria Ureña,VE2020,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,21,0,Capital  Rafael Urdaneta,VE202100,Rafael Urdaneta,VE2021,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,22,1,Samuel Dario Maldonado,VE202201,Samuel Dario Maldo,VE2022,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,22,2,Bocono,VE202202,Samuel Dario Maldo,VE2022,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,22,3,Hernandez,VE202203,Samuel Dario Maldo,VE2022,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,23,1,La Concordia,VE202301,San Cristobal,VE2023,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,23,2,Pedro Maria Morantes,VE202302,San Cristobal,VE2023,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,23,3,San Juan Bautista,VE202303,San Cristobal,VE2023,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,23,4,San Sebastian,VE202304,San Cristobal,VE2023,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,23,5,Dr. Francisco Romero Lobo,VE202305,San Cristobal,VE2023,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,24,1,Capital Seboruco,VE202401,Seboruco,VE2024,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,25,1,Capital Simon Rodriguez,VE202501,Simon Rodriguez,VE2025,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,26,1,Sucre,VE202601,Sucre,VE2026,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,26,2,Eleazar Lopez Contreras,VE202602,Sucre,VE2026,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,26,3,San Pablo,VE202603,Sucre,VE2026,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,27,1,Capital Torbes,VE202701,Torbes,VE2027,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,28,1,Capital  Uribante,VE202801,Uribante,VE2028,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,28,2,Cardenas,VE202802,Uribante,VE2028,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,28,3,Juan Pablo Peñaloza,VE202803,Uribante,VE2028,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,28,4,Potosi,VE202804,Uribante,VE2028,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+20,29,1,Capital San Judas Tadeo,VE202901,San Judas Tadeo,VE2029,Tachira,VE20,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,1,1,Capital Santa Isabel,VE210101,Andres Bello,VE2101,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,1,2,Araguaney,VE210102,Andres Bello,VE2101,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,1,3,El Jagõito,VE210103,Andres Bello,VE2101,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,1,4,La Esperanza,VE210104,Andres Bello,VE2101,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,1,Bocono,VE210201,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,2,El Carmen,VE210202,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,3,Mosquey,VE210203,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,4,Ayacucho,VE210204,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,5,Burbusay,VE210205,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,6,General Rivas,VE210206,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,7,Guaramacal,VE210207,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,8,Vega De Guaramacal,VE210208,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,9,Monseñor Jauregui,VE210209,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,10,Rafael Rangel,VE210210,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,11,San Miguel,VE210211,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,2,12,San Jose,VE210212,Bocono,VE2102,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,3,1,Sabana Grande,VE210301,Bolivar,VE2103,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,3,2,Cheregõe,VE210302,Bolivar,VE2103,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,3,3,Granados,VE210303,Bolivar,VE2103,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,4,1,Chejende,VE210401,Candelaria,VE2104,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,4,2,Arnoldo Gabaldon,VE210402,Candelaria,VE2104,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,4,3,Bolivia,VE210403,Candelaria,VE2104,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,4,4,Carrillo,VE210404,Candelaria,VE2104,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,4,5,Cegarra,VE210405,Candelaria,VE2104,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,4,6,Manuel Salvador Ulloa,VE210406,Candelaria,VE2104,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,4,7,San Jose,VE210407,Candelaria,VE2104,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,5,1,Carache,VE210501,Carache,VE2105,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,5,2,Cuicas,VE210502,Carache,VE2105,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,5,3,La Concepcion,VE210503,Carache,VE2105,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,5,4,Panamericana,VE210504,Carache,VE2105,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,5,5,Santa Cruz,VE210505,Carache,VE2105,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,6,1,Escuque,VE210601,Escuque,VE2106,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,6,2,La Union,VE210602,Escuque,VE2106,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,6,3,Sabana Libre,VE210603,Escuque,VE2106,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,6,4,Santa Rita,VE210604,Escuque,VE2106,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,7,1,El Socorro,VE210701,Jose Felipe Marque,VE2107,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,7,2,Antonio Jose De Sucre,VE210702,Jose Felipe Marque,VE2107,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,7,3,Los Caprichos,VE210703,Jose Felipe Marque,VE2107,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,8,1,Campo Elias,VE210801,Juan Vicente Campo,VE2108,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,8,2,Arnoldo Gabaldon,VE210802,Juan Vicente Campo,VE2108,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,9,1,Santa Apolonia,VE210901,La Ceiba,VE2109,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,9,2,El Progreso,VE210902,La Ceiba,VE2109,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,9,3,La Ceiba,VE210903,La Ceiba,VE2109,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,9,4,Tres De Febrero,VE210904,La Ceiba,VE2109,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,10,1,El Dividive,VE211001,Miranda,VE2110,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,10,2,Agua Santa,VE211002,Miranda,VE2110,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,10,3,Agua Caliente,VE211003,Miranda,VE2110,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,10,4,El Cenizo,VE211004,Miranda,VE2110,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,10,5,Valerita,VE211005,Miranda,VE2110,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,11,1,Monte Carmelo,VE211101,Monte Carmelo,VE2111,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,11,2,Buena Vista,VE211102,Monte Carmelo,VE2111,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,11,3,Santa Maria Del Horcon,VE211103,Monte Carmelo,VE2111,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,12,1,Motatan,VE211201,Motatan,VE2112,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,12,2,El Baño,VE211202,Motatan,VE2112,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,12,3,Jalisco,VE211203,Motatan,VE2112,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,13,1,Pampan,VE211301,Pampan,VE2113,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,13,2,Flor De Patria,VE211302,Pampan,VE2113,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,13,3,La Paz,VE211303,Pampan,VE2113,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,13,4,Santa Ana,VE211304,Pampan,VE2113,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,14,1,Pampanito,VE211401,Pampanito,VE2114,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,14,2,La Concepcion,VE211402,Pampanito,VE2114,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,14,3,Pampanito Ii,VE211403,Pampanito,VE2114,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,15,1,Betijoque,VE211501,Rafael Rangel,VE2115,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,15,2,La Pueblita,VE211502,Rafael Rangel,VE2115,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,15,3,Los Cedros,VE211503,Rafael Rangel,VE2115,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,15,4,Jose Gregorio Hernandez,VE211504,Rafael Rangel,VE2115,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,16,1,Carvajal,VE211601,San Rafael De Carv,VE2116,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,16,2,Antonio Nicolas Briceño,VE211602,San Rafael De Carv,VE2116,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,16,3,Campo Alegre,VE211603,San Rafael De Carv,VE2116,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,16,4,Jose Leonardo Suarez,VE211604,San Rafael De Carv,VE2116,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,17,1,Sabana De Mendoza,VE211701,Sucre,VE2117,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,17,2,El Paraiso,VE211702,Sucre,VE2117,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,17,3,Junin,VE211703,Sucre,VE2117,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,17,4,Valmore Rodriguez,VE211704,Sucre,VE2117,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,18,1,Andres Linares,VE211801,Trujillo,VE2118,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,18,2,Chiquinquira,VE211802,Trujillo,VE2118,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,18,3,Cristobal Mendoza,VE211803,Trujillo,VE2118,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,18,4,Cruz Carrillo,VE211804,Trujillo,VE2118,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,18,5,Matriz,VE211805,Trujillo,VE2118,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,18,6,Monseñor Carrillo,VE211806,Trujillo,VE2118,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,18,7,Tres Esquinas,VE211807,Trujillo,VE2118,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,19,1,La Quebrada,VE211901,Urdaneta,VE2119,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,19,2,Cabimbu,VE211902,Urdaneta,VE2119,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,19,3,Jajo,VE211903,Urdaneta,VE2119,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,19,4,La Mesa,VE211904,Urdaneta,VE2119,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,19,5,Santiago,VE211905,Urdaneta,VE2119,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,19,6,Tuñame,VE211906,Urdaneta,VE2119,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,20,1,Juan Ignacio Montilla,VE212001,Valera,VE2120,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,20,2,La Beatriz,VE212002,Valera,VE2120,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,20,3,Mercedes Diaz,VE212003,Valera,VE2120,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,20,4,San Luis,VE212004,Valera,VE2120,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,20,5,La Puerta,VE212005,Valera,VE2120,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+21,20,6,Mendoza,VE212006,Valera,VE2120,Trujillo,VE21,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,1,0,Capital Aristides Bastidas,VE220100,Aristides Bastidas,VE2201,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,2,1,Capital Bolivar,VE220201,Bolivar,VE2202,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,3,1,Capital Bruzual,VE220301,Bruzual,VE2203,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,3,2,Campo Elias,VE220302,Bruzual,VE2203,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,4,0,Capital Cocorote,VE220400,Cocorote,VE2204,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,5,0,Capital Independencia,VE220500,Independencia,VE2205,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,6,0,Capital Jose Antonio Paez,VE220600,Jose Antonio Paez,VE2206,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,7,0,Capital La Trinidad,VE220700,La Trinidad,VE2207,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,8,0,Capital Manuel Monge,VE220800,Manuel Monge,VE2208,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,9,1,Capital Nirgua,VE220901,Nirgua,VE2209,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,9,2,Salom,VE220902,Nirgua,VE2209,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,9,3,Temerla,VE220903,Nirgua,VE2209,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,10,1,Capital Peña,VE221001,Peña,VE2210,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,10,2,San Andres,VE221002,Peña,VE2210,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,11,1,Capital San Felipe,VE221101,San Felipe,VE2211,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,11,2,Albarico,VE221102,San Felipe,VE2211,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,11,3,San Javier,VE221103,San Felipe,VE2211,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,12,0,Capital Sucre,VE221200,Sucre,VE2212,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,13,0,Capital Urachiche,VE221300,Urachiche,VE2213,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,14,1,Capital Veroes,VE221401,Veroes,VE2214,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+22,14,2,El Guayabo,VE221402,Veroes,VE2214,Yaracuy,VE22,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,1,1,Isla De Toas,VE230101,Almirante Padilla,VE2301,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,1,2,Monagas,VE230102,Almirante Padilla,VE2301,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,2,1,San Timoteo,VE230201,Baralt,VE2302,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,2,2,General Urdaneta,VE230202,Baralt,VE2302,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,2,3,Libertador,VE230203,Baralt,VE2302,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,2,4,Manuel Guanipa Matos,VE230204,Baralt,VE2302,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,2,5,Marcelino Briceño,VE230205,Baralt,VE2302,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,2,6,Pueblo Nuevo,VE230206,Baralt,VE2302,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,3,1,Ambrosio,VE230301,Cabimas,VE2303,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,3,2,Carmen Herrera,VE230302,Cabimas,VE2303,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,3,3,German Rios Linares,VE230303,Cabimas,VE2303,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,3,4,La Rosa,VE230304,Cabimas,VE2303,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,3,5,Jorge Hernandez,VE230305,Cabimas,VE2303,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,3,6,Romulo Betancourt,VE230306,Cabimas,VE2303,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,3,7,San Benito,VE230307,Cabimas,VE2303,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,3,8,Aristides Calvani,VE230308,Cabimas,VE2303,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,3,9,Punta Gorda,VE230309,Cabimas,VE2303,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,4,1,Encontrados,VE230401,Catatumbo,VE2304,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,4,2,Udon Perez,VE230402,Catatumbo,VE2304,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,5,1,San Carlos Del Zulia,VE230501,Colon,VE2305,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,5,2,Moralito,VE230502,Colon,VE2305,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,5,3,Santa Barbara,VE230503,Colon,VE2305,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,5,4,Santa Cruz Del Zulia,VE230504,Colon,VE2305,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,5,5,Urribarri,VE230505,Colon,VE2305,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,6,1,Simon Rodriguez,VE230601,Francisco Javier P,VE2306,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,6,2,Carlos Quevedo,VE230602,Francisco Javier P,VE2306,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,6,3,Francisco Javier Pulgar,VE230603,Francisco Javier P,VE2306,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,7,1,La Concepcion,VE230701,Jesus Enrique Loss,VE2307,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,7,2,Jose Ramon Yepes,VE230702,Jesus Enrique Loss,VE2307,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,7,3,Mariano Parra Leon,VE230703,Jesus Enrique Loss,VE2307,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,7,4,San Jose,VE230704,Jesus Enrique Loss,VE2307,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,8,1,Jesus Maria Semprum,VE230801,Jesus Maria Sempru,VE2308,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,8,2,Bari,VE230802,Jesus Maria Sempru,VE2308,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,9,1,Concepcion,VE230901,La Cañada De Urdan,VE2309,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,9,2,Andres Bello,VE230902,La Cañada De Urdan,VE2309,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,9,3,Chiquinquira,VE230903,La Cañada De Urdan,VE2309,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,9,4,El Carmelo,VE230904,La Cañada De Urdan,VE2309,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,9,5,Potreritos,VE230905,La Cañada De Urdan,VE2309,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,10,1,Alonso De Ojeda,VE231001,Lagunillas,VE2310,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,10,2,Libertad,VE231002,Lagunillas,VE2310,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,10,3,Campo Lara,VE231003,Lagunillas,VE2310,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,10,4,Eleazar Lopez Contreras,VE231004,Lagunillas,VE2310,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,10,5,Venezuela,VE231005,Lagunillas,VE2310,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,11,1,Libertad,VE231101,Machiques De Perij,VE2311,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,11,2,Bartolome De Las Casas,VE231102,Machiques De Perij,VE2311,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,11,3,Rio Negro,VE231103,Machiques De Perij,VE2311,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,11,4,San Jose De Perija,VE231104,Machiques De Perij,VE2311,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,12,1,San Rafael,VE231201,Mara,VE2312,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,12,2,La Sierrita,VE231202,Mara,VE2312,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,12,3,Las Parcelas,VE231203,Mara,VE2312,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,12,4,Luis De Vicente,VE231204,Mara,VE2312,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,12,5,Monseñor Marcos Sergio God,VE231205,Mara,VE2312,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,12,6,Ricaurte,VE231206,Mara,VE2312,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,12,7,Tamare,VE231207,Mara,VE2312,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,1,Antonio Borjas Romero,VE231301,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,2,Bolivar,VE231302,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,3,Cacique Mara,VE231303,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,4,Caracciolo Parra Perez,VE231304,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,5,Cecilio Acosta,VE231305,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,6,Cristo De Aranza,VE231306,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,7,Coquivacoa,VE231307,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,8,Chiquinquira,VE231308,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,9,Francisco Eugenio Bustaman,VE231309,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,10,Idelfonso Vasquez,VE231310,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,11,Juana De Avila,VE231311,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,12,Luis Hurtado Higuera,VE231312,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,13,Manuel Dagnino,VE231313,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,14,Olegario Villalobos,VE231314,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,15,Raul Leoni,VE231315,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,16,Santa Lucia,VE231316,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,17,Venancio Pulgar,VE231317,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,13,18,San Isidro,VE231318,Maracaibo,VE2313,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,14,1,Altagracia,VE231401,Miranda,VE2314,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,14,2,Ana Maria Campos,VE231402,Miranda,VE2314,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,14,3,Faria,VE231403,Miranda,VE2314,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,14,4,San Antonio,VE231404,Miranda,VE2314,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,14,5,San Jose,VE231405,Miranda,VE2314,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,15,1,Sinamaica,VE231501,Paez,VE2315,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,15,2,Alta Guajira,VE231502,Paez,VE2315,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,15,3,Elias Sanchez Rubio,VE231503,Paez,VE2315,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,15,4,Guajira,VE231504,Paez,VE2315,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,16,1,El Rosario,VE231601,Rosario De Perija,VE2316,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,16,2,Donaldo Garcia,VE231602,Rosario De Perija,VE2316,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,16,3,Sixto Zambrano,VE231603,Rosario De Perija,VE2316,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,17,1,San Francisco,VE231701,San Francisco,VE2317,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,17,2,El Bajo,VE231702,San Francisco,VE2317,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,17,4,Francisco Ochoa,VE231704,San Francisco,VE2317,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,17,5,Los Cortijos,VE231705,San Francisco,VE2317,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,17,6,Marcial Hernandez,VE231706,San Francisco,VE2317,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,18,1,Santa Rita,VE231801,Santa Rita,VE2318,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,18,2,El Mene,VE231802,Santa Rita,VE2318,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,18,3,Jose Cenovio Urribarri,VE231803,Santa Rita,VE2318,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,18,4,Pedro Lucas Urribarri,VE231804,Santa Rita,VE2318,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,19,1,Manuel Manrique,VE231901,Simon Bolivar,VE2319,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,19,2,Rafael Maria Baralt,VE231902,Simon Bolivar,VE2319,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,19,3,Rafael Urdaneta,VE231903,Simon Bolivar,VE2319,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,20,1,Bobures,VE232001,Sucre,VE2320,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,20,2,El Batey,VE232002,Sucre,VE2320,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,20,3,Gibraltar,VE232003,Sucre,VE2320,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,20,4,Heras,VE232004,Sucre,VE2320,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,20,5,Monseñor Arturo Celestino,VE232005,Sucre,VE2320,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,20,6,Romulo Gallegos,VE232006,Sucre,VE2320,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,17,3,Domitila Flores,VE231703,San Francisco,VE2317,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,21,1,La Victoria,VE232101,Valmore Rodriguez,VE2321,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,21,2,Rafael Urdaneta,VE232102,Valmore Rodriguez,VE2321,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+23,21,3,Raul Cuenca,VE232103,Valmore Rodriguez,VE2321,Zulia,VE23,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,1,Caraballeda,VE240201,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,2,Carayaca,VE240202,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,3,Caruao,VE240203,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,4,Catia La Mar,VE240204,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,5,El Junko,VE240205,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,6,La Guaira,VE240206,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,7,Macuto,VE240207,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,8,Maiquetia,VE240208,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,9,Naiguata,VE240209,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,10,Raul Leoni,VE240210,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+24,2,11,Carlos Soublette,VE240211,Vargas,VE2402,Vargas,VE24,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,11,1,Bartolome Salom,VE081101,Puerto Cabello,VE0811,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
+8,11,6,"Union
+",VE081106,Puerto Cabello,VE0811,Carabobo,VE08,Venezuela (República Bolivariana de),Venezuela (Bolivarian Republic of),VE
