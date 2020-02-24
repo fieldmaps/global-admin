@@ -1,0 +1,61 @@
+name,alpha_2,alpha_3,iso_3,admin_level_full,country-code,iso_3166-2,region,sub-region,intermediate-region,region-code,sub-region-code,intermediate-region-code
+Angola,AO,AGO,ago,3,24,ISO 3166-2:AO,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
+French Southern Territories,TF,ATF,atf,1,260,ISO 3166-2:TF,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Burundi,BI,BDI,bdi,2,108,ISO 3166-2:BI,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Benin,BJ,BEN,ben,2,204,ISO 3166-2:BJ,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Burkina Faso,BF,BFA,bfa,3,854,ISO 3166-2:BF,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Botswana,BW,BWA,bwa,2,72,ISO 3166-2:BW,Africa,Sub-Saharan Africa,Southern Africa,2,202,18
+Central African Republic,CF,CAF,caf,3,140,ISO 3166-2:CF,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
+Côte d'Ivoire,CI,CIV,civ,3,384,ISO 3166-2:CI,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Cameroon,CM,CMR,cmr,3,120,ISO 3166-2:CM,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
+"Congo, Democratic Republic of the",CD,COD,cod,2,180,ISO 3166-2:CD,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
+Congo,CG,COG,cog,2,178,ISO 3166-2:CG,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
+Comoros,KM,COM,com,1,174,ISO 3166-2:KM,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Cabo Verde,CV,CPV,cpv,2,132,ISO 3166-2:CV,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Djibouti,DJ,DJI,dji,2,262,ISO 3166-2:DJ,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Algeria,DZ,DZA,dza,2,12,ISO 3166-2:DZ,Africa,Northern Africa,,2,15,
+Egypt,EG,EGY,egy,2,818,ISO 3166-2:EG,Africa,Northern Africa,,2,15,
+Eritrea,ER,ERI,eri,2,232,ISO 3166-2:ER,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Western Sahara,EH,ESH,esh,1,732,ISO 3166-2:EH,Africa,Northern Africa,,2,15,
+Ethiopia,ET,ETH,eth,3,231,ISO 3166-2:ET,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Gabon,GA,GAB,gab,2,266,ISO 3166-2:GA,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
+Ghana,GH,GHA,gha,2,288,ISO 3166-2:GH,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Guinea,GN,GIN,gin,3,324,ISO 3166-2:GN,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Gambia,GM,GMB,gmb,2,270,ISO 3166-2:GM,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Guinea-Bissau,GW,GNB,gnb,2,624,ISO 3166-2:GW,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Equatorial Guinea,GQ,GNQ,gnq,1,226,ISO 3166-2:GQ,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
+British Indian Ocean Territory,IO,IOT,iot,0,86,ISO 3166-2:IO,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Kenya,KE,KEN,ken,2,404,ISO 3166-2:KE,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Liberia,LR,LBR,lbr,2,430,ISO 3166-2:LR,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Libya,LY,LBY,lby,2,434,ISO 3166-2:LY,Africa,Northern Africa,,2,15,
+Lesotho,LS,LSO,lso,2,426,ISO 3166-2:LS,Africa,Sub-Saharan Africa,Southern Africa,2,202,18
+Morocco,MA,MAR,mar,4,504,ISO 3166-2:MA,Africa,Northern Africa,,2,15,
+Madagascar,MG,MDG,mdg,4,450,ISO 3166-2:MG,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Mali,ML,MLI,mli,3,466,ISO 3166-2:ML,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Mozambique,MZ,MOZ,moz,3,508,ISO 3166-2:MZ,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Mauritania,MR,MRT,mrt,3,478,ISO 3166-2:MR,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Mauritius,MU,MUS,mus,1,480,ISO 3166-2:MU,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Malawi,MW,MWI,mwi,3,454,ISO 3166-2:MW,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Mayotte,YT,MYT,myt,1,175,ISO 3166-2:YT,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Namibia,NA,NAM,nam,2,516,ISO 3166-2:NA,Africa,Sub-Saharan Africa,Southern Africa,2,202,18
+Niger,NE,NER,ner,3,562,ISO 3166-2:NE,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Nigeria,NG,NGA,nga,2,566,ISO 3166-2:NG,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Réunion,RE,REU,reu,2,638,ISO 3166-2:RE,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Rwanda,RW,RWA,rwa,3,646,ISO 3166-2:RW,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Sudan,SD,SDN,sdn,2,729,ISO 3166-2:SD,Africa,Northern Africa,,2,15,
+Senegal,SN,SEN,sen,3,686,ISO 3166-2:SN,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+"Saint Helena, Ascension and Tristan da Cunha",SH,SHN,shn,2,654,ISO 3166-2:SH,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Sierra Leone,SL,SLE,sle,4,694,ISO 3166-2:SL,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Somalia,SO,SOM,som,2,706,ISO 3166-2:SO,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+South Sudan,SS,SSD,ssd,2,728,ISO 3166-2:SS,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Sao Tome and Principe,ST,STP,stp,2,678,ISO 3166-2:ST,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
+Eswatini,SZ,SWZ,swz,2,748,ISO 3166-2:SZ,Africa,Sub-Saharan Africa,Southern Africa,2,202,18
+Seychelles,SC,SYC,syc,1,690,ISO 3166-2:SC,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Chad,TD,TCD,tcd,2,148,ISO 3166-2:TD,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
+Togo,TG,TGO,tgo,2,768,ISO 3166-2:TG,Africa,Sub-Saharan Africa,Western Africa,2,202,11
+Tunisia,TN,TUN,tun,2,788,ISO 3166-2:TN,Africa,Northern Africa,,2,15,
+"Tanzania, United Republic of",TZ,TZA,tza,3,834,ISO 3166-2:TZ,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Uganda,UG,UGA,uga,3,800,ISO 3166-2:UG,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+South Africa,ZA,ZAF,zaf,4,710,ISO 3166-2:ZA,Africa,Sub-Saharan Africa,Southern Africa,2,202,18
+Zambia,ZM,ZMB,zmb,2,894,ISO 3166-2:ZM,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+Zimbabwe,ZW,ZWE,zwe,3,716,ISO 3166-2:ZW,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
