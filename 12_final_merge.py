@@ -6,9 +6,9 @@ from pathlib import Path
 
 
 def merge_layers(code, level):
-    input_1 = Path('{0}/tmp/01_admin_clip/{1}.gpkg'.format(cwd, code))
-    input_2 = Path('{0}/tmp/15_voronoi_clip/{1}.gpkg'.format(cwd, code))
-    output = Path('{0}/tmp/16_final_merge/{1}.gpkg'.format(cwd, code))
+    input_1 = Path('{0}/tmp/00_fix_geometry/{1}.gpkg'.format(cwd, code))
+    input_2 = Path('{0}/tmp/11_voronoi_difference/{1}.gpkg'.format(cwd, code))
+    output = Path('{0}/tmp/12_final_merge/{1}.gpkg'.format(cwd, code))
     if os.path.isfile(input_2):
         shutil.copyfile(input_1, output)
         os.system("ogr2ogr -f 'gpkg' -append {0} {1}".format(output, input_2))
