@@ -6,12 +6,15 @@ from pathlib import Path
 
 
 def merge_layers(code, level):
-    input_1 = Path('{0}/tmp/00_fix_geometry/{1}.gpkg'.format(cwd, code))
-    input_2 = Path('{0}/tmp/16_voronoi_difference/{1}.gpkg'.format(cwd, code))
-    output = Path('{0}/tmp/17_final_merge/{1}.gpkg'.format(cwd, code))
-    if os.path.isfile(input_2):
+    input_1 = Path('{0}/tmp/11_outline_centroid/{1}.gpkg'.format(cwd, code))
+    input_2 = Path('{0}/tmp/09_outline_vertex/{1}.gpkg'.format(cwd, code))
+    input_3 = Path(
+        '{0}/tmp/06_corner_line_intersect/{1}.gpkg'.format(cwd, code))
+    output = Path('{0}/tmp/12_points_merge/{1}.gpkg'.format(cwd, code))
+    if os.path.isfile(input_1):
         shutil.copyfile(input_1, output)
         os.system("ogr2ogr -f 'gpkg' -append {0} {1}".format(output, input_2))
+        os.system("ogr2ogr -f 'gpkg' -append {0} {1}".format(output, input_3))
 
 
 cwd = os.getcwd()
