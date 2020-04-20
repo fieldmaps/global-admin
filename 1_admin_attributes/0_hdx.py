@@ -113,12 +113,13 @@ def clean_adm(df, join, level):
 
 
 cwd = Path(__file__).parent
+Path((cwd / 'hdx').resolve()).mkdir(parents=True, exist_ok=True)
 input_path = (cwd / '../data.xlsx').resolve()
 for index, row in pd.read_excel(input_path).iterrows():
     if row['url'] is np.nan:
         continue
     print(row['iso_3'])
-    hdx_file = f"../0_data_input/attributes/hdx/{row['iso_3']}.xlsx"
+    hdx_file = f"../0_data_inputs/attributes/hdx/{row['iso_3']}.xlsx"
     sheets = pd.ExcelFile((cwd / hdx_file).resolve())
     sheet_list = sorted(sheets.sheet_names)
     db = {'join': pd.DataFrame()}

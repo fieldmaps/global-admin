@@ -129,7 +129,9 @@ dmypy.json
 .pyre/
 
 *.gpkg
+*.gpkg-journal
+*.gpkg-wal
+*.gpkg-shm
 *.xlsx
-tmp/
 qgis/
 0_data_*/

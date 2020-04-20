@@ -18,8 +18,11 @@ col_index = ['id', 'id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'id_5',
              'code_gadm', 'code_govt', 'code_ocha']
 
 na_values = ['', '#N/A']
-cwd = Path(__file__).parent
 output = {}
+
+cwd = Path(__file__).parent
+output_csv_path = (cwd / '../0_data_outputs/attributes/global_admin').resolve()
+Path(output_csv_path).mkdir(parents=True, exist_ok=True)
 
 hdx_list = list((cwd / 'hdx').resolve().glob('*.xlsx'))
 hdx_list_2 = map(lambda x: str(x)[-8:-5], hdx_list)
@@ -51,8 +54,8 @@ for path in all_list:
         else:
             output[sheet] = df
 
-output_path = (cwd / '../0_data_output/attributes/global_admin.xlsx').resolve()
-writer = pd.ExcelWriter(output_path, engine='xlsxwriter')
+output_path = '../0_data_outputs/attributes/global_admin.xlsx'
+writer = pd.ExcelWriter((cwd / output_path).resolve(), engine='xlsxwriter')
 for key, df in output.items():
     print(key)
     if key == 'adm0':
@@ -63,7 +66,7 @@ for key, df in output.items():
     cols = list(filterfalse(lambda x: x not in df.columns, col_index))
     df = df.reindex(cols, axis=1)
     df = df.sort_values(by=cols)
-    output_csv = f'../0_data_output/attributes/global_admin/{key}.csv'
+    output_csv = f'../0_data_outputs/attributes/global_admin/{key}.csv'
     df.to_csv((cwd / output_csv).resolve(), index=False)
     df.to_excel(writer, sheet_name=key, startrow=1, header=False, index=False)
     worksheet = writer.sheets[key]
