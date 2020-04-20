@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 def fix_geometry(batch, code, level, path, layer, input, output):
-    input_1 = Path('{0}/input/boundaries/{1}.gpkg'.format(cwd, code))
+    input_1 = Path('{0}/inputs/{1}.gpkg'.format(cwd, code))
     batch.append({
         "PARAMETERS": {
             "INPUT": "'{0}|layername={1}'".format(input_1, layer),
@@ -124,22 +124,10 @@ def outline_difference(batch, code, level, path, layer, input, output):
     })
 
 
-def outline_vertex(batch, code, level, path, layer, input, output):
+def outline_explode(batch, code, level, path, layer, input, output):
     batch.append({
         "PARAMETERS": {
             "INPUT": "'{0}|layername={1}'".format(input, layer),
-        },
-        "OUTPUTS": {
-            "OUTPUT": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer),
-        }
-    })
-
-
-def outline_explode(batch, code, level, path, layer, input, output):
-    input_1 = Path('{0}/tmp/{1}/{2}.gpkg'.format(cwd, geo[8][0], code))
-    batch.append({
-        "PARAMETERS": {
-            "INPUT": "'{0}|layername={1}'".format(input_1, layer),
         },
         "OUTPUTS": {
             "OUTPUT": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer),
@@ -151,6 +139,19 @@ def outline_centroid(batch, code, level, path, layer, input, output):
     batch.append({
         "PARAMETERS": {
             "INPUT": "'{0}|layername={1}'".format(input, layer),
+        },
+        "OUTPUTS": {
+            "OUTPUT": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer),
+        }
+    })
+
+
+def outline_along(batch, code, level, path, layer, input, output):
+    input_1 = Path('{0}/tmp/{1}/{2}.gpkg'.format(cwd, geo[8][0], code))
+    batch.append({
+        "PARAMETERS": {
+            "INPUT": "'{0}|layername={1}'".format(input_1, layer),
+            "DISTANCE": "0.001",
         },
         "OUTPUTS": {
             "OUTPUT": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer),
@@ -179,17 +180,6 @@ def voronoi_dissolve(batch, code, level, path, layer, input, output):
         "PARAMETERS": {
             "INPUT": "'{0}|layername={1}'".format(input, layer),
             "FIELD": "['admin{0}Pcode']".format(level),
-        },
-        "OUTPUTS": {
-            "OUTPUT": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer),
-        }
-    })
-
-
-def voronoi_holes(batch, code, level, path, layer, input, output):
-    batch.append({
-        "PARAMETERS": {
-            "INPUT": "'{0}|layername={1}'".format(input, layer),
         },
         "OUTPUTS": {
             "OUTPUT": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer),
@@ -226,24 +216,78 @@ def final_dissolve(batch, code, level, path, layer, input, output):
     })
 
 
-def final_holes(batch, code, level, path, layer, input, output):
+def final_clean(batch, code, level, path, layer, input, output):
+    batch.append({
+        "PARAMETERS": {
+            "input": "'{0}|layername={1}'".format(input, layer),
+            "type": "[2]",
+            "tool": "[1]",
+            "threshold": "''",
+            "-b": "False",
+            "-c": "False",
+            "GRASS_REGION_PARAMETER": "None",
+            "GRASS_SNAP_TOLERANCE_PARAMETER": "0.000001",
+            "GRASS_MIN_AREA_PARAMETER": "0.0001",
+            "GRASS_OUTPUT_TYPE_PARAMETER": "0",
+            "GRASS_VECTOR_DSCO": "''",
+            "GRASS_VECTOR_LCO": "''",
+            "GRASS_VECTOR_EXPORT_NOCAT": "False"
+        },
+        "OUTPUTS": {
+            "output": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer),
+            "error": "'ogr:dbname={0} table=\"{1}_err\" (geom) sql='".format(output, layer),
+        }
+    })
+
+
+def final_fix(batch, code, level, path, layer, input, output):
     batch.append({
         "PARAMETERS": {
             "INPUT": "'{0}|layername={1}'".format(input, layer),
         },
         "OUTPUTS": {
-            "OUTPUT": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer),
+            "OUTPUT": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer)
         }
     })
 
 
 def final_higher(batch, code, level, path, layer, input, output):
+    for l in levels[level]:
+        layer_0 = '{0}_adm{1}'.format(code, l)
+        batch.append({
+            "PARAMETERS": {
+                "INPUT": "'{0}|layername={1}'".format(input, layer),
+                "FIELD": "['admin{0}Pcode']".format(l),
+            },
+            "OUTPUTS": {
+                "OUTPUT": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer_0)
+            }
+        })
+
+
+def final_higher_attr(batch, code, level, path, layer, input, output):
     batch = batch
 
 
 def final_clip(batch, code, level, path, layer, input, output):
     layer_1 = 'ISO3CD_{0}'.format(code.upper())
     input_1 = Path('{0}/input/world/{1}.gpkg'.format(cwd, layer_1))
+    for l in levels[level]:
+        layer_0 = '{0}_adm{1}'.format(code, l)
+        batch.append({
+            "PARAMETERS": {
+                "INPUT": "'{0}|layername={1}'".format(input, layer_0),
+                "OVERLAY": "'{0}|layername={1}'".format(input_1, layer_1),
+            },
+            "OUTPUTS": {
+                "OUTPUT": "'ogr:dbname={0} table=\"{1}\" (geom) sql='".format(output, layer_0)
+            }
+        })
+
+
+def final_clip_alt(batch, code, level, path, layer, input, output):
+    layer_1 = 'iso3_{0}'.format(code.upper())
+    input_1 = Path('{0}/input/world_wfp/{1}.gpkg'.format(cwd, layer_1))
     for l in levels[level]:
         layer_0 = '{0}_adm{1}'.format(code, l)
         batch.append({
@@ -268,22 +312,25 @@ geo = [
     ('06_corner_line_intersect', corner_line_intersect, []),
     ('07_corner_buffer', corner_buffer, []),
     ('08_outline_difference', outline_difference, []),
-    ('09_outline_vertex', outline_vertex, []),
-    ('10_outline_explode', outline_explode, []),
-    ('11_outline_centroid', outline_centroid, []),
+    ('09_outline_explode', outline_explode, []),
+    ('10_outline_centroid', outline_centroid, []),
+    ('11_outline_along', outline_along, []),
     ('12_points_merge', points_merge, []),
     ('13_voronoi_generate', voronoi_generate, []),
     ('14_voronoi_dissolve', voronoi_dissolve, []),
-    ('15_voronoi_holes', voronoi_holes, []),
-    ('16_final_union', final_union, []),
-    ('17_final_attributes', final_attributes, []),
-    ('18_final_dissolve', final_dissolve, []),
-    ('19_final_holes', final_holes, []),
+    ('15_final_union', final_union, []),
+    ('16_final_attributes', final_attributes, []),
+    ('17_final_dissolve', final_dissolve, []),
+    ('18_final_clean', final_clean, []),
+    ('19_final_fix', final_fix, []),
     ('20_final_higher', final_higher, []),
-    ('21_final_clip', final_clip, []),
+    ('21_final_higher_attr', final_higher_attr, []),
+    ('22_final_clip', final_clip, []),
+    ('22_final_clip_alt', final_clip_alt, []),
 ]
 
 levels = {
+    '5': [5, 4, 3, 2, 1, 0],
     '4': [4, 3, 2, 1, 0],
     '3': [3, 2, 1, 0],
     '2': [2, 1, 0],

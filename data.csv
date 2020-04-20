@@ -1,61 +1,250 @@
-name,alpha_2,alpha_3,iso_3,admin_level_full,country-code,iso_3166-2,region,sub-region,intermediate-region,region-code,sub-region-code,intermediate-region-code
-Angola,AO,AGO,ago,3,24,ISO 3166-2:AO,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
-French Southern Territories,TF,ATF,atf,1,260,ISO 3166-2:TF,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Burundi,BI,BDI,bdi,2,108,ISO 3166-2:BI,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Benin,BJ,BEN,ben,2,204,ISO 3166-2:BJ,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Burkina Faso,BF,BFA,bfa,3,854,ISO 3166-2:BF,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Botswana,BW,BWA,bwa,2,72,ISO 3166-2:BW,Africa,Sub-Saharan Africa,Southern Africa,2,202,18
-Central African Republic,CF,CAF,caf,3,140,ISO 3166-2:CF,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
-Côte d'Ivoire,CI,CIV,civ,3,384,ISO 3166-2:CI,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Cameroon,CM,CMR,cmr,3,120,ISO 3166-2:CM,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
-"Congo, Democratic Republic of the",CD,COD,cod,2,180,ISO 3166-2:CD,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
-Congo,CG,COG,cog,2,178,ISO 3166-2:CG,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
-Comoros,KM,COM,com,1,174,ISO 3166-2:KM,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Cabo Verde,CV,CPV,cpv,2,132,ISO 3166-2:CV,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Djibouti,DJ,DJI,dji,2,262,ISO 3166-2:DJ,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Algeria,DZ,DZA,dza,2,12,ISO 3166-2:DZ,Africa,Northern Africa,,2,15,
-Egypt,EG,EGY,egy,2,818,ISO 3166-2:EG,Africa,Northern Africa,,2,15,
-Eritrea,ER,ERI,eri,2,232,ISO 3166-2:ER,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Western Sahara,EH,ESH,esh,1,732,ISO 3166-2:EH,Africa,Northern Africa,,2,15,
-Ethiopia,ET,ETH,eth,3,231,ISO 3166-2:ET,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Gabon,GA,GAB,gab,2,266,ISO 3166-2:GA,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
-Ghana,GH,GHA,gha,2,288,ISO 3166-2:GH,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Guinea,GN,GIN,gin,3,324,ISO 3166-2:GN,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Gambia,GM,GMB,gmb,2,270,ISO 3166-2:GM,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Guinea-Bissau,GW,GNB,gnb,2,624,ISO 3166-2:GW,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Equatorial Guinea,GQ,GNQ,gnq,1,226,ISO 3166-2:GQ,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
-British Indian Ocean Territory,IO,IOT,iot,0,86,ISO 3166-2:IO,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Kenya,KE,KEN,ken,2,404,ISO 3166-2:KE,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Liberia,LR,LBR,lbr,2,430,ISO 3166-2:LR,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Libya,LY,LBY,lby,2,434,ISO 3166-2:LY,Africa,Northern Africa,,2,15,
-Lesotho,LS,LSO,lso,2,426,ISO 3166-2:LS,Africa,Sub-Saharan Africa,Southern Africa,2,202,18
-Morocco,MA,MAR,mar,4,504,ISO 3166-2:MA,Africa,Northern Africa,,2,15,
-Madagascar,MG,MDG,mdg,4,450,ISO 3166-2:MG,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Mali,ML,MLI,mli,3,466,ISO 3166-2:ML,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Mozambique,MZ,MOZ,moz,3,508,ISO 3166-2:MZ,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Mauritania,MR,MRT,mrt,3,478,ISO 3166-2:MR,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Mauritius,MU,MUS,mus,1,480,ISO 3166-2:MU,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Malawi,MW,MWI,mwi,3,454,ISO 3166-2:MW,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Mayotte,YT,MYT,myt,1,175,ISO 3166-2:YT,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Namibia,NA,NAM,nam,2,516,ISO 3166-2:NA,Africa,Sub-Saharan Africa,Southern Africa,2,202,18
-Niger,NE,NER,ner,3,562,ISO 3166-2:NE,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Nigeria,NG,NGA,nga,2,566,ISO 3166-2:NG,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Réunion,RE,REU,reu,2,638,ISO 3166-2:RE,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Rwanda,RW,RWA,rwa,3,646,ISO 3166-2:RW,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Sudan,SD,SDN,sdn,2,729,ISO 3166-2:SD,Africa,Northern Africa,,2,15,
-Senegal,SN,SEN,sen,3,686,ISO 3166-2:SN,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-"Saint Helena, Ascension and Tristan da Cunha",SH,SHN,shn,2,654,ISO 3166-2:SH,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Sierra Leone,SL,SLE,sle,4,694,ISO 3166-2:SL,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Somalia,SO,SOM,som,2,706,ISO 3166-2:SO,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-South Sudan,SS,SSD,ssd,2,728,ISO 3166-2:SS,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Sao Tome and Principe,ST,STP,stp,2,678,ISO 3166-2:ST,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
-Eswatini,SZ,SWZ,swz,2,748,ISO 3166-2:SZ,Africa,Sub-Saharan Africa,Southern Africa,2,202,18
-Seychelles,SC,SYC,syc,1,690,ISO 3166-2:SC,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Chad,TD,TCD,tcd,2,148,ISO 3166-2:TD,Africa,Sub-Saharan Africa,Middle Africa,2,202,17
-Togo,TG,TGO,tgo,2,768,ISO 3166-2:TG,Africa,Sub-Saharan Africa,Western Africa,2,202,11
-Tunisia,TN,TUN,tun,2,788,ISO 3166-2:TN,Africa,Northern Africa,,2,15,
-"Tanzania, United Republic of",TZ,TZA,tza,3,834,ISO 3166-2:TZ,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Uganda,UG,UGA,uga,3,800,ISO 3166-2:UG,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-South Africa,ZA,ZAF,zaf,4,710,ISO 3166-2:ZA,Africa,Sub-Saharan Africa,Southern Africa,2,202,18
-Zambia,ZM,ZMB,zmb,2,894,ISO 3166-2:ZM,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
-Zimbabwe,ZW,ZWE,zwe,3,716,ISO 3166-2:ZW,Africa,Sub-Saharan Africa,Eastern Africa,2,202,14
+﻿name,alpha_2,alpha_3,iso_3,region,sub_region,intermediate_region,admin_level_full,admin_level_partial,language_1,language_2,language_3,language_4,attributes_complete,topology_correct,date,valid_on,date_old,valid_on_old,contributor,source,url,url_old,comments
+Aruba,AW,ABW,abw,Americas,Latin America and the Caribbean,Caribbean,0,,,,,,,,,,,,,,,,
+Afghanistan,AF,AFG,afg,Asia,Southern Asia,,2,,en,da,,,TRUE,TRUE,2017-08-23,2018-05-22,,,OCHA Afghanistan,Afghanistan Geodesy and Cartography Head Office (AGCHO),https://data.humdata.org/dataset/afg-admin-boundaries,,This dataset is not the latest version and is made available to the humanitarian community for operational use only. Updated administrative boundaries are available for purchase from the Afghan Geodesy and Cartography Head Office (AGCHO) Afghanistan. Humanitarian responders in Afghanistan can collect a copy of latest available datasets from OCHA Afghanistan as a member of the Information Management Working Group (IMWG).
+Angola,AO,AGO,ago,Africa,Sub-Saharan Africa,Middle Africa,3,,en,,,,TRUE,TRUE,2018-08-30,2018-09-04,,,OCHA ROSEA,Instituto Nacional de Estatística and GADM,https://data.humdata.org/dataset/angola-administrative-levels-0-3,,"OCHA added new Census 2014 districts by digitizing the general areas from map images in the Angola INE census pdf report that were geo-referenced. The edited boundaries therefore do not have a high spatial accuracy, however may still be beneficial for planning and population purposes."
+Anguilla,AI,AIA,aia,Americas,Latin America and the Caribbean,Caribbean,0,,,,,,,,,,,,,,,,
+Åland Islands,AX,ALA,ala,Europe,Northern Europe,,1,,,,,,,,,,,,,,,,
+Albania,AL,ALB,alb,Europe,Southern Europe,,3,,,,,,,,,,,,,,,,
+Andorra,AD,AND,and,Europe,Southern Europe,,1,,,,,,,,,,,,,,,,
+United Arab Emirates,AE,ARE,are,Asia,Western Asia,,3,,,,,,,,,,2015-11-30,2017-03-29,OCHA ROMENA,GADM,,https://data.humdata.org/dataset/uae-administrative-boundaries-populated-places,
+Argentina,AR,ARG,arg,Americas,Latin America and the Caribbean,South America,2,,,,,,,,,,2017-10-12,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/argentina-administrative-level-0-boundaries,
+Armenia,AM,ARM,arm,Asia,Western Asia,,2,,en,hy,ru,,FALSE,FALSE,2014-10-01,2019-09-13,,,OCHA ROCCA,Government of Armenia,https://data.humdata.org/dataset/armenia-administrative-boundaries,,Admin 2 linkages misssing in admin 3 table
+American Samoa,AS,ASM,asm,Oceania,Polynesia,,3,,,,,,,,,,,,,,,,
+Antarctica,AQ,ATA,ata,,,,0,,,,,,,,,,,,,,,,
+French Southern Territories,TF,ATF,atf,Africa,Sub-Saharan Africa,Eastern Africa,1,,,,,,,,,,,,,,,,
+Antigua and Barbuda,AG,ATG,atg,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-07,2019-11-28,OCHA FISS,GADM,,https://data.humdata.org/dataset/antigua-and-barbuda-administrative-boundaries-levels-0-and-1,
+Australia,AU,AUS,aus,Oceania,Australia and New Zealand,,2,,,,,,,,,,,,,,,,
+Austria,AT,AUT,aut,Europe,Western Europe,,3,,,,,,,,,,,,,,,,
+Azerbaijan,AZ,AZE,aze,Asia,Western Asia,,2,,,,,,,,,,2013-05-01,2017-07-13,OCHA ROCCA,GADM,,https://data.humdata.org/dataset/azerbaijan-administrative-boundaries-taxonomy,
+Burundi,BI,BDI,bdi,Africa,Sub-Saharan Africa,Eastern Africa,2,,fr,,,,TRUE,FALSE,2017-11-02,2017-11-03,,,OCHA FISS,IGEBU and OCHA Burundi,https://data.humdata.org/dataset/burundi-administrative-level-0-1-and-2-administrative-boundaries,,
+Belgium,BE,BEL,bel,Europe,Western Europe,,4,,,,,,,,,,,,,,,,
+Benin,BJ,BEN,ben,Africa,Sub-Saharan Africa,Western Africa,2,,fr,,,,TRUE,TRUE,2015-08-07,2019-08-16,,,OCHA ROWCA,Secondary Administrative Level Boundary (SALB) Project,https://data.humdata.org/dataset/benin-administrative-boundaries,,
+"Bonaire, Sint Eustatius and Saba",BQ,BES,bes,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,,,,,,,
+Burkina Faso,BF,BFA,bfa,Africa,Sub-Saharan Africa,Western Africa,3,,fr,,,,TRUE,TRUE,2020-03-18,2020-03-23,,,OCHA Burkina,Institut Géographique du Burkina,https://data.humdata.org/dataset/burkina-faso-administrative-boundaries,,
+Bangladesh,BD,BGD,bgd,Asia,Southern Asia,,4,,en,,,,TRUE,TRUE,2015-01-01,2018-04-10,,,OCHA ROAP,Bangladesh Bureau of Statistics (BBS),https://data.humdata.org/dataset/administrative-boundaries-of-bangladesh-as-of-2015,,
+Bulgaria,BG,BGR,bgr,Europe,Eastern Europe,,2,,en,bg,,,FALSE,TRUE,2019-09-16,2019-09-16,,,OCHA FISS,UNICEF,https://data.humdata.org/dataset/bulgaria-administrative-level-0-2-boundaries,,
+Bahrain,BH,BHR,bhr,Asia,Western Asia,,1,,,,,,,,,,2008-12-31,2017-03-29,OCHA ROMENA,GADM,,https://data.humdata.org/dataset/bahrain-administrative-boundaries-levels-1-2-populated-places,
+Bahamas,BS,BHS,bhs,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2009-01-30,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/bahamas-administrative-boundaries-level-0-1,
+Bosnia and Herzegovina,BA,BIH,bih,Europe,Southern Europe,,3,,,,,,,,,,,,,,,,
+Saint Barthélemy,BL,BLM,blm,Americas,Latin America and the Caribbean,Caribbean,0,,,,,,,,,,,,,,,,
+Belarus,BY,BLR,blr,Europe,Eastern Europe,,2,,en,,,,FALSE,TRUE,2015-01-01,2017-07-07,,,OCHA FISS,UNICEF,https://data.humdata.org/dataset/belarus-administrative-level-0-2-boundaries,,
+Belize,BZ,BLZ,blz,Americas,Latin America and the Caribbean,Central America,1,,,,,,,,,,2017-09-08,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/belize-administrative-level-0-nation-and-1-district-boundaries,
+Bermuda,BM,BMU,bmu,Americas,Northern America,,2,,en,,,,FALSE,FALSE,2017-09-21,2019-05-22,,,OCHA FISS,"OCHA, GADM",https://data.humdata.org/dataset/bermuda-administrative-level-0-country-and-level-1-parish-or-municipality-boundaries,,"Administrative level 2 is not generally recognized but enables mapping of and linkage to population statistics for Bermuda's two municipalities, Hamilton and St. George's, which comprise parts of Pembroke and St. George's parishes respectively. Sometimes BN is used instead of BM as a Pcode"
+Bolivia (Plurinational State of),BO,BOL,bol,Americas,Latin America and the Caribbean,South America,3,,es,,,,TRUE,TRUE,2019-01-29,2019-07-10,,,OCHA ROLAC,GeoBolivia: la Infraestructura de Datos Espaciales del Estado Plurinacional de Bolivia,https://data.humdata.org/dataset/bolivia-administrative-level-0-3-boundary-polygons,,
+Brazil,BR,BRA,bra,Americas,Latin America and the Caribbean,South America,3,,,,,,,,,,2017-10-12,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/brazil-administrative-level-0-boundaries,
+Barbados,BB,BRB,brb,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-07,2019-11-28,OCHA FISS,GADM,,https://data.humdata.org/dataset/barbados-administrative-boundaries-levels-0-and-1-from-gadm,
+Brunei Darussalam,BN,BRN,brn,Asia,South-eastern Asia,,2,,,,,,,,,,,,,,,,
+Bhutan,BT,BTN,btn,Asia,Southern Asia,,2,,,,,,,,,,2019-02-01,2019-02-01,OCHA ROAP,GADM,,https://data.humdata.org/dataset/bhutan-administrative-boundaries-levels-0-2,Quality appears to be lower than GADM
+Bouvet Island,BV,BVT,bvt,Americas,Latin America and the Caribbean,South America,0,,,,,,,,,,,,,,,,
+Botswana,BW,BWA,bwa,Africa,Sub-Saharan Africa,Southern Africa,2,,,,,,,,,,,,,,,,
+Central African Republic,CF,CAF,caf,Africa,Sub-Saharan Africa,Middle Africa,3,4,fr,,,,TRUE,TRUE,2014-08-02,2015-06-15,,,OCHA Central African Republic,ACTED,https://data.humdata.org/dataset/central-african-republic-administrative-boundaries,,"Attributes are in wrong order, French name for country should be used for attributes, Duplicate adm4 Pcodes"
+Canada,CA,CAN,can,Americas,Northern America,,3,,en,fr,,,TRUE,TRUE,2019-10-28,,,,Fieldmaps.io,Statistics Canada,https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-eng.cfm,,
+Cocos (Keeling) Islands,CC,CCK,cck,Oceania,Australia and New Zealand,,0,,,,,,,,,,,,,,,,
+Switzerland,CH,CHE,che,Europe,Western Europe,,3,,,,,,,,,,,,,,,,
+Chile,CL,CHL,chl,Americas,Latin America and the Caribbean,South America,3,,,,,,,,,,2017-10-10,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/chile-administrative-level-0-country-1-region-region,
+China,CN,CHN,chn,Asia,Eastern Asia,,2,,en,zh,,,FALSE,TRUE,2018-01-25,2018-04-26,,,OCHA ROAP,Compiled by OCHA based on public sources online,https://data.humdata.org/dataset/china-administrative-boundaries,,
+Côte d'Ivoire,CI,CIV,civ,Africa,Sub-Saharan Africa,Western Africa,3,,fr,,,,TRUE,TRUE,2011-12-24,2018-07-06,,,OCHA ROWCA,OCHA,https://data.humdata.org/dataset/cote-d-ivoire-administrative-level-0-3-boundaries-and-points,,
+Cameroon,CM,CMR,cmr,Africa,Sub-Saharan Africa,Middle Africa,3,,en,fr,,,TRUE,TRUE,2018-12-17,2019-01-04,,,OCHA Cameroon,Institut National de Cartographie (INC) provided by OSM,https://data.humdata.org/dataset/cameroon-administrative-boundaries,,
+"Congo, Democratic Republic of the",CD,COD,cod,Africa,Sub-Saharan Africa,Middle Africa,2,,fr,,,,TRUE,TRUE,2019-09-09,2019-09-11,,,OCHA DR Congo,Referenciel Géographique Commun,https://data.humdata.org/dataset/drc-administrative-boundaries-levels-0-2,,
+Congo,CG,COG,cog,Africa,Sub-Saharan Africa,Middle Africa,2,,fr,,,,TRUE,TRUE,2017-07-06,2019-06-17,,,OCHA ROWCA,Global Administrative Unit Layers (GAUL),https://data.humdata.org/dataset/congo-administrative-boundaries,,"HDX file names are misspelled (cig), no excel version is present"
+Cook Islands,CK,COK,cok,Oceania,Polynesia,,0,,,,,,,,,,,,,,,,
+Colombia,CO,COL,col,Americas,Latin America and the Caribbean,South America,2,,es,,,,TRUE,TRUE,,,2009-01-01,2014-10-29,OCHA ROLAC,National Administrative Department of Statistics (DANE),http://geoportal.dane.gov.co/servicios/descarga-y-metadatos/descarga-mgn-marco-geoestadistico-nacional/,https://data.humdata.org/dataset/colombia-administrative-boundaries-levels-0-3,New version is available from government data portal
+Comoros,KM,COM,com,Africa,Sub-Saharan Africa,Eastern Africa,3,,en,,,,TRUE,TRUE,2018-12-28,2019-12-05,,,OCHA ROSEA,Comoros National Disaster Management Agency (COSEP-Centre des secours et de la protection civil),https://data.humdata.org/dataset/comoros-administrative-level-0-3-boundaries,,
+Cabo Verde,CV,CPV,cpv,Africa,Sub-Saharan Africa,Western Africa,2,,pt,,,,FALSE,TRUE,2017-12-27,2018-05-14,,,OCHA ROWCA,Second Administrative Level Boundaries (SALB) Project,https://data.humdata.org/dataset/cape-verde-administrative-boundaries,,"Tabular data missing adm2 2018. Check on capitalization of ""Dos"", ""Do"", etc."
+Costa Rica,CR,CRI,cri,Americas,Latin America and the Caribbean,Central America,2,,,,,,,,,,,,,,,,
+Cuba,CU,CUB,cub,Americas,Latin America and the Caribbean,Caribbean,2,,,,,,,,,,2017-09-07,2019-06-21,OCHA FISS,GADM,,https://data.humdata.org/dataset/cuba-administrative-boundaries-levels-0-and-1-from-gadm,
+Curaçao,CW,CUW,cuw,Americas,Latin America and the Caribbean,Caribbean,0,,,,,,,,,,,,,,,,
+Christmas Island,CX,CXR,cxr,Oceania,Australia and New Zealand,,0,,,,,,,,,,,,,,,,
+Cayman Islands,KY,CYM,cym,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2020-03-24,2020-03-24,OCHA FISS,GADM,,https://data.humdata.org/dataset/cayman-islands-administrative-level-0-nation-and-1-district-boundaries,
+Cyprus,CY,CYP,cyp,Asia,Western Asia,,1,,,,,,,,,,,,,,,,
+Czechia,CZ,CZE,cze,Europe,Eastern Europe,,2,,,,,,,,,,,,,,,,
+Germany,DE,DEU,deu,Europe,Western Europe,,4,,,,,,,,,,,,,,,,
+Djibouti,DJ,DJI,dji,Africa,Sub-Saharan Africa,Eastern Africa,2,,en,,,,FALSE,TRUE,2018-10-26,2020-02-20,,,OCHA FISS,FEWS,https://data.humdata.org/dataset/djibouti-administrative-levels-0-2-boundaries,,
+Dominica,DM,DMA,dma,Americas,Latin America and the Caribbean,Caribbean,1,,en,,,,FALSE,FALSE,2017-09-07,2019-11-10,,,OCHA FISS,Unknown,https://data.humdata.org/dataset/dominica-administrative-level-0-national-and-level-1-boundaries-form-gadm,,
+Denmark,DK,DNK,dnk,Europe,Northern Europe,,2,,,,,,,,,,,,,,,,
+Dominican Republic,DO,DOM,dom,Americas,Latin America and the Caribbean,Caribbean,4,,es,,,,FALSE,TRUE,2017-09-06,2020-01-21,,,OCHA FISS,Oficina Nacional de Estadística,https://data.humdata.org/dataset/dominican-republic-administrative-boundaries-levels-0-6,,
+Algeria,DZ,DZA,dza,Africa,Northern Africa,,2,,,,,,,,,,2015-11-30,2018-03-13,OCHA ROMENA,GADM,,https://data.humdata.org/dataset/algeria-administrative-boundaries-levels-1-2-populated-places,
+Ecuador,EC,ECU,ecu,Americas,Latin America and the Caribbean,South America,3,,es,,,,TRUE,TRUE,2018-12-17,2019-07-24,,,OCHA ROLAC,INEC - Instituto Nacional de Estadística y Censos,https://data.humdata.org/dataset/ecuador-admin-level-2-boundaries,,Missing columns for English names in some tables
+Egypt,EG,EGY,egy,Africa,Northern Africa,,2,3,en,ar,,,TRUE,TRUE,2006-01-01,2017-04-21,,,OCHA ROMENA,Central Agency for Public Mobilization and Statistics (CAPMAS),https://data.humdata.org/dataset/egypt-administrative-boundaries-levels-0-3,,
+Eritrea,ER,ERI,eri,Africa,Sub-Saharan Africa,Eastern Africa,2,,en,,,,FALSE,TRUE,2017-08-18,2020-02-20,,,OCHA ROSEA,Government of Eritrea,https://data.humdata.org/dataset/eritrea-admin-level-1-boundaries,,
+Western Sahara,EH,ESH,esh,Africa,Northern Africa,,1,,,,,,,,,,2015-11-30,2017-03-30,OCHA ROMENA,GADM,,https://data.humdata.org/dataset/western-sahara-administrative-boundaries-levels-0-1-populated-places,
+Spain,ES,ESP,esp,Europe,Southern Europe,,4,,,,,,,,,,,,,,,,
+Estonia,EE,EST,est,Europe,Northern Europe,,3,,,,,,,,,,,,,,,,
+Ethiopia,ET,ETH,eth,Africa,Sub-Saharan Africa,Eastern Africa,3,,en,,,,TRUE,TRUE,2019-08-19,2019-10-28,,,OCHA Ethiopia,CSA (Central Statistics Agency) + Regional Bureau of Finance and Economic Development (BoFED),https://data.humdata.org/dataset/ethiopia-cod-ab,,
+Finland,FI,FIN,fin,Europe,Northern Europe,,4,,,,,,,,,,,,,,,,
+Fiji,FJ,FJI,fji,Oceania,Melanesia,,3,,en,,,,FALSE,TRUE,2018-01-15,2019-12-30,,,OCHA ROAP,"POPGIS, Fiji Islands Bureau of Statistics, Pacific Catastrophe Risk Assessment and Financing Initiative (PCRAFI)",https://data.humdata.org/dataset/fiji-administrative-boundaries,,
+Falkland Islands (Malvinas),FK,FLK,flk,Americas,Latin America and the Caribbean,South America,0,,,,,,,,,,,,,,,,
+France,FR,FRA,fra,Europe,Western Europe,,5,,,,,,,,,,,,,,,,
+Faroe Islands,FO,FRO,fro,Europe,Northern Europe,,2,,,,,,,,,,,,,,,,
+Micronesia (Federated States of),FM,FSM,fsm,Oceania,Micronesia,,2,,en,,,,FALSE,TRUE,2019-06-17,2019-06-17,,,OCHA ROP,"Federated States of Micronesia Division of Statistics, 2010 Census of Population and Housing and Secretariat of the Pacific Community, Statistics for Development Division",https://data.humdata.org/dataset/fsm-2010-administrative-level-0-2-boundaries,,
+Gabon,GA,GAB,gab,Africa,Sub-Saharan Africa,Middle Africa,2,,fr,,,,FALSE,TRUE,2015-02-17,2018-08-15,,,OCHA ROWCA,Second Administrative Level Boundaries (SALB) Project,https://data.humdata.org/dataset/gabon-administrative-boundaries,,
+United Kingdom of Great Britain and Northern Ireland,GB,GBR,gbr,Europe,Northern Europe,,3,,,,,,,,,,,,,,,,
+Georgia,GE,GEO,geo,Asia,Western Asia,,2,,en,ka,,,TRUE,FALSE,2019-08-28,2019-10-18,,,OCHA ROCCA,National Statistics Office of Georgia [Administraciuli erTeulebi],https://data.humdata.org/dataset/georgia-administrative-level-0-2-boundaries,,"Topological errors and missing attributes in Geodatabase, shapefile is higher quality"
+Guernsey,GG,GGY,ggy,Europe,Northern Europe,Channel Islands,1,,,,,,,,,,,,,,,,
+Ghana,GH,GHA,gha,Africa,Sub-Saharan Africa,Western Africa,2,,en,,,,FALSE,TRUE,2005-04-11,2018-08-15,,,OCHA ROWCA,Global Administrative Unit Layers (GAUL),https://data.humdata.org/dataset/ghana-administrative-boundaries,,
+Gibraltar,GI,GIB,gib,Europe,Southern Europe,,0,,,,,,,,,,,,,,,,
+Guinea,GN,GIN,gin,Africa,Sub-Saharan Africa,Western Africa,3,,fr,,,,TRUE,TRUE,2016-01-14,2016-03-04,,,OCHA ROWCA,WFP,https://data.humdata.org/dataset/guinea-geodatabase,,
+Guadeloupe,GP,GLP,glp,Americas,Latin America and the Caribbean,Caribbean,2,,,,,,,,,,2017-09-07,2019-12-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/guadalupe-administrative-level-0-1-and-2-boundaries-from-gadm,
+Gambia,GM,GMB,gmb,Africa,Sub-Saharan Africa,Western Africa,2,,,,,,,,,,2017-08-11,2017-10-02,OCHA ROWCA,GADM,,https://data.humdata.org/dataset/gambia-administrative-boundaries,
+Guinea-Bissau,GW,GNB,gnb,Africa,Sub-Saharan Africa,Western Africa,2,,,,,,,,,,2018-05-17,2018-05-17,OCHA ROWCA,GADM,,https://data.humdata.org/dataset/guinea-bissau-administrative-boundaries,GADM source appears more detailed than SALB source
+Equatorial Guinea,GQ,GNQ,gnq,Africa,Sub-Saharan Africa,Middle Africa,2,,,,,,,,,,2006-12-31,2018-08-16,OCHA ROWCA,GADM,,https://data.humdata.org/dataset/equatorial-guinea-administrative-boundaries,"Very large topology errors that cannot be fixed automatically, GADM higher quality than GAUL source"
+Greece,GR,GRC,grc,Europe,Southern Europe,,3,,,,,,,,,,2016-07-12,2016-07-12,Regional IM Working Group - Europe,GADM,,https://data.humdata.org/dataset/gree,GADM source has more detail and more admin levels than EuroGeoGraphics
+Grenada,GD,GRD,grd,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-08,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/grenada-administrative-level-0-nation-and-1-parish-boundaries,
+Greenland,GL,GRL,grl,Americas,Northern America,,1,,,,,,,,,,,,,,,,
+Guatemala,GT,GTM,gtm,Americas,Latin America and the Caribbean,Central America,2,,es,,,,TRUE,TRUE,2018-09-25,2019-02-07,,,OCHA FISS,Coordinadora Nacional Para La Reducción De Desastres,https://data.humdata.org/dataset/guatemala-administrative-level-0-national-1-departments-and-2-municipalities,,
+French Guiana,GF,GUF,guf,Americas,Latin America and the Caribbean,South America,2,,,,,,,,,,,,OCHA FISS,,,,
+Guam,GU,GUM,gum,Oceania,Micronesia,,1,,,,,,,,,,,,,,,,
+Guyana,GY,GUY,guy,Americas,Latin America and the Caribbean,South America,2,,,,,,,,,,2018-04-19,2019-06-07,OCHA FISS,GADM,,https://data.humdata.org/dataset/guyana-administrative-level-0-1-and-2-boundaries,GADM has more detailed boundary data than DEVInfo LAC Project
+Hong Kong,HK,HKG,hkg,Asia,Eastern Asia,,1,,,,,,,,,,,,,,,,
+Heard Island and McDonald Islands,HM,HMD,hmd,Oceania,Australia and New Zealand,,0,,,,,,,,,,,,,,,,
+Honduras,HN,HND,hnd,Americas,Latin America and the Caribbean,Central America,3,,es,,,,TRUE,TRUE,2015-06-25,2016-10-05,,,OCHA ROLAC,"Sistema Nacional de Información Territorial (SINIT), Secretaria Técnica de Planificación y Cooperación Externa (SEPLAN), 2010",https://data.humdata.org/dataset/honduras-admin-level-1-boundaries,,
+Croatia,HR,HRV,hrv,Europe,Southern Europe,,2,,,,,,,,,,,,,,,,
+Haiti,HT,HTI,hti,Americas,Latin America and the Caribbean,Caribbean,3,,en,fr,ht,,TRUE,TRUE,2017-09-06,2018-11-29,,,OCHA Haiti,Centre National de l'Information Géo-Spatiale (CNIGS),https://data.humdata.org/dataset/hti-polbndl-adm1-cnigs-zip,,Excel table shows incorrect attribute fields
+Hungary,HU,HUN,hun,Europe,Eastern Europe,,2,,,,,,,,,,,,,,,,
+Indonesia,ID,IDN,idn,Asia,South-eastern Asia,,4,,en,,,,FALSE,FALSE,2019-12-20,2020-01-31,,,OCHA ROAP,"Badan Pusat Statistik (BPS - Statistics Indonesia) and Sistem Informasi Administrasi Kependudukan (SIAK - Population Administration Information System), Kemendagri (Ministry of Home Affairs)",https://data.humdata.org/dataset/indonesia-administrative-boundary-polygons-lines-and-places-levels-0-4b,,
+Isle of Man,IM,IMN,imn,Europe,Northern Europe,,2,,,,,,,,,,,,,,,,
+India,IN,IND,ind,Asia,Southern Asia,,3,,,,,,,,,,,,,,,,
+British Indian Ocean Territory,IO,IOT,iot,Africa,Sub-Saharan Africa,Eastern Africa,0,,,,,,,,,,,,,,,,
+Ireland,IE,IRL,irl,Europe,Northern Europe,,1,,,,,,,,,,,,,,,,
+Iran (Islamic Republic of),IR,IRN,irn,Asia,Southern Asia,,2,,en,fa,,,TRUE,FALSE,2019-04-09,2019-05-14,,,OCHA ROMENA,UNHCR,https://data.humdata.org/dataset/administrative-boundaries-1-2,,
+Iraq,IQ,IRQ,irq,Asia,Western Asia,,3,,en,ar,,,TRUE,TRUE,2019-05-30,2018-06-03,,,OCHA Iraq,Iraq Central Statistics Office,https://data.humdata.org/dataset/iraq-admin-level-1-boundaries,,
+Iceland,IS,ISL,isl,Europe,Northern Europe,,2,,,,,,,,,,,,,,,,
+Israel,IL,ISR,isr,Asia,Western Asia,,1,,,,,,,,,,,,,,,,
+Italy,IT,ITA,ita,Europe,Southern Europe,,3,,,,,,,,,,,,,,,,
+Jamaica,JM,JAM,jam,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-09,2019-10-08,OCHA FISS,GADM,,https://data.humdata.org/dataset/jamaica-administrative-level-0-nation-and-1-parish-boundaries,
+Jersey,JE,JEY,jey,Europe,Northern Europe,Channel Islands,1,,,,,,,,,,,,,,,,
+Jordan,JO,JOR,jor,Asia,Western Asia,,2,,en,ar,,,,,,,,,OCHA ROMENA,,,,
+Japan,JP,JPN,jpn,Asia,Eastern Asia,,2,,,,,,,,,,,,,,,,
+Kazakhstan,KZ,KAZ,kaz,Asia,Central Asia,,2,,en,kk,ru,,FALSE,FALSE,2019-09-10,2019-09-10,,,OCHA ROCCA,Committee on Statistics (Kazakhstan Ministry of National Economy),https://data.humdata.org/dataset/kazakhstan-administrative-boundaries-taxonomy,,
+Kenya,KE,KEN,ken,Africa,Sub-Saharan Africa,Eastern Africa,2,,en,,,,TRUE,TRUE,2017-11-03,2019-10-31,,,OCHA ROSEA,IEBC,https://data.humdata.org/dataset/ken-administrative-boundaries,,
+Kyrgyzstan,KG,KGZ,kgz,Asia,Central Asia,,3,,en,ru,ky,,TRUE,FALSE,2018-08-28,2018-11-19,,,OCHA ROCCA,Ministry of Emergency Situations of the Kyrgyz Republic,https://data.humdata.org/dataset/kyrgyzstan-administrative-boundaries,,
+Cambodia,KH,KHM,khm,Asia,South-eastern Asia,,3,,en,,,,TRUE,FALSE,2014-10-14,2018-10-04,,,OCHA ROAP,"Department of Geography of the Ministry of Land Management, Urbanization and Construction in 2008, WFP",https://data.humdata.org/dataset/cambodia-admin-level-0-international-boundaries,,
+Kiribati,KI,KIR,kir,Oceania,Micronesia,,0,,,,,,,,,,,,,,,,
+Saint Kitts and Nevis,KN,KNA,kna,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-08,2020-03-19,OCHA FISS,GADM,,https://data.humdata.org/dataset/saint-kitts-and-nevis-administrative-level-0-nation-and-1-parish-boundaries,
+"Korea, Republic of",KR,KOR,kor,Asia,Eastern Asia,,2,,,,,,,,,,,,,,,,
+Kuwait,KW,KWT,kwt,Asia,Western Asia,,1,,,,,,,,,,2015-11-30,2017-03-29,OCHA ROMENA,GADM,,https://data.humdata.org/dataset/kuwait-administrative-boundaries-levels-1-2-populated-places,
+Lao People's Democratic Republic,LA,LAO,lao,Asia,South-eastern Asia,,2,,en,lo,,,TRUE,TRUE,2016-03-26,2019-11-12,,,OCHA ROAP,National Geographic Department (NGD),https://data.humdata.org/dataset/lao-admin-boundaries,,
+Lebanon,LB,LBN,lbn,Asia,Western Asia,,3,,en,ar,,,TRUE,TRUE,2015-11-06,2016-08-22,,,OCHA ROMENA,Council for Development and Reconstruction (CDR),https://data.humdata.org/dataset/lebanon-administrative-boundaries-levels-0-3,,"Admin 3 Pcodes don't match the standards used by other columns, conflict areas don't use unique PCodes"
+Liberia,LR,LBR,lbr,Africa,Sub-Saharan Africa,Western Africa,2,,en,,,,TRUE,TRUE,2017-12-27,2019-11-04,,,OCHA ROWCA,UNMIL,https://data.humdata.org/dataset/liberia-admin-level-2-boundaries,,Tabular data is missing
+Libya,LY,LBY,lby,Africa,Northern Africa,,2,,en,ar,,,TRUE,TRUE,2016-11-30,2018-05-07,,,OCHA ROMENA,"UNITAR-UNOSAT, Libyan Bureau of Statistics, WFP, and Global Logistics Cluster, IOM",https://data.humdata.org/dataset/admin-boundaries-villages-libya-cods,,
+Saint Lucia,LC,LCA,lca,Americas,Latin America and the Caribbean,Caribbean,2,,en,,,,FALSE,FALSE,2019-05-01,2019-05-08,,,OCHA FISS,Department of Physical Planning,https://data.humdata.org/dataset/saint-lucia-administrative-level-0-nation-and-1-quarter-boundaries,,
+Liechtenstein,LI,LIE,lie,Europe,Western Europe,,1,,,,,,,,,,,,,,,,
+Sri Lanka,LK,LKA,lka,Asia,Southern Asia,,4,,en,si,ta,,TRUE,TRUE,2019-03-04,2020-03-05,,,OCHA ROAP,Survey Department of Sri Lanka,https://data.humdata.org/dataset/sri-lanka-administrative-levels-0-4-boundaries,,
+Lesotho,LS,LSO,lso,Africa,Sub-Saharan Africa,Southern Africa,2,,en,,,,FALSE,TRUE,2019-01-08,2020-02-20,,,OCHA ROSEA,FAO and the Ministry of Local Government 2016,https://data.humdata.org/dataset/lesotho-administrative-level-0-2-boundaries,,
+Lithuania,LT,LTU,ltu,Europe,Northern Europe,,2,,,,,,,,,,,,,,,,
+Luxembourg,LU,LUX,lux,Europe,Western Europe,,4,,,,,,,,,,,,,,,,
+Latvia,LV,LVA,lva,Europe,Northern Europe,,2,,,,,,,,,,,,,,,,
+Macao,MO,MAC,mac,Asia,Eastern Asia,,2,,,,,,,,,,,,,,,,
+Saint Martin (French part),MF,MAF,maf,Americas,Latin America and the Caribbean,Caribbean,0,,,,,,,,,,,,,,,,
+Morocco,MA,MAR,mar,Africa,Northern Africa,,4,,,,,,,,,,2015-11-30,2017-03-29,OCHA ROMENA,GADM,,https://data.humdata.org/dataset/morocco-administrative-boundaries-populated-places,
+Monaco,MC,MCO,mco,Europe,Western Europe,,0,,,,,,,,,,,,,,,,
+"Moldova, Republic of",MD,MDA,mda,Europe,Eastern Europe,,1,,en,,,,FALSE,FALSE,2016-10-10,2017-07-13,,,OCHA FISS,UNHCR,https://data.humdata.org/dataset/moldova-administrative-level-0-1-boundaries,,
+Madagascar,MG,MDG,mdg,Africa,Sub-Saharan Africa,Eastern Africa,4,,en,,,,FALSE,TRUE,2010-12-31,2020-02-20,,,OCHA ROSA,Madagascar National Disaster Management Office (BNGRC),https://data.humdata.org/dataset/madagascar-administrative-level-0-4-boundaries,,
+Maldives,MV,MDV,mdv,Asia,Southern Asia,,0,,,,,,,,,,2010-01-01,2020-02-03,OCHA ROAP,GADM,,https://data.humdata.org/dataset/maldives-administrative-boundaries-polygon-polyline,
+Mexico,MX,MEX,mex,Americas,Latin America and the Caribbean,Central America,2,,es,,,,FALSE,TRUE,2018-02-02,2018-02-02,,,OCHA ROLAC,Instituto Nacional de Estadística y Geografía (INEGI),https://data.humdata.org/dataset/mexican-administrative-level-0-country-1-estado-and-2-municipio-boundary-polygons,,
+Marshall Islands,MH,MHL,mhl,Oceania,Micronesia,,0,,,,,,,,,,2018-07-18,2018-07-18,OCHA ROAP,GADM,,https://data.humdata.org/dataset/marshall-islands-administrative-levels-0-2-boundaries,Projection is in an unknown coordinate system that doesn't allow it to be displayed in GIS software
+North Macedonia,MK,MKD,mkd,Europe,Southern Europe,,4,,en,mk,,,FALSE,FALSE,2016-05-12,2016-07-08,,,Regional IM Working Group - Europe,EuroGeographics and NTES (Nomenclature of Territorial Units for Statistics - Republic of Macedonia State Statistical Office),https://data.humdata.org/dataset/fyrom-administrative-levels-1-4-from-eurogeographics-and-ntes,,
+Mali,ML,MLI,mli,Africa,Sub-Saharan Africa,Western Africa,3,,fr,,,,TRUE,TRUE,2013-05-31,2019-08-02,,,OCHA Mali,DNCT - Direction Nationale des Collectivités Territoriales,https://data.humdata.org/dataset/administrative-boundaries-cod-mli,,
+Malta,MT,MLT,mlt,Europe,Southern Europe,,2,,,,,,,,,,,,,,,,
+Myanmar,MM,MMR,mmr,Asia,South-eastern Asia,,3,,,,,,,,,,,,OCHA Myanmar,,,,
+Montenegro,ME,MNE,mne,Europe,Southern Europe,,1,,,,,,,,,,,,,,,,
+Mongolia,MN,MNG,mng,Asia,Eastern Asia,,2,,en,,,,FALSE,TRUE,2016-12-01,2018-05-17,,,OCHA ROAP,National Statistical Office of Mongolia,https://data.humdata.org/dataset/mongolia-administrative-boundaries-polygon-polyline,,
+Northern Mariana Islands,MP,MNP,mnp,Oceania,Micronesia,,1,,,,,,,,,,,,,,,,
+Mozambique,MZ,MOZ,moz,Africa,Sub-Saharan Africa,Eastern Africa,3,,pt,,,,TRUE,TRUE,2019-04-02,2019-06-07,,,OCHA ROSEA,"Mozambique INE (Instituto Nacional de Estatistica) http://www.ine.gov.mz/ Census 2007 data from WFP Geonode, cleaned by UN OCHA ROSEA. Maputo City districts added from SALB boundaries by OCHA.",https://data.humdata.org/dataset/mozambique-administrative-levels-0-3,,
+Mauritania,MR,MRT,mrt,Africa,Sub-Saharan Africa,Western Africa,3,,en,,,,TRUE,FALSE,2012-09-28,2017-08-09,,,OCHA ROWCA,WFP and OCHA,https://data.humdata.org/dataset/mauritania-administrative-boundaries,,Very large topology errors that break the dissolve and other aggregate functions. Attributes truncated to 10 characters in tabular data
+Montserrat,MS,MSR,msr,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-09,2020-02-25,OCHA FISS,GADM,,https://data.humdata.org/dataset/montserrat-administrative-level-0-nation-and-1-parish-boundaries,
+Martinique,MQ,MTQ,mtq,Americas,Latin America and the Caribbean,Caribbean,2,,fr,,,,FALSE,TRUE,2017-09-09,2020-02-17,,,OCHA FISS,Institut national de l’information géographique et forestière (IGN),https://data.humdata.org/dataset/martinique-administrative-level-0-nation-level-1-arrondissement-and-level-2-commune-boundaries,,
+Mauritius,MU,MUS,mus,Africa,Sub-Saharan Africa,Eastern Africa,1,,,,,,,,,,,,,,,,
+Malawi,MW,MWI,mwi,Africa,Sub-Saharan Africa,Eastern Africa,3,,en,,,,TRUE,TRUE,2018-09-03,2018-10-16,,,OCHA ROSEA,National Statistics Office of Malawi,https://data.humdata.org/dataset/malawi-administrative-level-0-3-boundaries,,
+Malaysia,MY,MYS,mys,Asia,South-eastern Asia,,2,,,,,,,,,,,,,,,,
+Mayotte,YT,MYT,myt,Africa,Sub-Saharan Africa,Eastern Africa,1,,,,,,,,,,,,,,,,
+Namibia,NA,NAM,nam,Africa,Sub-Saharan Africa,Southern Africa,2,,en,,,,TRUE,TRUE,2011-01-01,2020-01-09,,,OCHA ROSA,Namibia Statistics Agency (NSA),https://data.humdata.org/dataset/namibia-admin-level-1-boundaries,,
+New Caledonia,NC,NCL,ncl,Oceania,Melanesia,,2,,,,,,,,,,,,,,,,
+Niger,NE,NER,ner,Africa,Sub-Saharan Africa,Western Africa,3,,fr,,,,FALSE,FALSE,2006-01-01,2019-09-12,,,OCHA Niger,IGNN (as of 2006) and OCHA / ROWCA (2014 / 2015),https://data.humdata.org/dataset/niger-administrative-boundaries,,
+Norfolk Island,NF,NFK,nfk,Oceania,Australia and New Zealand,,0,,,,,,,,,,,,,,,,
+Nigeria,NG,NGA,nga,Africa,Sub-Saharan Africa,Western Africa,3,,en,,,,TRUE,TRUE,2016-11-29,2019-04-17,,,OCHA Nigeria,"Office for the Surveyor General of the Federation of Nigeria (OSGOF), Ehealth, United Nations Cartographic Section (UNCS)",https://data.humdata.org/dataset/nga-administrative-boundaries,,
+Nicaragua,NI,NIC,nic,Americas,Latin America and the Caribbean,Central America,2,,,,,,,,,,2017-10-11,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/nicaragua-administrative-level-0,
+Niue,NU,NIU,niu,Oceania,Polynesia,,0,,,,,,,,,,,,,,,,
+Netherlands,NL,NLD,nld,Europe,Western Europe,,2,,,,,,,,,,,,,,,,
+Norway,NO,NOR,nor,Europe,Northern Europe,,2,,,,,,,,,,,,,,,,
+Nepal,NP,NPL,npl,Asia,Southern Asia,,2,,en,,,,TRUE,TRUE,2018-11-28,2019-04-30,,,OCHA FISS,"Survey Department of Nepal, UN Resident Coordinators Office in Nepal",https://data.humdata.org/dataset/administrative-bounadries-of-nepal,,
+Nauru,NR,NRU,nru,Oceania,Micronesia,,1,,,,,,,,,,,,,,,,
+New Zealand,NZ,NZL,nzl,Oceania,Australia and New Zealand,,2,,,,,,,,,,,,,,,,
+Oman,OM,OMN,omn,Asia,Western Asia,,2,,,,,,,,,,2015-11-30,2017-03-29,OCHA ROMENA,GADM,,https://data.humdata.org/dataset/oman-administrative-boundaries-populated-places,
+Pakistan,PK,PAK,pak,Asia,Southern Asia,,3,,en,,,,TRUE,TRUE,2018-11-30,2018-12-18,,,OCHA FISS,Pakistan Census Office (PCO),https://data.humdata.org/dataset/pakistan-administrative-level-0-1-2-and-3-boundary-polygons-lines-and-central-places,,
+Panama,PA,PAN,pan,Americas,Latin America and the Caribbean,Central America,3,,,,,,,,,,2017-10-11,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/panama-administrative-level-0-1-2-and-3-boundaries,
+Pitcairn,PN,PCN,pcn,Oceania,Polynesia,,0,,,,,,,,,,,,,,,,
+Peru,PE,PER,per,Americas,Latin America and the Caribbean,South America,3,,es,,,,FALSE,TRUE,2015-07-24,2018-07-27,,,OCHA ROLAC,Instituto Geográfico Nacional - IGN,https://data.humdata.org/dataset/limites-de-peru,,
+Philippines,PH,PHL,phl,Asia,South-eastern Asia,,3,,en,,,,TRUE,FALSE,2018-01-26,2018-01-30,,,OCHA Philippines,"National Mapping and Resource Information Authority (NAMRIA), Philippines Statistics Authority (PSA)",https://data.humdata.org/dataset/philippines-administrative-levels-0-to-3,,
+Palau,PW,PLW,plw,Oceania,Micronesia,,1,,,,,,,,,,,,,,,,
+Papua New Guinea,PG,PNG,png,Oceania,Melanesia,,3,,en,,,,TRUE,TRUE,2015-02-24,2019-05-08,,,OCHA ROAP,Papua New Guinea National Statistics Office,https://data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries,,
+Poland,PL,POL,pol,Europe,Eastern Europe,,3,,,,,,,,,,,,,,,,
+Puerto Rico,PR,PRI,pri,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-06,2019-11-08,OCHA FISS,GADM,,https://data.humdata.org/dataset/peurto-rico-admin0-and-admin1,
+Korea (Democratic People's Republic of),KP,PRK,prk,Asia,Eastern Asia,,2,,,,,,,,,,2013-01-01,2019-07-17,OCHA ROAP,GADM,,https://data.humdata.org/dataset/dpr-korea-administrative-boundaries,GADM source appears to be more detailed than WFP source
+Portugal,PT,PRT,prt,Europe,Southern Europe,,3,,,,,,,,,,,,,,,,
+Paraguay,PY,PRY,pry,Americas,Latin America and the Caribbean,South America,2,,,,,,,,,,2017-10-11,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/paraguay-administrative-level-0-boundaries,
+"Palestine, State of",PS,PSE,pse,Asia,Western Asia,,2,,en,,,,TRUE,TRUE,2006-01-01,2019-08-07,,,OCHA oPt,Palestinian Authority Ministry of Planning,https://data.humdata.org/dataset/state-of-palestine-administrative-boundaries,,
+French Polynesia,PF,PYF,pyf,Oceania,Polynesia,,1,,,,,,,,,,,,,,,,
+Qatar,QA,QAT,qat,Asia,Western Asia,,1,,,,,,,,,,2015-11-30,2017-03-29,OCHA ROMENA,GADM,,https://data.humdata.org/dataset/qatar-administrative-boundaries-populated-places,
+Réunion,RE,REU,reu,Africa,Sub-Saharan Africa,Eastern Africa,2,,,,,,,,,,,,,,,,
+Romania,RO,ROU,rou,Europe,Eastern Europe,,2,,,,,,,,,,,,,,,,
+Russian Federation,RU,RUS,rus,Europe,Eastern Europe,,3,,,,,,,,,,,,,,,,
+Rwanda,RW,RWA,rwa,Africa,Sub-Saharan Africa,Eastern Africa,3,4,en,fr,rw,,FALSE,TRUE,2018-09-27,2020-02-20,,,OCHA ROSEA,National Institute of Statistics of Rwanda (NISR),https://data.humdata.org/dataset/rwanda-administrative-boundaries-level-1-4,,
+Saudi Arabia,SA,SAU,sau,Asia,Western Asia,,1,,,,,,,,,,2015-11-30,2017-03-29,OCHA ROMENA,GADM,,https://data.humdata.org/dataset/saudi-arabia-administrative-boundaries,
+Sudan,SD,SDN,sdn,Africa,Northern Africa,,2,,en,,,,TRUE,TRUE,2020-03-11,2020-03-17,,,OCHA ROSEA,"Information Management Working Group (IMWG), OCHA",https://data.humdata.org/dataset/sudan-administrative-boundaries-levels-0-2,,
+Senegal,SN,SEN,sen,Africa,Sub-Saharan Africa,Western Africa,3,,fr,,,,TRUE,TRUE,2017-08-04,2019-04-26,,,OCHA ROWCA,"Government of Senegal, 2009 (updated by OCHA/ROWCA) 04 August 2018",https://data.humdata.org/dataset/senegal-administrative-boundaries,,
+Singapore,SG,SGP,sgp,Asia,South-eastern Asia,,1,,,,,,,,,,,,,,,,
+South Georgia and the South Sandwich Islands,GS,SGS,sgs,Americas,Latin America and the Caribbean,South America,0,,,,,,,,,,,,,,,,
+"Saint Helena, Ascension and Tristan da Cunha",SH,SHN,shn,Africa,Sub-Saharan Africa,Western Africa,2,,,,,,,,,,,,,,,,
+Svalbard and Jan Mayen,SJ,SJM,sjm,Europe,Northern Europe,,1,,,,,,,,,,,,,,,,
+Solomon Islands,SB,SLB,slb,Oceania,Melanesia,,3,,en,,,,FALSE,TRUE,2018-01-12,2018-11-01,,,OCHA ROAP,"Solomon Islands National Statistics Office (SINSO), 2009 Census of Population and Housing",https://data.humdata.org/dataset/solomon-islands-administrative-level-0-1-2-and-3-boundary-polygons,,
+Sierra Leone,SL,SLE,sle,Africa,Sub-Saharan Africa,Western Africa,4,,en,,,,TRUE,TRUE,2016-08-01,2017-08-16,,,OCHA ROWCA,Government of Sierra Leone,https://data.humdata.org/dataset/sierra-leone-all-ad-min-level-boundaries,,"Tablular file has extra data not found in shapefile attributes, some admin levels missing all required columns, date values vary between admin levels, column names shortened to 10 characters"
+El Salvador,SV,SLV,slv,Americas,Latin America and the Caribbean,Central America,2,,,,,,,,,,2017-10-10,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/el-salvador-administrative-level-0-1-and-2-boundaries,
+San Marino,SM,SMR,smr,Europe,Southern Europe,,1,,,,,,,,,,,,,,,,
+Somalia,SO,SOM,som,Africa,Sub-Saharan Africa,Eastern Africa,2,,en,,,,TRUE,TRUE,2017-03-28,2017-04-05,,,OCHA Somalia,United National Development Programme (UNDP) 1998,https://data.humdata.org/dataset/somalia-administrative-boundaries,,Admin0 has incorrect date attribute
+Saint Pierre and Miquelon,PM,SPM,spm,Americas,Northern America,,1,,,,,,,,,,,,,,,,
+Serbia,RS,SRB,srb,Europe,Southern Europe,,2,,,,,,,,,,,,,,,,
+South Sudan,SS,SSD,ssd,Africa,Sub-Saharan Africa,Eastern Africa,2,,en,,,,TRUE,TRUE,2018-08-15,2018-08-17,,,OCHA South Sudan,"South Sudan Inter Cluster Information Management Working Group (ICIWG), National Bureau of Statistics (NBS), and OCHA",https://data.humdata.org/dataset/south-sudan-administrative-boundaries,,
+Sao Tome and Principe,ST,STP,stp,Africa,Sub-Saharan Africa,Middle Africa,2,,,,,,,,,,2011-11-30,2018-08-16,OCHA ROWCA,GADM,,https://data.humdata.org/dataset/sao-tome-and-principe-administrative-boundaries,
+Suriname,SR,SUR,sur,Americas,Latin America and the Caribbean,South America,2,,,,,,,,,,2019-10-24,2019-10-24,OCHA FISS,GADM,,https://data.humdata.org/dataset/suriname-administrative-level-0-1-and-2-boundaries,
+Slovakia,SK,SVK,svk,Europe,Eastern Europe,,2,,,,,,,,,,,,,,,,
+Slovenia,SI,SVN,svn,Europe,Southern Europe,,2,,,,,,,,,,,,,,,,
+Sweden,SE,SWE,swe,Europe,Northern Europe,,2,,,,,,,,,,,,,,,,
+Eswatini,SZ,SWZ,swz,Africa,Sub-Saharan Africa,Southern Africa,2,,,,,,,,,,,,,,,,
+Sint Maarten (Dutch part),SX,SXM,sxm,Americas,Latin America and the Caribbean,Caribbean,1,,en,,,,FALSE,TRUE,2018-09-14,2019-11-10,,,OCHA FISS,"Sint Maarten Ministry of Public Housing, Spatial Planning, Environment and Infrastructure (VROMI)",https://data.humdata.org/dataset/sint-maarten-administrative-level-0-1-boundaries,,"""Not Reported"" is an invalid PCode"
+Seychelles,SC,SYC,syc,Africa,Sub-Saharan Africa,Eastern Africa,1,,,,,,,,,,,,,,,,
+Syrian Arab Republic,SY,SYR,syr,Asia,Western Asia,,3,,en,ar,,,TRUE,FALSE,2016-09-05,2016-09-05,,,OCHA ROSC,United Nations Cartographic Section (UNCS) and United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA),https://data.humdata.org/dataset/syrian-arab-republic-administrative-boundaries-populated-places,,Some field names are missing or have typos
+Turks and Caicos Islands,TC,TCA,tca,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-09,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/turks-and-caicos-islands-administrative-level-0-nation-and-1-district-boundaries,
+Chad,TD,TCD,tcd,Africa,Sub-Saharan Africa,Middle Africa,2,3,fr,,,,TRUE,TRUE,2016-03-15,2016-05-09,,,OCHA Chad,OCHA Chad,https://data.humdata.org/dataset/chad-admin-boundaries-admin-1-and-admin-2,,Extra columns with uppercase names
+Togo,TG,TGO,tgo,Africa,Sub-Saharan Africa,Western Africa,2,,fr,,,,TRUE,TRUE,2016-01-01,2019-10-03,,,OCHA ROWCA,Global Administrative Unit Layers (GAUL),https://data.humdata.org/dataset/togo-cod-ab,,
+Thailand,TH,THA,tha,Asia,South-eastern Asia,,3,,en,th,,,TRUE,TRUE,2019-02-18,2019-02-21,,,OCHA ROAP,Royal Thai Survey Department,https://data.humdata.org/dataset/thailand-administrative-boundaries,,
+Tajikistan,TJ,TJK,tjk,Asia,Central Asia,,3,,,,,,,,,,2017-01-01,2017-05-18,OCHA ROCCA,GADM,,https://data.humdata.org/dataset/tajikistan-administrative-boundaries-taxonomy,No GIS data at URL
+Tokelau,TK,TKL,tkl,Oceania,Polynesia,,1,,,,,,,,,,,,,,,,
+Turkmenistan,TM,TKM,tkm,Asia,Central Asia,,1,,,,,,,,,,,,OCHA ROCCA,,,,
+Timor-Leste,TL,TLS,tls,Asia,South-eastern Asia,,3,,,,,,,,,,2006-12-10,2018-01-18,OCHA ROAP,GADM,,https://data.humdata.org/dataset/timor-leste-administrative-boundaries-levels-0-3,
+Tonga,TO,TON,ton,Oceania,Polynesia,,3,,en,,,,FALSE,FALSE,2018-02-05,2018-02-12,,,OCHA ROP,"Secretariat of the Pacific Community, Statistics for Development Division",https://data.humdata.org/dataset/tonga-administrative-level-0-1-2-3-boundary-polygons,,
+Trinidad and Tobago,TT,TTO,tto,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-08,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/trinidad-and-tobago-administrative-level-0-national-and-1-region-and-municipality-boundaries,
+Tunisia,TN,TUN,tun,Africa,Northern Africa,,2,,,,,,,,,,2015-11-30,2017-03-28,OCHA ROMENA,GADM,,https://data.humdata.org/dataset/tunisia-administrative-boundaries-populated-places,
+Turkey,TR,TUR,tur,Asia,Western Asia,,2,,tr,en,,,FALSE,TRUE,2020-01-01,2020-01-20,,,Regional IM Working Group - Europe,General Command of Mapping,https://data.humdata.org/dataset/turkey-administrative-boundaries-levels-0-1-2,,Duplicate adm4 Pcodes
+Tuvalu,TV,TUV,tuv,Oceania,Polynesia,,1,,,,,,,,,,,,,,,,
+"Taiwan, Province of China",TW,TWN,twn,Asia,Eastern Asia,,2,,,,,,,,,,,,,,,,
+"Tanzania, United Republic of",TZ,TZA,tza,Africa,Sub-Saharan Africa,Eastern Africa,3,,en,,,,FALSE,FALSE,2018-10-19,2018-10-22,,,OCHA ROSA,Tanzania National Bureau of Statistics / UN OCHA ROSA,https://data.humdata.org/dataset/tanzania-administrative-boundaries-level-1-to-3-regions-districts-and-wards-with-2012-population,,
+Uganda,UG,UGA,uga,Africa,Sub-Saharan Africa,Eastern Africa,3,,en,,,,FALSE,FALSE,2018-09-04,2018-11-07,,,OCHA ROSEA,Uganda Bureau of Statistics,https://data.humdata.org/dataset/uganda-administrative-boundaries-admin-1-admin-3,,
+Ukraine,UA,UKR,ukr,Europe,Eastern Europe,,3,4,en,ua,ru,,TRUE,TRUE,2017-10-02,2017-12-21,,,OCHA Ukraine,State Scientific Production Enterprise Kartographia,https://data.humdata.org/dataset/ukraine-administrative-boundaries-as-of-q2-2017,,
+United States Minor Outlying Islands,UM,UMI,umi,Oceania,Micronesia,,1,,,,,,,,,,,,,,,,
+Uruguay,UY,URY,ury,Americas,Latin America and the Caribbean,South America,3,,,,,,,,,,2017-10-11,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/uruguay-administrative-level-0-boundaries,
+United States of America,US,USA,usa,Americas,Northern America,,3,,,,,,TRUE,TRUE,2018-06-22,2020-04-01,,,,U.S. Geological Survey,https://catalog.data.gov/dataset/usgs-national-boundary-dataset-nbd-downloadable-data-collectionbc141,,
+Uzbekistan,UZ,UZB,uzb,Asia,Central Asia,,2,,en,ru,uz,,FALSE,FALSE,2018-07-12,2018-07-13,,,OCHA ROCCA,OCHA,https://data.humdata.org/dataset/ubbekistan-update,,
+Holy See,VA,VAT,vat,Europe,Southern Europe,,0,,,,,,,,,,,,,,,,
+Saint Vincent and the Grenadines,VC,VCT,vct,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-21,2019-11-10,OCHA FISS,GADM,,https://data.humdata.org/dataset/saint-vincent-and-the-grenadines-administrative-level-0-country-and-1-parish-boundaries,
+Venezuela (Bolivarian Republic of),VE,VEN,ven,Americas,Latin America and the Caribbean,South America,3,,es,en,,,FALSE,FALSE,2018-05-02,2019-11-10,,,OCHA FISS,Instituto Nacional de Estadística,https://data.humdata.org/dataset/venezuela-administrative-level-0-1-and-2-boundaries,,
+Virgin Islands (British),VG,VGB,vgb,Americas,Latin America and the Caribbean,Caribbean,1,,,,,,,,,,2017-09-09,2020-04-01,OCHA FISS,GADM,,https://data.humdata.org/dataset/british-virgin-islands-administrative-level-0-nation-and-1-district-boundaries,
+Virgin Islands (U.S.),VI,VIR,vir,Americas,Latin America and the Caribbean,Caribbean,2,,,,,,,,,,2017-09-09,2019-11-04,OCHA FISS,GADM,,https://data.humdata.org/dataset/united-states-virgin-islands-administrative-level-0-nation-1-district-and-2-subdistrict-boundaries,
+Viet Nam,VN,VNM,vnm,Asia,South-eastern Asia,,2,,en,vi,,,TRUE,TRUE,2019-10-01,2020-01-03,,,OCHA ROAP,Government of Viet Nam,https://data.humdata.org/dataset/viet-nam-administrative-boundaries-polygon-polyline,,
+Vanuatu,VU,VUT,vut,Oceania,Melanesia,,2,,en,,,,TRUE,TRUE,2017-10-31,2018-08-24,,,OCHA ROP,"PopGIS2: Secretarial of the Pacific Community (SPC), Statistics for Development Division",https://data.humdata.org/dataset/vanuatu-administrative-level-0-1-and-2-boundaries,,
+Wallis and Futuna,WF,WLF,wlf,Oceania,Polynesia,,2,,,,,,,,,,,,,,,,
+Samoa,WS,WSM,wsm,Oceania,Polynesia,,2,,,,,,,,,,,,,,,,
+Yemen,YE,YEM,yem,Asia,Western Asia,,3,,en,ar,,,TRUE,TRUE,2019-02-01,2019-10-02,,,OCHA Yemen,Central Statistical Organization (CSO),https://data.humdata.org/dataset/yemen-admin-boundaries,,"Adm0 data is hidden in tabular data, no date attributes"
+South Africa,ZA,ZAF,zaf,Africa,Sub-Saharan Africa,Southern Africa,4,,en,,,,FALSE,TRUE,2018-12-27,2018-12-27,,,OCHA ROSEA,South African Municipal Demarcation Board,https://data.humdata.org/dataset/south-africa-admin-level-1-boundaries,,"Admin4 level has no name attributes, number series is used instead"
+Zambia,ZM,ZMB,zmb,Africa,Sub-Saharan Africa,Eastern Africa,2,,en,,,,FALSE,TRUE,2020-01-03,2020-01-03,,,OCHA ROSA,Disaster Management and Mitigation Unit (DMMU) Zambia,https://data.humdata.org/dataset/zambia-administrative-boundaries-level-1-provinces-and-level-2-districts-with-census-2010-population,,
+Zimbabwe,ZW,ZWE,zwe,Africa,Sub-Saharan Africa,Eastern Africa,3,,en,,,,TRUE,TRUE,2018-08-31,2018-09-11,,,OCHA ROSEA,Zimbabwe National Statistics Agency (ZIMSTAT) Central Statistics Office,https://data.humdata.org/dataset/zimbabwe-administrative-levels-0-3-boundaries,,

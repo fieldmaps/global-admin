@@ -128,13 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-.vscode
-input/
-# input/attributes/
-# input/boundaries/
-# input/boundaries_tmp/
-# input/world/
-output/
-qgis/
+*.gpkg
+*.xlsx
 tmp/
-tmp_1/
+qgis/

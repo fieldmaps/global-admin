@@ -1,0 +1,3511 @@
+id,name_1,name_2,name_3,name_alt,type_1,type_alt,code_gadm,code_govt,code_ocha
+AFG001,Kabul,کابل,,,,,,,AF01
+AFG002,Kapisa,کاپیسا,,,,,,,AF02
+AFG003,Parwan,پروان,,,,,,,AF03
+AFG004,Maidan Wardak,میدان وردک,,,,,,,AF04
+AFG005,Logar,لوگر,,,,,,,AF05
+AFG006,Nangarhar,ننگرهار,,,,,,,AF06
+AFG007,Laghman,لغمان,,,,,,,AF07
+AFG008,Panjsher,پنجشیر,,,,,,,AF08
+AFG009,Baghlan,بغلان,,,,,,,AF09
+AFG010,Bamyan,بامیان,,,,,,,AF10
+AFG011,Ghazni,غزنی,,,,,,,AF11
+AFG012,Paktika,پکتیکا,,,,,,,AF12
+AFG013,Paktya,پکتیا,,,,,,,AF13
+AFG014,Khost,خوست,,,,,,,AF14
+AFG015,Kunar,کنر ها,,,,,,,AF15
+AFG016,Nuristan,نورستان,,,,,,,AF16
+AFG017,Badakhshan,بدخشان,,,,,,,AF17
+AFG018,Takhar,تخار,,,,,,,AF18
+AFG019,Kunduz,کندز,,,,,,,AF19
+AFG020,Samangan,سمنگان,,,,,,,AF20
+AFG021,Balkh,بلخ,,,,,,,AF21
+AFG022,Sar-e-Pul,سرپل,,,,,,,AF22
+AFG023,Ghor,غور,,,,,,,AF23
+AFG024,Daykundi,دایکندی,,,,,,,AF24
+AFG025,Uruzgan,ارزگان,,,,,,,AF25
+AFG026,Zabul,زابل,,,,,,,AF26
+AFG027,Kandahar,کندهار,,,,,,,AF27
+AFG028,Jawzjan,جوزجان,,,,,,,AF28
+AFG029,Faryab,فاریاب,,,,,,,AF29
+AFG030,Hilmand,هلمند,,,,,,,AF30
+AFG031,Badghis,بادغیس,,,,,,,AF31
+AFG032,Hirat,هرات,,,,,,,AF32
+AFG033,Farah,فراه,,,,,,,AF33
+AFG034,Nimroz,نیمروز,,,,,,,AF34
+AGO001,Bengo,,,,,,,,AO01
+AGO002,Benguela,,,,,,,,AO02
+AGO003,Bié,,,,,,,,AO03
+AGO004,Cabinda,,,,,,,,AO04
+AGO005,Cuando Cubango,,,,,,,,AO05
+AGO006,Cuanza Norte,,,,,,,,AO06
+AGO007,Cuanza Sul,,,,,,,,AO07
+AGO008,Cunene,,,,,,,,AO08
+AGO009,Huíla,,,,,,,,AO09
+AGO010,Huambo,,,,,,,,AO10
+AGO011,Luanda,,,,,,,,AO11
+AGO012,Lunda Norte,,,,,,,,AO12
+AGO013,Lunda Sul,,,,,,,,AO13
+AGO014,Malanje,,,,,,,,AO14
+AGO015,Moxico,,,,,,,,AO15
+AGO016,Namibe,,,,,,,,AO16
+AGO017,Uíge,,,,,,,,AO17
+AGO018,Zaire,,,,,,,,AO18
+ALA001,Brändö,,,Braendoe,Municipality,Municipality,ALA.1_1,,
+ALA002,Eckerö,,,Eckeroe,Municipality,Municipality,ALA.2_1,,
+ALA003,Finström,,,Finstroem,Municipality,Municipality,ALA.3_1,,
+ALA004,Föglö,,,Foegloe,Municipality,Municipality,ALA.4_1,,
+ALA005,Geta,,,,Municipality,Municipality,ALA.5_1,,
+ALA006,Hammarland,,,,Municipality,Municipality,ALA.6_1,,
+ALA007,Jomala,,,,Municipality,Municipality,ALA.7_1,,
+ALA008,Kökar,,,Koekar,Municipality,Municipality,ALA.8_1,,
+ALA009,Kumlinge,,,,Municipality,Municipality,ALA.9_1,,
+ALA010,Lemland,,,,Municipality,Municipality,ALA.10_1,,
+ALA011,Lumparland,,,,Municipality,Municipality,ALA.11_1,,
+ALA012,Mariehamn,,,,Municipality,Municipality,ALA.12_1,,
+ALA013,Saltvik,,,,Municipality,Municipality,ALA.13_1,,
+ALA014,Sottunga,,,,Municipality,Municipality,ALA.14_1,,
+ALA015,Sund,,,,Municipality,Municipality,ALA.15_1,,
+ALA016,Vårdö,,,Vaardoe,Municipality,Municipality,ALA.16_1,,
+ALB001,Berat,,,,County,Qark|Region,ALB.1_1,80001,
+ALB002,Dibër,,,Dibra| Dibrë,County,Qark|Region,ALB.2_1,80005,
+ALB003,Durrës,,,Durresi|Durrsi|Durazzo,County,Qark|Region,ALB.3_1,80009,
+ALB004,Elbasan,,,,County,Qark|Region,ALB.4_1,80012,
+ALB005,Fier,,,,County,Qark|Region,ALB.5_1,80017,
+ALB006,Gjirokastër,,,Gjinokastër|Argirocastro|Argyrocastro|Argyrokastron,County,Qark|Region,ALB.6_1,80021,
+ALB007,Korçë,,,Coriza|Corizza|Koritsa|Koritza|Korça|Kortscha,County,Qark|Region,ALB.7_1,80025,
+ALB008,Kukës,,,Kosova|Kossovo,County,Qark|Region,ALB.8_1,80030,
+ALB009,Lezhë,,,Alessio|Lezha,County,Qark|Region,ALB.9_1,80034,
+ALB010,Shkodër,,,Escútari|Shkodra|Skodë|Scutari,County,Qark|Region,ALB.10_1,80038,
+ALB011,Tiranë,,,Tiran|Tirana,County,Qark|Region,ALB.11_1,80042,
+ALB012,Vlorë,,,Vlona|Vlora|Vlonë|Valona,County,Qark|Region,ALB.12_1,80045,
+AND001,Andorra la Vella,,,,Parish,Parròquia,AND.1_1,,
+AND002,Canillo,,,,Parish,Parròquia,AND.2_1,,
+AND003,Encamp,,,,Parish,Parròquia,AND.3_1,,
+AND004,Escaldes-Engordany,,,,Parish,Parròquia,AND.4_1,,
+AND005,La Massana,,,,Parish,Parròquia,AND.5_1,,
+AND006,Ordino,,,,Parish,Parròquia,AND.6_1,,
+AND007,Sant Julià de Lòria,,,,Parish,Parròquia,AND.7_1,,
+ARE001,Abu Dhabi,,,إمارة أبوظبي,Emirate,Emirate,ARE.1_1,,
+ARE002,Ajman,,,عجمان,Emirate,Emirate,ARE.2_1,,
+ARE003,Dubai,,,دبي,Emirate,Emirate,ARE.3_1,,
+ARE004,Fujairah,,,الفجيرة,Emirate,Emirate,ARE.4_1,,
+ARE005,Ras Al-Khaimah,,,رأس الخيمة,Emirate,Emirate,ARE.5_1,,
+ARE006,Sharjah,,,الشارقة,Emirate,Emirate,ARE.6_1,,
+ARE007,Umm al-Qaywayn,,,أم القيوين,Emirate,Emirate,ARE.7_1,,
+ARG001,Buenos Aires,,,Baires|Buenos Ayres,Province,Provincia,ARG.1_1,,
+ARG002,Catamarca,,,,Province,Provincia,ARG.2_1,,
+ARG003,Chaco,,,El Chaco|Presidente Juan Peron,Province,Provincia,ARG.3_1,,
+ARG004,Chubut,,,,Province,Provincia,ARG.4_1,,
+ARG005,Ciudad de Buenos Aires,,,BUENOS AIRES D.F.|Capital Federal|Distretto Federale|Distrito Federal|Federal Capital,Federal District,Distrito Federal,ARG.5_1,,
+ARG006,Córdoba,,,Cordova,Province,Provincia,ARG.6_1,,
+ARG007,Corrientes,,,,Province,Provincia,ARG.7_1,,
+ARG008,Entre Ríos,,,Entre-Rios,Province,Provincia,ARG.8_1,,
+ARG009,Formosa,,,,Province,Provincia,ARG.9_1,,
+ARG010,Jujuy,,,,Province,Provincia,ARG.10_1,,
+ARG011,La Pampa,,,El Pampa|Eva Perón,Province,Provincia,ARG.11_1,,
+ARG012,La Rioja,,,,Province,Provincia,ARG.12_1,,
+ARG013,Mendoza,,,,Province,Provincia,ARG.13_1,,
+ARG014,Misiones,,,Missões,Province,Provincia,ARG.14_1,,
+ARG015,Neuquén,,,Neuquén,Province,Provincia,ARG.15_1,,
+ARG016,Río Negro,,,,Province,Provincia,ARG.16_1,,
+ARG017,Salta,,,,Province,Provincia,ARG.17_1,,
+ARG018,San Juan,,,,Province,Provincia,ARG.18_1,,
+ARG019,San Luis,,,,Province,Provincia,ARG.19_1,,
+ARG020,Santa Cruz,,,,Province,Provincia,ARG.20_1,,
+ARG021,Santa Fe,,,Santa Fé,Province,Provincia,ARG.21_1,,
+ARG022,Santiago del Estero,,,,Province,Provincia,ARG.22_1,,
+ARG023,Tierra del Fuego,,,Feuerland|Terra del Fuoco|Terre de Feu|Terra do Fogo|Tierra del Fuego|Antártida e Islas del Atlántico Sur,National Territory,Territorio Nacional|Provincia,ARG.23_1,,
+ARG024,Tucumán,,,Tucumão,Province,Provincia,ARG.24_1,,
+ARM001,Yerevan,Երևան,Ереван,,,,,,AM01
+ARM002,Aragatsotn,Արագածոտն,Арагацотнская,,,,,,AM02
+ARM003,Ararat,Արարատ,Араратская,,,,,,AM03
+ARM004,Armavir,Արմավիր,Армавирская,,,,,,AM04
+ARM005,Gegharkunik,Գեղարքունիք,Гехаркуникская,,,,,,AM05
+ARM006,Lori,Լոռի,Лорийская,,,,,,AM06
+ARM007,Kotayk,Կոտայք,Котайкская,,,,,,AM07
+ARM008,Shirak,Շիրակ,Ширакская,,,,,,AM08
+ARM009,Syunik,Սյունիք,Сюникская,,,,,,AM09
+ARM010,Vayots Dzor,Վայոց Ձոր,Вайоцдзорская,,,,,,AM10
+ARM011,Tavush,Տավուշ,Тавушская,,,,,,AM11
+ASM001,Eastern,,,,District,District,ASM.1_1,,
+ASM002,Manu'a,,,,District,District,ASM.2_1,,
+ASM003,Unorganized,,,,District,District,ASM.3_1,,
+ASM004,Western,,,,District,District,ASM.4_1,,
+ATF001,Îles Crozet,,,Crozet Islands,District,District,ATF.1_1,,
+ATF002,Îles Éparses,,,Glorioso Islands,District,District,ATF.2_1,,
+ATF003,Îles Saint Paul et Amsterdam,,,St. Paul and Amsterdam islands,District,District,ATF.3_1,,
+ATF004,Kerguelen,,,,District,District,ATF.4_1,,
+ATG001,Barbuda,,,Codrington,Dependency,Dependency,ATG.1_1,,
+ATG002,Redonda,,,,Dependency,Dependency,ATG.2_1,,
+ATG003,Saint George,,,Parham,Parish,Parish,ATG.3_1,,
+ATG004,Saint John,,,Saint John's,Parish,Parish,ATG.4_1,,
+ATG005,Saint Mary,,,Bolands,Parish,Parish,ATG.5_1,,
+ATG006,Saint Paul,,,Nelson's Dockyard,Parish,Parish,ATG.6_1,,
+ATG007,Saint Peter,,,Parham,Parish,Parish,ATG.7_1,,
+ATG008,Saint Philip,,,Carlisle,Parish,Parish,ATG.8_1,,
+AUS001,Ashmore and Cartier Islands,,,,Territory,Territory,AUS.1_1,12,
+AUS002,Australian Capital Territory,,,,Territory,Territory,AUS.2_1,8,
+AUS003,Coral Sea Islands Territory,,,,Territory,Territory,AUS.3_1,11,
+AUS004,Jervis Bay Territory,,,,Territory,Territory,AUS.4_1,10,
+AUS005,New South Wales,,,,State,State,AUS.5_1,1,
+AUS006,Northern Territory,,,,Territory,Territory,AUS.6_1,7,
+AUS007,Queensland,,,,State,State,AUS.7_1,3,
+AUS008,South Australia,,,,State,State,AUS.8_1,4,
+AUS009,Tasmania,,,,State,State,AUS.9_1,6,
+AUS010,Victoria,,,,State,State,AUS.10_1,2,
+AUS011,Western Australia,,,,State,State,AUS.11_1,5,
+AUT001,Burgenland,,,Burgenlândia,State,Bundesländ|Länd,AUT.1_1,,
+AUT002,Kärnten,,,Carinthia|Caríntia|Carintia,State,Bundesländ|Länd,AUT.2_1,,
+AUT003,Niederösterreich,,,Lower Austria|Baixa-Áustria|Baja Austria|Niederdonau|Österreich unter der Enns,State,Bundesländ|Länd,AUT.3_1,,
+AUT004,Oberösterreich,,,Upper Austria|Alta-Áustria|Alta Austria|Österreich ober der Enns|Oberösterreich,State,Bundesländ|Länd,AUT.4_1,,
+AUT005,Salzburg,,,Salzburgo,State,Bundesländ|Länd,AUT.5_1,,
+AUT006,Steiermark,,,Styria|Est¡ria|Estiria,State,Bundesländ|Länd,AUT.6_1,,
+AUT007,Tirol,,,Tyrol,State,Bundesländ|Länd,AUT.7_1,,
+AUT008,Vorarlberg,,,,State,Bundesländ|Länd,AUT.8_1,,
+AUT009,Wien,,,Vienna|Viena,State,Bundesländ|Länd,AUT.9_1,,
+AZE001,Absheron,,,,Region,İqtisadi Rayonu,AZE.1_1,,
+AZE002,Aran,,,,Region,İqtisadi Rayonu,AZE.2_1,,
+AZE003,Daglig-Shirvan,,,,Region,İqtisadi Rayonu,AZE.3_1,,
+AZE004,Ganja-Qazakh,,,,Region,İqtisadi Rayonu,AZE.4_1,,
+AZE005,Kalbajar-Lachin,,,,Region,İqtisadi Rayonu,AZE.5_1,,
+AZE006,Lankaran,,,,Region,İqtisadi Rayonu,AZE.6_1,,
+AZE007,Nakhchivan,,,,Region,İqtisadi Rayonu,AZE.7_1,,
+AZE008,Quba-Khachmaz,,,,Region,İqtisadi Rayonu,AZE.8_1,,
+AZE009,Shaki-Zaqatala,,,,Region,İqtisadi Rayonu,AZE.9_1,,
+AZE010,Yukhari-Karabakh,,,,Region,İqtisadi Rayonu,AZE.10_1,,
+BDI001,Bubanza,,,,,,,,BDI001
+BDI002,Bujumbura Rural,,,,,,,,BDI002
+BDI003,Bururi,,,,,,,,BDI003
+BDI004,Cankuzo,,,,,,,,BDI004
+BDI005,Cibitoke,,,,,,,,BDI005
+BDI006,Gitega,,,,,,,,BDI006
+BDI007,Karuzi,,,,,,,,BDI007
+BDI008,Kayanza,,,,,,,,BDI008
+BDI009,Kirundo,,,,,,,,BDI009
+BDI010,Makamba,,,,,,,,BDI010
+BDI011,Muramvya,,,,,,,,BDI011
+BDI012,Muyinga,,,,,,,,BDI012
+BDI013,Mwaro,,,,,,,,BDI013
+BDI014,Ngozi,,,,,,,,BDI014
+BDI015,Rutana,,,,,,,,BDI015
+BDI016,Ruyigi,,,,,,,,BDI016
+BDI017,Bujumbura Mairie,,,,,,,,BDI017
+BDI018,Rumonge,,,,,,,,BDI018
+BEL001,Bruxelles,,,Brussel,Region,Gewest,BEL.1_1,,
+BEL002,Vlaanderen,,,Flandres,Region,Gewest,BEL.2_1,,
+BEL003,Wallonie,,,,Region,Région,BEL.3_1,,
+BEN001,Alibori,,,,,,,,BJ01
+BEN002,Atacora,,,,,,,,BJ02
+BEN003,Atlantique,,,,,,,,BJ03
+BEN004,Borgou,,,,,,,,BJ04
+BEN005,Collines,,,,,,,,BJ05
+BEN006,Couffo,,,,,,,,BJ06
+BEN007,Donga,,,,,,,,BJ07
+BEN008,Littoral,,,,,,,,BJ08
+BEN009,Mono,,,,,,,,BJ09
+BEN010,Oueme,,,,,,,,BJ10
+BEN011,Plateau,,,,,,,,BJ11
+BEN012,Zou,,,,,,,,BJ12
+BES001,Bonaire,,,,Municipality,Gemeente,BES.1_1,,
+BES002,Saba,,,,Municipality,Gemeente,BES.2_1,,
+BES003,Sint Eustatius,,,,Municipality,Gemeente,BES.3_1,,
+BFA001,Centre,,,,,,,,BF13
+BFA002,Boucle du Mouhoun,,,,,,,,BF46
+BFA003,Cascades,,,,,,,,BF47
+BFA004,Centre-Est,,,,,,,,BF48
+BFA005,Centre-Nord,,,,,,,,BF49
+BFA006,Centre-Ouest,,,,,,,,BF50
+BFA007,Centre-Sud,,,,,,,,BF51
+BFA008,Est,,,,,,,,BF52
+BFA009,Hauts-Bassins,,,,,,,,BF53
+BFA010,Nord,,,,,,,,BF54
+BFA011,Plateau-Central,,,,,,,,BF55
+BFA012,Sahel,,,,,,,,BF56
+BFA013,Sud-Ouest,,,,,,,,BF57
+BGD001,Barisal,,,,,,,,10
+BGD002,Chittagong,,,,,,,,20
+BGD003,Dhaka,,,,,,,,30
+BGD004,Khulna,,,,,,,,40
+BGD005,Mymensingh,,,,,,,,45
+BGD006,Rajshahi,,,,,,,,50
+BGD007,Rangpur,,,,,,,,55
+BGD008,Sylhet,,,,,,,,60
+BGR001,Blagoevgrad,Благоевград,,,,,,,BG001
+BGR002,Burgas,Бургас,,,,,,,BG002
+BGR003,Dobrich,Добрич,,,,,,,BG003
+BGR004,Gabrovo,Габрово,,,,,,,BG004
+BGR005,Haskovo,Хасково,,,,,,,BG005
+BGR006,Kardzhali,Кърджали,,,,,,,BG006
+BGR007,Kyustendil,Кюстендил,,,,,,,BG007
+BGR008,Lovech,Ловеч,,,,,,,BG008
+BGR009,Montana,Монтана,,,,,,,BG009
+BGR010,Pazardzhik,Пазарджик,,,,,,,BG010
+BGR011,Pernik,Перник,,,,,,,BG011
+BGR012,Pleven,Плевен,,,,,,,BG012
+BGR013,Plovdiv,Пловдив,,,,,,,BG013
+BGR014,Razgrad,Разград,,,,,,,BG014
+BGR015,Ruse,Русе,,,,,,,BG015
+BGR016,Shumen,Шумен,,,,,,,BG016
+BGR017,Silistra,Силистра,,,,,,,BG017
+BGR018,Sliven,Сливен,,,,,,,BG018
+BGR019,Smolyan,Смолян,,,,,,,BG019
+BGR020,Sofia,Софийска,,,,,,,BG020
+BGR021,Sofia-City,София-град,,,,,,,BG021
+BGR022,Stara Zagora,Стара Загора,,,,,,,BG022
+BGR023,Targovishte,Търговище,,,,,,,BG023
+BGR024,Varna,Варна,,,,,,,BG024
+BGR025,Veliko Tarnovo,Велико Търново,,,,,,,BG025
+BGR026,Vidin,Видин,,,,,,,BG026
+BGR027,Vratsa,Враца,,,,,,,BG027
+BGR028,Yambol,Ямбол,,,,,,,BG028
+BHR001,Capital,,,Muhafazat al-'Asimah,Governorate,Muhafazah,BHR.1_1,,
+BHR002,Central,,,al-Muhafazah al-Wustah,Governorate,Muhafazah,BHR.2_1,,
+BHR003,Muharraq,,,Muhafazat al-Muharaq,Governorate,Muhafazah,BHR.3_1,,
+BHR004,Northern,,,al-Muhafazah ash-Shamaliyah,Governorate,Muhafazah,BHR.4_1,,
+BHR005,Southern,,,al-Muhafazah al-Janobiyah,Governorate,Muhafazah,BHR.5_1,,
+BHS001,Acklins,,,,District,District,BHS.1_1,,
+BHS002,Berry Islands,,,,District,District,BHS.2_1,,
+BHS003,Biminis,,,Bimini,District,District,BHS.3_1,,
+BHS004,Black Point,,,,District,District,BHS.4_1,,
+BHS005,Cat Island,,,Ilha do Gato|Isla del Gato,District,District,BHS.5_1,,
+BHS006,Central Abaco,,,,District,District,BHS.6_1,,
+BHS007,Central Andros,,,,District,District,BHS.7_1,,
+BHS008,Central Eleuthera,,,,District,District,BHS.8_1,,
+BHS009,City of Freeport,,,,District,District,BHS.9_1,,
+BHS010,Crooked Island,,,,District,District,BHS.10_1,,
+BHS011,East Grand Bahama,,,,District,District,BHS.11_1,,
+BHS012,Exuma,,,,District,District,BHS.12_1,,
+BHS013,Grand Cay,,,,District,District,BHS.13_1,,
+BHS014,Harbour Island,,,,District,District,BHS.14_1,,
+BHS015,Hope Town,,,,District,District,BHS.15_1,,
+BHS016,Inagua,,,Inague,District,District,BHS.16_1,,
+BHS017,Long Island,,,Ilha Longa|Isla Larga,District,District,BHS.17_1,,
+BHS018,Mangrove Cay,,,,District,District,BHS.18_1,,
+BHS019,Mayaguana,,,,District,District,BHS.19_1,,
+BHS020,Moore's Island,,,,District,District,BHS.20_1,,
+BHS021,New Providence,,,Nova Providência|Nueva Providencia,District,District,BHS.21_1,,
+BHS022,North Abaco,,,,District,District,BHS.22_1,,
+BHS023,North Andros,,,,District,District,BHS.23_1,,
+BHS024,North Eleuthera,,,,District,District,BHS.24_1,,
+BHS025,Ragged Island,,,,District,District,BHS.25_1,,
+BHS026,Rum Cay,,,,District,District,BHS.26_1,,
+BHS027,San Salvador,,,São Salvador|Watling Island,District,District,BHS.27_1,,
+BHS028,South Abaco,,,,District,District,BHS.28_1,,
+BHS029,South Andros,,,,District,District,BHS.29_1,,
+BHS030,South Eleuthera,,,,District,District,BHS.30_1,,
+BHS031,Spanish Wells,,,,District,District,BHS.31_1,,
+BHS032,West Grand Bahama,,,,District,District,BHS.32_1,,
+BIH001,Brčko,,,,District,Distrikt,BIH.1_1,,
+BIH002,Federacija Bosna i Hercegovina,,,Federation of Bosnia and Herzegovina,Entity,Entity,BIH.2_1,,
+BIH003,Repuplika Srpska,,,Serbian Republic,Entity,Entity,BIH.3_1,,
+BLR001,Brest,,,,,,,,BY001
+BLR002,Gomel,,,,,,,,BY002
+BLR003,Grodno,,,,,,,,BY003
+BLR004,Minsk,,,,,,,,BY004
+BLR005,Minsk City,,,,,,,,BY005
+BLR006,Mogilev,,,,,,,,BY006
+BLR007,Vitebsk,,,,,,,,BY007
+BLZ001,Belize,,,,District,District,BLZ.1_1,,
+BLZ002,Cayo,,,,District,District,BLZ.2_1,,
+BLZ003,Corozal,,,,District,District,BLZ.3_1,,
+BLZ004,Orange Walk,,,,District,District,BLZ.4_1,,
+BLZ005,Stann Creek,,,,District,District,BLZ.5_1,,
+BLZ006,Toledo,,,,District,District,BLZ.6_1,,
+BMU001,Devonshire,,,,,,,,BM01
+BMU002,Hamilton,,,,,,,,BM02
+BMU003,Paget,,,,,,,,BM03
+BMU004,Pembroke,,,,,,,,BM04
+BMU005,Sandys,,,,,,,,BM05
+BMU006,Smith's,,,,,,,,BM06
+BMU007,Southampton,,,,,,,,BM07
+BMU008,St. George's,,,,,,,,BM08
+BMU009,Warwick,,,,,,,,BM09
+BOL001,Cuerpo de agua,,,,,,,,BO00
+BOL002,Chuquisaca,,,,,,,,BO01
+BOL003,La Paz,,,,,,,,BO02
+BOL004,Cochabamba,,,,,,,,BO03
+BOL005,Oruro,,,,,,,,BO04
+BOL006,Potosí,,,,,,,,BO05
+BOL007,Tarija,,,,,,,,BO06
+BOL008,Santa Cruz,,,,,,,,BO07
+BOL009,Beni,,,,,,,,BO08
+BOL010,Pando,,,,,,,,BO09
+BRA001,Acre,,,,State,Estado,BRA.1_1,,
+BRA002,Alagoas,,,,State,Estado,BRA.2_1,,
+BRA003,Amapá,,,,State,Estado,BRA.3_1,,
+BRA004,Amazonas,,,Amazone,State,Estado,BRA.4_1,,
+BRA005,Bahia,,,Ba¡a,State,Estado,BRA.5_1,,
+BRA006,Ceará,,,,State,Estado,BRA.6_1,,
+BRA007,Distrito Federal,,,,Federal District,Distrito Federal,BRA.7_1,,
+BRA008,Espírito Santo,,,Espiritu Santo,State,Estado,BRA.8_1,,
+BRA009,Goiás,,,Goiáz|Goyáz,State,Estado,BRA.9_1,,
+BRA010,Maranhão,,,São Luíz de Maranhão,State,Estado,BRA.10_1,,
+BRA011,Mato Grosso do Sul,,,,State,Estado,BRA.11_1,,
+BRA012,Mato Grosso,,,Matto Grosso,State,Estado,BRA.12_1,,
+BRA013,Minas Gerais,,,Minas|Minas Geraes,State,Estado,BRA.13_1,,
+BRA014,Pará,,,,State,Estado,BRA.14_1,,
+BRA015,Paraíba,,,Parahyba,State,Estado,BRA.15_1,,
+BRA016,Paraná,,,,State,Estado,BRA.16_1,,
+BRA017,Pernambuco,,,Pernambouc,State,Estado,BRA.17_1,,
+BRA018,Piauí,,,Piauhy,State,Estado,BRA.18_1,,
+BRA019,Rio de Janeiro,,,,State,Estado,BRA.19_1,,
+BRA020,Rio Grande do Norte,,,,State,Estado,BRA.20_1,,
+BRA021,Rio Grande do Sul,,,,State,Estado,BRA.21_1,,
+BRA022,Rondônia,,,Guaporé,State,Estado,BRA.22_1,,
+BRA023,Roraima,,,Rio Branco,State,Estado,BRA.23_1,,
+BRA024,Santa Catarina,,,Santa Catharina,State,Estado,BRA.24_1,,
+BRA025,São Paulo,,,,State,Estado,BRA.25_1,,
+BRA026,Sergipe,,,,State,Estado,BRA.26_1,,
+BRA027,Tocantins,,,,State,Estado,BRA.27_1,,
+BRB001,Christ Church,,,,Parish,Parish,BRB.1_1,,
+BRB002,Saint Andrew,,,,Parish,Parish,BRB.2_1,,
+BRB003,Saint George,,,,Parish,Parish,BRB.3_1,,
+BRB004,Saint James,,,,Parish,Parish,BRB.4_1,,
+BRB005,Saint John,,,,Parish,Parish,BRB.5_1,,
+BRB006,Saint Joseph,,,,Parish,Parish,BRB.6_1,,
+BRB007,Saint Lucy,,,,Parish,Parish,BRB.7_1,,
+BRB008,Saint Michael,,,,Parish,Parish,BRB.8_1,,
+BRB009,Saint Peter,,,,Parish,Parish,BRB.9_1,,
+BRB010,Saint Philip,,,,Parish,Parish,BRB.10_1,,
+BRB011,Saint Thomas,,,,Parish,Parish,BRB.11_1,,
+BRN001,Belait,,,,District,Daerah-Daerah,BRN.1_1,,
+BRN002,Brunei and Muara,,,,District,Daerah-Daerah,BRN.2_1,,
+BRN003,Temburong,,,,District,Daerah-Daerah,BRN.3_1,,
+BRN004,Tutong,,,,District,Daerah-Daerah,BRN.4_1,,
+BTN001,Bumthang,,,བུམ་ཐང་རྫོང་ཁག,District,Dzongkhag,BTN.1_1,,
+BTN002,Chhukha,,,ཆུ་ཁ་རྫོང་ཁག,District,Dzongkhag,BTN.2_1,,
+BTN003,Dagana,,,Daga|དར་དཀར་ན་རྫོང་ཁག,District,Dzongkhag,BTN.3_1,,
+BTN004,Gasa,,,མགར་ས་རྫོང་ཁག,District,Dzongkhag,BTN.4_1,,
+BTN005,Haa,,,Ha|ཧཱ,District,Dzongkhag,BTN.5_1,,
+BTN006,Lhuentse,,,Lhuntshi|ལྷུན་རྩེ་རྫོང་ཁག,District,Dzongkhag,BTN.6_1,,
+BTN007,Monggar,,,Mongar|མོང་སྒར་རྫོང་ཁག,District,Dzongkhag,BTN.7_1,,
+BTN008,Paro,,,སྤ་རོ་རྫོང་ཁག,District,Dzongkhag,BTN.8_1,,
+BTN009,Pemagatshel,,,Pemagatsel|པད་མ་དགའ་ཚལ་རྫོང,District,Dzongkhag,BTN.9_1,,
+BTN010,Punakha,,,སྤུ་ན་ཁ་རྫོང་ཁག,District,Dzongkhag,BTN.10_1,,
+BTN011,Samdrupjongkhar,,,Samdrup Jongkhar|བསམ་གྲུབ་ལྗོངས་མ,District,Dzongkhag,BTN.11_1,,
+BTN012,Samtse,,,Samchi|བསམ་རྩེ་རྫོང་ཁག,District,Dzongkhag,BTN.12_1,,
+BTN013,Sarpang,,,Geylegphug|Sarbhang|གསར་སྤང་རྫོང་ཁག་,District,Dzongkhag,BTN.13_1,,
+BTN014,Thimphu,,,Tashi Chho Dzong|ཐིམ་ཕུ་རྫོང་ཁག,District,Dzongkhag,BTN.14_1,,
+BTN015,Trashigang,,,Tashigang|བཀྲ་ཤིས་སྒང་རྫོང,District,Dzongkhag,BTN.15_1,,
+BTN016,Trongsa,,,Tongsa|ཀྲོང་གསར་རྫོང་ཁག,District,Dzongkhag,BTN.16_1,,
+BTN017,Tsirang,,,Chirang|རྩི་རང་རྫོང་ཁག,District,Dzongkhag,BTN.17_1,,
+BTN018,Wangduephodrang,,,Wangdi Phodrang|Andguphodang|Wangdue|དབང་འདུས་ཕོ་བྲང་,District,Dzongkhag,BTN.18_1,,
+BTN019,Yangtse,,,Tashi Yangtse|བཀྲ་ཤིས་གྱང་ཙེ་ར,District,Dzongkhag,BTN.19_1,,
+BTN020,Zhemgang,,,Shemgang|གཞམས་སྒང་རྫོང་ཁག,District,Dzongkhag,BTN.20_1,,
+BWA001,Central,,,Centre|Ngwato|Serowe-Palapye,District,District,BWA.1_1,,
+BWA002,Chobe,,,,District,District,BWA.2_1,,
+BWA003,Francistown,,,,City,City,BWA.3_1,,
+BWA004,Gaborone,,,,City,City,BWA.4_1,,
+BWA005,Ghanzi,,,Ghantsi,District,District,BWA.5_1,,
+BWA006,Jwaneng,,,,Town,Town,BWA.6_1,,
+BWA007,Kgalagadi,,,,District,District,BWA.7_1,,
+BWA008,Kgatleng,,,,District,District,BWA.8_1,,
+BWA009,Kweneng,,,,District,District,BWA.9_1,,
+BWA010,Lobatse,,,,Town,Town,BWA.10_1,,
+BWA011,North-East,,,North East|Bokone-Botlhaba,District,District,BWA.11_1,,
+BWA012,North-West,,,North West|Bokone-Bophirima,District,District,BWA.12_1,,
+BWA013,Selibe Phikwe,,,,Town,Town,BWA.13_1,,
+BWA014,South-East,,,Borwa-Botlhaba,District,District,BWA.14_1,,
+BWA015,Southern,,,Borwa|Ngwakets|Ngwaketse,District,District,BWA.15_1,,
+BWA016,Sowa,,,,Town,Town,BWA.16_1,,
+CAF001,Ombella M'Poko,,,,,,,,CF11
+CAF002,Lobaye,,,,,,,,CF12
+CAF003,Mambéré-Kadéï,,,,,,,,CF21
+CAF004,Nana-Mambéré,,,,,,,,CF22
+CAF005,Sangha-Mbaéré,,,,,,,,CF23
+CAF006,Ouham Pendé,,,,,,,,CF31
+CAF007,Ouham,,,,,,,,CF32
+CAF008,Kémo,,,,,,,,CF41
+CAF009,Nana-Gribizi,,,,,,,,CF42
+CAF010,Ouaka,,,,,,,,CF43
+CAF011,Bamingui-Bangoran,,,,,,,,CF51
+CAF012,Haute-Kotto,,,,,,,,CF52
+CAF013,Vakaga,,,,,,,,CF53
+CAF014,Basse-Kotto,,,,,,,,CF61
+CAF015,Mbomou,,,,,,,,CF62
+CAF016,Haut-Mbomou,,,,,,,,CF63
+CAF017,Bangui,,,,,,,,CF71
+CAN001,Newfoundland and Labrador,Terre-Neuve-et-Labrador,,,,,,,CA10
+CAN002,Prince Edward Island,Île-du-Prince-Édouard,,,,,,,CA11
+CAN003,Nova Scotia,Nouvelle-Écosse,,,,,,,CA12
+CAN004,New Brunswick,Nouveau-Brunswick,,,,,,,CA13
+CAN005,Quebec,Québec,,,,,,,CA24
+CAN006,Ontario,Ontario,,,,,,,CA35
+CAN007,Manitoba,Manitoba,,,,,,,CA46
+CAN008,Saskatchewan,Saskatchewan,,,,,,,CA47
+CAN009,Alberta,Alberta,,,,,,,CA48
+CAN010,British Columbia,Colombie-Britannique,,,,,,,CA59
+CAN011,Yukon,Yukon,,,,,,,CA60
+CAN012,Northwest Territories,Territoires du Nord-Ouest,,,,,,,CA61
+CAN013,Nunavut,Nunavut,,,,,,,CA62
+CHE001,Aargau,,,Argovia|Arg¢via|Argovie,Canton,Canton|Kanton|Chantun,CHE.1_1,,
+CHE002,Appenzell Ausserrhoden,,,Appenzell Ausser-Rhoden|Appenzell Outer Rhodes|Appenzell dadens|Appenzell Rhodes Extérieures|Appenzello Esterno,Canton,Canton|Kanton|Chantun,CHE.2_1,,
+CHE003,Appenzell Innerrhoden,,,Appenzell Inner-Rhoden|Appenzell Inner Rhodes|Appenzell dador|Appenzell Rhodes Intérieures|Appenzello Interno,Canton,Canton|Kanton|Chantun,CHE.3_1,,
+CHE004,Basel-Landschaft,,,Bâle-Campagne|Basel-Country|Baselland|Basel-Land|Basilea campagna|Basilea Campaña|Basilea-Champagna,Canton,Canton|Kanton|Chantun,CHE.4_1,,
+CHE005,Basel-Stadt,,,Bâle-Ville|Basel-City|Basel-Town|Basilea-Citad|Basilea Ciudad|Basilea città|Basiléia cidade,Canton,Canton|Kanton|Chantun,CHE.5_1,,
+CHE006,Bern,,,Berna|Berne,Canton,Canton|Kanton|Chantun,CHE.6_1,,
+CHE007,Fribourg,,,Freiburg|Friburg|Friburgo,Canton,Canton|Kanton|Chantun,CHE.7_1,,
+CHE008,Genève,,,Cenevre|Genebra|Geneve|Geneva|Genevra|Genf|Ginebra|Ginevra,Canton,Canton|Kanton|Chantun,CHE.8_1,,
+CHE009,Glarus,,,Glaris|Glarona|Glaruna,Canton,Canton|Kanton|Chantun,CHE.9_1,,
+CHE010,Graubünden,,,Graubünden|Grigioni|Grischun|Grisons,Canton,Canton|Kanton|Chantun,CHE.10_1,,
+CHE011,Jura,,,Giura,Canton,Canton|Kanton|Chantun,CHE.11_1,,
+CHE012,Lucerne,,,Lucerna|Luzern,Canton,Canton|Kanton|Chantun,CHE.12_1,,
+CHE013,Neuchâtel,,,Neuenburg,Canton,Canton|Kanton|Chantun,CHE.13_1,,
+CHE014,Nidwalden,,,Nidvaldo|Nidwald|Unterwalden-le-Bas|Nidwaldo,Canton,Canton|Kanton|Chantun,CHE.14_1,,
+CHE015,Obwalden,,,Obvaldo|Obwald|Unterwalden-le-Haut|Obwaldo|Sursilvania,Canton,Canton|Kanton|Chantun,CHE.15_1,,
+CHE016,Sankt Gallen,,,Saint-Gall|San Gallo|Son Gagl,Canton,Canton|Kanton|Chantun,CHE.16_1,,
+CHE017,Schaffhausen,,,Schaffhouse|Schaffusa|Sciaffusa,Canton,Canton|Kanton|Chantun,CHE.17_1,,
+CHE018,Schwyz,,,,Canton,Canton|Kanton|Chantun,CHE.18_1,,
+CHE019,Solothurn,,,Soletta|Soleure|Soleuro|Soloturn,Canton,Canton|Kanton|Chantun,CHE.19_1,,
+CHE020,Thurgau,,,Thurgovie|Turgovia|Turg¢via,Canton,Canton|Kanton|Chantun,CHE.20_1,,
+CHE021,Ticino,,,Tesino|Tessin,Canton,Canton|Kanton|Chantun,CHE.21_1,,
+CHE022,Uri,,,,Canton,Canton|Kanton|Chantun,CHE.22_1,,
+CHE023,Valais,,,Vallais|Vallese|Wallis,Canton,Canton|Kanton|Chantun,CHE.23_1,,
+CHE024,Vaud,,,Vad|Waadt|Waadtland,Canton,Canton|Kanton|Chantun,CHE.24_1,,
+CHE025,Zug,,,Zoug|Zugo,Canton,Canton|Kanton|Chantun,CHE.25_1,,
+CHE026,Zürich,,,Turitg|Zurigo|Zürih|Zurique,Canton,Canton|Kanton|Chantun,CHE.26_1,,
+CHL001,Aisén del General Carlos Ibáñez del Campo,,,Aisén|Aysén|Aysén del General Carlos Ibáñez del Campo,Region,Región,CHL.1_1,XI,
+CHL002,Antofagasta,,,,Region,Región,CHL.2_1,II,
+CHL003,Araucanía,,,Araucanie|La Araucanía,Region,Región,CHL.3_1,IX,
+CHL004,Arica y Parinacota,,,,Region,Región,CHL.4_1,XV,
+CHL005,Atacama,,,,Region,Región,CHL.5_1,III,
+CHL006,Bío-Bío,,,Bíobío,Region,Región,CHL.6_1,VIII,
+CHL007,Coquimbo,,,,Region,Región,CHL.7_1,IV,
+CHL008,Libertador General Bernardo O'Higgins,,,Libertador,Region,Región,CHL.8_1,VI,
+CHL009,Los Lagos,,,Os Lagos,Region,Región,CHL.9_1,X,
+CHL010,Los Ríos,,,,Region,Región,CHL.10_1,XIV,
+CHL011,Magallanes y Antártica Chilena,,,Magalhães|Magellan et Antarctique Chilienne|Región de Magallanes y de la Antártica Chilena,Region,Región,CHL.11_1,XII,
+CHL012,Maule,,,,Region,Región,CHL.12_1,VII,
+CHL013,Ñuble,,,,Region,Región,CHL.13_1,XVI,
+CHL014,Región Metropolitana de Santiago,,,Región Metropolitana|Région Metropolitaine de Santiago|Región Metropolitana|RM,Region,Región,CHL.14_1,RM,
+CHL015,Tarapacá,,,,Region,Región,CHL.15_1,I,
+CHL016,Valparaíso,,,Aconcagua,Region,Región,CHL.16_1,V,
+CHN001,Beijing Municipality,北京市,,,,,,,CN110
+CHN002,Tianjin Municipality,天津市,,,,,,,CN120
+CHN003,Hebei Province,河北省,,,,,,,CN130
+CHN004,Hebei Province,河北省,,,,,,,CN131
+CHN005,Shanxi Province,山西省,,,,,,,CN140
+CHN006,Shanxi Province,山西省,,,,,,,CN141
+CHN007,Inner Mongolia Autonomous Region,内蒙古自治区,,,,,,,CN150
+CHN008,Inner Mongolia Autonomous Region,内蒙古自治区,,,,,,,CN151
+CHN009,Liaoning Province,辽宁省,,,,,,,CN210
+CHN010,Liaoning Province,辽宁省,,,,,,,CN211
+CHN011,Jilin Province,吉林省,,,,,,,CN220
+CHN012,Heilongjiang Province,黑龙江省,,,,,,,CN230
+CHN013,Heilongjiang Province,黑龙江省,,,,,,,CN231
+CHN014,Shanghai Municipality,上海市,,,,,,,CN310
+CHN015,Jiangsu Province,江苏省,,,,,,,CN320
+CHN016,Jiangsu Province,江苏省,,,,,,,CN321
+CHN017,Zhejiang Province,浙江省,,,,,,,CN330
+CHN018,Zhejiang Province,浙江省,,,,,,,CN331
+CHN019,Anhui Province,安徽省,,,,,,,CN340
+CHN020,Anhui Province,安徽省,,,,,,,CN341
+CHN021,Fujian Province,福建省,,,,,,,CN350
+CHN022,Jiangxi Province,江西省,,,,,,,CN360
+CHN023,Jiangxi Province,江西省,,,,,,,CN361
+CHN024,Shandong Province,山东省,,,,,,,CN370
+CHN025,Shandong Province,山东省,,,,,,,CN371
+CHN026,Henan Province,河南省,,,,,,,CN410
+CHN027,Henan Province,河南省,,,,,,,CN411
+CHN028,Hubei Province,湖北省,,,,,,,CN420
+CHN029,Hubei Province,湖北省,,,,,,,CN421
+CHN030,Hunan Province,湖南省,,,,,,,CN430
+CHN031,Hunan Province,湖南省,,,,,,,CN431
+CHN032,Guangdong Province,广东省,,,,,,,CN440
+CHN033,Guangdong Province,广东省,,,,,,,CN441
+CHN034,Guangdong Province,广东省,,,,,,,CN442
+CHN035,Guangxi Zhuang Autonomous Region,广西壮族自治区,,,,,,,CN450
+CHN036,Guangxi Zhuang Autonomous Region,广西壮族自治区,,,,,,,CN451
+CHN037,Hainan Province,海南省,,,,,,,CN460
+CHN038,Hainan Province,海南省,,,,,,,CN461
+CHN039,Chongqing Municipality,重庆市,,,,,,,CN500
+CHN040,Sichuan Province,四川省,,,,,,,CN510
+CHN041,Sichuan Province,四川省,,,,,,,CN511
+CHN042,Sichuan Province,四川省,,,,,,,CN512
+CHN043,Guizhou Province,贵州省,,,,,,,CN520
+CHN044,Yunnan Province,云南省,,,,,,,CN530
+CHN045,Yunnan Province,云南省,,,,,,,CN531
+CHN046,Tibet Autonomous Region,西藏自治区,,,,,,,CN540
+CHN047,Shaanxi Province,陕西省,,,,,,,CN610
+CHN048,Shaanxi Province,陕西省,,,,,,,CN611
+CHN049,Gansu province,甘肃省,,,,,,,CN620
+CHN050,Gansu province,甘肃省,,,,,,,CN621
+CHN051,Qinghai Province,青海省,,,,,,,CN630
+CHN052,Ningxia Hui Autonomous Region,宁夏回族自治区,,,,,,,CN640
+CHN053,Xinjiang Uygur Autonomous Region,新疆维吾尔自治区,,,,,,,CN650
+CHN054,Xinjiang Uygur Autonomous Region,新疆维吾尔自治区,,,,,,,CN651
+CHN055,Taiwan Province,台湾省,,,,,,,CN710
+CHN056,Hong Kong Special Administrative Region,香港特别行政区,,,,,,,CN810
+CHN057,Macao Special Administrative Region,澳门特别行政区,,,,,,,CN820
+CIV001,District Autonome D'Abidjan,,,,,,,,CI01
+CIV002,District Autonome De Yamoussoukro,,,,,,,,CI02
+CIV003,Agneby-Tiassa,,,,,,,,CI03
+CIV004,Bafing,,,,,,,,CI04
+CIV005,Bagoue,,,,,,,,CI05
+CIV006,Belier,,,,,,,,CI06
+CIV007,Bere,,,,,,,,CI07
+CIV008,Bounkani,,,,,,,,CI08
+CIV009,Cavally,,,,,,,,CI09
+CIV010,Folon,,,,,,,,CI10
+CIV011,Gbeke,,,,,,,,CI11
+CIV012,Gbokle,,,,,,,,CI12
+CIV013,Goh,,,,,,,,CI13
+CIV014,Gontougo,,,,,,,,CI14
+CIV015,Grands Ponts,,,,,,,,CI15
+CIV016,Guemon,,,,,,,,CI16
+CIV017,Hambol,,,,,,,,CI17
+CIV018,Haut-Sassandra,,,,,,,,CI18
+CIV019,Iffou,,,,,,,,CI19
+CIV020,Indenie-Djuablin,,,,,,,,CI20
+CIV021,Kabadougou,,,,,,,,CI21
+CIV022,Loh-Djiboua,,,,,,,,CI22
+CIV023,Marahoue,,,,,,,,CI23
+CIV024,Me,,,,,,,,CI24
+CIV025,Moronou,,,,,,,,CI25
+CIV026,Nawa,,,,,,,,CI26
+CIV027,N'Zi,,,,,,,,CI27
+CIV028,Poro,,,,,,,,CI28
+CIV029,San Pedro,,,,,,,,CI29
+CIV030,Sud-Comoe,,,,,,,,CI30
+CIV031,Tchologo,,,,,,,,CI31
+CIV032,Tonkpi,,,,,,,,CI32
+CIV033,Worodougou,,,,,,,,CI33
+CMR001,Adamawa,Adamaoua,,,,,,,CM001
+CMR002,Centre,Centre,,,,,,,CM002
+CMR003,East,Est,,,,,,,CM003
+CMR004,Far-North,Extrême-Nord,,,,,,,CM004
+CMR005,Littoral,Littoral,,,,,,,CM005
+CMR006,North,Nord,,,,,,,CM006
+CMR007,North-West,Nord-Ouest,,,,,,,CM007
+CMR008,West,Ouest,,,,,,,CM008
+CMR009,South,Sud,,,,,,,CM009
+CMR010,South-West,Sud-Ouest,,,,,,,CM010
+COD001,Kinshasa,,,,,,,,CD10
+COD002,Kongo-Central,,,,,,,,CD20
+COD003,Kwango,,,,,,,,CD31
+COD004,Kwilu,,,,,,,,CD32
+COD005,Maï-Ndombe,,,,,,,,CD33
+COD006,Equateur,,,,,,,,CD41
+COD007,Sud-Ubangi,,,,,,,,CD42
+COD008,Nord-Ubangi,,,,,,,,CD43
+COD009,Mongala,,,,,,,,CD44
+COD010,Tshuapa,,,,,,,,CD45
+COD011,Tshopo,,,,,,,,CD51
+COD012,Bas-Uele,,,,,,,,CD52
+COD013,Haut-Uele,,,,,,,,CD53
+COD014,Ituri,,,,,,,,CD54
+COD015,Nord-Kivu,,,,,,,,CD61
+COD016,Sud-Kivu,,,,,,,,CD62
+COD017,Maniema,,,,,,,,CD63
+COD018,Haut-Katanga,,,,,,,,CD71
+COD019,Lualaba,,,,,,,,CD72
+COD020,Haut-Lomami,,,,,,,,CD73
+COD021,Tanganyika,,,,,,,,CD74
+COD022,Lomami,,,,,,,,CD81
+COD023,Kasaï-Oriental,,,,,,,,CD82
+COD024,Sankuru,,,,,,,,CD83
+COD025,Kasaï-Central,,,,,,,,CD91
+COD026,Kasaï,,,,,,,,CD92
+COG001,Bouenza,,,,,,,,CG01
+COG002,Brazzaville,,,,,,,,CG02
+COG003,Cuvette,,,,,,,,CG03
+COG004,Cuvette-Ouest,,,,,,,,CG04
+COG005,Kouilou,,,,,,,,CG05
+COG006,Lekoumou,,,,,,,,CG06
+COG007,Likouala,,,,,,,,CG07
+COG008,Niari,,,,,,,,CG08
+COG009,Plateaux,,,,,,,,CG09
+COG010,Point-Noire,,,,,,,,CG10
+COG011,Pool,,,,,,,,CG11
+COG012,Sangha,,,,,,,,CG12
+COL001,Antioquia,,,,,,,,CO05
+COL002,Atlántico,,,,,,,,CO08
+COL003,"Bogotá, D.C.",,,,,,,,CO11
+COL004,Bolívar,,,,,,,,CO13
+COL005,Boyacá,,,,,,,,CO15
+COL006,Caldas,,,,,,,,CO17
+COL007,Caquetá,,,,,,,,CO18
+COL008,Cauca,,,,,,,,CO19
+COL009,Cesar,,,,,,,,CO20
+COL010,Córdoba,,,,,,,,CO23
+COL011,Cundinamarca,,,,,,,,CO25
+COL012,Chocó,,,,,,,,CO27
+COL013,Huila,,,,,,,,CO41
+COL014,La Guajira,,,,,,,,CO44
+COL015,Magdalena,,,,,,,,CO47
+COL016,Meta,,,,,,,,CO50
+COL017,Nariño,,,,,,,,CO52
+COL018,Norte de Santander,,,,,,,,CO54
+COL019,Quindio,,,,,,,,CO63
+COL020,Risaralda,,,,,,,,CO66
+COL021,Santander,,,,,,,,CO68
+COL022,Sucre,,,,,,,,CO70
+COL023,Tolima,,,,,,,,CO73
+COL024,Valle del Cauca,,,,,,,,CO76
+COL025,Arauca,,,,,,,,CO81
+COL026,Casanare,,,,,,,,CO85
+COL027,Putumayo,,,,,,,,CO86
+COL028,"Archipiélago de San Andrés, Providencia y Santa Catalina",,,,,,,,CO88
+COL029,Amazonas,,,,,,,,CO91
+COL030,Guainía,,,,,,,,CO94
+COL031,Guaviare,,,,,,,,CO95
+COL032,Vaupés,,,,,,,,CO97
+COL033,Vichada,,,,,,,,CO99
+COM001,Anjouan (Ndzouani),,,,,,,,KM1
+COM002,Grande Comore (Ngazidja),,,,,,,,KM2
+COM003,Mohéli (Mwali),,,,,,,,KM3
+CPV001,Boa Vista,,,,,,,,CV01
+CPV002,Brava,,,,,,,,CV02
+CPV003,Maio,,,,,,,,CV03
+CPV004,Mosteiros,,,,,,,,CV04
+CPV005,Paul,,,,,,,,CV05
+CPV006,Porto Novo,,,,,,,,CV06
+CPV007,Praia,,,,,,,,CV07
+CPV008,Ribeira Brava,,,,,,,,CV08
+CPV009,Ribeira Grande,,,,,,,,CV09
+CPV010,Ribeira Grande de Santiago,,,,,,,,CV10
+CPV011,Sal,,,,,,,,CV11
+CPV012,Santa Catarina,,,,,,,,CV12
+CPV013,Santa Catarina Do Fogo,,,,,,,,CV13
+CPV014,Santa Cruz,,,,,,,,CV14
+CPV015,Sao Domingos,,,,,,,,CV15
+CPV016,Sao Filipe,,,,,,,,CV16
+CPV017,Sao Lourenco Dos Orgaos,,,,,,,,CV17
+CPV018,Sao Miguel,,,,,,,,CV18
+CPV019,Sao Salvador Do Mundo,,,,,,,,CV19
+CPV020,Sao Vicente,,,,,,,,CV20
+CPV021,Tarrafal,,,,,,,,CV21
+CPV022,Tarrafal De Sao Nicolau,,,,,,,,CV22
+CRI001,Alajuela,,,,Province,Provincia,CRI.1_1,,
+CRI002,Cartago,,,,Province,Provincia,CRI.2_1,,
+CRI003,Guanacaste,,,,Province,Provincia,CRI.3_1,,
+CRI004,Heredia,,,,Province,Provincia,CRI.4_1,,
+CRI005,Limón,,,Puerto Lim¢n,Province,Provincia,CRI.5_1,,
+CRI006,Puntarenas,,,,Province,Provincia,CRI.6_1,,
+CRI007,San José,,,,Province,Provincia,CRI.7_1,,
+CUB001,Camagüey,,,Puerto Principe,Province,Provincia,CUB.1_1,,
+CUB002,Ciego de Ávila,,,,Province,Provincia,CUB.2_1,,
+CUB003,Cienfuegos,,,,Province,Provincia,CUB.3_1,,
+CUB004,Ciudad de la Habana,,,,Province,Provincia,CUB.4_1,,
+CUB005,Granma,,,,Province,Provincia,CUB.5_1,,
+CUB006,Guantánamo,,,,Province,Provincia,CUB.6_1,,
+CUB007,Holguín,,,,Province,Provincia,CUB.7_1,,
+CUB008,Isla de la Juventud,,,Puerto Principe,Province,Provincia,CUB.8_1,,
+CUB009,La Habana,,,,Province,Provincia,CUB.9_1,,
+CUB010,Las Tunas,,,,Province,Provincia,CUB.10_1,,
+CUB011,Matanzas,,,,Province,Provincia,CUB.11_1,,
+CUB012,Mayabeque,,,,Province,Provincia,CUB.12_1,,
+CUB013,Pinar del Río,,,,Province,Provincia,CUB.13_1,,
+CUB014,Sancti Spíritus,,,,Province,Provincia,CUB.14_1,,
+CUB015,Santiago de Cuba,,,,Province,Provincia,CUB.15_1,,
+CUB016,Villa Clara,,,,Province,Provincia,CUB.16_1,,
+CYM001,Bodden Town,,,,District,District,CYM.1_1,,
+CYM002,Cayman Brac,,,,District,District,CYM.2_1,,
+CYM003,East End,,,,District,District,CYM.3_1,,
+CYM004,George Town,,,,District,District,CYM.4_1,,
+CYM005,Little Cayman,,,,District,District,CYM.5_1,,
+CYM006,North Side,,,,District,District,CYM.6_1,,
+CYM007,West Bay,,,,District,District,CYM.7_1,,
+CYP001,Famagusta,,,Famgusta|Ammochostos|Famagosta|Famagouste|Gazimagosa|Gazimagusa|Magusa|Gazimağusa|Αμμόχωστος,District,Eπαρχίες|Eparchies,CYP.1_1,,
+CYP002,Larnaca,,,Lárnaka|Larnaka|İskele|Λάρνακα,District,Eπαρχίες|Eparchies,CYP.2_1,,
+CYP003,Limassol,,,Limasol|Leymosun|Λεμεσός,District,Eπαρχίες|Eparchies,CYP.3_1,,
+CYP004,Nicosia,,,Lefkosía|Levkosía|Lefkosa|Nicosie|Nikosia|Lefkoşa|Λευκωσία,District,Eπαρχίες|Eparchies,CYP.4_1,,
+CYP005,Paphos,,,Baf|Pafos|Gazibaf|Πάφος,District,Eπαρχίες|Eparchies,CYP.5_1,,
+CZE001,Jihočeský,,,Budweis|Budejovický|Ceskobudejovický|South Bohemian,Region,Kraj,CZE.1_1,,
+CZE002,Jihomoravský,,,Brünn|Jihomoravský Brnenský|South Moravian,Region,Kraj,CZE.2_1,,
+CZE003,Karlovarský,,,Carlsbad| Karlovy Vary,Region,Kraj,CZE.3_1,,
+CZE004,Kraj Vysočina,,,Iglau|Jihlavský|Vysocina|Vysočina,Region,Kraj,CZE.4_1,,
+CZE005,Královéhradecký,,,Königsgrätz| Hradec Králové,Region,Kraj,CZE.5_1,,
+CZE006,Liberecký,,,Reichenberg| Liberec,Region,Kraj,CZE.6_1,,
+CZE007,Moravskoslezský,,,Mährisch-Ostrau|Mähren|Morava|Moravie|Mor via|Moravskoslezský|Ostravský| Moravian-Silesian,Region,Kraj,CZE.7_1,,
+CZE008,Olomoucký,,,Olmütz|Olomouc,Region,Kraj,CZE.8_1,,
+CZE009,Pardubický,,,Pardubitz|Pardubice,Region,Kraj,CZE.9_1,,
+CZE010,Plzeňský,,,Pilsen|Plzeň,Region,Kraj,CZE.10_1,,
+CZE011,Prague,,,Prag |Hlavní město Praha,Region,Kraj,CZE.11_1,,
+CZE012,Středočeský,,,Central Bohemian,Region,Kraj,CZE.12_1,,
+CZE013,Ústecký,,,Aussig an der Elbe|Aussig|Ústí nad Labem,Region,Kraj,CZE.13_1,,
+CZE014,Zlínský,,,Gottwaldov|Zlín,Region,Kraj,CZE.14_1,,
+DEU001,Baden-Württemberg,,,,State,Land,DEU.1_1,8,
+DEU002,Bayern,,,Bavaria,,Freistaat,DEU.2_1,9,
+DEU003,Berlin,,,,State,Land,DEU.3_1,11,
+DEU004,Brandenburg,,,,State,Land,DEU.4_1,12,
+DEU005,Bremen,,,,State,Freie Hansestadt,DEU.5_1,4,
+DEU006,Hamburg,,,,State,Freie und Hansestadt,DEU.6_1,2,
+DEU007,Hessen,,,Hesse,State,Land,DEU.7_1,6,
+DEU008,Mecklenburg-Vorpommern,,,Mecklenburg-West Pomerania,State,Land,DEU.8_1,13,
+DEU009,Niedersachsen,,,Lower Saxony,State,Land,DEU.9_1,3,
+DEU010,Nordrhein-Westfalen,,,North Rhine-Westphalia,State,Land,DEU.10_1,5,
+DEU011,Rheinland-Pfalz,,,Rhineland-Palatinate,State,Land,DEU.11_1,7,
+DEU012,Saarland,,,,State,Land,DEU.12_1,10,
+DEU013,Sachsen-Anhalt,,,Saxony-Anhalt,State,Land,DEU.13_1,15,
+DEU014,Sachsen,,,Saxony,State,Freistaat,DEU.14_1,14,
+DEU015,Schleswig-Holstein,,,,State,Land,DEU.15_1,1,
+DEU016,Thüringen,,,Thuringia,State,Freistaat,DEU.16_1,16,
+DJI001,Obock,,,,,,,,DJ01
+DJI002,Tadjourah,,,,,,,,DJ02
+DJI003,Dilkhil,,,,,,,,DJ03
+DJI004,Djibouti,,,,,,,,DJ04
+DJI005,Ali Sabeh,,,,,,,,DJ05
+DMA001,St. Andrew,,,,,,,,DM01
+DMA002,St. David,,,,,,,,DM02
+DMA003,St. George,,,,,,,,DM03
+DMA004,St. John,,,,,,,,DM04
+DMA005,St. Joseph,,,,,,,,DM05
+DMA006,St. Luke,,,,,,,,DM06
+DMA007,St. Mark,,,,,,,,DM07
+DMA008,St. Patrick,,,,,,,,DM08
+DMA009,St. Paul,,,,,,,,DM09
+DMA010,St. Peter,,,,,,,,DM10
+DNK001,Hovedstaden,,,Capital,Region,Region,DNK.1_1,,
+DNK002,Midtjylland,,,Central Jutland,Region,Region,DNK.2_1,,
+DNK003,Nordjylland,,,North Jutland,Region,Region,DNK.3_1,,
+DNK004,Sjælland,,,Zealand,Region,Region,DNK.4_1,,
+DNK005,Syddanmark,,,South Denmark,Region,Region,DNK.5_1,,
+DOM001,Región Cibao Nordeste,,,,,,,,DO01
+DOM002,Región Cibao Noroeste,,,,,,,,DO02
+DOM003,Región Cibao Norte,,,,,,,,DO03
+DOM004,Región Cibao Sur,,,,,,,,DO04
+DOM005,Región El Valle,,,,,,,,DO05
+DOM006,Región Enriquillo,,,,,,,,DO06
+DOM007,Región Higuamo,,,,,,,,DO07
+DOM008,Región Ozama,,,,,,,,DO08
+DOM009,Región Valdesia,,,,,,,,DO09
+DOM010,Región Yuma,,,,,,,,DO10
+DZA001,Adrar,,,Duperré|ولاية أدرا,Province,Wilaya,DZA.1_1,1,
+DZA002,Aïn Defla,,,Ain Dafla|ولاية عين الدفلى,Province,Wilaya,DZA.2_1,44,
+DZA003,Aïn Témouchent,,,Ain Tamouchent|ولاية عين تموشنت,Province,Wilaya,DZA.3_1,46,
+DZA004,Alger,,,Algeri|Algiers|Algier|al-Jazair|al-Djazair|El Djazaïr|Argel|Dzayer|Djezaïr|ولاية الجزائر,Province,Wilaya,DZA.4_1,16,
+DZA005,Annaba,,,Anaba|Bona|Bône|ولاية عنابة,Province,Wilaya,DZA.5_1,23,
+DZA006,Batna,,,ولاية باتنة,Province,Wilaya,DZA.6_1,5,
+DZA007,Béchar,,,Colomb-Béchar|Bechar|ولاية بشار,Province,Wilaya,DZA.7_1,8,
+DZA008,Béjaïa,,,Bougie|Bedjaya|Bidjaia|Bugia|Bujia|بجاية,Province,Wilaya,DZA.8_1,6,
+DZA009,Biskra,,,Beskra|ولاية بسكرة,Province,Wilaya,DZA.9_1,7,
+DZA010,Blida,,,El Boulaïda|Al-Boulaida|البليدة,Province,Wilaya,DZA.10_1,9,
+DZA011,Bordj Bou Arréridj,,,Borjbouarirej|Bordi Bou Arreridj|ولاية برج بوعريريج,Province,Wilaya,DZA.11_1,34,
+DZA012,Bouira,,,ولاية البويرة,Province,Wilaya,DZA.12_1,10,
+DZA013,Boumerdès,,,Boumerdas|ولاية بومرداس,Province,Wilaya,DZA.13_1,35,
+DZA014,Chlef,,,El Asnam|Orléansville|Ech Cheliff|ولاية الشلف,Province,Wilaya,DZA.14_1,2,
+DZA015,Constantine,,,Constantina|Costatina|Qoussantina|Qacentina|قسنطينة,Province,Wilaya,DZA.15_1,25,
+DZA016,Djelfa,,,El Djelfa|ولاية الجلفة,Province,Wilaya,DZA.16_1,17,
+DZA017,El Bayadh,,,El Bayad|El Beyyadh|Géryville|ولاية البيض,Province,Wilaya,DZA.17_1,32,
+DZA018,El Oued,,,El Ouadi|El Wad|ولاية الوادي,Province,Wilaya,DZA.18_1,39,
+DZA019,El Tarf,,,Et Tarf|El Taref|ولاية الطارف,Province,Wilaya,DZA.19_1,36,
+DZA020,Ghardaïa,,,GhardaSa|Gharday|ولاية غرداية,Province,Wilaya,DZA.20_1,47,
+DZA021,Guelma,,,ولاية قالمة,Province,Wilaya,DZA.21_1,24,
+DZA022,Illizi,,,Polignac|Fort Polignac|Ilizi|ولاية اليزي,Province,Wilaya,DZA.22_1,33,
+DZA023,Jijel,,,Djidjel| Djidjelli|ولاية جيجل,Province,Wilaya,DZA.23_1,18,
+DZA024,Khenchela,,,Khenchela|ولاية خنشلة,Province,Wilaya,DZA.24_1,40,
+DZA025,Laghouat,,,ولاية الأغواط,Province,Wilaya,DZA.25_1,3,
+DZA026,M'Sila,,,Msila|ولاية المسيلة,Province,Wilaya,DZA.26_1,28,
+DZA027,Mascara,,,Mouaskar|ولاية معسكر,Province,Wilaya,DZA.27_1,29,
+DZA028,Médéa,,,El Mediyya|Lemdiyya|ولاية المدية,Province,Wilaya,DZA.28_1,26,
+DZA029,Mila,,,ولاية ميلة,Province,Wilaya,DZA.29_1,43,
+DZA030,Mostaganem,,,Mostaghanem|Mestghanem|ولاية مستغانم,Province,Wilaya,DZA.30_1,27,
+DZA031,Naâma,,,Naama|ولاية النعامة,Province,Wilaya,DZA.31_1,45,
+DZA032,Oran,,,Orán|Orano|Orão|Ouahran|Ouahrane|Wahran|ولاية وهران,Province,Wilaya,DZA.32_1,31,
+DZA033,Ouargla,,,Wargla|ورقلة,Province,Wilaya,DZA.33_1,30,
+DZA034,Oum el Bouaghi,,,Oum el Bouagui|Canrobert|ولاية أم البواقي,Province,Wilaya,DZA.34_1,4,
+DZA035,Relizane,,,Ghelizane|Ghilizane|ولاية غليزان,Province,Wilaya,DZA.35_1,48,
+DZA036,Saïda,,,ولاية سعيدة,Province,Wilaya,DZA.36_1,20,
+DZA037,Sétif,,,Stif|ولاية سطيف,Province,Wilaya,DZA.37_1,19,
+DZA038,Sidi Bel Abbès,,,Sidi-Bel-Abbes|ولاية سيدي بلعباس,Province,Wilaya,DZA.38_1,22,
+DZA039,Skikda,,,Philippeville|Skidda|سكيكدة,Province,Wilaya,DZA.39_1,21,
+DZA040,Souk Ahras,,,Souk-Ahras|Souq Ahras|ولاية سوق أهراس,Province,Wilaya,DZA.40_1,41,
+DZA041,Tamanghasset,,,Tamanrasset|Tamenghasset|Tamenghest|Fort Laperrine|ولاية تمنراست,Province,Wilaya,DZA.41_1,11,
+DZA042,Tébessa,,,Tbessa|ولاية تبسة,Province,Wilaya,DZA.42_1,12,
+DZA043,Tiaret,,,Tendouf|Tihert|ولاية تيارت,Province,Wilaya,DZA.43_1,14,
+DZA044,Tindouf,,,Tiaret|ولاية تندوف,Province,Wilaya,DZA.44_1,37,
+DZA045,Tipaza,,,Tibaza| Tefessedt|ولاية تيبازة,Province,Wilaya,DZA.45_1,42,
+DZA046,Tissemsilt,,,Vialar|ولاية تسمسيلت,Province,Wilaya,DZA.46_1,38,
+DZA047,Tizi Ouzou,,,Tizi-ouzou|Tizi Wezzu|ولاية غليزان,Province,Wilaya,DZA.47_1,15,
+DZA048,Tlemcen,,,Tilimsene|Tlemsane|Tilimsen|Tremecém|تلمسان,Province,Wilaya,DZA.48_1,13,
+ECU001,Azuay,,,,,,,,EC01
+ECU002,Bolivar,,,,,,,,EC02
+ECU003,Cañar,,,,,,,,EC03
+ECU004,Carchi,,,,,,,,EC04
+ECU005,Cotopaxi,,,,,,,,EC05
+ECU006,Chimborazo,,,,,,,,EC06
+ECU007,El Oro,,,,,,,,EC07
+ECU008,Esmeraldas,,,,,,,,EC08
+ECU009,Guayas,,,,,,,,EC09
+ECU010,Imbabura,,,,,,,,EC10
+ECU011,Loja,,,,,,,,EC11
+ECU012,Los Rios,,,,,,,,EC12
+ECU013,Manabi,,,,,,,,EC13
+ECU014,Morona Santiago,,,,,,,,EC14
+ECU015,Napo,,,,,,,,EC15
+ECU016,Pastaza,,,,,,,,EC16
+ECU017,Pichincha,,,,,,,,EC17
+ECU018,Tungurahua,,,,,,,,EC18
+ECU019,Zamora Chinchipe,,,,,,,,EC19
+ECU020,Galapagos,,,,,,,,EC20
+ECU021,Sucumbios,,,,,,,,EC21
+ECU022,Orellana,,,,,,,,EC22
+ECU023,Santo Domingo de los Tsachilas,,,,,,,,EC23
+ECU024,Santa Elena,,,,,,,,EC24
+ECU025,Zona No Delimitada,,,,,,,,EC90
+EGY001,Cairo,القاهرة,,,,,,,EG01
+EGY002,Alexandria,الاسكندرية,,,,,,,EG02
+EGY003,Port Said,بورسعيد,,,,,,,EG03
+EGY004,Suez,السويس,,,,,,,EG04
+EGY005,Damietta,دمياط,,,,,,,EG11
+EGY006,Dakahlia,الدقهلية,,,,,,,EG12
+EGY007,Sharkia,الشرقية,,,,,,,EG13
+EGY008,Kalyoubia,القليوبية,,,,,,,EG14
+EGY009,Kafr El-Shikh,كفر الشيخ,,,,,,,EG15
+EGY010,Gharbia,الغربية,,,,,,,EG16
+EGY011,Menoufia,المنوفية,,,,,,,EG17
+EGY012,Behera,البحيرة,,,,,,,EG18
+EGY013,Ismailia,الإسماعيلية,,,,,,,EG19
+EGY014,Giza,الجيزة,,,,,,,EG21
+EGY015,Beni Suef,بنى سويف,,,,,,,EG22
+EGY016,Fayoum,الفيوم,,,,,,,EG23
+EGY017,Menia,المنيا,,,,,,,EG24
+EGY018,Assiut,أسيوط,,,,,,,EG25
+EGY019,Suhag,سوهاج,,,,,,,EG26
+EGY020,Qena,قنا,,,,,,,EG27
+EGY021,Aswan,أسوان,,,,,,,EG28
+EGY022,Luxor,مدينة الأقصر,,,,,,,EG29
+EGY023,Red Sea,البحر الأحمر,,,,,,,EG31
+EGY024,New Valley,الوادى الجديد,,,,,,,EG32
+EGY025,Matrouh,مطروح,,,,,,,EG33
+EGY026,North Sinai,شمال سيناء,,,,,,,EG34
+EGY027,South Sinai,جنوب سيناء,,,,,,,EG35
+ERI001,Debubawi Keih Bahri,,,,,,,,ER1
+ERI002,Maekel,,,,,,,,ER2
+ERI003,Semienawi Keih Bahri,,,,,,,,ER3
+ERI004,Anseba,,,,,,,,ER4
+ERI005,Gash Barka,,,,,,,,ER5
+ERI006,Debub,,,,,,,,ER6
+ESH001,Boujdour,,,Bojador,Province,Willaya,ESH.1_1,,
+ESH002,Es Semara,,,Smara,Province,Willaya,ESH.2_1,,
+ESH003,Laayoune,,,El aaiún,Province,Willaya,ESH.3_1,,
+ESH004,Oued el Dahab,,,Ed Dakhla|Oued Eddahab,Province,Willaya,ESH.4_1,,
+ESP001,Andalucía,,,Andalousie|Andaluc¡a|Andalusien|Andaluzia,Autonomous Community,Comunidad Autónoma,ESP.1_1,1.0,
+ESP002,Aragón,,,Aragão|Aragó|Aragón|Aragona|Aragonien,Autonomous Community,Comunidad Autónoma,ESP.2_1,15.0,
+ESP003,Cantabria,,,Cantàbria|Cantábria|Cantabrie|Kantabrien,Autonomous Community,Comunidad Autónoma,ESP.3_1,6.0,
+ESP004,Castilla-La Mancha,,,Castela-La Mancha|Castela-Mancha|Castella-la Manxa|Castilha-La Mancha,Autonomous Community,Comunidad Autónoma,ESP.4_1,8.0,
+ESP005,Castilla y León,,,Castile and Leon|Castela e Leão|Castella i Lleó|Castile-Leon|Castilha-Leão|Castilla y León|Castille et Léon|Kastilien-León,Autonomous Community,Comunidad Autónoma,ESP.5_1,7.0,
+ESP006,Cataluña,,,Catalogna|Catalogne|Catalonia|Catalunha|Catalunya|Katalonien,Autonomous Community,Comunidad Autónoma,ESP.6_1,9.0,
+ESP007,Ceuta y Melilla,,,,Autonomous City,Ciudades Autónomas,ESP.7_1,19.0,
+ESP008,Comunidad de Madrid,,,Madrid|Communauté de Madrid| Community of Madrid|Comunidad de Madrid |Comunidade de Madrid|Comunitat de Madrid,Autonomous Community,Comunidad Autónoma,ESP.8_1,,
+ESP009,Comunidad Foral de Navarra,,,Communauté forale de Navarre|Comunidade Foral de Navarra|Comunitat Foral|Navarra,Autonomous Community,Comunidad Autónoma,ESP.9_1,15.0,
+ESP010,Comunidad Valenciana,,,Valencia|Communauté de Valence|Comunidade Valenciana|Comunidad Valenciana|Comunitat Valenciana,Autonomous Community,Comunidad Autónoma,ESP.10_1,10.0,
+ESP011,Extremadura,,,Estremadura|Estrémadure,Autonomous Community,Comunidad Autónoma,ESP.11_1,11.0,
+ESP012,Galicia,,,Galice|Gal¡cia|Galicien|Galiza|Galizia,Autonomous Community,Comunidad Autónoma,ESP.12_1,12.0,
+ESP013,Islas Baleares,,,Balearic Islands|Balearen|Balearene|Baleares|Islas Baleares|Baleari|Îles Baléares|Ilhas Baleares|Illes Balears,Autonomous Community,Comunidad Autónoma,ESP.13_1,4.0,
+ESP014,Islas Canarias,,,Canarias|Canary Islands|Canárias|Ilhas Canárias|Canarie|Îles Canaries|Illes Canàries|Kanariøyene|Kanarische Inseln,Autonomous Community,Comunidad Autónoma,ESP.14_1,5.0,
+ESP015,La Rioja,,,Rioja,Autonomous Community,Comunidad Autónoma,ESP.15_1,17.0,
+ESP016,País Vasco,,,Basque Country|Baskenland|Basque Autonomous Community|Basque Provinces|CAV|Comunidad Autonoma Vasca,Autonomous Community,Comunidad Autónoma,ESP.16_1,16.0,
+ESP017,Principado de Asturias,,,Astúrias|Asturie|Asturien|Asturies|Astúries|Asturias,Autonomous Community,Comunidad Autónoma,ESP.17_1,3.0,
+ESP018,Región de Murcia,,,Murcia|Região de Múrcia|Regió de Múrcia|Région de Murcie|Region of Murcia,Autonomous Community,Comunidad Autónoma,ESP.18_1,14.0,
+EST001,Harju,,,Harjumaa|Harju maakond,County,Maakond,EST.1_1,,
+EST002,Hiiu,,,Hiiumaa|Hiiu maakond|Dagö,County,Maakond,EST.2_1,,
+EST003,Ida-Viru,,,Ida-Virumaa|Ida-Viru maakond,County,Maakond,EST.3_1,,
+EST004,Järva,,,Jaerva|Järvamaa|Järva maakond,County,Maakond,EST.4_1,,
+EST005,Jõgeva,,,Jogeva|Jõgevamaa|Jõgeva maakond,County,Maakond,EST.5_1,,
+EST006,Lääne-Viru,,,Laeaene-Viru|Lääne-Virumaa|Lääne-Viru maakond,County,Maakond,EST.6_1,,
+EST007,Lääne,,,Laeaene|Läänemaa|Lääne maakond,County,Maakond,EST.7_1,,
+EST008,Pärnu,,,Paernu|Pärnumaa|Pärnu maakond,County,Maakond,EST.8_1,,
+EST010,Põlva,,,Polva|Põlvamaa|Põlva maakond,County,Maakond,EST.10_1,,
+EST011,Rapla,,,Raplamaa|Rapla maakond,County,Maakond,EST.11_1,,
+EST012,Saare,,,Saaremaa|Saare maakond|Ösel,County,Maakond,EST.12_1,,
+EST013,Tartu,,,Tartumaa|Tartu maakond|Dorpat,County,Maakond,EST.13_1,,
+EST014,Valga,,,Valgamaa|Valga maakond,County,Maakond,EST.14_1,,
+EST015,Viljandi,,,Viljandimaa|Viljandi maakond|Vilyandi,County,Maakond,EST.15_1,,
+EST016,Võru,,,Voru|Võrumaa|Võru maakond,County,Maakond,EST.16_1,,
+ETH001,Tigray,,,,,,,,ET01
+ETH002,Afar,,,,,,,,ET02
+ETH003,Amhara,,,,,,,,ET03
+ETH004,Oromia,,,,,,,,ET04
+ETH005,Somali,,,,,,,,ET05
+ETH006,Benishangul Gumz,,,,,,,,ET06
+ETH007,SNNP,,,,,,,,ET07
+ETH008,Gambela,,,,,,,,ET12
+ETH009,Harari,,,,,,,,ET13
+ETH010,Addis Ababa,,,,,,,,ET14
+ETH011,Dire Dawa,,,,,,,,ET15
+FIN001,Eastern Finland,,,Itä-Suomen lääni|Östra Finlands län,Province,Lääni,FIN.1_1,,
+FIN002,Lapland,,,Lapin lääni|Lappi|Laponia|Lapônia|Laponie|Lappland|Lapplands län,Province,Lääni,FIN.2_1,,
+FIN003,Oulu,,,Oulun lääni|Uleåborgs län,Province,Lääni,FIN.3_1,,
+FIN004,Southern Finland,,,Etelä-Suomen lääni|Södra Finlands län,Province,Lääni,FIN.4_1,,
+FIN005,Western Finland,,,Länsi-Suomen lääni|Västra Finlands län,Province,Lääni,FIN.5_1,,
+FJI001,Northern,,,,,,,,FJ1
+FJI002,Western,,,,,,,,FJ2
+FJI003,Eastern,,,,,,,,FJ3
+FJI004,Central,,,,,,,,FJ4
+FRA001,Auvergne-Rhône-Alpes,,,,Region,Région,FRA.1_1,,
+FRA002,Bourgogne-Franche-Comté,,,,Region,Région,FRA.2_1,,
+FRA003,Bretagne,,,,Region,Région,FRA.3_1,,
+FRA004,Centre-Val de Loire,,,,Region,Région,FRA.4_1,,
+FRA005,Corse,,,Corsica,Region,Région,FRA.5_1,,
+FRA006,Grand Est,,,,Region,Région,FRA.6_1,,
+FRA007,Hauts-de-France,,,,Region,Région,FRA.7_1,,
+FRA008,Île-de-France,,,,Region,Région,FRA.8_1,,
+FRA009,Normandie,,,,Region,Région,FRA.9_1,,
+FRA010,Nouvelle-Aquitaine,,,,Region,Région,FRA.10_1,,
+FRA011,Occitanie,,,,Region,Région,FRA.11_1,,
+FRA012,Pays de la Loire,,,,Region,Région,FRA.12_1,,
+FRA013,Provence-Alpes-Côte d'Azur,,,,Region,Région,FRA.13_1,,
+FRO001,Eysturoyar,,,Østerø|Eysturoy,Region,Syssel|sýsla,FRO.1_1,,
+FRO002,Norderøerne,,,Norðoya|Norderøer,Region,Syssel|sýsla,FRO.2_1,,
+FRO003,Sandoyar,,,Sandø|Sadoy,Region,Syssel|sýsla,FRO.3_1,,
+FRO004,Streymoyar,,,Strømø|Stremoy|Streymoy,Region,Syssel|sýsla,FRO.4_1,,
+FRO005,Suðuroyar,,,Suðuroy|Syderø,Region,Syssel|sýsla,FRO.5_1,,
+FRO006,Vågø,,,Vága|Vágar|Vaagø,Region,Syssel|sýsla,FRO.6_1,,
+FSM001,Yap,,,,,,,,FM1
+FSM002,Chuuk,,,,,,,,FM2
+FSM003,Pohnpei,,,,,,,,FM3
+FSM004,Kosrae,,,,,,,,FM4
+GAB001,Estuaire,,,,,,,,GA001
+GAB002,Haut-Ogooue,,,,,,,,GA002
+GAB003,Moyen-Ogooue,,,,,,,,GA003
+GAB004,Ngounie,,,,,,,,GA004
+GAB005,Nyanga,,,,,,,,GA005
+GAB006,Ogooue-Ivindo,,,,,,,,GA006
+GAB007,Ogooue-Lolo,,,,,,,,GA007
+GAB008,Ogooue-Maritime,,,,,,,,GA008
+GAB009,Woleu-Ntem,,,,,,,,GA009
+GBR001,England,,,,Kingdom,Home Nation|Constituent Country,GBR.1_1,,
+GBR002,Northern Ireland,,,Ulster,Province,Home Nation|Constituent Country,GBR.2_1,,
+GBR003,Scotland,,,Alba,Kingdom,Home Nation|Constituent Country,GBR.3_1,,
+GBR004,Wales,,,Cymru,Principality,Home Nation|Constituent Country,GBR.4_1,,
+GEO001,Tbilisi,ქ. თბილისი,,,,,,,GE11
+GEO002,Autonomous Republic of Abkhazia,აფხაზეთი,,,,,,,GE12
+GEO003,Autonomous Republic of Adjara,აჭარის ავტონომიური რესპუბლიკა,,,,,,,GE15
+GEO004,Guria,გურია,,,,,,,GE23
+GEO005,Imereti,იმერეთი,,,,,,,GE26
+GEO006,Kakheti,კახეთი,,,,,,,GE29
+GEO007,Mtskheta-Mtianeti,მცხეთა-მთიანეთი,,,,,,,GE32
+GEO008,Racha-Lechkhumi and Kvemo Svaneti,რაჭა-ლეჩხუმი და ქვემო სვანეთი,,,,,,,GE35
+GEO009,Samegrelo-Zemo Svaneti,სამეგრელო-ზემო სვანეთი,,,,,,,GE38
+GEO010,Samtskhe-Javakheti,სამცხე-ჯავახეთი,,,,,,,GE41
+GEO011,Kvemo Kartli,ქვემო ქართლი,,,,,,,GE44
+GEO012,Shida Kartli,შიდა ქართლი,,,,,,,GE47
+GEO013,Provisional Administration,დროებითი ადმინისტრაცია,,,,,,,GE48
+GGY001,Alderney,,,,Parish,Parish,GGY.1_1,,
+GGY002,Brecqhou,,,,Parish,Parish,GGY.2_1,,
+GGY003,Castel,,,,Parish,Parish,GGY.3_1,,
+GGY004,Forest,,,,Parish,Parish,GGY.4_1,,
+GGY005,Herm,,,,Parish,Parish,GGY.5_1,,
+GGY006,Jethou,,,,Parish,Parish,GGY.6_1,,
+GGY007,Saint Andrew,,,,Parish,Parish,GGY.7_1,,
+GGY008,Saint Martin,,,,Parish,Parish,GGY.8_1,,
+GGY009,Saint Peter Port,,,,Parish,Parish,GGY.9_1,,
+GGY010,Saint Pierre du Bois,,,,Parish,Parish,GGY.10_1,,
+GGY011,Saint Sampson,,,,Parish,Parish,GGY.11_1,,
+GGY012,Saint Saviour,,,,Parish,Parish,GGY.12_1,,
+GGY013,Sark,,,,Parish,Parish,GGY.13_1,,
+GGY014,Torteval,,,,Parish,Parish,GGY.14_1,,
+GGY015,Vale,,,,Parish,Parish,GGY.15_1,,
+GHA001,Ashanti,,,,,,,,GH024
+GHA002,Brong Ahafo,,,,,,,,GH025
+GHA003,Central,,,,,,,,GH026
+GHA004,Eastern,,,,,,,,GH027
+GHA005,Greater Accra,,,,,,,,GH028
+GHA006,Northern,,,,,,,,GH029
+GHA007,Upper East,,,,,,,,GH030
+GHA008,Upper West,,,,,,,,GH031
+GHA009,Volta,,,,,,,,GH032
+GHA010,Western,,,,,,,,GH033
+GIN001,Boke,,,,,,,,GN001
+GIN002,Conakry,,,,,,,,GN002
+GIN003,Faranah,,,,,,,,GN003
+GIN004,Kankan,,,,,,,,GN004
+GIN005,Kindia,,,,,,,,GN005
+GIN006,Labe,,,,,,,,GN006
+GIN007,Mamou,,,,,,,,GN007
+GIN008,Nzerekore,,,,,,,,GN008
+GLP001,Basse-Terre,,,,District,Arrondissement,GLP.1_1,,
+GLP002,Pointe-à-Pitre,,,,District,Arrondissement,GLP.2_1,,
+GMB001,Banjul,,,,Independent City,Independent City,GMB.1_1,,
+GMB002,Lower River,,,Central|South Bank,Division,Division,GMB.2_1,,
+GMB003,Maccarthy Island,,,Central River|Jangjangbureh|Janjanbureh|Janjangburreh,Division,Division,GMB.3_1,,
+GMB004,North Bank,,,,Division,Division,GMB.4_1,,
+GMB005,Upper River,,,,Division,Division,GMB.5_1,,
+GMB006,Western,,,,Division,Division,GMB.6_1,,
+GNB001,Bafatá,,,,Region,Região,GNB.1_1,,
+GNB002,Biombo,,,,Region,Região,GNB.2_1,,
+GNB003,Bissau,,,,Autonomous Sector,Sector Autónomo,GNB.3_1,,
+GNB004,Bolama,,,Bolama-Bijagcs,Region,Região,GNB.4_1,,
+GNB005,Cacheu,,,,Region,Região,GNB.5_1,,
+GNB006,Gabú,,,,Region,Região,GNB.6_1,,
+GNB007,Oio,,,,Region,Região,GNB.7_1,,
+GNB008,Quinara,,,Buba,Region,Região,GNB.8_1,,
+GNB009,Tombali,,,,Region,Região,GNB.9_1,,
+GNQ001,Annobón,,,,Province,Provincia,GNQ.1_1,,
+GNQ002,Bioko Norte,,,,Province,Provincia,GNQ.2_1,,
+GNQ003,Bioko Sur,,,,Province,Provincia,GNQ.3_1,,
+GNQ004,Centro Sur,,,,Province,Provincia,GNQ.4_1,,
+GNQ005,Kié-Ntem,,,,Province,Provincia,GNQ.5_1,,
+GNQ006,Litoral,,,,Province,Provincia,GNQ.6_1,,
+GNQ007,Wele-Nzas,,,,Province,Provincia,GNQ.7_1,,
+GRC001,Aegean,,,Αιγαίο,Decentralized administration,Apokentroménes dioikíseis,GRC.1_1,,
+GRC002,Athos,,,Άθως,Decentralized administration,Apokentroménes dioikíseis,GRC.2_1,,
+GRC003,Attica,,,Αττική,Decentralized administration,Apokentroménes dioikíseis,GRC.3_1,,
+GRC004,Crete,,,Κρήτη,Decentralized administration,Apokentroménes dioikíseis,GRC.4_1,,
+GRC005,Epirus and Western Macedonia,,,Ήπειρος και Δυτική Μακεδονία,Decentralized administration,Apokentroménes dioikíseis,GRC.5_1,,
+GRC006,Macedonia and Thrace,,,Μακεδονία και Θράκη,Decentralized administration,Apokentroménes dioikíseis,GRC.6_1,,
+GRC007,"Peloponnese, Western Greece and the Ionian Islands",,,"Πελοπόννησος, Δυτική Ελλάδα και Ιόνια νησιά",Decentralized administration,Apokentroménes dioikíseis,GRC.7_1,,
+GRC008,Thessaly and Central Greece,,,Θεσσαλία και Στερεά Ελλάδα,Decentralized administration,Apokentroménes dioikíseis,GRC.8_1,,
+GRD001,Carriacou,,,,Dependency,Dependency,GRD.1_1,,
+GRD002,Saint Andrew,,,,Parish,Parish,GRD.2_1,,
+GRD003,Saint David,,,,Parish,Parish,GRD.3_1,,
+GRD004,Saint George,,,Saint George's,Parish,Parish,GRD.4_1,,
+GRD005,Saint John,,,,Parish,Parish,GRD.5_1,,
+GRD006,Saint Mark,,,,Parish,Parish,GRD.6_1,,
+GRD007,Saint Patrick,,,,Parish,Parish,GRD.7_1,,
+GRL001,Kujalleq,,,Kommune Kujalleq|Kitaa|West Greenland,Commune,Kommuner,GRL.1_1,,
+GRL002,Northeast Greenland National Park,,,,National Park,National Park,GRL.2_1,,
+GRL003,Qaasuitsup,,,Qaasuitsup Kommunia|Avannaa|Kitaa|Northwest Greenland,Commune,Kommuner,GRL.3_1,,
+GRL004,Qeqqata,,,Qeqqata Kommunia|Kitaa|West Greenland,Commune,Kommuner,GRL.4_1,,
+GRL005,Sermersooq,,,Kommuneqarfik Sermersooq|Tunu|East Greenland,Commune,Kommuner,GRL.5_1,,
+GTM001,Guatemala,,,,,,,,GT01
+GTM002,El Progreso,,,,,,,,GT02
+GTM003,Sacatepéquez,,,,,,,,GT03
+GTM004,Chimaltenango,,,,,,,,GT04
+GTM005,Escuintla,,,,,,,,GT05
+GTM006,Santa Rosa,,,,,,,,GT06
+GTM007,Sololá,,,,,,,,GT07
+GTM008,Totonicapán,,,,,,,,GT08
+GTM009,Quetzaltenango,,,,,,,,GT09
+GTM010,Suchitepéquez,,,,,,,,GT10
+GTM011,Retalhuleu,,,,,,,,GT11
+GTM012,San Marcos,,,,,,,,GT12
+GTM013,Huehuetenango,,,,,,,,GT13
+GTM014,Quiché,,,,,,,,GT14
+GTM015,Baja Verapaz,,,,,,,,GT15
+GTM016,Alta Verapaz,,,,,,,,GT16
+GTM017,Petén,,,,,,,,GT17
+GTM018,Izabal,,,,,,,,GT18
+GTM019,Zacapa,,,,,,,,GT19
+GTM020,Chiquimula,,,,,,,,GT20
+GTM021,Jalapa,,,,,,,,GT21
+GTM022,Jutiapa,,,,,,,,GT22
+GUF001,Cayenne,,,,Arrondissement,Arrondissement,GUF.1_1,,
+GUF002,Saint-Laurent-du-Maroni,,,,Arrondissement,Arrondissement,GUF.2_1,,
+GUM001,Agana Heights,,,,Municipality,Municipality,GUM.1_1,,
+GUM002,Agat,,,,Municipality,Municipality,GUM.2_1,,
+GUM003,Asan,,,,Municipality,Municipality,GUM.3_1,,
+GUM004,Barrigada,,,,Municipality,Municipality,GUM.4_1,,
+GUM005,Chalan-Pago-Ordot,,,,Municipality,Municipality,GUM.5_1,,
+GUM006,Dededo,,,,Municipality,Municipality,GUM.6_1,,
+GUM007,Hagåtña,,,Agana,Municipality,Municipality,GUM.7_1,,
+GUM008,Inarajan,,,,Municipality,Municipality,GUM.8_1,,
+GUM009,Mangilao,,,Machanao,Municipality,Municipality,GUM.9_1,,
+GUM010,Merizo,,,,Municipality,Municipality,GUM.10_1,,
+GUM011,Mongmong-Toto-Maite,,,,Municipality,Municipality,GUM.11_1,,
+GUM012,Piti,,,,Municipality,Municipality,GUM.12_1,,
+GUM013,Santa Rita,,,,Municipality,Municipality,GUM.13_1,,
+GUM014,Sinajana,,,,Municipality,Municipality,GUM.14_1,,
+GUM015,Talofofo,,,,Municipality,Municipality,GUM.15_1,,
+GUM016,Tamuning,,,,Municipality,Municipality,GUM.16_1,,
+GUM017,Umatac,,,,Municipality,Municipality,GUM.17_1,,
+GUM018,Yigo,,,,Municipality,Municipality,GUM.18_1,,
+GUM019,Yona,,,,Municipality,Municipality,GUM.19_1,,
+GUY001,Barima-Waini,,,,Region,Region,GUY.1_1,1,
+GUY002,Cuyuni-Mazaruni,,,,Region,Region,GUY.2_1,7,
+GUY003,Demerara-Mahaica,,,,Region,Region,GUY.3_1,4,
+GUY004,East Berbice-Corentyne,,,,Region,Region,GUY.4_1,6,
+GUY005,Essequibo Islands-West Demerara,,,,Region,Region,GUY.5_1,3,
+GUY006,Mahaica-Berbice,,,,Region,Region,GUY.6_1,5,
+GUY007,Pomeroon-Supenaam,,,,Region,Region,GUY.7_1,2,
+GUY008,Potaro-Siparuni,,,,Region,Region,GUY.8_1,8,
+GUY009,Upper Demerara-Berbice,,,,Region,Region,GUY.9_1,10,
+GUY010,Upper Takutu-Upper Essequibo,,,,Region,Region,GUY.10_1,9,
+HKG001,Central and Western,,,,District,District,HKG.1_1,,
+HKG002,Eastern,,,,District,District,HKG.2_1,,
+HKG003,Islands,,,,District,District,HKG.3_1,,
+HKG004,Kowloon City,,,,District,District,HKG.4_1,,
+HKG005,Kwai Tsing,,,,District,District,HKG.5_1,,
+HKG006,Kwun Tong,,,,District,District,HKG.6_1,,
+HKG007,North,,,,District,District,HKG.7_1,,
+HKG008,Sai Kung,,,,District,District,HKG.8_1,,
+HKG009,Sha Tin,,,,District,District,HKG.9_1,,
+HKG010,Sham Shui Po,,,,District,District,HKG.10_1,,
+HKG011,Southern,,,,District,District,HKG.11_1,,
+HKG012,Tai Po,,,,District,District,HKG.12_1,,
+HKG013,Tsuen Wan,,,,District,District,HKG.13_1,,
+HKG014,Tuen Mun,,,,District,District,HKG.14_1,,
+HKG015,Wan Chai,,,,District,District,HKG.15_1,,
+HKG016,Wong Tai Sin,,,,District,District,HKG.16_1,,
+HKG017,Yau Tsim Mong,,,,District,District,HKG.17_1,,
+HKG018,Yuen Long,,,,District,District,HKG.18_1,,
+HND001,Atlantida,,,,,,,,HN01
+HND002,Colon,,,,,,,,HN02
+HND003,Comayagua,,,,,,,,HN03
+HND004,Copan,,,,,,,,HN04
+HND005,Cortes,,,,,,,,HN05
+HND006,Choluteca,,,,,,,,HN06
+HND007,El Paraiso,,,,,,,,HN07
+HND008,Francisco Morazan,,,,,,,,HN08
+HND009,Gracias a Dios,,,,,,,,HN09
+HND010,Intibuca,,,,,,,,HN10
+HND011,Islas de La Bahia,,,,,,,,HN11
+HND012,La Paz,,,,,,,,HN12
+HND013,Lempira,,,,,,,,HN13
+HND014,Ocotepeque,,,,,,,,HN14
+HND015,Olancho,,,,,,,,HN15
+HND016,Santa Barbara,,,,,,,,HN16
+HND017,Valle,,,,,,,,HN17
+HND018,Yoro,,,,,,,,HN18
+HRV001,Bjelovarska-Bilogorska,,,Bjelovar-Bilagora,County,Županija,HRV.1_1,,
+HRV002,Brodsko-Posavska,,,Slavonski Brod-Posavina,County,Županija,HRV.2_1,,
+HRV003,Dubrovacko-Neretvanska,,,Dubrovnik-Neretva,County,Županija,HRV.3_1,,
+HRV004,Grad Zagreb,,,,City,Grad,HRV.4_1,,
+HRV005,Istarska,,,Istra,County,Županija,HRV.5_1,,
+HRV006,Karlovacka,,,Karlovac,County,Županija,HRV.6_1,,
+HRV007,Koprivničko-Križevačka,,,Koprivnica-Križevci,County,Županija,HRV.7_1,,
+HRV008,Krapinsko-Zagorska,,,Krapina-Zagorje,County,Županija,HRV.8_1,,
+HRV009,Licko-Senjska,,,Lika-Senj,County,Županija,HRV.9_1,,
+HRV010,Medimurska,,,Medimurje,County,Županija,HRV.10_1,,
+HRV011,Osjecko-Baranjska,,,Osijek-Baranja,County,Županija,HRV.11_1,,
+HRV012,Požeško-Slavonska,,,Požega-Slavonija,County,Županija,HRV.12_1,,
+HRV013,Primorsko-Goranska,,,Primorje-Gorski Kotar,County,Županija,HRV.13_1,,
+HRV014,Šibensko-Kninska,,,Šibenik,County,Županija,HRV.14_1,,
+HRV015,Sisacko-Moslavacka,,,Sisak-Moslavina,County,Županija,HRV.15_1,,
+HRV016,Splitsko-Dalmatinska,,,Split-Dalmacia,County,Županija,HRV.16_1,,
+HRV017,Varaždinska,,,Varaždin|Varasd,County,Županija,HRV.17_1,,
+HRV018,Viroviticko-Podravska,,,Virovitica-Podravina,County,Županija,HRV.18_1,,
+HRV019,Vukovarsko-Srijemska,,,Vukovar-Srijem,County,Županija,HRV.19_1,,
+HRV020,Zadarska,,,Zadar-Knin,County,Županija,HRV.20_1,,
+HRV021,Zagrebačka,,,Zagreb,County,Županija,HRV.21_1,,
+HTI001,West,Ouest,Lwès,,,,,,HT01
+HTI002,South-East,Sud-Est,Sidès,,,,,,HT02
+HTI003,North,Nord,Nò,,,,,,HT03
+HTI004,North-East,Nord-Est,Nòdès,,,,,,HT04
+HTI005,Artibonite,Artibonite,Latibonit,,,,,,HT05
+HTI006,Centre,Centre,Sant,,,,,,HT06
+HTI007,South,Sud,Sid,,,,,,HT07
+HTI008,Grande'Anse,Grande'Anse,Grandans,,,,,,HT08
+HTI009,North-West,Nord-Ouest,Nòdwès,,,,,,HT09
+HTI010,Nippes,Nippes,Nip,,,,,,HT10
+HUN001,Bács-Kiskun,,,Bacs-Bodrog-Kiskun,County,Megye,HUN.1_1,,
+HUN002,Baranya,,,,County,Megye,HUN.2_1,,
+HUN003,Békés,,,,County,Megye,HUN.3_1,,
+HUN004,Borsod-Abaúj-Zemplén,,,,County,Megye,HUN.4_1,,
+HUN005,Budapest,,,Budapeste,Capital City,Fovaros,HUN.5_1,,
+HUN006,Csongrád,,,,County,Megye,HUN.6_1,,
+HUN007,Fejér,,,,County,Megye,HUN.7_1,,
+HUN008,Gyor-Moson-Sopron,,,Gyor-Sopron,County,Megye,HUN.8_1,,
+HUN009,Hajdú-Bihar,,,,County,Megye,HUN.9_1,,
+HUN010,Heves,,,,County,Megye,HUN.10_1,,
+HUN011,Jász-Nagykun-Szolnok,,,,County,Megye,HUN.11_1,,
+HUN012,Komárom-Esztergom,,,Komarom,County,Megye,HUN.12_1,,
+HUN013,Nógrád,,,,County,Megye,HUN.13_1,,
+HUN014,Pest,,,,County,Megye,HUN.14_1,,
+HUN015,Somogy,,,,County,Megye,HUN.15_1,,
+HUN016,Szabolcs-Szatmár-Bereg,,,Szabolcs-Szatmár,County,Megye,HUN.16_1,,
+HUN017,Tolna,,,,County,Megye,HUN.17_1,,
+HUN018,Vas,,,,County,Megye,HUN.18_1,,
+HUN019,Veszprém,,,,County,Megye,HUN.19_1,,
+HUN020,Zala,,,,County,Megye,HUN.20_1,,
+IDN001,Aceh,,,,,,,,ID11
+IDN002,Sumatera Utara,,,,,,,,ID12
+IDN003,Sumatera Barat,,,,,,,,ID13
+IDN004,Riau,,,,,,,,ID14
+IDN005,Jambi,,,,,,,,ID15
+IDN006,Sumatera Selatan,,,,,,,,ID16
+IDN007,Bengkulu,,,,,,,,ID17
+IDN008,Lampung,,,,,,,,ID18
+IDN009,Kepulauan Bangka Belitung,,,,,,,,ID19
+IDN010,Kepulauan Riau,,,,,,,,ID21
+IDN011,Dki Jakarta,,,,,,,,ID31
+IDN012,Jawa Barat,,,,,,,,ID32
+IDN013,Jawa Tengah,,,,,,,,ID33
+IDN014,Daerah Istimewa Yogyakarta,,,,,,,,ID34
+IDN015,Jawa Timur,,,,,,,,ID35
+IDN016,Banten,,,,,,,,ID36
+IDN017,Bali,,,,,,,,ID51
+IDN018,Nusa Tenggara Barat,,,,,,,,ID52
+IDN019,Nusa Tenggara Timur,,,,,,,,ID53
+IDN020,Kalimantan Barat,,,,,,,,ID61
+IDN021,Kalimantan Tengah,,,,,,,,ID62
+IDN022,Kalimantan Selatan,,,,,,,,ID63
+IDN023,Kalimantan Timur,,,,,,,,ID64
+IDN024,Kalimantan Utara,,,,,,,,ID65
+IDN025,Sulawesi Utara,,,,,,,,ID71
+IDN026,Sulawesi Tengah,,,,,,,,ID72
+IDN027,Sulawesi Selatan,,,,,,,,ID73
+IDN028,Sulawesi Tenggara,,,,,,,,ID74
+IDN029,Gorontalo,,,,,,,,ID75
+IDN030,Sulawesi Barat,,,,,,,,ID76
+IDN031,Maluku,,,,,,,,ID81
+IDN032,Maluku Utara,,,,,,,,ID82
+IDN033,Papua Barat,,,,,,,,ID91
+IDN034,Papua,,,,,,,,ID94
+IMN001,Ayre,,,,,Sheading,IMN.1_1,,
+IMN002,Garff,,,,,Sheading,IMN.2_1,,
+IMN003,Glenfaba,,,,,Sheading,IMN.3_1,,
+IMN004,Michael,,,,,Sheading,IMN.4_1,,
+IMN005,Middle,,,,,Sheading,IMN.5_1,,
+IMN006,Rushen,,,,,Sheading,IMN.6_1,,
+IND001,Andaman and Nicobar,,,Andaman & Nicobar Islands|Andaman et Nicobar|Iihas de Andama e Nicobar|Inseln Andamanen und Nikobare,Union Territory,Union Territor,IND.1_1,,
+IND002,Andhra Pradesh,,,,State,State,IND.2_1,,
+IND003,Arunachal Pradesh,,,Agence de la Frontière du Nord-Est(French-obsolete)|North East Frontier Agency,State,State,IND.3_1,,
+IND004,Assam,,,,State,State,IND.4_1,,
+IND005,Bihar,,,,State,State,IND.5_1,,
+IND006,Chandigarh,,,,Union Territory,Union Territor,IND.6_1,,
+IND007,Chhattisgarh,,,,State,State,IND.7_1,,
+IND008,Dadra and Nagar Haveli,,,DAdra et Nagar Haveli|Dadra e Nagar Haveli,Union Territory,Union Territor,IND.8_1,,
+IND009,Daman and Diu,,,,Union Territory,Union Territor,IND.9_1,,
+IND010,Goa,,,Gôa,State,State,IND.10_1,,
+IND011,Gujarat,,,Goudjerate|Gujerat|Gujerate,State,State,IND.11_1,,
+IND012,Haryana,,,,State,State,IND.12_1,,
+IND013,Himachal Pradesh,,,,Union Territory,Union Territor,IND.13_1,,
+IND014,Jammu and Kashmir,,,,State,State,IND.14_1,,
+IND015,Jharkhand,,,Vananchal,State,State,IND.15_1,,
+IND016,Karnataka,,,Maisur|Mysore,State,State,IND.16_1,,
+IND017,Kerala,,,,State,State,IND.17_1,,
+IND018,Lakshadweep,,,Íles Laquedives|Laccadive|Minicoy and Amindivi Islands|Laccadives|Lackadiverna|Lakkadiven|Lakkadi,Union Territory,Union Territor,IND.18_1,,
+IND019,Madhya Pradesh,,,,State,State,IND.19_1,,
+IND020,Maharashtra,,,,State,State,IND.20_1,,
+IND021,Manipur,,,,State,State,IND.21_1,,
+IND022,Meghalaya,,,,State,State,IND.22_1,,
+IND023,Mizoram,,,,State,State,IND.23_1,,
+IND024,Nagaland,,,,State,State,IND.24_1,,
+IND025,NCT of Delhi,,,,Union Territory,Union Territor,IND.25_1,,
+IND026,Odisha,,,,State,State,IND.26_1,,
+IND027,Puducherry,,,Pondicherry|Puduchcheri|Pondichéry,Union Territory,Union Territor,IND.27_1,,
+IND028,Punjab,,,,State,State,IND.28_1,,
+IND029,Rajasthan,,,Greater Rajasthan|Rajputana,State,State,IND.29_1,,
+IND030,Sikkim,,,,State,State,IND.30_1,,
+IND031,Tamil Nadu,,,Madras|Tamilnad,State,State,IND.31_1,,
+IND032,Telangana,,,,State,State,IND.32_1,,
+IND033,Tripura,,,,State,State,IND.33_1,,
+IND034,Uttar Pradesh,,,United Provinces,State,State,IND.34_1,,
+IND035,Uttarakhand,,,Uttarakhand,State,State,IND.35_1,,
+IND036,West Bengal,,,Bangla|Bengala Occidentale|Bengala Ocidental|Bengale occidental,State,State,IND.36_1,,
+IRL001,Carlow,,,Ceatharlach,County,Administrative County,IRL.1_1,,
+IRL002,Cavan,,,An Cabhán,County,Administrative County,IRL.2_1,,
+IRL003,Clare,,,An Clár,County,Administrative County,IRL.3_1,,
+IRL004,Cork,,,Corcaigh,County,Traditional County,IRL.4_1,,
+IRL005,Donegal,,,Dún na nGall|Tyrconnel,County,Administrative County,IRL.5_1,,
+IRL006,Dublin,,,Baile Átha Cliath,County,Administrative County,IRL.6_1,,
+IRL007,Galway,,,Gaillimh,County,Traditional County,IRL.7_1,,
+IRL008,Kerry,,,Ciarraí,County,Administrative County,IRL.8_1,,
+IRL009,Kildare,,,Cill Dara,County,Administrative County,IRL.9_1,,
+IRL010,Kilkenny,,,Cill Chainnigh,County,Administrative County,IRL.10_1,,
+IRL011,Laoighis,,,Laois|Leix|Queens,County,Administrative County,IRL.11_1,,
+IRL012,Leitrim,,,Liatroim,County,Administrative County,IRL.12_1,,
+IRL013,Limerick,,,Luimneach,County,Traditional County,IRL.13_1,,
+IRL014,Longford,,,An Longfort,County,Administrative County,IRL.14_1,,
+IRL015,Louth,,,Lú,County,Administrative County,IRL.15_1,,
+IRL016,Mayo,,,Maigh Eo,County,Administrative County,IRL.16_1,,
+IRL017,Meath,,,An Mhí,County,Administrative County,IRL.17_1,,
+IRL018,Monaghan,,,Muineachán,County,Administrative County,IRL.18_1,,
+IRL019,Offaly,,,Uíbh Fhailí|Kings,County,Administrative County,IRL.19_1,,
+IRL020,Roscommon,,,Ros Comáin,County,Administrative County,IRL.20_1,,
+IRL021,Sligo,,,Sligeach,County,Administrative County,IRL.21_1,,
+IRL022,Tipperary,,,Tiobraid Árann,County,Administrative County,IRL.22_1,,
+IRL023,Waterford,,,Port Láirge,County,Traditional County,IRL.23_1,,
+IRL024,Westmeath,,,An Iarmhí,County,Administrative County,IRL.24_1,,
+IRL025,Wexford,,,Loch Garman,County,Administrative County,IRL.25_1,,
+IRL026,Wicklow,,,Cill Mhantáin,County,Administrative County,IRL.26_1,,
+IRN001,Alborz,البرز‎,,,,,,,IR001
+IRN002,Ardabil,اردبیل,,,,,,,IR002
+IRN003,Bushehr,بوشهر,,,,,,,IR003
+IRN004,Chaharmahal and Bakhtiari,چهارمحال و بختیاری,,,,,,,IR004
+IRN005,East Azerbaijan,آذربایجان شرقی,,,,,,,IR005
+IRN006,Fars,فارس,,,,,,,IR006
+IRN007,Gilan,گیلان,,,,,,,IR007
+IRN008,Golestan,گلستان,,,,,,,IR008
+IRN009,Hamadan,همدان,,,,,,,IR009
+IRN010,Hormozgan,هرمزگان,,,,,,,IR010
+IRN011,Ilam,ایلام,,,,,,,IR011
+IRN012,Isfahan,اصفهان,,,,,,,IR012
+IRN013,Kerman,کرمان,,,,,,,IR013
+IRN014,Kermanshah,کرمانشاه,,,,,,,IR014
+IRN015,Khuzestan,خوزستان,,,,,,,IR015
+IRN016,Kohgiluyeh and Boyer-Ahmad,کهگیلویه و بویراحمد,,,,,,,IR016
+IRN017,Kurdistan,کردستان,,,,,,,IR017
+IRN018,Lorestan,لرستان,,,,,,,IR018
+IRN019,Markazi,مرکزی,,,,,,,IR019
+IRN020,Mazandaran,مازندران,,,,,,,IR020
+IRN021,North Khorasan,خراسان شمالی,,,,,,,IR021
+IRN022,Qazvin,قزوین,,,,,,,IR022
+IRN023,Qom,قم,,,,,,,IR023
+IRN024,Razavi Khorasan,خراسان رضوی,,,,,,,IR024
+IRN025,Semnan,سمنان,,,,,,,IR025
+IRN026,Sistan and Baluchestan,سیستان و بلوچستان,,,,,,,IR026
+IRN027,South Khorasan,خراسان جنوبی,,,,,,,IR027
+IRN028,Tehran,تهران,,,,,,,IR028
+IRN029,West Azerbaijan,آذربایجان غربی,,,,,,,IR029
+IRN030,Yazd,یزد,,,,,,,IR030
+IRN031,Zanjan,زنجان,,,,,,,IR031
+IRQ001,Al-Anbar,الانبار,,,,,,,IQG01
+IRQ002,Al-Basrah,البصرة,,,,,,,IQG02
+IRQ003,Al-Muthanna,المثنى,,,,,,,IQG03
+IRQ004,Al-Najaf,النجف,,,,,,,IQG04
+IRQ005,Al-Qadissiya,القادسية,,,,,,,IQG05
+IRQ006,Al-Sulaymaniyah,السليمانية,,,,,,,IQG06
+IRQ007,Babil,بابل,,,,,,,IQG07
+IRQ008,Baghdad,بغداد,,,,,,,IQG08
+IRQ009,Duhok,دهوك,,,,,,,IQG09
+IRQ010,Diyala,ديالى,,,,,,,IQG10
+IRQ011,Erbil,اربيل,,,,,,,IQG11
+IRQ012,Kerbala,كربلاء,,,,,,,IQG12
+IRQ013,Kirkuk,كركوك,,,,,,,IQG13
+IRQ014,Maysan,ميسان,,,,,,,IQG14
+IRQ015,Ninewa,نينوى,,,,,,,IQG15
+IRQ016,Salah Al-Din,صلاح الدين,,,,,,,IQG16
+IRQ017,Thi Qar,ذي قار,,,,,,,IQG17
+IRQ018,Wassit,واسط,,,,,,,IQG18
+ISL001,Austurland,,,Eastland,Region,Landsvæði,ISL.1_1,,
+ISL002,Hálshreppur,,,Norðurland eystra|Northland East,Region,Landsvæði,ISL.2_1,,
+ISL003,Höfuðborgarsvæði,,,Capital|Reykjavik and Reykjane,Region,Landsvæði,ISL.3_1,,
+ISL004,Norðurland vestra,,,Northland West,Region,Landsvæði,ISL.4_1,,
+ISL005,Suðurland,,,Southland|South,Region,Landsvæði,ISL.5_1,,
+ISL006,Suðurnes,,,Southern Peninsula,Independent Town,Kaupstadir,ISL.6_1,,
+ISL007,Vestfirðir,,,Western Fjords|Western Peninsula,Region,Landsvæði,ISL.7_1,,
+ISL008,Vesturland,,,Westland|West,Region,Landsvæði,ISL.8_1,,
+ISR001,Golan,,,,District,Mehoz,ISR.1_1,,
+ISR002,HaDarom,,,Southern District,District,Mehoz,ISR.2_1,,
+ISR003,Haifa,,,Hefa,District,Mehoz,ISR.3_1,,
+ISR004,HaMerkaz,,,Central District,District,Mehoz,ISR.4_1,,
+ISR005,HaZafon,,,Northern,District,Mehoz,ISR.5_1,,
+ISR006,Jerusalem,,,Al-Quds|Yerushalayim,District,Mehoz,ISR.6_1,,
+ISR007,Tel Aviv,,,,District,Mehoz,ISR.7_1,,
+ITA001,Abruzzo,,,Abruzos|Abruzzen|Abruzzes|Abruzzi,Region,Regione,ITA.1_1,13,
+ITA002,Apulia,,,Apulien|Pouilles|Pouille|Puglia|Puglie,Region,Regione,ITA.2_1,16,
+ITA003,Basilicata,,,Basilicate|Lucania,Region,Regione,ITA.3_1,17,
+ITA004,Calabria,,,Calabre|Calabrie|Kalabrien,Region,Regione,ITA.4_1,18,
+ITA005,Campania,,,Campanha|Campanie|Kampanien,Region,Regione,ITA.5_1,15,
+ITA006,Emilia-Romagna,,,Emilia Romagna|Emilia|Emilia-Romaña|Émilie-Romagne,Region,Regione,ITA.6_1,8,
+ITA007,Friuli-Venezia Giulia,,,Friuli Venezia Giulia|Friuli-Venecia Julia,Autonomous Region,Regione,ITA.7_1,6,
+ITA008,Lazio,,,Lacio|Latium,Region,Regione,ITA.8_1,12,
+ITA009,Liguria,,,Ligurie|Ligurien,Region,Regione,ITA.9_1,7,
+ITA010,Lombardia,,,Lombardy|Lombardei|Lombardie,Region,Regione,ITA.10_1,3,
+ITA011,Marche,,,Marches|Marca,Region,Regione,ITA.11_1,11,
+ITA012,Molise,,,Molisa,Region,Regione,ITA.12_1,14,
+ITA013,Piemonte,,,Piemont|Piémont|Piemonte|Piedmont,Region,Regione,ITA.13_1,1,
+ITA014,Sardegna,,,Cerdeña|Sardenha,Autonomous Region,Regione,ITA.14_1,20,
+ITA015,Sicily,,,Sicilia,Autonomous Region,Regione,ITA.15_1,19,
+ITA016,Toscana,,,Tuscany|Toscane|Toskana,Region,Regione,ITA.16_1,9,
+ITA017,Trentino-Alto Adige,,,Trentino - Alto Adige|Trentino-Alto Adigio|Trentino-South Tirol|Venezia Tridentina,Autonomous Region,Regione,ITA.17_1,4,
+ITA018,Umbria,,,Ombrie|Umbrien,Region,Regione,ITA.18_1,10,
+ITA019,Valle d'Aosta,,,Aosta Valley|Val d'Aoste|Vallée d'Aoste,Autonomous Region,Regione,ITA.19_1,2,
+ITA020,Veneto,,,Venecia|Venetia|Venezia Euganea,Region,Regione,ITA.20_1,5,
+JAM001,Clarendon,,,,Parish,Parish,JAM.1_1,,
+JAM002,Hanover,,,,Parish,Parish,JAM.2_1,,
+JAM003,Kingston,,,Kingston and Port Royal,Parish,Parish,JAM.3_1,,
+JAM004,Manchester,,,,Parish,Parish,JAM.4_1,,
+JAM005,Portland,,,,Parish,Parish,JAM.5_1,,
+JAM006,Saint Andrew,,,,Parish,Parish,JAM.6_1,,
+JAM007,Saint Ann,,,,Parish,Parish,JAM.7_1,,
+JAM008,Saint Catherine,,,,Parish,Parish,JAM.8_1,,
+JAM009,Saint Elizabeth,,,,Parish,Parish,JAM.9_1,,
+JAM010,Saint James,,,,Parish,Parish,JAM.10_1,,
+JAM011,Saint Mary,,,,Parish,Parish,JAM.11_1,,
+JAM012,Saint Thomas,,,,Parish,Parish,JAM.12_1,,
+JAM013,Trelawny,,,,Parish,Parish,JAM.13_1,,
+JAM014,Westmoreland,,,,Parish,Parish,JAM.14_1,,
+JEY001,Grouville,,,,Parish,Parish,JEY.1_1,,
+JEY002,Saint Berlade,,,St. Berlade,Parish,Parish,JEY.2_1,,
+JEY003,Saint Clement,,,St. Clement,Parish,Parish,JEY.3_1,,
+JEY004,Saint Helier,,,St. Helier,Parish,Parish,JEY.4_1,,
+JEY005,Saint John,,,St. John,Parish,Parish,JEY.5_1,,
+JEY006,Saint Lawrence,,,St. Lawrence,Parish,Parish,JEY.6_1,,
+JEY007,Saint Martin,,,St. Martin,Parish,Parish,JEY.7_1,,
+JEY008,Saint Mary,,,St. Mary,Parish,Parish,JEY.8_1,,
+JEY009,Saint Ouen,,,St. Ouen,Parish,Parish,JEY.9_1,,
+JEY010,Saint Peter,,,St. Peter,Parish,Parish,JEY.10_1,,
+JEY011,Saint Saviour,,,St. Saviour,Parish,Parish,JEY.11_1,,
+JEY012,Trinity,,,,Parish,Parish,JEY.12_1,,
+JOR001,Ajlun,,,Ajloan|`Ajlun,Province,Muhafazah,JOR.1_1,,
+JOR002,Amman,,,Ama,Province,Muhafazah,JOR.2_1,,
+JOR003,Aqaba,,,Al `Aqabah,Province,Muhafazah,JOR.3_1,,
+JOR004,Balqa,,,Al Balqa'|Balka|Belga,Province,Muhafazah,JOR.4_1,,
+JOR005,Irbid,,,,Province,Muhafazah,JOR.5_1,,
+JOR006,Jarash,,,,Province,Muhafazah,JOR.6_1,,
+JOR007,Karak,,,Al Karak|Kerak,Province,Muhafazah,JOR.7_1,,
+JOR008,Ma`an,,,,Province,Muhafazah,JOR.8_1,,
+JOR009,Madaba,,,,Province,Muhafazah,JOR.9_1,,
+JOR010,Mafraq,,,,Province,Muhafazah,JOR.10_1,,
+JOR011,Tafilah,,,At Tafilah|Tafela|Tafileh,Province,Muhafazah,JOR.11_1,,
+JOR012,Zarqa,,,Az Zarqa',Province,Muhafazah,JOR.12_1,,
+JPN001,Aichi,,,Aiti|愛知県,Prefecture,Ken,JPN.1_1,,
+JPN002,Akita,,,秋田県,Prefecture,Ken,JPN.2_1,,
+JPN003,Aomori,,,青森県,Prefecture,Ken,JPN.3_1,,
+JPN004,Chiba,,,Tiba|Tsiba|千葉県,Prefecture,Ken,JPN.4_1,,
+JPN005,Ehime,,,愛媛県,Prefecture,Ken,JPN.5_1,,
+JPN006,Fukui,,,Hukui|福井県,Prefecture,Ken,JPN.6_1,,
+JPN007,Fukuoka,,,Hukuoka|福岡県,Prefecture,Ken,JPN.7_1,,
+JPN008,Fukushima,,,Hukusima|福島県,Prefecture,Ken,JPN.8_1,,
+JPN009,Gifu,,,Gihu|岐阜県,Prefecture,Ken,JPN.9_1,,
+JPN010,Gunma,,,GunmaGumma|群馬県,Prefecture,Ken,JPN.10_1,,
+JPN011,Hiroshima,,,Hirosima|広島県,Prefecture,Ken,JPN.11_1,,
+JPN012,Hokkaido,,,Ezo|Yeso|Yezo|北海道,Circuit,Do,JPN.12_1,,
+JPN013,Hyōgo,,,Hiogo|兵庫県,Prefecture,Ken,JPN.13_1,,
+JPN014,Ibaraki,,,茨城県,Prefecture,Ken,JPN.14_1,,
+JPN015,Ishikawa,,,Isikawa|石川県,Prefecture,Ken,JPN.15_1,,
+JPN016,Iwate,,,岩手県,Prefecture,Ken,JPN.16_1,,
+JPN017,Kagawa,,,香川県,Prefecture,Ken,JPN.17_1,,
+JPN018,Kagoshima,,,鹿児島県,Prefecture,Ken,JPN.18_1,,
+JPN019,Kanagawa,,,神奈川県,Prefecture,Ken,JPN.19_1,,
+JPN020,Kochi,,,Koti|高知県,Prefecture,Ken,JPN.20_1,,
+JPN021,Kumamoto,,,熊本県,Prefecture,Ken,JPN.21_1,,
+JPN022,Kyoto,,,Kioto|京都府,Urban Prefecture,Fu,JPN.22_1,,
+JPN023,Mie,,,Miye|三重県,Prefecture,Ken,JPN.23_1,,
+JPN024,Miyagi,,,宮城県,Prefecture,Ken,JPN.24_1,,
+JPN025,Miyazaki,,,宮崎県,Prefecture,Ken,JPN.25_1,,
+JPN026,Nagano,,,長野県,Prefecture,Ken,JPN.26_1,,
+JPN027,Naoasaki,,,Nagasaki|長崎県,Prefecture,Ken,JPN.27_1,,
+JPN028,Nara,,,奈良県,Prefecture,Ken,JPN.28_1,,
+JPN029,Niigata,,,新潟県,Prefecture,Ken,JPN.29_1,,
+JPN030,Oita,,,大分県,Prefecture,Ken,JPN.30_1,,
+JPN031,Okayama,,,岡山県,Prefecture,Ken,JPN.31_1,,
+JPN032,Okinawa,,,沖縄県,Prefecture,Ken,JPN.32_1,,
+JPN033,Osaka,,,大阪府,Urban Prefecture,Fu,JPN.33_1,,
+JPN034,Saga,,,佐賀県,Prefecture,Ken,JPN.34_1,,
+JPN035,Saitama,,,埼玉県,Prefecture,Ken,JPN.35_1,,
+JPN036,Shiga,,,Siga|滋賀県,Prefecture,Ken,JPN.36_1,,
+JPN037,Shimane,,,Simane|島根県,Prefecture,Ken,JPN.37_1,,
+JPN038,Shizuoka,,,Sizuoka|静岡県,Prefecture,Ken,JPN.38_1,,
+JPN039,Tochigi,,,Totigi|栃木県,Prefecture,Ken,JPN.39_1,,
+JPN040,Tokushima,,,Tokusima|徳島県,Prefecture,Ken,JPN.40_1,,
+JPN041,Tokyo,,,Edo|Yedo|Tokio|T¢quio|東京都,Metropolis,To,JPN.41_1,,
+JPN042,Tottori,,,鳥取県,Prefecture,Ken,JPN.42_1,,
+JPN043,Toyama,,,富山県,Prefecture,Ken,JPN.43_1,,
+JPN044,Wakayama,,,和歌山県,Prefecture,Ken,JPN.44_1,,
+JPN045,Yamagata,,,山形県,Prefecture,Ken,JPN.45_1,,
+JPN046,Yamaguchi,,,Yamaguti|山口県,Prefecture,Ken,JPN.46_1,,
+JPN047,Yamanashi,,,Yamanasi|山梨県,Prefecture,Ken,JPN.47_1,,
+KAZ001,Akmola,Ақмола,Акмолинская,,,,,,KZ11
+KAZ002,Aktobe,Ақтөбе,Актюбинская,,,,,,KZ15
+KAZ003,Almaty,Алматы,Алматинская,,,,,,KZ19
+KAZ004,Atyrau,Атырау,Атырауская,,,,,,KZ23
+KAZ005,West Kazakhstan,Батыс Қазақстан,Западно-Казахстанская,,,,,,KZ27
+KAZ006,Jambyl,Жамбыл,Жамбылская,,,,,,KZ31
+KAZ007,Karagandy,Қарағанды,Карагандинская,,,,,,KZ35
+KAZ008,Kostanay,Қостанай,Костанайская,,,,,,KZ39
+KAZ009,Kyzylorda,Қызылорда,Кызылординская,,,,,,KZ43
+KAZ010,Mangystau,Маңғыстау,Мангистауская,,,,,,KZ47
+KAZ011,Pavlodar,Павлодар,Павлодарская,,,,,,KZ55
+KAZ012,North Kazakhstan,Солтүстiк Қазақстан,Северо-Казахстанская,,,,,,KZ59
+KAZ013,Turkestan,Түркістан,Туркестанская,,,,,,KZ61
+KAZ014,East Kazakhstan,Шығыс Қазақстан,Восточно-Казахстанская,,,,,,KZ63
+KAZ015,Nur-Sultan (city),Нұр-Сұлтан,Нур-Султан,,,,,,KZ71
+KAZ016,Almaty (city),Алматы (қала),Алматы,,,,,,KZ75
+KAZ017,Shymkent (city),Шымкент,Чимкент,,,,,,KZ79
+KEN001,Mombasa,,,,,,,,KE001
+KEN002,Kwale,,,,,,,,KE002
+KEN003,Kilifi,,,,,,,,KE003
+KEN004,Tana River,,,,,,,,KE004
+KEN005,Lamu,,,,,,,,KE005
+KEN006,Taita Taveta,,,,,,,,KE006
+KEN007,Garissa,,,,,,,,KE007
+KEN008,Wajir,,,,,,,,KE008
+KEN009,Mandera,,,,,,,,KE009
+KEN010,Marsabit,,,,,,,,KE010
+KEN011,Isiolo,,,,,,,,KE011
+KEN012,Meru,,,,,,,,KE012
+KEN013,Tharaka-Nithi,,,,,,,,KE013
+KEN014,Embu,,,,,,,,KE014
+KEN015,Kitui,,,,,,,,KE015
+KEN016,Machakos,,,,,,,,KE016
+KEN017,Makueni,,,,,,,,KE017
+KEN018,Nyandarua,,,,,,,,KE018
+KEN019,Nyeri,,,,,,,,KE019
+KEN020,Kirinyaga,,,,,,,,KE020
+KEN021,Murang'a,,,,,,,,KE021
+KEN022,Kiambu,,,,,,,,KE022
+KEN023,Turkana,,,,,,,,KE023
+KEN024,West Pokot,,,,,,,,KE024
+KEN025,Samburu,,,,,,,,KE025
+KEN026,Trans Nzoia,,,,,,,,KE026
+KEN027,Uasin Gishu,,,,,,,,KE027
+KEN028,Elgeyo-Marakwet,,,,,,,,KE028
+KEN029,Nandi,,,,,,,,KE029
+KEN030,Baringo,,,,,,,,KE030
+KEN031,Laikipia,,,,,,,,KE031
+KEN032,Nakuru,,,,,,,,KE032
+KEN033,Narok,,,,,,,,KE033
+KEN034,Kajiado,,,,,,,,KE034
+KEN035,Kericho,,,,,,,,KE035
+KEN036,Bomet,,,,,,,,KE036
+KEN037,Kakamega,,,,,,,,KE037
+KEN038,Vihiga,,,,,,,,KE038
+KEN039,Bungoma,,,,,,,,KE039
+KEN040,Busia,,,,,,,,KE040
+KEN041,Siaya,,,,,,,,KE041
+KEN042,Kisumu,,,,,,,,KE042
+KEN043,Homa Bay,,,,,,,,KE043
+KEN044,Migori,,,,,,,,KE044
+KEN045,Kisii,,,,,,,,KE045
+KEN046,Nyamira,,,,,,,,KE046
+KEN047,Nairobi,,,,,,,,KE047
+KGZ001,Issyk-Kul,Иссык-Кульская,Ысык-Көл,,,,,,KG02000000000
+KGZ002,Jalal-Abad,Джалал-Абадская,Жалалабат,,,,,,KG03000000000
+KGZ003,Naryn,Нарынская,Нарын,,,,,,KG04000000000
+KGZ004,Batken,Баткенская,Баткен,,,,,,KG05000000000
+KGZ005,Osh,Ошская,Ош,,,,,,KG06000000000
+KGZ006,Talas,Таласская,Талас,,,,,,KG07000000000
+KGZ007,Chui,Чуйская,Чүй,,,,,,KG08000000000
+KGZ008,Bishkek (city),г.Бишкек,Бишкек ш.,,,,,,KG11000000000
+KGZ009,Osh (city),г.Ош,Ош ш.,,,,,,KG21000000000
+KHM001,Banteay Meanchey,,,,,,,,KH01
+KHM002,Battambang,,,,,,,,KH02
+KHM003,Kampong Cham,,,,,,,,KH03
+KHM004,Kampong Chhnang,,,,,,,,KH04
+KHM005,Kampong Speu,,,,,,,,KH05
+KHM006,Kampong Thom,,,,,,,,KH06
+KHM007,Kampot,,,,,,,,KH07
+KHM008,Kandal,,,,,,,,KH08
+KHM009,Koh Kong,,,,,,,,KH09
+KHM010,Kratie,,,,,,,,KH10
+KHM011,Mondul Kiri,,,,,,,,KH11
+KHM012,Phnom Penh,,,,,,,,KH12
+KHM013,Preah Vihear,,,,,,,,KH13
+KHM014,Prey Veng,,,,,,,,KH14
+KHM015,Pursat,,,,,,,,KH15
+KHM016,Ratanak Kiri,,,,,,,,KH16
+KHM017,Siemreap,,,,,,,,KH17
+KHM018,Preah Sihanouk,,,,,,,,KH18
+KHM019,Stung Treng,,,,,,,,KH19
+KHM020,Svay Rieng,,,,,,,,KH20
+KHM021,Takeo,,,,,,,,KH21
+KHM022,Oddar Meanchey,,,,,,,,KH22
+KHM023,Kep,,,,,,,,KH23
+KHM024,Pailin,,,,,,,,KH24
+KHM025,Tboung Khmum,,,,,,,,KH25
+KNA001,Christ Church Nichola Town,,,,Parish,Parish,KNA.1_1,,
+KNA002,Saint Anne Sandy Point,,,,Parish,Parish,KNA.2_1,,
+KNA003,Saint George Basseterre,,,,Parish,Parish,KNA.3_1,,
+KNA004,Saint George Gingerland,,,,Parish,Parish,KNA.4_1,,
+KNA005,Saint James Windward,,,,Parish,Parish,KNA.5_1,,
+KNA006,Saint John Capisterre,,,,Parish,Parish,KNA.6_1,,
+KNA007,Saint John Figtree,,,,Parish,Parish,KNA.7_1,,
+KNA008,Saint Mary Cayon,,,,Parish,Parish,KNA.8_1,,
+KNA009,Saint Paul Capisterre,,,,Parish,Parish,KNA.9_1,,
+KNA010,Saint Paul Charlestown,,,,Parish,Parish,KNA.10_1,,
+KNA011,Saint Peter Basseterre,,,,Parish,Parish,KNA.11_1,,
+KNA012,Saint Thomas Lowland,,,,Parish,Parish,KNA.12_1,,
+KNA013,Saint Thomas Middle Island,,,,Parish,Parish,KNA.13_1,,
+KNA014,Trinity Palmetto Point,,,,Parish,Parish,KNA.14_1,,
+KOR001,Busan,,,Pusan|Busan Gwang'yeogsi|Pusan-gwangyoksi|Fusan|부산광역시 | 釜山廣域市,Metropolitan City,Gwangyeoksi,KOR.1_1,,
+KOR002,Chungcheongbuk-do,,,Chungchongbuk-Do|Chungcheongbugdo|Ch'ungch'ong-bukto|Chusei Hoku-do|North Chungchong|Ch'ungch'ong-bukto|충청북도 | 忠淸北道,Province,Do,KOR.2_1,,
+KOR003,Chungcheongnam-do,,,Chungchongnam-Do|Ch'ungch'ong-namdo|Chusei Nan-do|South Chungchong|Ch'ungch'ong-namdo|충청남도 | 忠淸南道,Province,Do,KOR.3_1,,
+KOR004,Daegu,,,Taegu|Daegu Gwang'yeogsi|Taegu-gwangyoksi|Taikyu|대구광역시 | 大邱廣域市,Metropolitan City,Gwangyeoksi,KOR.4_1,,
+KOR005,Daejeon,,,Daejeon Gwang'yeogsi|Taejŏn-gwangyŏksi|Taiden|대구광역시 | 大邱廣域市,Metropolitan City,Gwangyeoksi,KOR.5_1,,
+KOR006,Gangwon-do,,,Kang-Won-Do|Gang'weondo|Kangwon-do|Kogen-do|South Kangwon|강원도 | 江原道,Province,Do,KOR.6_1,,
+KOR007,Gwangju,,,Kwangju|Kwangju-gwangyoksi|광주광역시 | 光州廣域市,Metropolitan City,Gwangyeoksi,KOR.7_1,,
+KOR008,Gyeonggi-do,,,Kyonggi-do|Keiki-do|Kyunggi|경기도 | 京畿道,Province,Do,KOR.8_1,,
+KOR009,Gyeongsangbuk-do,,,Kyongsangbuk-Do|Gyeongsangbugdo|Kyongsang-bukto|Keisho Hoku-do|North Kyongsang|경상북도 | 慶尙北道,Province,Do,KOR.9_1,,
+KOR010,Gyeongsangnam-do,,,Kyongsangnam-Do|Kyongsang-namdo|Keisho Nan-do|South Kyongsang|경상남도 | 慶尙南道,Province,Do,KOR.10_1,,
+KOR011,Incheon,,,Inchon|IInch'on-gwangyoksi|Jinsen|인천광역시 | 仁川廣域市,Metropolitan City,Gwangyeoksi,KOR.11_1,,
+KOR012,Jeju,,,Jeju-doQuelpart|Saishu-to|Cheju-do|제주특별자치도 | 濟州特別自治道,Province,Do,KOR.12_1,,
+KOR013,Jeollabuk-do,,,Chollabuk-Do|Cholla-bukto|Jeonrabugdo|North Cholla|Zenra Hoku-do|전라북도 | 全羅北道,Province,Do,KOR.13_1,,
+KOR014,Jeollanam-do,,,Chollanam-Do|Cholla-namdo|Jeonranamdo|South Cholla|Zenra Nan-do|전라남도 | 全羅南道,Province,Do,KOR.14_1,,
+KOR015,Sejong,,,Sejong Metropolitan Autonomous City|세종특별자치시,Metropolitan Autonomous City,Do,KOR.15_1,,
+KOR016,Seoul,,,Keijo|Séoul|Seul|Seúl|Söul|Soul-t'ukpyolsi|서울특별시,Capital Metropolitan City,Teukbyeolsi,KOR.16_1,,
+KOR017,Ulsan,,,Ulsan-gwangyoksi|울산광역시 | 蔚山廣域市,Metropolitan City,Metropolitan City,KOR.17_1,,
+KWT001,Al Ahmadi,,,الاحمدي,Province,Muhafazah,KWT.1_1,,
+KWT002,Al Farwaniyah,,,Farwaniya|الفروانية‎,Province,Muhafazah,KWT.2_1,,
+KWT003,Al Jahrah,,,Jahra|الجهراء,Province,Muhafazah,KWT.3_1,,
+KWT004,Al Kuwayt,,,"Al Asimah, Capital, Kuwait|العاصمه",Province,Muhafazah,KWT.4_1,,
+KWT005,Hawalli,,,"Hawali, Howali|حولي",Province,Muhafazah,KWT.5_1,,
+KWT006,Mubarak Al-Kabeer,,,مبارك الكبير,Province,Muhafazah,KWT.6_1,,
+LAO001,Vientiane Capital,ນະຄອນຫຼວງວຽງຈັນ,,,,,,,LA01
+LAO002,Phongsaly,ຜົ້ງສາລີ,,,,,,,LA02
+LAO003,Louangnamtha,ຫຼວງນ້ຳທາ,,,,,,,LA03
+LAO004,Oudomxai,ອຸດົມໄຊ,,,,,,,LA04
+LAO005,Bokeo,ບໍ່ແກ້ວ,,,,,,,LA05
+LAO006,Louangphabang,ຫຼວງພະບາງ,,,,,,,LA06
+LAO007,Houaphan,ຫົວພັນ,,,,,,,LA07
+LAO008,Xaignabouly,ໄຊຍະບູລີ,,,,,,,LA08
+LAO009,Xiengkhouang,ຊຽງຂວາງ,,,,,,,LA09
+LAO010,Vientiane,ວຽງຈັນ,,,,,,,LA10
+LAO011,Bolikhamxai,ບໍລິຄຳໄຊ,,,,,,,LA11
+LAO012,Khammouan,ຄຳມ່ວນ,,,,,,,LA12
+LAO013,Savannakhet,ສະຫວັນນະເຂດ,,,,,,,LA13
+LAO014,Salavan,ສາລະວັນ,,,,,,,LA14
+LAO015,Sekong,ເຊກອງ,,,,,,,LA15
+LAO016,Champasack,ຈຳປາສັກ,,,,,,,LA16
+LAO017,Attapeu,ອັດຕະປື,,,,,,,LA17
+LAO018,Xaisomboon,ໄຊສົມບູນ,,,,,,,LA18
+LBN002,Beirut,بيروت,,,,,,,LB1
+LBN003,Bekaa,البقاع,,,,,,,LB2
+LBN004,Mount Lebanon,جبل لبنان,,,,,,,LB3
+LBN005,El Nabatieh,النبطية,,,,,,,LB4
+LBN006,North,الشمال,,,,,,,LB5
+LBN007,South,الجنوب,,,,,,,LB6
+LBN008,Akkar,عكار,,,,,,,LB7
+LBN009,Baalbek-El Hermel,بعلبك - الهرمل,,,,,,,LB8
+LBR001,Bomi,,,,,,,,LR01
+LBR002,Bong,,,,,,,,LR02
+LBR003,Gbarpolu,,,,,,,,LR03
+LBR004,Grand Bassa,,,,,,,,LR04
+LBR005,Grand Cape Mount,,,,,,,,LR05
+LBR006,Grand Gedeh,,,,,,,,LR06
+LBR007,Grand Kru,,,,,,,,LR07
+LBR008,Lofa,,,,,,,,LR08
+LBR009,Margibi,,,,,,,,LR09
+LBR010,Maryland,,,,,,,,LR10
+LBR011,Montserrado,,,,,,,,LR11
+LBR012,Nimba,,,,,,,,LR12
+LBR013,River Gee,,,,,,,,LR13
+LBR014,Rivercess,,,,,,,,LR14
+LBR015,Sinoe,,,,,,,,LR15
+LBY001,East,الشرق,,,,,,,LY01
+LBY002,West,الغرب,,,,,,,LY02
+LBY003,South,الجنوب,,,,,,,LY03
+LCA001,Anse La Raye,,,,,,,,LC04
+LCA002,Canaries,,,,,,,,LC05
+LCA003,Soufriere,,,,,,,,LC06
+LCA004,Choiseul,,,,,,,,LC07
+LCA005,Laborie,,,,,,,,LC08
+LCA006,Vieux-Fort,,,,,,,,LC09
+LCA007,Micoud,,,,,,,,LC10
+LCA008,Dennery,,,,,,,,LC11
+LCA009,Gros Islet,,,,,,,,LC12
+LCA010,Castries,,,,,,,,LC13
+LIE001,Balzers,,,,Commune,Gemeinden,LIE.1_1,,
+LIE002,Eschen,,,,Commune,Gemeinden,LIE.2_1,,
+LIE003,Gamprin,,,,Commune,Gemeinden,LIE.3_1,,
+LIE004,Mauren,,,,Commune,Gemeinden,LIE.4_1,,
+LIE005,Planken,,,,Commune,Gemeinden,LIE.5_1,,
+LIE006,Ruggell,,,,Commune,Gemeinden,LIE.6_1,,
+LIE007,Schaan,,,,Commune,Gemeinden,LIE.7_1,,
+LIE008,Schellenberg,,,,Commune,Gemeinden,LIE.8_1,,
+LIE009,Triesen,,,,Commune,Gemeinden,LIE.9_1,,
+LIE010,Triesenberg,,,,Commune,Gemeinden,LIE.10_1,,
+LIE011,Valduz,,,,Commune,Gemeinden,LIE.11_1,,
+LKA001,Western,බස්නාහිර පළාත,மேல் மாகாணம்,,,,,,LK1
+LKA002,Central,මධ්‍යම පළාත,மத்திய மாகாணம்,,,,,,LK2
+LKA003,Southern,දකුණු පළාත,தென் மாகாணம்,,,,,,LK3
+LKA004,Northern,උතුරු පළාත,வட மாகாணம்,,,,,,LK4
+LKA005,Eastern,නැගෙනහිර පළාත,கிழக்கு மாகாணம்,,,,,,LK5
+LKA006,North Western,වයඹ පළාත,வட மேல் மாகாணம்,,,,,,LK6
+LKA007,North Central,උතුරු මැද පළාත,வட மத்திய மாகாணம்,,,,,,LK7
+LKA008,Uva,ඌව පළාත,ஊவா மாகாணம்,,,,,,LK8
+LKA009,Sabaragamuwa,සබරගමුව පළාත,சபரகமுவ மாகாணம்,,,,,,LK9
+LSO001,Maseru,,,,,,,,LSA
+LSO002,Butha-Buthe,,,,,,,,LSB
+LSO003,Leribe,,,,,,,,LSC
+LSO004,Berea,,,,,,,,LSD
+LSO005,Mafeteng,,,,,,,,LSE
+LSO006,Mohale's Hoek,,,,,,,,LSF
+LSO007,Quthing,,,,,,,,LSG
+LSO008,Qacha's Nek,,,,,,,,LSH
+LSO009,Mokhotlong,,,,,,,,LSJ
+LSO010,Thaba-Tseka,,,,,,,,LSK
+LTU001,Alytaus,,,Alytus|Olita|Alitus,County,Apskritis,LTU.1_1,,
+LTU002,Kauno,,,Kaunas|Kowno|Kovno,County,Apskritis,LTU.2_1,,
+LTU003,Klaipedos,,,Klaipėda|Memel,County,Apskritis,LTU.3_1,,
+LTU004,Marijampoles,,,Marijampolė|Mariampol,County,Apskritis,LTU.4_1,,
+LTU005,Panevezio,,,Panevėžys|Ponewiesch|Ponewjesh|Poneviezli,County,Apskritis,LTU.5_1,,
+LTU006,Šiauliai,,,Šiauliai|Schaulen|Shavli,County,Apskritis,LTU.6_1,,
+LTU007,Taurages,,,Tauragė|Tauroggen,County,Apskritis,LTU.7_1,,
+LTU008,Telšiai,,,Telšiai|Telsche|Telschi|Telshe,County,Apskritis,LTU.8_1,,
+LTU009,Utenos,,,Utena,County,Apskritis,LTU.9_1,,
+LTU010,Vilniaus,,,Vilnius|Wilna|Vilna|Vilnious,County,Apskritis,LTU.10_1,,
+LUX001,Diekirch,,,Dikrech|Dikkrich,District,District,LUX.1_1,,
+LUX002,Grevenmacher,,,Gréivemaacher,District,District,LUX.2_1,,
+LUX003,Luxembourg,,,Lëtzebuerg|Luxemburg,District,District,LUX.3_1,,
+LVA001,Kurzeme,,,,Province,Province,LVA.1_1,,
+LVA002,Latgale,,,,Province,Province,LVA.2_1,,
+LVA003,Riga,,,,Province,Province,LVA.3_1,,
+LVA004,Vidzeme,,,,Province,Province,LVA.4_1,,
+LVA005,Zemgale,,,,Province,Province,LVA.5_1,,
+MAC001,Ilhas,,,,District,Concelho|Distrito,MAC.1_1,,
+MAC002,Macau,,,,District,Concelho|Distrito,MAC.2_1,,
+MAR001,Chaouia - Ouardigha,,,,Region,Region,MAR.1_1,,
+MAR002,Doukkala - Abda,,,,Region,Region,MAR.2_1,,
+MAR003,Fès - Boulemane,,,,Region,Region,MAR.3_1,,
+MAR004,Gharb - Chrarda - Béni Hssen,,,,Region,Region,MAR.4_1,,
+MAR005,Grand Casablanca,,,,Region,Region,MAR.5_1,,
+MAR006,Guelmim - Es-Semara,,,,Region,Region,MAR.6_1,,
+MAR007,Laâyoune - Boujdour - Sakia El Hamra,,,,Region,Region,MAR.7_1,,
+MAR008,Marrakech - Tensift - Al Haouz,,,,Region,Region,MAR.8_1,,
+MAR009,Meknès - Tafilalet,,,,Region,Region,MAR.9_1,,
+MAR010,Oriental,,,,Region,Region,MAR.10_1,,
+MAR011,Rabat - Salé - Zemmour - Zaer,,,,Region,Region,MAR.11_1,,
+MAR012,Souss - Massa - Draâ,,,,Region,Region,MAR.12_1,,
+MAR013,Tadla - Azilal,,,,Region,Region,MAR.13_1,,
+MAR014,Tanger - Tétouan,,,,Region,Region,MAR.14_1,,
+MAR015,Taza - Al Hoceima - Taounate,,,,Region,Region,MAR.15_1,,
+MDA001,Anenii Noi,,,,,,,,MD001
+MDA002,Balti,,,,,,,,MD002
+MDA003,Basarabeasca,,,,,,,,MD003
+MDA004,Bender,,,,,,,,MD004
+MDA005,Briceni,,,,,,,,MD005
+MDA006,Cahul,,,,,,,,MD006
+MDA007,Calarasi,,,,,,,,MD007
+MDA008,Cantemir,,,,,,,,MD008
+MDA009,Causeni,,,,,,,,MD009
+MDA010,Chisinau,,,,,,,,MD010
+MDA011,Cimislia,,,,,,,,MD011
+MDA012,Criuleni,,,,,,,,MD012
+MDA013,Donduseni,,,,,,,,MD013
+MDA014,Drochia,,,,,,,,MD014
+MDA015,Dubasari,,,,,,,,MD015
+MDA016,Edinet,,,,,,,,MD016
+MDA017,Falesti,,,,,,,,MD017
+MDA018,Floresti,,,,,,,,MD018
+MDA019,Glodeni,,,,,,,,MD019
+MDA020,HDncesti,,,,,,,,MD020
+MDA021,Ialoveni,,,,,,,,MD021
+MDA022,Leova,,,,,,,,MD022
+MDA023,Nisporeni,,,,,,,,MD023
+MDA024,Ocnita,,,,,,,,MD024
+MDA025,Orhei,,,,,,,,MD025
+MDA026,Rezina,,,,,,,,MD026
+MDA027,RDscani,,,,,,,,MD027
+MDA028,SDngerei,,,,,,,,MD028
+MDA029,Soldanesti,,,,,,,,MD029
+MDA030,Soroca,,,,,,,,MD030
+MDA031,Stefan Voda,,,,,,,,MD031
+MDA032,Straseni,,,,,,,,MD032
+MDA033,Taraclia,,,,,,,,MD033
+MDA034,Telenesti,,,,,,,,MD034
+MDA035,Transnistria,,,,,,,,MD035
+MDA036,Ungheni,,,,,,,,MD036
+MDA037,Unitate Teritoriala Autonoma Gagauzia,,,,,,,,MD037
+MDG001,Analamanga,,,,,,,,MG11
+MDG002,Vakinankaratra,,,,,,,,MG12
+MDG003,Itasy,,,,,,,,MG13
+MDG004,Bongolava,,,,,,,,MG14
+MDG005,Haute Matsiatra,,,,,,,,MG21
+MDG006,Amoron I Mania,,,,,,,,MG22
+MDG007,Vatovavy Fitovinany,,,,,,,,MG23
+MDG008,Ihorombe,,,,,,,,MG24
+MDG009,Atsimo Atsinanana,,,,,,,,MG25
+MDG010,Atsinanana,,,,,,,,MG31
+MDG011,Analanjirofo,,,,,,,,MG32
+MDG012,Alaotra Mangoro,,,,,,,,MG33
+MDG013,Boeny,,,,,,,,MG41
+MDG014,Sofia,,,,,,,,MG42
+MDG015,Betsiboka,,,,,,,,MG43
+MDG016,Melaky,,,,,,,,MG44
+MDG017,Atsimo Andrefana,,,,,,,,MG51
+MDG018,Androy,,,,,,,,MG52
+MDG019,Anosy,,,,,,,,MG53
+MDG020,Menabe,,,,,,,,MG54
+MDG021,Diana,,,,,,,,MG71
+MDG022,Sava,,,,,,,,MG72
+MEX001,Aguascalientes,,,,,,,,MX01
+MEX002,Baja California,,,,,,,,MX02
+MEX003,Baja California Sur,,,,,,,,MX03
+MEX004,Campeche,,,,,,,,MX04
+MEX005,Coahuila de Zaragoza,,,,,,,,MX05
+MEX006,Colima,,,,,,,,MX06
+MEX007,Chiapas,,,,,,,,MX07
+MEX008,Chihuahua,,,,,,,,MX08
+MEX009,Distrito Federal,,,,,,,,MX09
+MEX010,Durango,,,,,,,,MX10
+MEX011,Guanajuato,,,,,,,,MX11
+MEX012,Guerrero,,,,,,,,MX12
+MEX013,Hidalgo,,,,,,,,MX13
+MEX014,Jalisco,,,,,,,,MX14
+MEX015,México,,,,,,,,MX15
+MEX016,Michoacán de Ocampo,,,,,,,,MX16
+MEX017,Morelos,,,,,,,,MX17
+MEX018,Nayarit,,,,,,,,MX18
+MEX019,Nuevo León,,,,,,,,MX19
+MEX020,Oaxaca,,,,,,,,MX20
+MEX021,Puebla,,,,,,,,MX21
+MEX022,Querétaro,,,,,,,,MX22
+MEX023,Quintana Roo,,,,,,,,MX23
+MEX024,San Luis Potosí,,,,,,,,MX24
+MEX025,Sinaloa,,,,,,,,MX25
+MEX026,Sonora,,,,,,,,MX26
+MEX027,Tabasco,,,,,,,,MX27
+MEX028,Tamaulipas,,,,,,,,MX28
+MEX029,Tlaxcala,,,,,,,,MX29
+MEX030,Veracruz de Ignacio de la Llave,,,,,,,,MX30
+MEX031,Yucatán,,,,,,,,MX31
+MEX032,Zacatecas,,,,,,,,MX32
+MKD001,North Macedonia,Република Северна Македонија,,,,,,,MK0
+MLI001,Kayes,,,,,,,,ML01
+MLI002,Koulikoro,,,,,,,,ML02
+MLI003,Sikasso,,,,,,,,ML03
+MLI004,Ségou,,,,,,,,ML04
+MLI005,Mopti,,,,,,,,ML05
+MLI006,Tombouctou,,,,,,,,ML06
+MLI007,Gao,,,,,,,,ML07
+MLI008,Kidal,,,,,,,,ML08
+MLI009,Bamako,,,,,,,,ML09
+MLT001,Ċentrali,,,Central,Region,Reġjun,MLT.1_1,,
+MLT002,Għawdex,,,Gozo,Region,Reġjun,MLT.2_1,,
+MLT003,Nofsinhar,,,Southern,Region,Reġjun,MLT.3_1,,
+MLT004,Tramuntana,,,Northern,Region,Reġjun,MLT.4_1,,
+MLT005,Xlokk,,,South Eastern,Region,Reġjun,MLT.5_1,,
+MMR001,Ayeyarwady,,,Irrawaddy|Ayeyarwaddy|Ayeyawady|Irawadi|Irraouaddi|Irrauaddy,Division,Yin,MMR.1_1,,
+MMR002,Bago,,,Pégou|Pegu,Division,Yin,MMR.2_1,,
+MMR003,Chin,,,Chin Hills,State,Pyine,MMR.3_1,,
+MMR004,Kachin,,,Jingphaw Mungdaw,State,Pyine,MMR.4_1,,
+MMR005,Kayah,,,Karenni,State,Pyine,MMR.5_1,,
+MMR006,Kayin,,,Kawthulei|Karen|Karin|Kawthoolei|Kawthulay,State,Pyine,MMR.6_1,,
+MMR007,Magway,,,Magwe|Minbu,Division,Yin,MMR.7_1,,
+MMR008,Mandalay,,,,Division,Yin,MMR.8_1,,
+MMR009,Mon,,,Mun,State,Pyine,MMR.9_1,,
+MMR010,Naypyitaw,,,Naypyidaw|Nay Pyi Taw,Union territory,Union territory,MMR.10_1,,
+MMR011,Rakhine,,,Arakan,State,Pyine,MMR.11_1,,
+MMR012,Sagaing,,,,Division,Yin,MMR.12_1,,
+MMR013,Shan,,,,State,Pyine,MMR.13_1,,
+MMR014,Tanintharyi,,,Tenasserim|Thanintharyi,Division,Yin,MMR.14_1,,
+MMR015,Yangon,,,Rangoon|Rangum|Rangun|Rang£n,Division,Yin,MMR.15_1,,
+MNE001,Andrijevica,,,,Municipality,Opština,MNE.1_1,,
+MNE002,Bar,,,,Municipality,Opština,MNE.2_1,,
+MNE003,Berane,,,,Municipality,Opština,MNE.3_1,,
+MNE004,Bijelo Polje,,,,Municipality,Opština,MNE.4_1,,
+MNE005,Budva,,,,Municipality,Opština,MNE.5_1,,
+MNE006,Cetinje,,,,Municipality,Opština,MNE.6_1,,
+MNE007,Danilovgrad,,,,Municipality,Opština,MNE.7_1,,
+MNE008,Herceg Novi,,,,Municipality,Opština,MNE.8_1,,
+MNE009,Kolašin,,,,Municipality,Opština,MNE.9_1,,
+MNE010,Kotor,,,,Municipality,Opština,MNE.10_1,,
+MNE011,Mojkovac,,,,Municipality,Opština,MNE.11_1,,
+MNE012,Nikšic,,,,Municipality,Opština,MNE.12_1,,
+MNE013,Plav,,,,Municipality,Opština,MNE.13_1,,
+MNE014,Pljevlja,,,,Municipality,Opština,MNE.14_1,,
+MNE015,Plužine,,,,Municipality,Opština,MNE.15_1,,
+MNE016,Podgorica,,,,Municipality,Opština,MNE.16_1,,
+MNE017,Rožaje,,,,Municipality,Opština,MNE.17_1,,
+MNE018,Šavnik,,,,Municipality,Opština,MNE.18_1,,
+MNE019,Tivat,,,,Municipality,Opština,MNE.19_1,,
+MNE020,Ulcinj,,,,Municipality,Opština,MNE.20_1,,
+MNE021,Žabljak,,,,Municipality,Opština,MNE.21_1,,
+MNG001,Ulaanbaatar,,,,,,,,11
+MNG002,Dornod,,,,,,,,21
+MNG003,Sukhbaatar,,,,,,,,22
+MNG004,Hentii,,,,,,,,23
+MNG005,To'v,,,,,,,,41
+MNG006,Govisumber,,,,,,,,42
+MNG007,Selenge,,,,,,,,43
+MNG008,Dornogovi,,,,,,,,44
+MNG009,Darkhan-Uul,,,,,,,,45
+MNG010,Omnogovi,,,,,,,,46
+MNG011,Dundgovi,,,,,,,,48
+MNG012,Orkhon,,,,,,,,61
+MNG013,Ovorkhangai,,,,,,,,62
+MNG014,Bulgan,,,,,,,,63
+MNG015,Bayankhongor,,,,,,,,64
+MNG016,Arxangai,,,,,,,,65
+MNG017,Khovsgol,,,,,,,,67
+MNG018,Zavkhan,,,,,,,,81
+MNG019,Govi-Altai,,,,,,,,82
+MNG020,Bayan-Olgii,,,,,,,,83
+MNG021,Khovd,,,,,,,,84
+MNG022,Uvs,,,,,,,,85
+MNP001,Northern Islands,,,,Municipality,Municipality,MNP.1_1,,
+MNP002,Rota,,,Luta,Municipality,Municipality,MNP.2_1,,
+MNP003,Saipan,,,,Municipality,Municipality,MNP.3_1,,
+MNP004,Tinian,,,,Municipality,Municipality,MNP.4_1,,
+MOZ001,Cabo Delgado,,,,,,,,MZ01
+MOZ002,Gaza,,,,,,,,MZ02
+MOZ003,Inhambane,,,,,,,,MZ03
+MOZ004,Manica,,,,,,,,MZ04
+MOZ005,Maputo,,,,,,,,MZ05
+MOZ006,Maputo City,,,,,,,,MZ06
+MOZ007,Nampula,,,,,,,,MZ07
+MOZ008,Niassa,,,,,,,,MZ08
+MOZ009,Sofala,,,,,,,,MZ09
+MOZ010,Tete,,,,,,,,MZ10
+MOZ011,Zambezia,,,,,,,,MZ11
+MRT001,Adrar,,,,,,,,MR01
+MRT002,Assaba,,,,,,,,MR02
+MRT003,Brakna,,,,,,,,MR03
+MRT004,Dakhlet-Nouadhibou,,,,,,,,MR04
+MRT005,Gorgol,,,,,,,,MR05
+MRT006,Guidimakha,,,,,,,,MR06
+MRT007,Hodh Ech Chargi,,,,,,,,MR07
+MRT008,Hodh El Gharbi,,,,,,,,MR08
+MRT009,Inchiri,,,,,,,,MR09
+MRT010,Nouakchott,,,,,,,,MR10
+MRT011,Tagant,,,,,,,,MR11
+MRT012,Tiris-Zemmour,,,,,,,,MR12
+MRT013,Trarza,,,,,,,,MR13
+MSR001,Saint Anthon,,,,Parish,Parish,MSR.1_1,,
+MSR002,Saint Georges,,,,Parish,Parish,MSR.2_1,,
+MSR003,Saint Peter,,,,Parish,Parish,MSR.3_1,,
+MTQ001,Fort-de-France,,,,,,,,MQ01
+MTQ002,Le Marin,,,,,,,,MQ02
+MTQ003,Saint-Pierre,,,,,,,,MQ03
+MTQ004,La Trinité,,,,,,,,MQ04
+MUS001,Agalega Islands,,,îles Agaléga,Region,Region,MUS.1_1,,
+MUS002,Black River,,,,District,District,MUS.2_1,,
+MUS003,Flacq,,,,District,District,MUS.3_1,,
+MUS004,Grand Port,,,,District,District,MUS.4_1,,
+MUS005,Moka,,,,District,District,MUS.5_1,,
+MUS006,Pamplemousses,,,,District,District,MUS.6_1,,
+MUS007,Plaines Wilhems,,,,District,District,MUS.7_1,,
+MUS008,Port Louis,,,,District,District,MUS.8_1,,
+MUS009,Rivière du Rempart,,,,District,District,MUS.9_1,,
+MUS010,Rodriguez,,,île Rodrigues,Autonomous island,Autonomous island,MUS.10_1,,
+MUS011,Saint Brandon,,,Cargados Carajos),Region,Region,MUS.11_1,,
+MUS012,Savanne,,,,District,District,MUS.12_1,,
+MWI001,Northern,,,,,,,,MW1
+MWI002,Central,,,,,,,,MW2
+MWI003,Southern,,,,,,,,MW3
+MYS001,Johor,,,Johor Darul Takzim|Johore,State,Negeri,MYS.1_1,,
+MYS002,Kedah,,,Kedah Darul Aman,State,Negeri,MYS.2_1,,
+MYS003,Kelantan,,,<Null>,State,Negeri,MYS.3_1,,
+MYS004,Kuala Lumpur,,,Federal Territory of Kuala Lumpur,Federal Territory,Wilayah Persekutuan,MYS.4_1,,
+MYS005,Labuan,,,Federal Territory of Labuan,Federal Territory,Wilayah Persekutuan,MYS.5_1,,
+MYS006,Melaka,,,Malacca|Malaka,State,Negeri,MYS.6_1,,
+MYS007,Negeri Sembilan,,,Negeri Sembilan Darul Khusus|Negri Sembilan,State,Negeri,MYS.7_1,,
+MYS008,Pahang,,,Pahang Darul Makmur,State,Negeri,MYS.8_1,,
+MYS009,Perak,,,Perak Darul Ridzuan,State,Negeri,MYS.9_1,,
+MYS010,Perlis,,,Perlis Indra Kayangan,State,Negeri,MYS.10_1,,
+MYS011,Pulau Pinang,,,Penang and Province Wellesley|Penang,State,Negeri,MYS.11_1,,
+MYS012,Putrajaya,,,Federal Territory of Putrajaya,Federal Territory,Wilayah Persekutuan,MYS.12_1,,
+MYS013,Sabah,,,North Borneo,State,Negeri,MYS.13_1,,
+MYS014,Sarawak,,,,State,Negeri,MYS.14_1,,
+MYS015,Selangor,,,Selangor Darul Ehsan,State,Negeri,MYS.15_1,,
+MYS016,Trengganu,,,Terengganu Darul Iman,State,Negeri,MYS.16_1,,
+MYT001,Acoua,,,,Commune,Chef-lieu canton,MYT.1_1,1,
+MYT002,Bandraboua,,,,Commune,Chef-lieu canton,MYT.2_1,2,
+MYT003,Bandrele,,,,Commune,Chef-lieu canton,MYT.3_1,3,
+MYT004,Boueni,,,,Commune,Chef-lieu canton,MYT.4_1,4,
+MYT005,Chiconi,,,,Commune,Chef-lieu canton,MYT.5_1,5,
+MYT006,Chirongui,,,,Commune,Chef-lieu canton,MYT.6_1,6,
+MYT007,Dembeni,,,,Commune,Chef-lieu canton,MYT.7_1,7,
+MYT008,Dzaoudzi,,,,Commune,Préfecture de région,MYT.8_1,8,
+MYT009,Kani-Keli,,,,Commune,Chef-lieu canton,MYT.9_1,9,
+MYT010,Koungou,,,,Commune,Chef-lieu canton,MYT.10_1,10,
+MYT011,M'tsangamouji,,,,Commune,Chef-lieu canton,MYT.11_1,13,
+MYT012,Mamoudzou,,,,Commune,Sous-préfecture,MYT.12_1,11,
+MYT013,Mtsamboro,,,,Commune,Chef-lieu canton,MYT.13_1,12,
+MYT014,Ouangani,,,,Commune,Chef-lieu canton,MYT.14_1,14,
+MYT015,Pamandzi,,,,Commune,Chef-lieu canton,MYT.15_1,15,
+MYT016,Sada,,,,Commune,Chef-lieu canton,MYT.16_1,16,
+MYT017,Tsingoni,,,,Commune,Chef-lieu canton,MYT.17_1,17,
+NAM001,Zambezi,,,,,,,,NA01
+NAM002,Erongo,,,,,,,,NA02
+NAM003,Hardap,,,,,,,,NA03
+NAM004,Karas,,,,,,,,NA04
+NAM005,Kavango East,,,,,,,,NA05
+NAM006,Khomas,,,,,,,,NA06
+NAM007,Kunene,,,,,,,,NA07
+NAM008,Ohangwena,,,,,,,,NA08
+NAM009,Omaheke,,,,,,,,NA09
+NAM010,Omusati,,,,,,,,NA10
+NAM011,Oshana,,,,,,,,NA11
+NAM012,Oshikoto,,,,,,,,NA12
+NAM013,Otjozondjupa,,,,,,,,NA13
+NAM014,Kavango West,,,,,,,,NA14
+NCL001,Îles Loyauté,,,Loyalty Islands|Islas de la Lealtad,Province,Province,NCL.1_1,,
+NCL002,Nord,,,,Province,Province,NCL.2_1,,
+NCL003,Sud,,,,Province,Province,NCL.3_1,,
+NER001,Agadez,,,,,,,,NER001
+NER002,Diffa,,,,,,,,NER002
+NER003,Dosso,,,,,,,,NER003
+NER004,Maradi,,,,,,,,NER004
+NER005,Tahoua,,,,,,,,NER005
+NER006,Tillaberi,,,,,,,,NER006
+NER007,Zinder,,,,,,,,NER007
+NER008,Niamey,,,,,,,,NER008
+NGA001,Abia,,,,,,,,NG001
+NGA002,Adamawa,,,,,,,,NG002
+NGA003,Akwa Ibom,,,,,,,,NG003
+NGA004,Anambra,,,,,,,,NG004
+NGA005,Bauchi,,,,,,,,NG005
+NGA006,Bayelsa,,,,,,,,NG006
+NGA007,Benue,,,,,,,,NG007
+NGA008,Borno,,,,,,,,NG008
+NGA009,Cross River,,,,,,,,NG009
+NGA010,Delta,,,,,,,,NG010
+NGA011,Ebonyi,,,,,,,,NG011
+NGA012,Edo,,,,,,,,NG012
+NGA013,Ekiti,,,,,,,,NG013
+NGA014,Enugu,,,,,,,,NG014
+NGA015,Federal Capital Territory,,,,,,,,NG015
+NGA016,Gombe,,,,,,,,NG016
+NGA017,Imo,,,,,,,,NG017
+NGA018,Jigawa,,,,,,,,NG018
+NGA019,Kaduna,,,,,,,,NG019
+NGA020,Kano,,,,,,,,NG020
+NGA021,Katsina,,,,,,,,NG021
+NGA022,Kebbi,,,,,,,,NG022
+NGA023,Kogi,,,,,,,,NG023
+NGA024,Kwara,,,,,,,,NG024
+NGA025,Lagos,,,,,,,,NG025
+NGA026,Nasarawa,,,,,,,,NG026
+NGA027,Niger,,,,,,,,NG027
+NGA028,Ogun,,,,,,,,NG028
+NGA029,Ondo,,,,,,,,NG029
+NGA030,Osun,,,,,,,,NG030
+NGA031,Oyo,,,,,,,,NG031
+NGA032,Plateau,,,,,,,,NG032
+NGA033,Rivers,,,,,,,,NG033
+NGA034,Sokoto,,,,,,,,NG034
+NGA035,Taraba,,,,,,,,NG035
+NGA036,Yobe,,,,,,,,NG036
+NGA037,Zamfara,,,,,,,,NG037
+NIC001,Atlántico Norte,,,Región Autónoma del Atlántico Norte,Autonomous Region,Región Autónoma,NIC.1_1,,
+NIC002,Atlántico Sur,,,Región Autónoma del Atlántico Norte,Autonomous Region,Región Autónoma,NIC.2_1,,
+NIC003,Boaco,,,,Department,Departamento,NIC.3_1,,
+NIC004,Carazo,,,,Department,Departamento,NIC.4_1,,
+NIC005,Chinandega,,,,Department,Departamento,NIC.5_1,,
+NIC006,Chontales,,,,Department,Departamento,NIC.6_1,,
+NIC007,Estelí,,,Estel¡,Department,Departamento,NIC.7_1,,
+NIC008,Granada,,,,Department,Departamento,NIC.8_1,,
+NIC009,Jinotega,,,,Department,Departamento,NIC.9_1,,
+NIC011,León,,,,Department,Departamento,NIC.11_1,,
+NIC012,Madriz,,,,Department,Departamento,NIC.12_1,,
+NIC013,Managua,,,,Department,Departamento,NIC.13_1,,
+NIC014,Masaya,,,,Department,Departamento,NIC.14_1,,
+NIC015,Matagalpa,,,,Department,Departamento,NIC.15_1,,
+NIC016,Nueva Segovia,,,,Department,Departamento,NIC.16_1,,
+NIC017,Río San Juan,,,,Department,Departamento,NIC.17_1,,
+NIC018,Rivas,,,,Department,Departamento,NIC.18_1,,
+NLD001,Drenthe,,,,Province,Provincie,NLD.1_1,,
+NLD002,Flevoland,,,,Province,Provincie,NLD.2_1,,
+NLD003,Friesland,,,Frise|Frisia|Frísia,Province,Provincie,NLD.3_1,,
+NLD004,Gelderland,,,Geldern|Gheldria|Guelders|Gueldre,Province,Provincie,NLD.4_1,,
+NLD005,Groningen,,,Groninga|Groningue,Province,Provincie,NLD.5_1,,
+NLD007,Limburg,,,Limbourg|Limburgo,Province,Provincie,NLD.7_1,,
+NLD008,Noord-Brabant,,,Brabante del Norte|Brabante do Norte|Brabante settentrionale|Brabant-septentrional|Nord-Brabant|Nort,Province,Provincie,NLD.8_1,,
+NLD009,Noord-Holland,,,Holanda do Norte|Hollande-septentrionale|North Holland,Province,Provincie,NLD.9_1,,
+NLD010,Overijssel,,,,Province,Provincie,NLD.10_1,,
+NLD011,Utrecht,,,,Province,Provincie,NLD.11_1,,
+NLD012,Zeeland,,,Zelanda|Zélande|Zelândia,Province,Provincie,NLD.12_1,,
+NLD014,Zuid-Holland,,,Hollande-méridionale|South Holland,Province,Provincie,NLD.14_1,,
+NOR001,Akershus,,,Akershus fylke,County,Fylke,NOR.1_1,,
+NOR002,Ãstfold,,,Oestfold fylke,County,Fylke,NOR.2_1,,
+NOR003,Aust-Agder,,,Aust-Agder fylke|Austur-Agðir|Nedenes,County,Fylke,NOR.3_1,,
+NOR004,Buskerud,,,Buskerud fylke,County,Fylke,NOR.4_1,,
+NOR005,Finnmark,,,Finnmark fylke|Finmarken|Finnmárkku|Finnmörk,County,Fylke,NOR.5_1,,
+NOR006,Hedmark,,,Hedmark fylke|Hedemarken|Heiðmörk,County,Fylke,NOR.6_1,,
+NOR007,Hordaland,,,Hordaland fylke|Hörðaland|Søndre Bergenhus,County,Fylke,NOR.7_1,,
+NOR008,Møre og Romsdal,,,Moere og Romsdal fylk|Møre|Romsdal,County,Fylke,NOR.8_1,,
+NOR009,Nord-Trøndelag,,,Nord-Troendelag fylke|Nordre Trondhjem|Norður-Þrændalög,County,Fylke,NOR.9_1,,
+NOR010,Nordland,,,Nordland fylke,County,Fylke,NOR.10_1,,
+NOR011,Oppland,,,Oppland fylke|Kristian|Opland|Upplönd,County,Fylke,NOR.11_1,,
+NOR012,Oslo,,,Oslo fylke|Kristiania,County,Fylke,NOR.12_1,,
+NOR013,Rogaland,,,Rogaland fylke|Stavanger,County,Fylke,NOR.13_1,,
+NOR014,Sogn og Fjordane,,,Sogn og Fjordane fyl|Nordre Bergenhus|Sogn og Firða-Fylki,County,Fylke,NOR.14_1,,
+NOR015,Sør-Trøndelag,,,Soer-Troendelag fylke|Søndre Trondhjem|Suður-Þrændalög,County,Fylke,NOR.15_1,,
+NOR016,Telemark,,,Telemark fylke|Bratsberg|Þelamörk,County,Fylke,NOR.16_1,,
+NOR017,Troms,,,Troms fylke|Tromsø|Troms-Fylki,County,Fylke,NOR.17_1,,
+NOR018,Vest-Agder,,,Vest-Agder fylke|Lister og Mandal|Vestur-Agðir,County,Fylke,NOR.18_1,,
+NOR019,Vestfold,,,Vestfold fylke|Jarlsberg og Larvik,County,Fylke,NOR.19_1,,
+NPL001,1,,,,,,,,NP01
+NPL002,2,,,,,,,,NP02
+NPL003,3,,,,,,,,NP03
+NPL004,4,,,,,,,,NP04
+NPL005,5,,,,,,,,NP05
+NPL006,6,,,,,,,,NP06
+NPL007,7,,,,,,,,NP07
+NRU001,Aiwo,,,,District,District,NRU.1_1,,
+NRU002,Anabar,,,,District,District,NRU.2_1,,
+NRU003,Anetan,,,,District,District,NRU.3_1,,
+NRU004,Anibare,,,,District,District,NRU.4_1,,
+NRU005,Baiti,,,,District,District,NRU.5_1,,
+NRU006,Boe,,,,District,District,NRU.6_1,,
+NRU007,Buada,,,,District,District,NRU.7_1,,
+NRU008,Denigomodu,,,,District,District,NRU.8_1,,
+NRU009,Ewa,,,,District,District,NRU.9_1,,
+NRU010,Ijuw,,,,District,District,NRU.10_1,,
+NRU011,Meneng,,,,District,District,NRU.11_1,,
+NRU012,Nibok,,,,District,District,NRU.12_1,,
+NRU013,Uaboe,,,,District,District,NRU.13_1,,
+NRU014,Yaren,,,,District,District,NRU.14_1,,
+NZL001,Auckland,,,,Region,Region,NZL.1_1,2.0,
+NZL002,Bay of Plenty,,,,Region,Region,NZL.2_1,4.0,
+NZL003,Canterbury,,,,Region,Region,NZL.3_1,13.0,
+NZL004,Chatham Islands,,,,Territory,Region,NZL.4_1,99.0,
+NZL005,Gisborne,,,,Region,Region,NZL.5_1,5.0,
+NZL006,Hawke's Bay,,,,Region,Region,NZL.6_1,6.0,
+NZL007,Manawatu-Wanganui,,,,Region,Region,NZL.7_1,8.0,
+NZL008,Marlborough,,,,Region,Region,NZL.8_1,18.0,
+NZL009,Nelson,,,,Region,Region,NZL.9_1,17.0,
+NZL010,Northern Islands,,,,Group of islands,Group of islands,NZL.10_1,,
+NZL011,Northland,,,,Region,Region,NZL.11_1,1.0,
+NZL012,Otago,,,,Region,Region,NZL.12_1,14.0,
+NZL013,Southern Islands,,,,Group of islands,Group of islands,NZL.13_1,,
+NZL014,Southland,,,,Region,Region,NZL.14_1,15.0,
+NZL015,Taranaki,,,,Region,Region,NZL.15_1,7.0,
+NZL016,Tasman,,,,Region,Region,NZL.16_1,16.0,
+NZL017,Waikato,,,,Region,Region,NZL.17_1,3.0,
+NZL018,Wellington,,,,Region,Region,NZL.18_1,9.0,
+NZL019,West Coast,,,,Region,Region,NZL.19_1,12.0,
+OMN001,Ad Dakhliyah,,,Ad Dakhiliyah,Region,Mintaqah,OMN.1_1,,
+OMN002,Al Batinah North,,,,Region,Mintaqah,OMN.2_1,,
+OMN003,Al Batinah South,,,,Region,Mintaqah,OMN.3_1,,
+OMN004,Al Buraymi,,,Adh Dhahirah|Az Zahirah,Region,Mintaqah,OMN.4_1,,
+OMN005,Al Dhahira,,,Adh Dhahirah|Az Zahirah,Region,Mintaqah,OMN.5_1,,
+OMN006,Al Wusta,,,,Region,Mintaqah,OMN.6_1,,
+OMN007,Ash Sharqiyah North,,,,Region,Mintaqah,OMN.7_1,,
+OMN008,Ash Sharqiyah South,,,,Region,Mintaqah,OMN.8_1,,
+OMN009,Dhofar,,,Al Janubiyah [Zufar],Province,Muhafazah,OMN.9_1,,
+OMN010,Musandam,,,,Province,Muhafazah,OMN.10_1,,
+OMN011,Muscat,,,Masqat,Province,Muhafazah,OMN.11_1,,
+PAK001,Khyber Pakhtunkhwa,,,,,,,,PK2
+PAK002,Federal Capital Territory,,,,,,,,PK5
+PAK003,Punjab,,,,,,,,PK6
+PAK004,Balochistan,,,,,,,,PK7
+PAK005,Sindh,,,,,,,,PK8
+PAN001,Bocas del Toro,,,,Province,Provincia,PAN.1_1,,
+PAN002,Chiriquí,,,,Province,Provincia,PAN.2_1,,
+PAN003,Coclé,,,,Province,Provincia,PAN.3_1,,
+PAN004,Colón,,,,Province,Provincia,PAN.4_1,,
+PAN005,Darién,,,,Province,Provincia,PAN.5_1,,
+PAN006,Emberá,,,Emberá-Wounaan,Indigenous Territory,Comarca Indígena,PAN.6_1,,
+PAN007,Herrera,,,,Province,Provincia,PAN.7_1,,
+PAN008,Kuna Yala,,,,Indigenous Territory,Comarca Indígena,PAN.8_1,,
+PAN009,Los Santos,,,,Province,Provincia,PAN.9_1,,
+PAN010,Ngöbe Buglé,,,,Indigenous Territory,Comarca Indígena,PAN.10_1,,
+PAN011,Panamá Oeste,,,,Province,Provincia,PAN.11_1,,
+PAN012,Panamá,,,Panam ,Province,Provincia,PAN.12_1,,
+PAN013,Veraguas,,,,Province,Provincia,PAN.13_1,,
+PER001,Amazonas,,,,,,,,PE01
+PER002,Ancash,,,,,,,,PE02
+PER003,Apurimac,,,,,,,,PE03
+PER004,Arequipa,,,,,,,,PE04
+PER005,Ayacucho,,,,,,,,PE05
+PER006,Cajamarca,,,,,,,,PE06
+PER007,Callao,,,,,,,,PE07
+PER008,Cusco,,,,,,,,PE08
+PER009,Huancavelica,,,,,,,,PE09
+PER010,Huanuco,,,,,,,,PE10
+PER011,Ica,,,,,,,,PE11
+PER012,Junin,,,,,,,,PE12
+PER013,La Libertad,,,,,,,,PE13
+PER014,Lambayeque,,,,,,,,PE14
+PER015,Lima,,,,,,,,PE15
+PER016,Loreto,,,,,,,,PE16
+PER017,Madre De Dios,,,,,,,,PE17
+PER018,Moquegua,,,,,,,,PE18
+PER019,Pasco,,,,,,,,PE19
+PER020,Piura,,,,,,,,PE20
+PER021,Puno,,,,,,,,PE21
+PER022,San Martin,,,,,,,,PE22
+PER023,Tacna,,,,,,,,PE23
+PER024,Tumbes,,,,,,,,PE24
+PER025,Ucayali,,,,,,,,PE25
+PHL001,Region I,,,,,,,,PH010000000
+PHL002,Region II,,,,,,,,PH020000000
+PHL003,Region III,,,,,,,,PH030000000
+PHL004,Region IV-A,,,,,,,,PH040000000
+PHL005,Region V,,,,,,,,PH050000000
+PHL006,Region VI,,,,,,,,PH060000000
+PHL007,Region VII,,,,,,,,PH070000000
+PHL008,Region VIII,,,,,,,,PH080000000
+PHL009,Region IX,,,,,,,,PH090000000
+PHL010,Region X,,,,,,,,PH100000000
+PHL011,Region XI,,,,,,,,PH110000000
+PHL012,Region XII,,,,,,,,PH120000000
+PHL013,National Capital Region,,,,,,,,PH130000000
+PHL014,Cordillera Administrative Region,,,,,,,,PH140000000
+PHL015,Autonomous Region in Muslim Mindanao,,,,,,,,PH150000000
+PHL016,Region XIII,,,,,,,,PH160000000
+PHL017,Region IV-B,,,,,,,,PH170000000
+PHL018,Negros Island Region,,,,,,,,PH180000000
+PLW001,Aimeliik,,,,State,State,PLW.1_1,,
+PLW002,Airai,,,,State,State,PLW.2_1,,
+PLW003,Angaur,,,,State,State,PLW.3_1,,
+PLW004,Hatohobei,,,,State,State,PLW.4_1,,
+PLW005,Kayangel,,,,State,State,PLW.5_1,,
+PLW006,Koror,,,,State,State,PLW.6_1,,
+PLW007,Melekeok,,,,State,State,PLW.7_1,,
+PLW008,Ngaraard,,,,State,State,PLW.8_1,,
+PLW009,Ngarchelong,,,,State,State,PLW.9_1,,
+PLW010,Ngardmau,,,,State,State,PLW.10_1,,
+PLW011,Ngatpang,,,,State,State,PLW.11_1,,
+PLW012,Ngchesar,,,,State,State,PLW.12_1,,
+PLW013,Ngeremlengui,,,Ngaremlengui,State,State,PLW.13_1,,
+PLW014,Ngiwal,,,,State,State,PLW.14_1,,
+PLW015,Peleliu,,,,State,State,PLW.15_1,,
+PLW016,Sonsorol,,,,State,State,PLW.16_1,,
+PNG001,Western Province,,,,,,,,PG01
+PNG002,Gulf Province,,,,,,,,PG02
+PNG003,Central Province,,,,,,,,PG03
+PNG004,National Capital District,,,,,,,,PG04
+PNG005,Milne Bay Province,,,,,,,,PG05
+PNG006,Northern (Oro) Province,,,,,,,,PG06
+PNG007,Southern Highlands Province,,,,,,,,PG07
+PNG008,Enga Province,,,,,,,,PG08
+PNG009,Western Highlands Province,,,,,,,,PG09
+PNG010,Chimbu (Simbu) Province,,,,,,,,PG10
+PNG011,Eastern Highlands Province,,,,,,,,PG11
+PNG012,Morobe Province,,,,,,,,PG12
+PNG013,Madang Province,,,,,,,,PG13
+PNG014,East Sepik Province,,,,,,,,PG14
+PNG015,West Sepik (Sandaun) Province,,,,,,,,PG15
+PNG016,Manus Province,,,,,,,,PG16
+PNG017,New Ireland Province,,,,,,,,PG17
+PNG018,East New Britain Province,,,,,,,,PG18
+PNG019,West New Britain Province,,,,,,,,PG19
+PNG020,Autonomous Region of Bougainville,,,,,,,,PG20
+PNG021,Hela Province,,,,,,,,PG21
+PNG022,Jiwaka Province,,,,,,,,PG22
+POL001,Dolnośląskie,,,,Province|Voivodeship,Województwo,POL.1_1,2,
+POL002,Kujawsko-Pomorskie,,,,Province|Voivodeship,Województwo,POL.2_1,4,
+POL003,Łódzkie,,,,Province|Voivodeship,Województwo,POL.3_1,10,
+POL004,Lubelskie,,,,Province|Voivodeship,Województwo,POL.4_1,6,
+POL005,Lubuskie,,,,Province|Voivodeship,Województwo,POL.5_1,8,
+POL006,Małopolskie,,,,Province|Voivodeship,Województwo,POL.6_1,12,
+POL007,Mazowieckie,,,,Province|Voivodeship,Województwo,POL.7_1,14,
+POL008,Opolskie,,,,Province|Voivodeship,Województwo,POL.8_1,16,
+POL009,Podkarpackie,,,,Province|Voivodeship,Województwo,POL.9_1,18,
+POL010,Podlaskie,,,,Province|Voivodeship,Województwo,POL.10_1,20,
+POL011,Pomorskie,,,,Province|Voivodeship,Województwo,POL.11_1,22,
+POL012,Śląskie,,,,Province|Voivodeship,Województwo,POL.12_1,24,
+POL013,Świętokrzyskie,,,,Province|Voivodeship,Województwo,POL.13_1,26,
+POL014,Warmińsko-Mazurskie,,,,Province|Voivodeship,Województwo,POL.14_1,28,
+POL015,Wielkopolskie,,,,Province|Voivodeship,Województwo,POL.15_1,30,
+POL016,Zachodniopomorskie,,,,Province|Voivodeship,Województwo,POL.16_1,32,
+PRI001,Adjuntas,,,,Municipality,Municipio,PRI.1_1,,
+PRI002,Aguada,,,,Municipality,Municipio,PRI.2_1,,
+PRI003,Aguadilla,,,,Municipality,Municipio,PRI.3_1,,
+PRI004,Aguas Buenas,,,,Municipality,Municipio,PRI.4_1,,
+PRI005,Aibonito,,,,Municipality,Municipio,PRI.5_1,,
+PRI006,Añasco,,,,Municipality,Municipio,PRI.6_1,,
+PRI007,Arecibo,,,,Municipality,Municipio,PRI.7_1,,
+PRI008,Arroyo,,,,Municipality,Municipio,PRI.8_1,,
+PRI009,Barceloneta,,,,Municipality,Municipio,PRI.9_1,,
+PRI010,Barranquitas,,,,Municipality,Municipio,PRI.10_1,,
+PRI011,Bayamón,,,,Municipality,Municipio,PRI.11_1,,
+PRI012,Cabo Rojo,,,,Municipality,Municipio,PRI.12_1,,
+PRI013,Caguas,,,,Municipality,Municipio,PRI.13_1,,
+PRI014,Camuy,,,,Municipality,Municipio,PRI.14_1,,
+PRI015,Canóvanas,,,,Municipality,Municipio,PRI.15_1,,
+PRI016,Carolina,,,,Municipality,Municipio,PRI.16_1,,
+PRI017,Cataño,,,,Municipality,Municipio,PRI.17_1,,
+PRI018,Cayey,,,,Municipality,Municipio,PRI.18_1,,
+PRI019,Ceiba,,,,Municipality,Municipio,PRI.19_1,,
+PRI020,Ciales,,,,Municipality,Municipio,PRI.20_1,,
+PRI021,Cidra,,,,Municipality,Municipio,PRI.21_1,,
+PRI022,Coamo,,,,Municipality,Municipio,PRI.22_1,,
+PRI023,Comerío,,,,Municipality,Municipio,PRI.23_1,,
+PRI024,Corozal,,,,Municipality,Municipio,PRI.24_1,,
+PRI025,Culebra,,,,Municipality,Municipio,PRI.25_1,,
+PRI026,Dorado,,,,Municipality,Municipio,PRI.26_1,,
+PRI027,Fajardo,,,,Municipality,Municipio,PRI.27_1,,
+PRI028,Florida,,,,Municipality,Municipio,PRI.28_1,,
+PRI029,Guánica,,,,Municipality,Municipio,PRI.29_1,,
+PRI030,Guayama,,,,Municipality,Municipio,PRI.30_1,,
+PRI031,Guayanilla,,,,Municipality,Municipio,PRI.31_1,,
+PRI032,Guaynabo,,,,Municipality,Municipio,PRI.32_1,,
+PRI033,Gurabo,,,,Municipality,Municipio,PRI.33_1,,
+PRI034,Hatillo,,,,Municipality,Municipio,PRI.34_1,,
+PRI035,Hormigueros,,,,Municipality,Municipio,PRI.35_1,,
+PRI036,Humacao,,,,Municipality,Municipio,PRI.36_1,,
+PRI037,Isabela,,,,Municipality,Municipio,PRI.37_1,,
+PRI038,Jayuya,,,,Municipality,Municipio,PRI.38_1,,
+PRI039,Juana Díaz,,,,Municipality,Municipio,PRI.39_1,,
+PRI040,Juncos,,,,Municipality,Municipio,PRI.40_1,,
+PRI041,Lajas,,,,Municipality,Municipio,PRI.41_1,,
+PRI042,Lares,,,,Municipality,Municipio,PRI.42_1,,
+PRI043,Las Marías,,,,Municipality,Municipio,PRI.43_1,,
+PRI044,Las Piedras,,,,Municipality,Municipio,PRI.44_1,,
+PRI045,Loíza,,,,Municipality,Municipio,PRI.45_1,,
+PRI046,Luquillo,,,,Municipality,Municipio,PRI.46_1,,
+PRI047,Manatí,,,,Municipality,Municipio,PRI.47_1,,
+PRI048,Maricao,,,,Municipality,Municipio,PRI.48_1,,
+PRI049,Maunabo,,,,Municipality,Municipio,PRI.49_1,,
+PRI050,Mayagüez,,,,Municipality,Municipio,PRI.50_1,,
+PRI051,Moca,,,,Municipality,Municipio,PRI.51_1,,
+PRI052,Morovis,,,,Municipality,Municipio,PRI.52_1,,
+PRI053,Naguabo,,,,Municipality,Municipio,PRI.53_1,,
+PRI054,Naranjito,,,,Municipality,Municipio,PRI.54_1,,
+PRI055,Orocovis,,,,Municipality,Municipio,PRI.55_1,,
+PRI056,Patillas,,,,Municipality,Municipio,PRI.56_1,,
+PRI057,Peñuelas,,,,Municipality,Municipio,PRI.57_1,,
+PRI058,Ponce,,,,Municipality,Municipio,PRI.58_1,,
+PRI059,Quebradillas,,,,Municipality,Municipio,PRI.59_1,,
+PRI060,Rincón,,,,Municipality,Municipio,PRI.60_1,,
+PRI061,Río Grande,,,,Municipality,Municipio,PRI.61_1,,
+PRI062,Sabana Grande,,,,Municipality,Municipio,PRI.62_1,,
+PRI063,Salinas,,,,Municipality,Municipio,PRI.63_1,,
+PRI064,San Germán,,,,Municipality,Municipio,PRI.64_1,,
+PRI065,San Juan,,,,Municipality,Municipio|Senatorial District,PRI.65_1,,
+PRI066,San Lorenzo,,,,Municipality,Municipio,PRI.66_1,,
+PRI067,San Sebastián,,,,Municipality,Municipio,PRI.67_1,,
+PRI068,Santa Isabel,,,,Municipality,Municipio,PRI.68_1,,
+PRI069,Toa Alta,,,,Municipality,Municipio,PRI.69_1,,
+PRI070,Toa Baja,,,,Municipality,Municipio,PRI.70_1,,
+PRI071,Trujillo Alto,,,,Municipality,Municipio,PRI.71_1,,
+PRI072,Utuado,,,,Municipality,Municipio,PRI.72_1,,
+PRI073,Vega Alta,,,,Municipality,Municipio,PRI.73_1,,
+PRI074,Vega Baja,,,,Municipality,Municipio,PRI.74_1,,
+PRI075,Vieques,,,,Municipality,Municipio,PRI.75_1,,
+PRI076,Villalba,,,,Municipality,Municipio,PRI.76_1,,
+PRI077,Yabucoa,,,,Municipality,Municipio,PRI.77_1,,
+PRI078,Yauco,,,,Municipality,Municipio,PRI.78_1,,
+PRK001,Chagang-do,,,Changang|Jagang|자강도,Province,Do,PRK.1_1,,
+PRK002,Hamgyŏng-bukto,,,North Hamgyong|Kankyo Hoku-do|함경북도,Province,Do,PRK.2_1,,
+PRK003,Hamgyŏng-namdo,,,South Hamgyong|Kankyo Nan-do|함경남도,Province,Do,PRK.3_1,,
+PRK004,Hwanghae-bukto,,,North Hwanghae|North Hwanghai|황해북도,Province,Do,PRK.4_1,,
+PRK005,Hwanghae-namdo,,,South Hwanghae|South Hwanghai|황해남도,Province,Do,PRK.5_1,,
+PRK006,Kaesŏng,,,Kaesong|Kaesŏng-chigu|Kaesŏng Kong-ŏp Chigu|Kaesŏng Industrial Region|개성공업지구,Special Administrative Region,T'ŭkbyŏl Haengjeonggu,PRK.6_1,,
+PRK007,Kangwŏn-do,,,Kangwon|Kogen-do|North Kangwon|강원도,Province,Do,PRK.7_1,,
+PRK008,Kumgangsan,,,금강산 관광 지구,Special Administrative Region,T'ŭkbyŏl Haengjeonggu,PRK.8_1,,
+PRK009,P'yŏngan-bukto,,,North Pyongan|Heian Hoku-do|평안북도,Province,Do,PRK.9_1,,
+PRK010,P'yŏngan-namdo,,,South Pyongan|Heian Nan-do|평안남도,Province,Do,PRK.10_1,,
+PRK011,P'yŏngyang,,,Pyongyang|Pjöngjang|P'yŏngyang-tŭkpyŏlsi|평양직할시,Special City,Si,PRK.11_1,,
+PRK012,Rasŏn,,,Rajin-Sŏnbong|라선 직할시,Directly Governed City,Teukbyeolsi,PRK.12_1,,
+PRK013,Ryanggang,,,Yanggang|Ryanggang-do|량강도,Province,Do,PRK.13_1,,
+PRK014,Sinŭiju,,,신의주 특별 행정구,Special Administrative Region,T'ŭkbyŏl Haengjeonggu,PRK.14_1,,
+PRT001,Aveiro,,,,District,Distrito,PRT.1_1,1.0,
+PRT002,Azores,,,Açores,'Autonomous Region',Regiões autônoma,PRT.2_1,,
+PRT003,Beja,,,,District,Distrito,PRT.3_1,2.0,
+PRT004,Braga,,,,District,Distrito,PRT.4_1,3.0,
+PRT005,Bragança,,,Braganza,District,Distrito,PRT.5_1,4.0,
+PRT006,Castelo Branco,,,,District,Distrito,PRT.6_1,5.0,
+PRT007,Coimbra,,,,District,Distrito,PRT.7_1,6.0,
+PRT008,Évora,,,,District,Distrito,PRT.8_1,,
+PRT009,Faro,,,,District,Distrito,PRT.9_1,8.0,
+PRT010,Guarda,,,,District,Distrito,PRT.10_1,9.0,
+PRT011,Leiria,,,,District,Distrito,PRT.11_1,,
+PRT012,Lisboa,,,Lisbon|Lisbona|Lisbonne|Lissabon,District,Distrito,PRT.12_1,,
+PRT013,Madeira,,,,'Autonomous Region',Regiões autônoma,PRT.13_1,,
+PRT014,Portalegre,,,,District,Distrito,PRT.14_1,,
+PRT015,Porto,,,Oporto,District,Distrito,PRT.15_1,,
+PRT016,Santarém,,,,District,Distrito,PRT.16_1,,
+PRT017,Setúbal,,,,District,Distrito,PRT.17_1,,
+PRT018,Viana do Castelo,,,Vianna do Castello,District,Distrito,PRT.18_1,,
+PRT019,Vila Real,,,Villa Real,District,Distrito,PRT.19_1,,
+PRT020,Viseu,,,Vizeu,District,Distrito,PRT.20_1,,
+PRY001,Alto Paraguay,,,,Department,Departamento,PRY.1_1,,
+PRY002,Alto Paraná,,,,Department,Departamento,PRY.2_1,,
+PRY003,Amambay,,,,Department,Departamento,PRY.3_1,,
+PRY004,Asunción,,,,Capital District,Distrito Capital,PRY.4_1,,
+PRY005,Boquerón,,,,Department,Departamento,PRY.5_1,,
+PRY006,Caaguazú,,,,Department,Departamento,PRY.6_1,,
+PRY007,Caazapá,,,,Department,Departamento,PRY.7_1,,
+PRY008,Canindeyú,,,,Department,Departamento,PRY.8_1,,
+PRY009,Central,,,,Department,Departamento,PRY.9_1,,
+PRY010,Concepción,,,,Department,Departamento,PRY.10_1,,
+PRY011,Cordillera,,,,Department,Departamento,PRY.11_1,,
+PRY012,Guairá,,,,Department,Departamento,PRY.12_1,,
+PRY013,Itapúa,,,,Department,Departamento,PRY.13_1,,
+PRY014,Misiones,,,,Department,Departamento,PRY.14_1,,
+PRY015,Ñeembucú,,,,Department,Departamento,PRY.15_1,,
+PRY016,Paraguarí,,,,Department,Departamento,PRY.16_1,,
+PRY017,Presidente Hayes,,,,Department,Departamento,PRY.17_1,,
+PRY018,San Pedro,,,,Department,Departamento,PRY.18_1,,
+PSE001,West Bank,,,,,,,,PS01
+PSE002,Gaza Strip,,,,,,,,PS02
+PYF001,Îles Australes,,,Tuha'a Pae|Austral Islands|Archipel des Australes,Administrative subdivisions,Subdivisions administratives,PYF.1_1,,
+PYF002,Îles du Vent,,,Windward Islands,Administrative subdivisions,Subdivisions administratives,PYF.2_1,,
+PYF003,Îles Marquises,,,Marquises|Marquesas Islands,Administrative subdivisions,Subdivisions administratives,PYF.3_1,,
+PYF004,Îles Sous-le-Vent,,,Leeward Islands,Administrative subdivisions,Subdivisions administratives,PYF.4_1,,
+PYF005,Îles Tuamotu-Gambier,,,Tuāmotu-Gambier|Archipels des Tuamotu et des Gambier,Administrative subdivisions,Subdivisions administratives,PYF.5_1,,
+QAT001,Ad Dawhah,,,Doha|الدوحة,Municipality,Baladiyah,QAT.1_1,,
+QAT002,Al Daayen,,,الضعاين‎,Municipality,Baladiyah,QAT.2_1,,
+QAT003,Al Khor,,,Al Khawr|الخور‎,Municipality,Baladiyah,QAT.3_1,,
+QAT004,Al Wakrah,,,Al Wakra|الوكرة,Municipality,Baladiyah,QAT.4_1,,
+QAT005,Ar Rayyan,,,الريان‎,Municipality,Baladiyah,QAT.5_1,,
+QAT006,Madinat ash Shamal,,,الشمال‎,Municipality,Baladiyah,QAT.6_1,,
+QAT007,Umm Salal,,,أم صلال‎,Municipality,Baladiyah,QAT.7_1,,
+REU001,Saint-Benoît,,,,Arrondissement,Arrondissement,REU.1_1,,
+REU002,Saint-Denis,,,,Arrondissement,Arrondissement,REU.2_1,,
+REU003,Saint-Paul,,,,Arrondissement,Arrondissement,REU.3_1,,
+REU004,Saint-Pierre,,,,Arrondissement,Arrondissement,REU.4_1,,
+ROU001,Alba,,,,County,Judet,ROU.1_1,,
+ROU002,Arad,,,,County,Judet,ROU.2_1,,
+ROU003,Argeș,,,Arges,County,Judet,ROU.3_1,,
+ROU004,Bacău,,,Bacau,County,Judet,ROU.4_1,,
+ROU005,Bihor,,,,County,Judet,ROU.5_1,,
+ROU006,Bistrița-Năsăud,,,Bistrita-nasaud,County,Judet,ROU.6_1,,
+ROU007,Botoșani,,,Botosani,County,Judet,ROU.7_1,,
+ROU008,Brașov,,,Brasov,County,Judet,ROU.8_1,,
+ROU009,Brăila,,,Braila,County,Judet,ROU.9_1,,
+ROU010,Bucharest,,,Bucuresti,Municipality,Municipiu,ROU.10_1,,
+ROU011,Buzău,,,Buzau,County,Judet,ROU.11_1,,
+ROU012,Călărași,,,Calarasi,County,Judet,ROU.12_1,,
+ROU013,Caraș-Severin,,,Caras-severin,County,Judet,ROU.13_1,,
+ROU014,Cluj,,,,County,Judet,ROU.14_1,,
+ROU015,Constanța,,,Constanta,County,Judet,ROU.15_1,,
+ROU016,Covasna,,,,County,Judet,ROU.16_1,,
+ROU017,Dâmbovița,,,Dambovita,County,Judet,ROU.17_1,,
+ROU018,Dolj,,,,County,Judet,ROU.18_1,,
+ROU019,Galați,,,Galati,County,Judet,ROU.19_1,,
+ROU020,Giurgiu,,,,County,Judet,ROU.20_1,,
+ROU021,Gorj,,,,County,Judet,ROU.21_1,,
+ROU022,Harghita,,,,County,Judet,ROU.22_1,,
+ROU023,Hunedoara,,,,County,Judet,ROU.23_1,,
+ROU024,Iași,,,Iasi,County,Judet,ROU.24_1,,
+ROU025,Ialomița,,,Ialomita,County,Judet,ROU.25_1,,
+ROU026,Ilfov,,,,County,Judet,ROU.26_1,,
+ROU027,Maramureș,,,Maramures,County,Judet,ROU.27_1,,
+ROU028,Mehedinți,,,Mehedinti,County,Judet,ROU.28_1,,
+ROU029,Mureș,,,Mures,County,Judet,ROU.29_1,,
+ROU030,Neamț,,,Neamt,County,Judet,ROU.30_1,,
+ROU031,Olt,,,,County,Judet,ROU.31_1,,
+ROU032,Prahova,,,,County,Judet,ROU.32_1,,
+ROU033,Sălaj,,,Salaj,County,Judet,ROU.33_1,,
+ROU034,Satu Mare,,,,County,Judet,ROU.34_1,,
+ROU035,Sibiu,,,,County,Judet,ROU.35_1,,
+ROU036,Suceava,,,,County,Judet,ROU.36_1,,
+ROU037,Teleorman,,,,County,Judet,ROU.37_1,,
+ROU038,Timiș,,,Timis,County,Judet,ROU.38_1,,
+ROU039,Tulcea,,,,County,Judet,ROU.39_1,,
+ROU040,Vâlcea,,,Valcea,County,Judet,ROU.40_1,,
+ROU041,Vaslui,,,,County,Judet,ROU.41_1,,
+ROU042,Vrancea,,,,County,Judet,ROU.42_1,,
+RUS001,Adygey,,,Adygea|Adygeya|Adygheya|Republic of Adygeya|Adygeyskaya A.Obl.|Respublika Adygeya|Республика Адыгея,Republic,Respublika,RUS.1_1,,
+RUS002,Altay,,,Altayskiy Kray|Алтайский край,Territory,Kray,RUS.2_1,,
+RUS003,Amur,,,Amurskaya Oblast|Амурская область,Region,Oblast,RUS.3_1,,
+RUS004,Arkhangel'sk,,,Arcangelo|Archangel|Archangelsk|Arkhangelskaya Oblast|Архангельская область,Region,Oblast,RUS.4_1,,
+RUS005,Astrakhan',,,Astrachan|Astrakhanskaya Oblast|Астраханская область,Region,Oblast,RUS.5_1,,
+RUS006,Bashkortostan,,,Bashkir|Bashkiriya|Bashkirskaya A.S.S.R.|Republic of Bashkortostan|Respublika Bashkortostan|Республика Башкортостан,Republic,Respublika,RUS.6_1,,
+RUS007,Belgorod,,,Belgorodskaya Oblast|Белгородская область,Region,Oblast,RUS.7_1,,
+RUS008,Bryansk,,,Bryanskaya Oblast|Брянская область,Region,Oblast,RUS.8_1,,
+RUS009,Buryat,,,Buryatiya|Buryat-Mongol A.S.S.R.|Republic of Buryatia|Buryatskaya A.S.S.R.|Respublika|Республика Бурятия,Republic,Respublika,RUS.9_1,,
+RUS010,Chechnya,,,Cecenia|Chechenia|Chechênia|Tchetchnia|Chechen-Ingush A.S.S.R.|Checheno-Ingushetia|Checheno-Ingushetia|Республика Чечено-Ингушская,Republic,Respublika,RUS.10_1,,
+RUS011,Chelyabinsk,,,Chelyabinskaya Oblast|Челябинская область,Region,Oblast,RUS.11_1,,
+RUS012,Chukot,,,Chukotka|Chukotskiy Aok|Чукотский АОк,Autonomous Province,Avtonomnyy Okrug,RUS.12_1,7001.0,
+RUS013,Chuvash,,,Chuvashskaya A.S.S.R.|Chuvashskaya Respublika|Chuvashiya|Chuvash Republic|Чувашская Республика,Republic,Respublika,RUS.13_1,,
+RUS014,City of St. Petersburg,,,Sankt-Peterburg gorsovet|Санкт-Петербург (горсовет),City,Gorsovet,RUS.14_1,601.0,
+RUS015,Dagestan,,,Dagestanskaya A.S.S.R.|Daghestan|Republic of Dagestan|Respublika Dagestan|Dagistan|Республика Дагестан,Republic,Respublika,RUS.15_1,,
+RUS016,Gorno-Altay,,,Gorno-Altayskaya A.Obl.|Respublika Altay|Oirot|Republic of Altai|Республика Алтай,Republic,Respublika,RUS.16_1,,
+RUS017,Ingush,,,Ingouchie|Inguchétia|Inguschetien|Ingushetia|Ingushetiya|Ingush Republic|Ingushskaya Respublika|Respublika Ingushetiya|Респу́блика Ингуше́тия,Republic,Respublika,RUS.17_1,4201.0,
+RUS018,Irkutsk,,,Irkutskaya Oblast|Иркутская область,Region,Oblast,RUS.18_1,,
+RUS019,Ivanovo,,,Ivanovskaya Oblast|Ивановская область,Region,Oblast,RUS.19_1,,
+RUS020,Kabardin-Balkar,,,Kabardin A.S.S.R.|Kabardino-Balkarskaya A.S.S.R.|Kabardino-Balkariya|Kabardino-Balkarsk|Kabard|Kabardino-Balkarskaya Republic|Кабардино-Балкарская Республика,Republic,Respublika,RUS.20_1,,
+RUS021,Kaliningrad,,,Kaliningradskaya Oblast|Калининградская область,Region,Oblast,RUS.21_1,,
+RUS022,Kalmyk,,,Kalmykiya|Khalmg Tangch|Republic of Kalmykia|Kalmytskaya A.S.S.R.|Respublika Kalmykiya|Республика Калмыкия,Republic,Respublika,RUS.22_1,,
+RUS023,Kaluga,,,Kaluzhskaya Oblast|Калужская область,Region,Oblast,RUS.23_1,,
+RUS024,Kamchatka,,,Kamçatka|Kamchatskaya Kray|Камчатская край,Territory,Kray,RUS.24_1,,
+RUS025,Karachay-Cherkess,,,Karaçay-Çerkes|Karachay-Cherkessiya|Karachayevo-Cherkesskaya Respublika|Karachayevo-Cherkessiya|Karachayevo-Cherkess Republic|K|Карачаево-Черкессия Республика,Republic,Respublika,RUS.25_1,,
+RUS026,Karelia,,,Karelian A.S.S.R.|Karelo-Finnish A.S.S.R.|Karel'skaya A.S.S.R.|Olonets|Olonetskaya G.|Kareliya|Republic of Karelia|Республика Карелия,Republic,Respublika,RUS.26_1,,
+RUS027,Kemerovo,,,Kemerovskaya Oblast|Кемеровская область,Region,Oblast,RUS.27_1,,
+RUS028,Khabarovsk,,,Khabarovskiy Kray|Хабаровский край,Territory,Kray,RUS.28_1,,
+RUS029,Khakass,,,Khakassiya|Republic of Khakasia|Khakasskaya A.Obl.|Respublika Khakasiya|Republic of Khakasia|Республика Хакасия,Republic,Respublika,RUS.29_1,,
+RUS030,Khanty-Mansiy,,,Khanty-Mansiysk|Khanty-Mansiyskiy A.Okr.|Khanty-Mansiyskiy A.Okr.-Yugra|Khanty-Mansiyskiy Aok|Ханты-Мансийский АОк,Autonomous Province,Avtonomnyy Okrug,RUS.30_1,,
+RUS031,Kirov,,,Vyatka|Vyatskaya G.|Kirovskaya Oblast|Кировская область,Region,Oblast,RUS.31_1,,
+RUS032,Komi,,,Komi A.S.S.R.|Republic of Komi|Respublika Komi|Республика Коми,Republic,Respublika,RUS.32_1,,
+RUS033,Kostroma,,,Kostromskaya Oblast|Костромская область,Region,Oblast,RUS.33_1,,
+RUS034,Krasnodar,,,Cossacks of the Black Sea|Kuban|Kubanskaya|Yekaterinodar|Krasnodarskiy Kray|Краснодарский край,Territory,Kray,RUS.34_1,,
+RUS035,Krasnoyarsk,,,Krasnoyarskiy Kray|Yeniseisk|Yeniseyskaya G.|Красноярский край,Territory,Kray,RUS.35_1,6209.0,
+RUS036,Kurgan,,,Kurganskaya Oblast|Курганская область,Region,Oblast,RUS.36_1,,
+RUS037,Kursk,,,Kurskaya Oblast|Курская область,Region,Oblast,RUS.37_1,,
+RUS038,Leningrad,,,Saint Petersburg|Sankt-Peterburgskaya G.|Leningradskaya Oblast|Ленинградская область,Region,Oblast,RUS.38_1,,
+RUS039,Lipetsk,,,Lipetskaya Oblast|Липецкая область,Region,Oblast,RUS.39_1,,
+RUS040,Maga Buryatdan,,,Magadanskaya Oblast|Магаданская область,Region,Oblast,RUS.40_1,7009.0,
+RUS041,Mariy-El,,,Mari|Mari-El|Republic of Mari El|Mariyskaya A.S.S.R.|Respublika Mariy El|Республика Марий Эл,Republic,Respublika,RUS.41_1,,
+RUS042,Mordovia,,,Mordov|Mordvian Autonomous Republic|Mordvinia|Republic of Mordovia|Mordovian A.S.S.R.|Республика Мордовия,Republic,Respublika,RUS.42_1,,
+RUS043,Moscow City,,,,City,Gorod,RUS.43_1,,
+RUS044,Moskva,,,Mosca|Moscou|Moscow|Moskau|Moskova|Moskovskaya|Московская область,Region,Oblast,RUS.44_1,,
+RUS045,Murmansk,,,Murmanskaya Oblast|Мурманская область,Region,Oblast,RUS.45_1,,
+RUS046,Nenets,,,Nenetskiy A.Okr.|Nenetskiy Aok|Ненецкий АОк,Autonomous Province,Avtonomnyy Okrug,RUS.46_1,,
+RUS047,Nizhegorod,,,Gor'kiy|Gor'kovskaya|Gorky|Nizhegorodskaya|Nizhniy-Novgorod|Nizhegorodskaya Oblast|Нижегородская область,Region,Oblast,RUS.47_1,,
+RUS048,North Ossetia,,,Kuzey Osetya|Respublika Severnaya Osetiya|Severnaya Osetiya-Alaniya|North Ossetian A.S.S.R.|Republic of North Osetia-Alania|Республика Северная Осетия-Алания,Republic,Respublika,RUS.48_1,,
+RUS049,Novgorod,,,Novgorodskaya Oblast|Новгородская область,Region,Oblast,RUS.49_1,,
+RUS050,Novosibirsk,,,Novosibirskaya Oblast|Новосибирская область,Region,Oblast,RUS.50_1,,
+RUS051,Omsk,,,Omskaya Oblast|Омская область,Region,Oblast,RUS.51_1,,
+RUS052,Orel,,,Orlovskaya|Or'ol|Oryol|Orlovskaya Oblast|Орловская область,Region,Oblast,RUS.52_1,,
+RUS053,Orenburg,,,Chkalov|Orenburgskaya|Orenburgskaya Oblast|Оренбургская область,Region,Oblast,RUS.53_1,,
+RUS054,Penza,,,Penzenskaya Oblast|Пензенская область,Region,Oblast,RUS.54_1,,
+RUS055,Perm',,,Molotov|Permskaya|Пермская край,Territory,Kray,RUS.55_1,,
+RUS056,Primor'ye,,,Küsten-Gebiet|Maritime Territory|Primorsk|Primorskiy Kray|Приморский край,Territory,Kray,RUS.56_1,,
+RUS057,Pskov,,,Pskovskaya Oblast|Псковская область,Region,Oblast,RUS.57_1,,
+RUS058,Rostov,,,Province of the Don Cossacks|Provinz des Donischen Heeres|Voyska Donskovo|Rostovskaya Oblast|Ростовская область,Region,Oblast,RUS.58_1,,
+RUS059,Ryazan',,,Ryazanskaya Oblast|Ryazanskaya Oblast|Рязанская область,Region,Oblast,RUS.59_1,,
+RUS060,Sakha,,,Republic of Sakha|Yakutia-Sakha|Yakutsk|Yakut A.S.S.R.|Yakutskaya A.S.S.R.|Respublika Sakha|Республика Саха,Republic,Respublika,RUS.60_1,,
+RUS061,Sakhalin,,,Sakhalinskaya Oblast|Сахалинская область,Region,Oblast,RUS.61_1,,
+RUS062,Samara,,,Kuybyshev|Kuybyshevskaya|Samarskaya Oblast|Самарская область,Region,Oblast,RUS.62_1,,
+RUS063,Saratov,,,Saratovskaya Oblast|Саратовская область,Region,Oblast,RUS.63_1,,
+RUS064,Smolensk,,,Smolenskaya Oblast|Смоленская область,Region,Oblast,RUS.64_1,,
+RUS065,Stavropol',,,Stavropol'skiy Kray|Stavropolskiy Kray|Ставропольский край,Territory,Kray,RUS.65_1,,
+RUS066,Sverdlovsk,,,Yekaterinburg|Sverdlovskaya Oblast|Свердловская область,Region,Oblast,RUS.66_1,,
+RUS067,Tambov,,,Tambovskaya Oblast|Тамбовская область,Region,Oblast,RUS.67_1,,
+RUS068,Tatarstan,,,Kazan|Kazanskaya G.|Tatar A.S.S.R.|Tatarskaya A.S.S.R.|Republic of Tatarstan|Respublika Tatars|Республика Татарстан,Republic,Respublika,RUS.68_1,,
+RUS069,Tomsk,,,Tomskaya Oblast|Томская область,Region,Oblast,RUS.69_1,,
+RUS070,Tula,,,Tul'skaya|Tulskaya Oblast|Тульская область,Region,Oblast,RUS.70_1,,
+RUS071,Tuva,,,Respublika Tyva|Republic of Tuva|Tyva|Tuvinskaya A.S.S.R.|Republic of Tyva|Республика Тыва,Republic,Respublika,RUS.71_1,,
+RUS072,Tver',,,Kalinin|Kalininskaya|Tverskaya Oblast|Тверская область,Region,Oblast,RUS.72_1,,
+RUS073,Tyumen',,,Tobol'sk|Tobol'skaya G.|Tyumenskaya Oblast|Тюменская область,Region,Oblast,RUS.73_1,,
+RUS074,Udmurt,,,Udmurtiya|Udmurt Republic|Udmurtskaya A.S.S.R.|Udmurtskaya Respublika|Удмуртская Республика,Republic,Respublika,RUS.74_1,,
+RUS075,Ul'yanovsk,,,Simbirsk|Simbirskaya G.|Ul'yanovskaya Oblast|Ульяновская область,Region,Oblast,RUS.75_1,,
+RUS076,Vladimir,,,Vladimirskaya Oblast|Владимирская область,Region,Oblast,RUS.76_1,,
+RUS077,Volgograd,,,Stalingrad|Volgogradskaya Oblast|Волгоградская область,Region,Oblast,RUS.77_1,,
+RUS078,Vologda,,,Vologodskaya Oblast|Вологодская область,Region,Oblast,RUS.78_1,,
+RUS079,Voronezh,,,Voronezhskaya Oblast|Воронежская область,Region,Oblast,RUS.79_1,,
+RUS080,Yamal-Nenets,,,Yamalo-Nenetskiy A. Okrug|Ямало-Ненецкий АОк,Autonomous Province,Avtonomnyy Okrug,RUS.80_1,,
+RUS081,Yaroslavl',,,Yaroslavskaya|Ярославская область,Region,Oblast,RUS.81_1,,
+RUS082,Yevrey,,,Den jødiske autonome oblasten|Evrey|Jewish A.Obl.|Yahudi|Yevreyskaya A.Obl.|Evreyskaya AOb|Eврейская АОб,Autonomous Region,Avtonomnaya Oblast,RUS.82_1,6701.0,
+RUS083,Zabaykal'ye,,,Zabaykalsky|Забайкальский край,Territory,Kray,RUS.83_1,,
+RWA001,Kigali City,Ville de Kigali,Umujyi wa Kigali,,,,,,RW1
+RWA002,Southern Province,Province du Sud,Amajyepfo,,,,,,RW2
+RWA003,Western Province,Province de l'Ouest,Iburengerazuba,,,,,,RW3
+RWA004,Northern Province,Province du Nord,Amajyaruguru,,,,,,RW4
+RWA005,Eastern Province,Province de l'Est,Iburasirazuba,,,,,,RW5
+SAU001,`Asir,,,Asir|Aseer|Assyear,Region,Emirate|Mintaqah,SAU.1_1,,
+SAU002,Al Bahah,,,Baha,Region,Emirate|Mintaqah,SAU.2_1,,
+SAU003,Al Hudud ash Shamaliyah,,,Northern Frontier,Region,Emirate|Mintaqah,SAU.3_1,,
+SAU004,Al Jawf,,,JawfAl Joaf|Al-Jouf|Jowf,Region,Emirate|Mintaqah,SAU.4_1,,
+SAU005,Al Madinah,,,Madinah|Al Madinah al Munawwarah|Monwarah|Medina|Médine,Region,Emirate|Mintaqah,SAU.5_1,,
+SAU006,Al Quassim,,,Al Gassim|Gasim|Qaseem|Al Qasseem,Region,Emirate|Mintaqah,SAU.6_1,,
+SAU007,Ar Riyad,,,Riyad|Riad|Riyadh,Region,Emirate|Mintaqah,SAU.7_1,,
+SAU008,Ash Sharqiyah,,,Eastern Province,Region,Emirate|Mintaqah,SAU.8_1,,
+SAU009,Ha'il,,,Hail,Region,Emirate|Mintaqah,SAU.9_1,,
+SAU010,Jizan,,,Jazan|Qizan,Region,Emirate|Mintaqah,SAU.10_1,,
+SAU011,Makkah,,,La Meca|La Mecca|La Mecque|Makka|Makkah al-Mukarramah|Mecca|Meca|Mecka|Mekka,Region,Emirate|Mintaqah,SAU.11_1,,
+SAU012,Najran,,,,Region,Emirate|Mintaqah,SAU.12_1,,
+SAU013,Tabuk,,,Tabouk,Region,Emirate|Mintaqah,SAU.13_1,,
+SDN001,Khartoum,الخرطوم,,,,,,,SD01
+SDN002,North Darfur,شمال دارفور,,,,,,,SD02
+SDN003,South Darfur,جنوب دارفور,,,,,,,SD03
+SDN004,West Darfur,غرب دارفور,,,,,,,SD04
+SDN005,East Darfur,شرق دارفور,,,,,,,SD05
+SDN006,Central Darfur,وسط دارفور,,,,,,,SD06
+SDN007,South Kordofan,جنوب كردفان,,,,,,,SD07
+SDN008,Blue Nile,النيل الأزرق,,,,,,,SD08
+SDN009,White Nile,النيل الأبيض,,,,,,,SD09
+SDN010,Red Sea,البحر الأحمر,,,,,,,SD10
+SDN011,Kassala,كسلا,,,,,,,SD11
+SDN012,Gedaref,القضارف,,,,,,,SD12
+SDN013,North Kordofan,شمال كردفان,,,,,,,SD13
+SDN014,Sennar,سنار,,,,,,,SD14
+SDN015,Aj Jazirah,الجزيرة,,,,,,,SD15
+SDN016,River Nile,نهر النيل,,,,,,,SD16
+SDN017,Northern,الشمالية,,,,,,,SD17
+SDN018,West Kordofan,غرب كردفان,,,,,,,SD18
+SDN019,Abyei PCA,إدارية أبيي,,,,,,,SD19
+SEN001,Dakar,,,,,,,,SN01
+SEN002,Diourbel,,,,,,,,SN02
+SEN003,Fatick,,,,,,,,SN03
+SEN004,Kaffrine,,,,,,,,SN04
+SEN005,Kaolack,,,,,,,,SN05
+SEN006,Kedougou,,,,,,,,SN06
+SEN007,Kolda,,,,,,,,SN07
+SEN008,Louga,,,,,,,,SN08
+SEN009,Matam,,,,,,,,SN09
+SEN010,Saint Louis,,,,,,,,SN10
+SEN011,Sedhiou,,,,,,,,SN11
+SEN012,Tambacounda,,,,,,,,SN12
+SEN013,Thies,,,,,,,,SN13
+SEN014,Ziguinchor,,,,,,,,SN14
+SGP001,Central,,,,Region,Region,SGP.1_1,,
+SGP002,East,,,,Region,Region,SGP.2_1,,
+SGP003,North,,,,Region,Region,SGP.3_1,,
+SGP004,North-East,,,,Region,Region,SGP.4_1,,
+SGP005,West,,,,Region,Region,SGP.5_1,,
+SHN001,Ascension,,,Ascensão,Administrative Area,Administrative Area,SHN.1_1,,
+SHN002,Saint Helena,,,,Dependency,Dependency,SHN.2_1,,
+SHN003,Tristan da Cunha,,,Tristão da Cunha,Dependency,Dependency,SHN.3_1,,
+SJM001,Jan Mayen,,,,Territory,Territory,SJM.1_1,,
+SJM002,Svalbard,,,,Territory,Territory,SJM.2_1,,
+SLB001,Choiseul,,,,,,,,SB01
+SLB002,Western,,,,,,,,SB02
+SLB003,Isabel,,,,,,,,SB03
+SLB004,Central,,,,,,,,SB04
+SLB005,Rennell-Bell,,,,,,,,SB05
+SLB006,Guadalcanal,,,,,,,,SB06
+SLB007,Malaita,,,,,,,,SB07
+SLB008,Makira-Ulawa,,,,,,,,SB08
+SLB009,Temotu,,,,,,,,SB09
+SLB010,Honiara,,,,,,,,SB10
+SLE001,Eastern,,,,,,,,SL01
+SLE002,Northern,,,,,,,,SL02
+SLE003,Southern,,,,,,,,SL03
+SLE004,Western,,,,,,,,SL04
+SLV001,Ahuachapán,,,,Department,Departamento,SLV.1_1,,
+SLV002,Cabañas,,,,Department,Departamento,SLV.2_1,,
+SLV003,Chalatenango,,,,Department,Departamento,SLV.3_1,,
+SLV004,Cuscatlán,,,,Department,Departamento,SLV.4_1,,
+SLV005,La Libertad,,,,Department,Departamento,SLV.5_1,,
+SLV006,La Paz,,,,Department,Departamento,SLV.6_1,,
+SLV007,La Unión,,,,Department,Departamento,SLV.7_1,,
+SLV008,Morazán,,,,Department,Departamento,SLV.8_1,,
+SLV009,San Miguel,,,,Department,Departamento,SLV.9_1,,
+SLV010,San Salvador,,,,Department,Departamento,SLV.10_1,,
+SLV011,San Vicente,,,,Department,Departamento,SLV.11_1,,
+SLV012,Santa Ana,,,,Department,Departamento,SLV.12_1,,
+SLV013,Sonsonate,,,,Department,Departamento,SLV.13_1,,
+SLV014,Usulután,,,,Department,Departamento,SLV.14_1,,
+SMR001,Acquaviva,,,,Municipality,Castello,SMR.1_1,,
+SMR002,Borgo Maggiore,,,,Municipality,Castello,SMR.2_1,,
+SMR003,Chiesanuova,,,,Municipality,Castello,SMR.3_1,,
+SMR004,Domagnano,,,,Municipality,Castello,SMR.4_1,,
+SMR005,Faetano,,,,Municipality,Castello,SMR.5_1,,
+SMR006,Fiorentino,,,,Municipality,Castello,SMR.6_1,,
+SMR007,Montegiardino,,,,Municipality,Castello,SMR.7_1,,
+SMR008,San Marino,,,,Municipality,Castello,SMR.8_1,,
+SMR009,Serravalle,,,,Municipality,Castello,SMR.9_1,,
+SOM001,Awdal,,,,,,,,SO11
+SOM002,Woqooyi Galbeed,,,,,,,,SO12
+SOM003,Togdheer,,,,,,,,SO13
+SOM004,Sool,,,,,,,,SO14
+SOM005,Sanaag,,,,,,,,SO15
+SOM006,Bari,,,,,,,,SO16
+SOM007,Nugaal,,,,,,,,SO17
+SOM008,Mudug,,,,,,,,SO18
+SOM009,Galgaduud,,,,,,,,SO19
+SOM010,Hiraan,,,,,,,,SO20
+SOM011,Middle Shabelle,,,,,,,,SO21
+SOM012,Banadir,,,,,,,,SO22
+SOM013,Lower Shabelle,,,,,,,,SO23
+SOM014,Bay,,,,,,,,SO24
+SOM015,Bakool,,,,,,,,SO25
+SOM016,Gedo,,,,,,,,SO26
+SOM017,Middle Juba,,,,,,,,SO27
+SOM018,Lower Juba,,,,,,,,SO28
+SPM001,Miquelon-Langlade,,,,Commune,Commune,SPM.1_1,,
+SPM002,Saint-Pierre,,,,Commune,Commune,SPM.2_1,,
+SRB001,Borski,,,Bor|Борски,District,Okrug,SRB.1_1,,
+SRB002,Braničevski,,,Braničevo|Браничевски,District,Okrug,SRB.2_1,,
+SRB003,Grad Beograd,,,Belgrade|Београд,City,Grad,SRB.3_1,,
+SRB004,Jablanički,,,Jablanica|Јабланички,District,Okrug,SRB.4_1,,
+SRB005,Južno-Bački,,,South Bačka|Јужнобачки,District,Okrug,SRB.5_1,,
+SRB006,Južno-Banatski,,,South Banat|Јужнобанатски,District,Okrug,SRB.6_1,,
+SRB007,Kolubarski,,,Kolubara|Колубарски,District,Okrug,SRB.7_1,,
+SRB008,Mačvanski,,,Mačva|Мачвански,District,Okrug,SRB.8_1,,
+SRB009,Moravički,,,Moravica|Morava|Моравички,District,Okrug,SRB.9_1,,
+SRB010,Nišavski,,,Nišava|Нишавски,District,Okrug,SRB.10_1,,
+SRB011,Pčinjski,,,Pčinja|Пчињски,District,Okrug,SRB.11_1,,
+SRB012,Pirotski,,,Pirot|Пиротски,District,Okrug,SRB.12_1,,
+SRB013,Podunavski,,,Podunavlje|Danube|Подунавски,District,Okrug,SRB.13_1,,
+SRB014,Pomoravski,,,Pomoravlje|Поморавски,District,Okrug,SRB.14_1,,
+SRB015,Rasinski,,,Rasina|Расински,District,Okrug,SRB.15_1,,
+SRB016,Raški,,,Raška|Рашки,District,Okrug,SRB.16_1,,
+SRB017,Severno-Bački,,,North Bačka|Севернобачки,District,Okrug,SRB.17_1,,
+SRB018,Severno-Banatski,,,North Banat|Севернобанатски,District,Okrug,SRB.18_1,,
+SRB019,Srednje-Banatski,,,Central Banat|Средњебанатски,District,Okrug,SRB.19_1,,
+SRB020,Sremski,,,Srem|Сремски,District,Okrug,SRB.20_1,,
+SRB021,Šumadijski,,,Šumadija|Шумадијски,District,Okrug,SRB.21_1,,
+SRB022,Toplički,,,Toplica|Топлички,District,Okrug,SRB.22_1,,
+SRB023,Zaječarski,,,Zaječar|Зајечарски,District,Okrug,SRB.23_1,,
+SRB024,Zapadno-Bački,,,West Bačka|Западнобачки,District,Okrug,SRB.24_1,,
+SRB025,Zlatiborski,,,Zlatibor|Златиборски,District,Okrug,SRB.25_1,,
+SSD001,Central Equatoria,,,,,,,,SS01
+SSD002,Eastern Equatoria,,,,,,,,SS02
+SSD003,Jonglei,,,,,,,,SS03
+SSD004,Lakes,,,,,,,,SS04
+SSD005,Northern Bahr el Ghazal,,,,,,,,SS05
+SSD006,Unity,,,,,,,,SS06
+SSD007,Upper Nile,,,,,,,,SS07
+SSD008,Warrap,,,,,,,,SS08
+SSD009,Western Bahr el Ghazal,,,,,,,,SS09
+SSD010,Western Equatoria,,,,,,,,SS10
+STP001,Príncipe,,,,Municipality,Concelho,STP.1_1,,
+STP002,São Tomé,,,,Municipality,Concelho,STP.2_1,,
+SUR001,Brokopondo,,,,District,Distrikt,SUR.1_1,,
+SUR002,Commewijne,,,,District,Distrikt,SUR.2_1,,
+SUR003,Coronie,,,,District,Distrikt,SUR.3_1,,
+SUR004,Marowijne,,,,District,Distrikt,SUR.4_1,,
+SUR005,Nickerie,,,,District,Distrikt,SUR.5_1,,
+SUR006,Para,,,,District,Distrikt,SUR.6_1,,
+SUR007,Paramaribo,,,,District,Distrikt,SUR.7_1,,
+SUR008,Saramacca,,,,District,Distrikt,SUR.8_1,,
+SUR009,Sipaliwini,,,,District,Distrikt,SUR.9_1,,
+SUR010,Wanica,,,,District,Distrikt,SUR.10_1,,
+SVK001,Banskobystrický,,,Banská Bystrica,Region,Kraj,SVK.1_1,,
+SVK002,Bratislavský,,,Bratislava,Region,Kraj,SVK.2_1,,
+SVK003,Košický,,,Košice,Region,Kraj,SVK.3_1,,
+SVK004,Nitriansky,,,Nitra,Region,Kraj,SVK.4_1,,
+SVK005,Prešovský,,,,Region,Kraj,SVK.5_1,,
+SVK006,Trenčiansky,,,Trencín,Region,Kraj,SVK.6_1,,
+SVK007,Trnavský,,,Trnava,Region,Kraj,SVK.7_1,,
+SVK008,Žilinský,,,Žilina,Region,Kraj,SVK.8_1,,
+SVN001,Gorenjska,,,,Statistical Region,Statisticna Regije,SVN.1_1,,
+SVN002,Goriška,,,Severna Primors,Statistical Region,Statisticna Regije,SVN.2_1,,
+SVN003,Jugovzhodna Slovenija,,,,Statistical Region,Statisticna Regije,SVN.3_1,,
+SVN004,Koroška,,,,Statistical Region,Statisticna Regije,SVN.4_1,,
+SVN005,Notranjsko-kraška,,,"Kraška, Notranj",Statistical Region,Statisticna Regije,SVN.5_1,,
+SVN006,Obalno-kraška,,,Južna Primorska,Statistical Region,Statisticna Regije,SVN.6_1,,
+SVN007,Osrednjeslovenska,,,Ljubljana,Statistical Region,Statisticna Regije,SVN.7_1,,
+SVN008,Podravska,,,,Statistical Region,Statisticna Regije,SVN.8_1,,
+SVN009,Pomurska,,,,Statistical Region,Statisticna Regije,SVN.9_1,,
+SVN010,Savinjska,,,,Statistical Region,Statisticna Regije,SVN.10_1,,
+SVN011,Spodnjeposavska,,,Posavska,Statistical Region,Statisticna Regije,SVN.11_1,,
+SVN012,Zasavska,,,,Statistical Region,Statisticna Regije,SVN.12_1,,
+SWE001,Blekinge,,,Blekinge län,County,Laen|län,SWE.1_1,,
+SWE002,Dalarna,,,Dalecarlia|Kopparberg,County,Laen|län,SWE.2_1,,
+SWE003,Gävleborg,,,Gävleborgs län,County,Laen|län,SWE.3_1,,
+SWE004,Gotland,,,Gotlands län|Gothland|Gottland,County,Laen|län,SWE.4_1,,
+SWE005,Halland,,,Hallands län,County,Laen|län,SWE.5_1,,
+SWE006,Jämtland,,,Jämtlands län,County,Laen|län,SWE.6_1,,
+SWE007,Jönköping,,,Jönköpings län,County,Laen|län,SWE.7_1,,
+SWE008,Kalmar,,,Kalmar län,County,Laen|län,SWE.8_1,,
+SWE009,Kronoberg,,,Kronobergs län,County,Laen|län,SWE.9_1,,
+SWE010,Norrbotten,,,Norrbottens län,County,Laen|län,SWE.10_1,,
+SWE011,Orebro,,,Örebro|Örebro län,County,Laen|län,SWE.11_1,,
+SWE012,Östergötland,,,Östergötlands län,County,Laen|län,SWE.12_1,,
+SWE013,Skåne,,,,County,Laen|län,SWE.13_1,,
+SWE014,Södermanland,,,Södermanlands län|Sörmland,County,Laen|län,SWE.14_1,,
+SWE015,Stockholm,,,Stockholms län|Estocolmo|Stoccolmo,County,Laen|län,SWE.15_1,,
+SWE016,Uppsala,,,Uppsala län,County,Laen|län,SWE.16_1,,
+SWE017,Värmland,,,Värmlands län,County,Laen|län,SWE.17_1,,
+SWE018,Västerbotten,,,Västerbottens län,County,Laen|län,SWE.18_1,,
+SWE019,Västernorrland,,,Västernorrlands län,County,Laen|län,SWE.19_1,,
+SWE020,Västmanland,,,Västmanlands län,County,Laen|län,SWE.20_1,,
+SWE021,Västra Götaland,,,,County,Laen|län,SWE.21_1,,
+SWZ001,Hhohho,,,,District,District,SWZ.1_1,,
+SWZ002,Lubombo,,,,District,District,SWZ.2_1,,
+SWZ003,Manzini,,,,District,District,SWZ.3_1,,
+SWZ004,Shiselweni,,,Shiselwini,District,District,SWZ.4_1,,
+SXM001,Low Lands,,,,,,,,SX1
+SXM002,Simpson Bay,,,,,,,,SX2
+SXM003,Cole Bay,,,,,,,,SX3
+SXM004,Cul-de-Sac,,,,,,,,SX4
+SXM005,Little Bay Area,,,,,,,,SX5
+SXM006,Philipsburg,,,,,,,,SX6
+SXM007,Lower Princess Quarter,,,,,,,,SX7
+SXM008,Upper Princess Quarter,,,,,,,,SX8
+SYC001,Anse aux Pins,,,,District,District,SYC.1_1,,
+SYC002,Anse Boileau,,,,District,District,SYC.2_1,,
+SYC003,Anse Étoile,,,,District,District,SYC.3_1,,
+SYC004,Anse Royale,,,,District,District,SYC.4_1,,
+SYC005,Au Cap,,,,District,District,SYC.5_1,,
+SYC006,Baie Lazare,,,,District,District,SYC.6_1,,
+SYC007,Baie Sainte Anne,,,,District,District,SYC.7_1,,
+SYC008,Beau Vallon,,,,District,District,SYC.8_1,,
+SYC009,Bel Air,,,,District,District,SYC.9_1,,
+SYC010,Belombre,,,,District,District,SYC.10_1,,
+SYC011,Cascade,,,,District,District,SYC.11_1,,
+SYC012,English River,,,,District,District,SYC.12_1,,
+SYC013,Glacis,,,,District,District,SYC.13_1,,
+SYC014,Grand' Anse,,,,District,District,SYC.14_1,,
+SYC015,Grand'Anse Praslin,,,,District,District,SYC.15_1,,
+SYC016,La Digue and Inner Islands,,,,District,District,SYC.16_1,,
+SYC017,Les Mamelles,,,,District,District,SYC.17_1,,
+SYC018,Mont Buxton,,,,District,District,SYC.18_1,,
+SYC019,Mont Fleuri,,,,District,District,SYC.19_1,,
+SYC020,Outer Islands,,,,Outer Islands,Outer Islands,SYC.20_1,,
+SYC021,Plaisance,,,,District,District,SYC.21_1,,
+SYC022,Pointe La Rue,,,,District,District,SYC.22_1,,
+SYC023,Port Glaud,,,,District,District,SYC.23_1,,
+SYC024,Roche Caïman,,,,District,District,SYC.24_1,,
+SYC025,Saint Louis,,,,District,District,SYC.25_1,,
+SYC026,Takamaka,,,,District,District,SYC.26_1,,
+SYR001,Damascus,دمشق,,,,,,,SY01
+SYR002,Aleppo,حلب,,,,,,,SY02
+SYR003,Rural Damascus,ريف دمشق,,,,,,,SY03
+SYR004,Homs,حمص,,,,,,,SY04
+SYR005,Hama,حماة,,,,,,,SY05
+SYR006,Lattakia,اللاذقية,,,,,,,SY06
+SYR007,Idleb,إدلب,,,,,,,SY07
+SYR008,Al-Hasakeh,الحسكة,,,,,,,SY08
+SYR009,Deir-ez-Zor,دير الزور,,,,,,,SY09
+SYR010,Tartous,طرطوس,,,,,,,SY10
+SYR011,Ar-Raqqa,الرقة,,,,,,,SY11
+SYR012,Dar'a,درعا,,,,,,,SY12
+SYR013,As-Sweida,السويداء,,,,,,,SY13
+SYR014,Quneitra,القنيطرة,,,,,,,SY14
+TCA001,Grand Turk,,,,District,District,TCA.1_1,,
+TCA002,Middle Caicos,,,,District,District,TCA.2_1,,
+TCA003,North Caicos,,,,District,District,TCA.3_1,,
+TCA004,Providenciales and West Caicos,,,,District,District,TCA.4_1,,
+TCA005,Salt Cay,,,,District,District,TCA.5_1,,
+TCA006,South Caicos and East Caicos,,,,District,District,TCA.6_1,,
+TCD001,Batha,,,,,,,,TD01
+TCD002,Borkou,,,,,,,,TD02
+TCD003,Chari-Baguirmi,,,,,,,,TD03
+TCD004,Guéra,,,,,,,,TD04
+TCD005,Hadjer-Lamis,,,,,,,,TD05
+TCD006,Kanem,,,,,,,,TD06
+TCD007,Lac,,,,,,,,TD07
+TCD008,Logone Occidental,,,,,,,,TD08
+TCD009,Logone Oriental,,,,,,,,TD09
+TCD010,Mandoul,,,,,,,,TD10
+TCD011,Mayo-Kebbi Est,,,,,,,,TD11
+TCD012,Mayo-Kebbi Ouest,,,,,,,,TD12
+TCD013,Moyen-Chari,,,,,,,,TD13
+TCD014,Ouaddaï,,,,,,,,TD14
+TCD015,Salamat,,,,,,,,TD15
+TCD016,Tandjilé,,,,,,,,TD16
+TCD017,Wadi Fira,,,,,,,,TD17
+TCD018,N'Djamena,,,,,,,,TD18
+TCD019,Barh-El-Gazel,,,,,,,,TD19
+TCD020,Ennedi Est,,,,,,,,TD20
+TCD021,Sila,,,,,,,,TD21
+TCD022,Tibesti,,,,,,,,TD22
+TCD023,Ennedi Ouest,,,,,,,,TD23
+TGO001,Centrale,,,,,,,,TG01
+TGO002,Kara,,,,,,,,TG02
+TGO003,Maritime,,,,,,,,TG03
+TGO004,Plateaux,,,,,,,,TG04
+TGO005,Savanes,,,,,,,,TG05
+THA001,Bangkok,กรุงเทพมหานคร,,,,,,,TH10
+THA002,Samut Prakan,สมุทรปราการ,,,,,,,TH11
+THA003,Nonthaburi,นนทบุรี,,,,,,,TH12
+THA004,Pathum Thani,ปทุมธานี,,,,,,,TH13
+THA005,Phra Nakhon Si Ayutthaya,พระนครศรีอยุธยา,,,,,,,TH14
+THA006,Ang Thong,อ่างทอง,,,,,,,TH15
+THA007,Lop Buri,ลพบุรี,,,,,,,TH16
+THA008,Sing Buri,สิงห์บุรี,,,,,,,TH17
+THA009,Chai Nat,ชัยนาท,,,,,,,TH18
+THA010,Saraburi,สระบุรี,,,,,,,TH19
+THA011,Chon Buri,ชลบุรี,,,,,,,TH20
+THA012,Rayong,ระยอง,,,,,,,TH21
+THA013,Chanthaburi,จันทบุรี,,,,,,,TH22
+THA014,Trat,ตราด,,,,,,,TH23
+THA015,Chachoengsao,ฉะเชิงเทรา,,,,,,,TH24
+THA016,Prachin Buri,ปราจีนบุรี,,,,,,,TH25
+THA017,Nakhon Nayok,นครนายก,,,,,,,TH26
+THA018,Sa Kaeo,สระแก้ว,,,,,,,TH27
+THA019,Nakhon Ratchasima,นครราชสีมา,,,,,,,TH30
+THA020,Buri Ram,บุรีรัมย์,,,,,,,TH31
+THA021,Surin,สุรินทร์,,,,,,,TH32
+THA022,Si Sa Ket,ศรีสะเกษ,,,,,,,TH33
+THA023,Ubon Ratchathani,อุบลราชธานี,,,,,,,TH34
+THA024,Yasothon,ยโสธร,,,,,,,TH35
+THA025,Chaiyaphum,ชัยภูมิ,,,,,,,TH36
+THA026,Amnat Charoen,อำนาจเจริญ,,,,,,,TH37
+THA027,Bueng Kan,บึงกาฬ,,,,,,,TH38
+THA028,Nong Bua Lam Phu,หนองบัวลำภู,,,,,,,TH39
+THA029,Khon Kaen,ขอนแก่น,,,,,,,TH40
+THA030,Udon Thani,อุดรธานี,,,,,,,TH41
+THA031,Loei,เลย,,,,,,,TH42
+THA032,Nong Khai,หนองคาย,,,,,,,TH43
+THA033,Maha Sarakham,มหาสารคาม,,,,,,,TH44
+THA034,Roi Et,ร้อยเอ็ด,,,,,,,TH45
+THA035,Kalasin,กาฬสินธุ์,,,,,,,TH46
+THA036,Sakon Nakhon,สกลนคร,,,,,,,TH47
+THA037,Nakhon Phanom,นครพนม,,,,,,,TH48
+THA038,Mukdahan,มุกดาหาร,,,,,,,TH49
+THA039,Chiang Mai,เชียงใหม่,,,,,,,TH50
+THA040,Lamphun,ลำพูน,,,,,,,TH51
+THA041,Lampang,ลำปาง,,,,,,,TH52
+THA042,Uttaradit,อุตรดิตถ์,,,,,,,TH53
+THA043,Phrae,แพร่,,,,,,,TH54
+THA044,Nan,น่าน,,,,,,,TH55
+THA045,Phayao,พะเยา,,,,,,,TH56
+THA046,Chiang Rai,เชียงราย,,,,,,,TH57
+THA047,Mae Hong Son,แม่ฮ่องสอน,,,,,,,TH58
+THA048,Nakhon Sawan,นครสวรรค์,,,,,,,TH60
+THA049,Uthai Thani,อุทัยธานี,,,,,,,TH61
+THA050,Kamphaeng Phet,กำแพงเพชร,,,,,,,TH62
+THA051,Tak,ตาก,,,,,,,TH63
+THA052,Sukhothai,สุโขทัย,,,,,,,TH64
+THA053,Phitsanulok,พิษณุโลก,,,,,,,TH65
+THA054,Phichit,พิจิตร,,,,,,,TH66
+THA055,Phetchabun,เพชรบูรณ์,,,,,,,TH67
+THA056,Ratchaburi,ราชบุรี,,,,,,,TH70
+THA057,Kanchanaburi,กาญจนบุรี,,,,,,,TH71
+THA058,Suphan Buri,สุพรรณบุรี,,,,,,,TH72
+THA059,Nakhon Pathom,นครปฐม,,,,,,,TH73
+THA060,Samut Sakhon,สมุทรสาคร,,,,,,,TH74
+THA061,Samut Songkhram,สมุทรสงคราม,,,,,,,TH75
+THA062,Phetchaburi,เพชรบุรี,,,,,,,TH76
+THA063,Prachuap Khiri Khan,ประจวบคีรีขันธ์,,,,,,,TH77
+THA064,Nakhon Si Thammarat,นครศรีธรรมราช,,,,,,,TH80
+THA065,Krabi,กระบี่,,,,,,,TH81
+THA066,Phangnga,พังงา,,,,,,,TH82
+THA067,Phuket,ภูเก็ต,,,,,,,TH83
+THA068,Surat Thani,สุราษฎร์ธานี,,,,,,,TH84
+THA069,Ranong,ระนอง,,,,,,,TH85
+THA070,Chumphon,ชุมพร,,,,,,,TH86
+THA071,Songkhla,สงขลา,,,,,,,TH90
+THA072,Satun,สตูล,,,,,,,TH91
+THA073,Trang,ตรัง,,,,,,,TH92
+THA074,Phatthalung,พัทลุง,,,,,,,TH93
+THA075,Pattani,ปัตตานี,,,,,,,TH94
+THA076,Yala,ยะลา,,,,,,,TH95
+THA077,Narathiwat,นราธิวาส,,,,,,,TH96
+TJK001,Dushanbe,,,,Region,Viloyat,TJK.1_1,,
+TJK002,Gorno-Badakhshan,,,Badakhshoni Kuni|Autonomes Gebiet der Berg-Badachschanen|Gorno-Badahshanskaya avtonomnaya oblast'|Go,Region,Viloiati Mukhtori|Viloyati Avtonomii,TJK.2_1,,
+TJK003,Khatlon,,,Hationskaya oblast'|Hatlonskaja oblast',Region,Viloyat,TJK.3_1,,
+TJK004,Leninabad,,,Sogd|Hodžent|Khodzhent|Khujand|Leninabadskaya oblast'|Leninobod|Sogdiyskaya oblast'|Sogdskaja oblast,Region,Viloyat,TJK.4_1,,
+TJK005,Tadzhikistan Territories,,,,Region,Viloyat,TJK.5_1,,
+TKL001,Anafu,,,,Atoll,Atoll,TKL.1_1,,
+TKL002,Fakaofo,,,,Atoll,Atoll,TKL.2_1,,
+TKL003,Nukunonu,,,,Atoll,Atoll,TKL.3_1,,
+TKM001,Ahal,,,Akhal|Ashkhabad|Ashkhabadskaya Oblast,Province,Welayat|Velayat,TKM.1_1,,
+TKM002,Aşgabat,,,Ashgabat,Independent City,Ashkhabad,TKM.2_1,,
+TKM003,Balkan,,,"Krasnovodsk, Krasnovodskaya Oblast",Province,Welayat|Velayat,TKM.3_1,,
+TKM004,Chardzhou,,,Lebap|Chardzhouskaya Oblast,Province,Welayat|Velayat,TKM.4_1,,
+TKM005,Mary,,,Maruy|Marysk|Maryyskaya Oblast,Province,Welayat|Velayat,TKM.5_1,,
+TKM006,Tashauz,,,Dashoguz|Dashhowuz|Dashkhovuz|Tashauzskaya Oblast,Province,Welayat|Velayat,TKM.6_1,,
+TLS001,Aileu,,,,District,Distrito,TLS.1_1,,
+TLS002,Ainaro,,,,District,Distrito,TLS.2_1,,
+TLS003,Ambeno,,,Oecussi,District,Distrito,TLS.3_1,,
+TLS004,Baucau,,,,District,Distrito,TLS.4_1,,
+TLS005,Bobonaro,,,,District,Distrito,TLS.5_1,,
+TLS006,Covalima,,,Cova Lima,District,Distrito,TLS.6_1,,
+TLS007,Dili,,,,District,Distrito,TLS.7_1,,
+TLS008,Ermera,,,,District,Distrito,TLS.8_1,,
+TLS009,Lautém,,,,District,Distrito,TLS.9_1,,
+TLS010,Liquiçá,,,,District,Distrito,TLS.10_1,,
+TLS011,Manatuto,,,,District,Distrito,TLS.11_1,,
+TLS012,Manufahi,,,,District,Distrito,TLS.12_1,,
+TLS013,Viqueque,,,,District,Distrito,TLS.13_1,,
+TON001,Tongatapu,,,,,,,,TO1
+TON002,Vava'u,,,,,,,,TO2
+TON003,Ha'apai,,,,,,,,TO3
+TON004,'Eua,,,,,,,,TO4
+TON005,Niuas,,,,,,,,TO5
+TTO001,Arima,,,,Borough,Borough,TTO.1_1,,
+TTO002,Chaguanas,,,,Borough,Borough,TTO.2_1,,
+TTO003,Couva-Tabaquite-Talparo,,,Couva,Region,Region,TTO.3_1,,
+TTO004,Diego Martin,,,Petit Valley,Region,Region,TTO.4_1,,
+TTO005,Mayaro/Rio Claro,,,Mayaro|Rio Claro,Region,Region,TTO.5_1,,
+TTO006,Penal-Debe,,,Penal,Region,Region,TTO.6_1,,
+TTO007,Point Fortin,,,,Borough,Borough,TTO.7_1,,
+TTO008,Port of Spain,,,Port-of-Spain,City,City,TTO.8_1,,
+TTO009,Princes Town,,,,Region,Region,TTO.9_1,,
+TTO010,San Fernando,,,,City,City,TTO.10_1,,
+TTO011,San Juan-Laventille,,,Laventille,Region,Region,TTO.11_1,,
+TTO012,Sangre Grande,,,,Region,Region,TTO.12_1,,
+TTO013,Siparia,,,,Region,Region,TTO.13_1,,
+TTO014,Tobago,,,Tabago,Region,Region,TTO.14_1,,
+TTO015,Tunapuna/Piarco,,,Tunapuna,Region,Region,TTO.15_1,,
+TUN001,Ariana,,,Al Aryiānah|L'Ariana|Tunis Ariana|Al Aryānah,Governorate,Wilayat,TUN.1_1,,
+TUN002,Béja,,,Bājah|Béja,Governorate,Wilayat,TUN.2_1,,
+TUN003,Ben Arous (Tunis Sud),,,Bin `Arūs|Ben Arous|Tunis Ben Arous,Governorate,Wilayat,TUN.3_1,,
+TUN004,Bizerte,,,BanzartBanzart|Bensert|Binzart|Biserta|Bizerta,Governorate,Wilayat,TUN.4_1,,
+TUN005,Gabès,,,Qābis|Gabās,Governorate,Wilayat,TUN.5_1,,
+TUN006,Gafsa,,,Gafṣah|Qafṣah,Governorate,Wilayat,TUN.6_1,,
+TUN007,Jendouba,,,Jendoûbah|Jenduba|Jondouba|Jundūbah|Souk-El-Arba|Dschunduba,Governorate,Wilayat,TUN.7_1,,
+TUN008,Kairouan,,,Al Qayrawān|Al Qīrwān|Qairouân|Kairuã|Kairouwan,Governorate,Wilayat,TUN.8_1,,
+TUN009,Kassérine,,,Al Qaṣrayn|Al Gaṣrīn|Al Qasrin|Kasserim|Al Qaṣrayn|Sbeitla,Governorate,Wilayat,TUN.9_1,,
+TUN010,Kebili,,,Kebilli|Qbili|Qibilī,Governorate,Wilayat,TUN.10_1,,
+TUN011,Le Kef,,,Al Kāf|El Kef|Kaf|Kef,Governorate,Wilayat,TUN.11_1,,
+TUN012,Mahdia,,,Al Madīyah|Al Mahdiyya|Mahdiâh,Governorate,Wilayat,TUN.12_1,,
+TUN013,Manubah,,,,Governorate,Wilayat,TUN.13_1,,
+TUN014,Médenine,,,Madanīyīn|Madanīn|Medenin,Governorate,Wilayat,TUN.14_1,,
+TUN015,Monastir,,,Al Munastīr,Governorate,Wilayat,TUN.15_1,,
+TUN016,Nabeul,,,Cap Bon|Nabil|Nābol|Nābul,Governorate,Wilayat,TUN.16_1,,
+TUN017,Sfax,,,Safāqis|Ṣafāqis|Ṣfāqis,Governorate,Wilayat,TUN.17_1,,
+TUN018,Sidi Bou Zid,,,Sīdī Bū Zayd|Qamudah|Sidi Boû Sa`îd|Sidi Buzid|Sidi Bū Sa`īd|Sīdī Bū Zayd|Sidi Bu Said,Governorate,Wilayat,TUN.18_1,,
+TUN019,Siliana,,,Siliānah|Silyānah,Governorate,Wilayat,TUN.19_1,,
+TUN020,Sousse,,,Sousa|Sussa|Susse|Susa|Sūsah,Governorate,Wilayat,TUN.20_1,,
+TUN021,Tataouine,,,Foum Tataouine|Tatahouine|Tatuine|Taţāwīn,Governorate,Wilayat,TUN.21_1,,
+TUN022,Tozeur,,,Tawzar|Touzar|Tūzar,Governorate,Wilayat,TUN.22_1,,
+TUN023,Tunis,,,Tounis|Tunis City|Tūnus|Túnez|Túnis|Tunisi|Tūnis,Governorate,Wilayat,TUN.23_1,,
+TUN024,Zaghouan,,,Tunis South|Zachouan|Zaguan|Zaghwān|Saghuan,Governorate,Wilayat,TUN.24_1,,
+TUR001,Adana,Adana,,,,,,,TUR001
+TUR002,Adiyaman,Adiyaman,,,,,,,TUR002
+TUR003,Afyonkarahisar,Afyonkarahisar,,,,,,,TUR003
+TUR004,Ağri,Agri,,,,,,,TUR004
+TUR005,Amasya,Amasya,,,,,,,TUR005
+TUR006,Ankara,Ankara,,,,,,,TUR006
+TUR007,Antalya,Antalya,,,,,,,TUR007
+TUR008,Artvin,Artvin,,,,,,,TUR008
+TUR009,Aydin,Aydin,,,,,,,TUR009
+TUR010,Balikesir,Balikesir,,,,,,,TUR010
+TUR011,Bilecik,Bilecik,,,,,,,TUR011
+TUR012,Bingöl,Bingol,,,,,,,TUR012
+TUR013,Bitlis,Bitlis,,,,,,,TUR013
+TUR014,Bolu,Bolu,,,,,,,TUR014
+TUR015,Burdur,Burdur,,,,,,,TUR015
+TUR016,Bursa,Bursa,,,,,,,TUR016
+TUR017,Çanakkale,Canakkale,,,,,,,TUR017
+TUR018,Çankiri,Cankiri,,,,,,,TUR018
+TUR019,Çorum,Corum,,,,,,,TUR019
+TUR020,Denizli,Denizli,,,,,,,TUR020
+TUR021,Diyarbakir,Diyarbakir,,,,,,,TUR021
+TUR022,Edirne,Edirne,,,,,,,TUR022
+TUR023,Elaziğ,Elazig,,,,,,,TUR023
+TUR024,Erzincan,Erzincan,,,,,,,TUR024
+TUR025,Erzurum,Erzurum,,,,,,,TUR025
+TUR026,Eskişehir,Eskisehir,,,,,,,TUR026
+TUR027,Gaziantep,Gaziantep,,,,,,,TUR027
+TUR028,Giresun,Giresun,,,,,,,TUR028
+TUR029,Gümüşhane,Gumushane,,,,,,,TUR029
+TUR030,Hakkari,Hakkari,,,,,,,TUR030
+TUR031,Hatay,Hatay,,,,,,,TUR031
+TUR032,Isparta,Isparta,,,,,,,TUR032
+TUR033,Mersin,Mersin,,,,,,,TUR033
+TUR034,Istanbul,Istanbul,,,,,,,TUR034
+TUR035,Izmir,Izmir,,,,,,,TUR035
+TUR036,Kars,Kars,,,,,,,TUR036
+TUR037,Kastamonu,Kastamonu,,,,,,,TUR037
+TUR038,Kayseri,Kayseri,,,,,,,TUR038
+TUR039,Kirklareli,Kirklareli,,,,,,,TUR039
+TUR040,Kirşehir,Kirsehir,,,,,,,TUR040
+TUR041,Kocaeli,Kocaeli,,,,,,,TUR041
+TUR042,Konya,Konya,,,,,,,TUR042
+TUR043,Kütahya,Kutahya,,,,,,,TUR043
+TUR044,Malatya,Malatya,,,,,,,TUR044
+TUR045,Manisa,Manisa,,,,,,,TUR045
+TUR046,Kahramanmaraş,Kahramanmaras,,,,,,,TUR046
+TUR047,Mardin,Mardin,,,,,,,TUR047
+TUR048,Muğla,Mugla,,,,,,,TUR048
+TUR049,Muş,Mus,,,,,,,TUR049
+TUR050,Nevşehir,Nevsehir,,,,,,,TUR050
+TUR051,Niğde,Nigde,,,,,,,TUR051
+TUR052,Ordu,Ordu,,,,,,,TUR052
+TUR053,Rize,Rize,,,,,,,TUR053
+TUR054,Sakarya,Sakarya,,,,,,,TUR054
+TUR055,Samsun,Samsun,,,,,,,TUR055
+TUR056,Siirt,Siirt,,,,,,,TUR056
+TUR057,Sinop,Sinop,,,,,,,TUR057
+TUR058,Sivas,Sivas,,,,,,,TUR058
+TUR059,Tekirdağ,Tekirdag,,,,,,,TUR059
+TUR060,Tokat,Tokat,,,,,,,TUR060
+TUR061,Trabzon,Trabzon,,,,,,,TUR061
+TUR062,Tunceli,Tunceli,,,,,,,TUR062
+TUR063,Şanliurfa,Sanliurfa,,,,,,,TUR063
+TUR064,Uşak,Usak,,,,,,,TUR064
+TUR065,Van,Van,,,,,,,TUR065
+TUR066,Yozgat,Yozgat,,,,,,,TUR066
+TUR067,Zonguldak,Zonguldak,,,,,,,TUR067
+TUR068,Aksaray,Aksaray,,,,,,,TUR068
+TUR069,Bayburt,Bayburt,,,,,,,TUR069
+TUR070,Karaman,Karaman,,,,,,,TUR070
+TUR071,Kirikkale,Kirikkale,,,,,,,TUR071
+TUR072,Batman,Batman,,,,,,,TUR072
+TUR073,Şirnak,Sirnak,,,,,,,TUR073
+TUR074,Bartin,Bartin,,,,,,,TUR074
+TUR075,Ardahan,Ardahan,,,,,,,TUR075
+TUR076,Iğdir,Igdir,,,,,,,TUR076
+TUR077,Yalova,Yalova,,,,,,,TUR077
+TUR078,Karabük,Karabuk,,,,,,,TUR078
+TUR079,Kilis,Kilis,,,,,,,TUR079
+TUR080,Osmaniye,Osmaniye,,,,,,,TUR080
+TUR081,Düzce,Duzce,,,,,,,TUR081
+TUV001,Funafuti,,,,Town Council,Town Council,TUV.1_1,,
+TUV002,Nanumanga,,,,Island Council,Island Council,TUV.2_1,,
+TUV003,Nanumea,,,,Island Council,Island Council,TUV.3_1,,
+TUV004,Niulakita,,,La Solitaria,Island Council,Island Council,TUV.4_1,,
+TUV005,Niutao,,,,Island Council,Island Council,TUV.5_1,,
+TUV006,Nui,,,,Island Council,Island Council,TUV.6_1,,
+TUV007,Nukufetau,,,,Island Council,Island Council,TUV.7_1,,
+TUV008,Nukulaelae,,,,Island Council,Island Council,TUV.8_1,,
+TUV009,Vaitupu,,,,Island Council,Island Council,TUV.9_1,,
+TWN001,Fujian,,,Fukien|福建,Province,Shěng,TWN.1_1,,
+TWN002,Kaohsiung,,,Gaoxiong|高雄,Special Municipality,Zhíxiáshì,TWN.2_1,,
+TWN003,New Taipei,,,新北,Special Municipality,Zhíxiáshì,TWN.3_1,,
+TWN004,Taichung,,,台中,Special Municipality,Zhíxiáshì,TWN.4_1,,
+TWN005,Tainan,,,台南,Special Municipality,Zhíxiáshì,TWN.5_1,,
+TWN006,Taipei,,,Taibei|Taipé|Taipeh|台北,Special Municipality,Zhíxiáshì,TWN.6_1,,
+TWN007,Taiwan,,,台灣,Province,Shěng,TWN.7_1,,
+TZA001,Dodoma,,,,,,,,TZ01
+TZA002,Arusha,,,,,,,,TZ02
+TZA003,Kilimanjaro,,,,,,,,TZ03
+TZA004,Tanga,,,,,,,,TZ04
+TZA005,Morogoro,,,,,,,,TZ05
+TZA006,Pwani,,,,,,,,TZ06
+TZA007,Dar-es-salaam,,,,,,,,TZ07
+TZA008,Lindi,,,,,,,,TZ08
+TZA009,Mtwara,,,,,,,,TZ09
+TZA010,Ruvuma,,,,,,,,TZ10
+TZA011,Iringa,,,,,,,,TZ11
+TZA012,Mbeya,,,,,,,,TZ12
+TZA013,Singida,,,,,,,,TZ13
+TZA014,Tabora,,,,,,,,TZ14
+TZA015,Rukwa,,,,,,,,TZ15
+TZA016,Kigoma,,,,,,,,TZ16
+TZA017,Shinyanga,,,,,,,,TZ17
+TZA018,Kagera,,,,,,,,TZ18
+TZA019,Mwanza,,,,,,,,TZ19
+TZA020,Mara,,,,,,,,TZ20
+TZA021,Manyara,,,,,,,,TZ21
+TZA022,Njombe,,,,,,,,TZ22
+TZA023,Katavi,,,,,,,,TZ23
+TZA024,Simiyu,,,,,,,,TZ24
+TZA025,Geita,,,,,,,,TZ25
+TZA026,Songwe,,,,,,,,TZ26
+TZA027,Kaskazini Unguja,,,,,,,,TZ51
+TZA028,Kusini Unguja,,,,,,,,TZ52
+TZA029,Mjini Magharibi,,,,,,,,TZ53
+TZA030,Kaskazini Pemba,,,,,,,,TZ54
+TZA031,Kusini Pemba,,,,,,,,TZ55
+UGA001,Kalangala,,,,,,,,UG101
+UGA002,Kampala,,,,,,,,UG102
+UGA003,Kiboga,,,,,,,,UG103
+UGA004,Luwero,,,,,,,,UG104
+UGA005,Masaka,,,,,,,,UG105
+UGA006,Mpigi,,,,,,,,UG106
+UGA007,Mubende,,,,,,,,UG107
+UGA008,Mukono,,,,,,,,UG108
+UGA009,Nakasongola,,,,,,,,UG109
+UGA010,Rakai,,,,,,,,UG110
+UGA011,Ssembabule,,,,,,,,UG111
+UGA012,Kayunga,,,,,,,,UG112
+UGA013,Wakiso,,,,,,,,UG113
+UGA014,Lyantonde,,,,,,,,UG114
+UGA015,Mityana,,,,,,,,UG115
+UGA016,Nakaseke,,,,,,,,UG116
+UGA017,Buikwe,,,,,,,,UG117
+UGA018,Bukomansimbi,,,,,,,,UG118
+UGA019,Butambala,,,,,,,,UG119
+UGA020,Buvuma,,,,,,,,UG120
+UGA021,Gomba,,,,,,,,UG121
+UGA022,Kalungu,,,,,,,,UG122
+UGA023,Kyankwanzi,,,,,,,,UG123
+UGA024,Lwengo,,,,,,,,UG124
+UGA025,Kyotara,,,,,,,,UG125
+UGA026,Bugiri,,,,,,,,UG201
+UGA027,Busia,,,,,,,,UG202
+UGA028,Iganga,,,,,,,,UG203
+UGA029,Jinja,,,,,,,,UG204
+UGA030,Kamuli,,,,,,,,UG205
+UGA031,Kapchorwa,,,,,,,,UG206
+UGA032,Katakwi,,,,,,,,UG207
+UGA033,Kumi,,,,,,,,UG208
+UGA034,Mbale,,,,,,,,UG209
+UGA035,Pallisa,,,,,,,,UG210
+UGA036,Soroti,,,,,,,,UG211
+UGA037,Tororo,,,,,,,,UG212
+UGA038,Kaberamaido,,,,,,,,UG213
+UGA039,Mayuge,,,,,,,,UG214
+UGA040,Sironko,,,,,,,,UG215
+UGA041,Amuria,,,,,,,,UG216
+UGA042,Budaka,,,,,,,,UG217
+UGA043,Bududa,,,,,,,,UG218
+UGA044,Bukedea,,,,,,,,UG219
+UGA045,Bukwo,,,,,,,,UG220
+UGA046,Butaleja,,,,,,,,UG221
+UGA047,Kaliro,,,,,,,,UG222
+UGA048,Manafwa,,,,,,,,UG223
+UGA049,Namutumba,,,,,,,,UG224
+UGA050,Bulambuli,,,,,,,,UG225
+UGA051,Buyende,,,,,,,,UG226
+UGA052,Kibuku,,,,,,,,UG227
+UGA053,Kween,,,,,,,,UG228
+UGA054,Luuka,,,,,,,,UG229
+UGA055,Namayingo,,,,,,,,UG230
+UGA056,Ngora,,,,,,,,UG231
+UGA057,Serere,,,,,,,,UG232
+UGA058,Butebo,,,,,,,,UG233
+UGA059,Namisindwa,,,,,,,,UG234
+UGA060,Adjumani,,,,,,,,UG301
+UGA061,Apac,,,,,,,,UG302
+UGA062,Arua,,,,,,,,UG303
+UGA063,Gulu,,,,,,,,UG304
+UGA064,Kitgum,,,,,,,,UG305
+UGA065,Kotido,,,,,,,,UG306
+UGA066,Lira,,,,,,,,UG307
+UGA067,Moroto,,,,,,,,UG308
+UGA068,Moyo,,,,,,,,UG309
+UGA069,Nebbi,,,,,,,,UG310
+UGA070,Nakapiripirit,,,,,,,,UG311
+UGA071,Pader,,,,,,,,UG312
+UGA072,Yumbe,,,,,,,,UG313
+UGA073,Abim,,,,,,,,UG314
+UGA074,Amolatar,,,,,,,,UG315
+UGA075,Amuru,,,,,,,,UG316
+UGA076,Dokolo,,,,,,,,UG317
+UGA077,Kaabong,,,,,,,,UG318
+UGA078,Koboko,,,,,,,,UG319
+UGA079,Maracha,,,,,,,,UG320
+UGA080,Oyam,,,,,,,,UG321
+UGA081,Agago,,,,,,,,UG322
+UGA082,Alebtong,,,,,,,,UG323
+UGA083,Amudat,,,,,,,,UG324
+UGA084,Kole,,,,,,,,UG325
+UGA085,Lamwo,,,,,,,,UG326
+UGA086,Napak,,,,,,,,UG327
+UGA087,Nwoya,,,,,,,,UG328
+UGA088,Otuke,,,,,,,,UG329
+UGA089,Zombo,,,,,,,,UG330
+UGA090,Omoro,,,,,,,,UG331
+UGA091,Pakwach,,,,,,,,UG332
+UGA092,Bundibugyo,,,,,,,,UG401
+UGA093,Bushenyi,,,,,,,,UG402
+UGA094,Kabale,,,,,,,,UG404
+UGA095,Kabarole,,,,,,,,UG405
+UGA096,Kasese,,,,,,,,UG406
+UGA097,Kibaale,,,,,,,,UG407
+UGA098,Kisoro,,,,,,,,UG408
+UGA099,Masindi,,,,,,,,UG409
+UGA100,Mbarara,,,,,,,,UG410
+UGA101,Ntungamo,,,,,,,,UG411
+UGA102,Rukungiri,,,,,,,,UG412
+UGA103,Kamwenge,,,,,,,,UG413
+UGA104,Kanungu,,,,,,,,UG414
+UGA105,Kyenjojo,,,,,,,,UG415
+UGA106,Buliisa,,,,,,,,UG416
+UGA107,Ibanda,,,,,,,,UG417
+UGA108,Isingiro,,,,,,,,UG418
+UGA109,Kiruhura,,,,,,,,UG419
+UGA110,Buhweju,,,,,,,,UG420
+UGA111,Kiryandongo,,,,,,,,UG421
+UGA112,Kyegegwa,,,,,,,,UG422
+UGA113,Mitooma,,,,,,,,UG423
+UGA114,Ntoroko,,,,,,,,UG424
+UGA115,Rubirizi,,,,,,,,UG425
+UGA116,Sheema,,,,,,,,UG426
+UGA117,Kagadi,,,,,,,,UG427
+UGA118,Kakumiro,,,,,,,,UG428
+UGA119,Rubanda,,,,,,,,UG429
+UGA120,Bunyangabu,,,,,,,,UG430
+UGA121,Rukiga,,,,,,,,UG431
+UGA122,Hoima,,,,,,,,UG432
+UKR001,Avtonomna Respublika Krym,Автономна Республіка Крим,Автономная Республика Крым,,,,,,UA01
+UKR002,Vinnytska,Вінницька,Винницкая,,,,,,UA05
+UKR003,Volynska,Волинська,Волынская,,,,,,UA07
+UKR004,Dnipropetrovska,Дніпропетровська,Днепропетровская,,,,,,UA12
+UKR005,Donetska,Донецька,Донецкая,,,,,,UA14
+UKR006,Zhytomyrska,Житомирська,Житомирская,,,,,,UA18
+UKR007,Zakarpatska,Закарпатська,Закарпатская,,,,,,UA21
+UKR008,Zaporizka,Запорізька,Запорожская,,,,,,UA23
+UKR009,Ivano-Frankivska,Івано-Франківська,Ивано-Франковская,,,,,,UA26
+UKR010,Kyivska,Київська,Киевская,,,,,,UA32
+UKR011,Kirovohradska,Кіровоградська,Кировоградская,,,,,,UA35
+UKR012,Luhanska,Луганська,Луганская,,,,,,UA44
+UKR013,Lvivska,Львівська,Львовская,,,,,,UA46
+UKR014,Mykolaivska,Миколаївська,Николаевская,,,,,,UA48
+UKR015,Odeska,Одеська,Одесская,,,,,,UA51
+UKR016,Poltavska,Полтавська,Полтавская,,,,,,UA53
+UKR017,Rivnenska,Рівненська,Ровенская,,,,,,UA56
+UKR018,Sumska,Сумська,Сумская,,,,,,UA59
+UKR019,Ternopilska,Тернопільська,Тернопольская,,,,,,UA61
+UKR020,Kharkivska,Харківська,Харьковская,,,,,,UA63
+UKR021,Khersonska,Херсонська,Херсонская,,,,,,UA65
+UKR022,Khmelnytska,Хмельницька,Хмельницкая,,,,,,UA68
+UKR023,Cherkaska,Черкаська,Черкасская,,,,,,UA71
+UKR024,Chernivetska,Чернівецька,Черновицкая,,,,,,UA73
+UKR025,Chernihivska,Чернігівська,Черниговская,,,,,,UA74
+UKR026,Kyivska,Київська,Киевская,,,,,,UA80
+UKR027,Sevastopol,Севастопольська,Севастополь,,,,,,UA85
+UMI001,Baker,,,,Island,Island,UMI.1_1,,
+UMI002,Howland,,,,Island,Island,UMI.2_1,,
+UMI003,Jarvis island,,,,Island,,UMI.3_1,,
+UMI004,Johnston,,,,Atoll,Atoll,UMI.4_1,,
+UMI005,Kingman Reef,,,,Reef,Reef,UMI.5_1,,
+UMI006,Midway,,,,Island|Atoll,Island|Atoll,UMI.6_1,,
+UMI007,Navassa,,,,Island,Island,UMI.7_1,,
+UMI008,Palmyra,,,,Atoll,Atoll,UMI.8_1,,
+UMI009,Wake,,,,Island|Atoll,Island|Atoll,UMI.9_1,,
+URY001,Artigas,,,,Department,Departamento,URY.1_1,,
+URY002,Canelones,,,,Department,Departamento,URY.2_1,,
+URY003,Cerro Largo,,,,Department,Departamento,URY.3_1,,
+URY004,Colonia,,,,Department,Departamento,URY.4_1,,
+URY005,Durazno,,,,Department,Departamento,URY.5_1,,
+URY006,Flores,,,,Department,Departamento,URY.6_1,,
+URY007,Florida,,,,Department,Departamento,URY.7_1,,
+URY008,Lavalleja,,,,Department,Departamento,URY.8_1,,
+URY009,Maldonado,,,,Department,Departamento,URY.9_1,,
+URY010,Montevideo,,,Montevidéu,Department,Departamento,URY.10_1,,
+URY011,Paysandú,,,,Department,Departamento,URY.11_1,,
+URY012,Río Negro,,,,Department,Departamento,URY.12_1,,
+URY013,Rivera,,,,Department,Departamento,URY.13_1,,
+URY014,Rocha,,,,Department,Departamento,URY.14_1,,
+URY015,Salto,,,,Department,Departamento,URY.15_1,,
+URY016,San José,,,,Department,Departamento,URY.16_1,,
+URY017,Soriano,,,,Department,Departamento,URY.17_1,,
+URY018,Tacuarembó,,,,Department,Departamento,URY.18_1,,
+URY019,Treinta y Tres,,,,Department,Departamento,URY.19_1,,
+USA001,Alabama,,,,,,,,US01
+USA002,Alaska,,,,,,,,US02
+USA003,Arizona,,,,,,,,US04
+USA004,Arkansas,,,,,,,,US05
+USA005,California,,,,,,,,US06
+USA006,Colorado,,,,,,,,US08
+USA007,Connecticut,,,,,,,,US09
+USA008,Delaware,,,,,,,,US10
+USA009,District of Columbia,,,,,,,,US11
+USA010,Florida,,,,,,,,US12
+USA011,Georgia,,,,,,,,US13
+USA012,Hawaii,,,,,,,,US15
+USA013,Idaho,,,,,,,,US16
+USA014,Illinois,,,,,,,,US17
+USA015,Indiana,,,,,,,,US18
+USA016,Iowa,,,,,,,,US19
+USA017,Kansas,,,,,,,,US20
+USA018,Kentucky,,,,,,,,US21
+USA019,Louisiana,,,,,,,,US22
+USA020,Maine,,,,,,,,US23
+USA021,Maryland,,,,,,,,US24
+USA022,Massachusetts,,,,,,,,US25
+USA023,Michigan,,,,,,,,US26
+USA024,Minnesota,,,,,,,,US27
+USA025,Mississippi,,,,,,,,US28
+USA026,Missouri,,,,,,,,US29
+USA027,Montana,,,,,,,,US30
+USA028,Nebraska,,,,,,,,US31
+USA029,Nevada,,,,,,,,US32
+USA030,New Hampshire,,,,,,,,US33
+USA031,New Jersey,,,,,,,,US34
+USA032,New Mexico,,,,,,,,US35
+USA033,New York,,,,,,,,US36
+USA034,North Carolina,,,,,,,,US37
+USA035,North Dakota,,,,,,,,US38
+USA036,Ohio,,,,,,,,US39
+USA037,Oklahoma,,,,,,,,US40
+USA038,Oregon,,,,,,,,US41
+USA039,Pennsylvania,,,,,,,,US42
+USA040,Rhode Island,,,,,,,,US44
+USA041,South Carolina,,,,,,,,US45
+USA042,South Dakota,,,,,,,,US46
+USA043,Tennessee,,,,,,,,US47
+USA044,Texas,,,,,,,,US48
+USA045,Utah,,,,,,,,US49
+USA046,Vermont,,,,,,,,US50
+USA047,Virginia,,,,,,,,US51
+USA048,Washington,,,,,,,,US53
+USA049,West Virginia,,,,,,,,US54
+USA050,Wisconsin,,,,,,,,US55
+USA051,Wyoming,,,,,,,,US56
+USA052,American Samoa,,,,,,,,US60
+USA053,Guam,,,,,,,,US66
+USA054,Northern Mariana Islands,,,,,,,,US69
+USA055,Puerto Rico,,,,,,,,US72
+USA056,Virgin Islands of the United States,,,,,,,,US78
+UZB001,Andizhan,Андижанская,Andijon,,,,,,UZ03
+UZB002,Bukhara,Бухарская,Buxoro,,,,,,UZ06
+UZB003,Dzhizak,Джизакская,Jizzax,,,,,,UZ08
+UZB004,Kashkadarya,Кашкадарьинская,Qashqadaryo,,,,,,UZ10
+UZB005,Navoi,Навоийская,Navoiy,,,,,,UZ12
+UZB006,Namangan,Наманганская,Namangan,,,,,,UZ14
+UZB007,Samarkand,Самаркандская,Samarqand,,,,,,UZ18
+UZB008,Surkhandarya,Сурхандарьинская,Surxandaryo,,,,,,UZ22
+UZB009,Syrdarya,Сырдарьинская,Sirdaryo,,,,,,UZ24
+UZB010,Tashkent city,г.Ташкент,Toshkent ш.,,,,,,UZ26
+UZB011,Tashkent,Ташкентская,Toshkent,,,,,,UZ27
+UZB012,Fergana,Ферганская,Farg'ona,,,,,,UZ30
+UZB013,Khorezm,Хорезмская,Xorazm,,,,,,UZ33
+UZB014,Republic of Karakalpakstan,Республика Каракалпакстан,Qoraqalpog'iston Respublikasi,,,,,,UZ35
+VCT001,Charlotte,,,,Parish,Parish,VCT.1_1,,
+VCT002,Grenadines,,,,Parish,Parish,VCT.2_1,,
+VCT003,Saint Andrew,,,,Parish,Parish,VCT.3_1,,
+VCT004,Saint David,,,,Parish,Parish,VCT.4_1,,
+VCT005,Saint George,,,,Parish,Parish,VCT.5_1,,
+VCT006,Saint Patrick,,,,Parish,Parish,VCT.6_1,,
+VEN001,Distrito Federal,,,,,,,,VE01
+VEN002,Amazonas,,,,,,,,VE02
+VEN003,Anzoategui,,,,,,,,VE03
+VEN004,Apure,,,,,,,,VE04
+VEN005,Aragua,,,,,,,,VE05
+VEN006,Barinas,,,,,,,,VE06
+VEN007,Bolivar,,,,,,,,VE07
+VEN008,Carabobo,,,,,,,,VE08
+VEN009,Cojedes,,,,,,,,VE09
+VEN010,Delta Amacuro,,,,,,,,VE10
+VEN011,Falcon,,,,,,,,VE11
+VEN012,Guarico,,,,,,,,VE12
+VEN013,Lara,,,,,,,,VE13
+VEN014,Merida,,,,,,,,VE14
+VEN015,Miranda,,,,,,,,VE15
+VEN016,Monagas,,,,,,,,VE16
+VEN017,Nueva Esparta,,,,,,,,VE17
+VEN018,Portuguesa,,,,,,,,VE18
+VEN019,Sucre,,,,,,,,VE19
+VEN020,Tachira,,,,,,,,VE20
+VEN021,Trujillo,,,,,,,,VE21
+VEN022,Yaracuy,,,,,,,,VE22
+VEN023,Zulia,,,,,,,,VE23
+VEN024,Vargas,,,,,,,,VE24
+VGB001,Anegada,,,,District,District,VGB.1_1,,
+VGB002,Jost Van Dyke,,,,District,District,VGB.2_1,,
+VGB003,Other Islands,,,,District,District,VGB.3_1,,
+VGB004,Tortola,,,,District,District,VGB.4_1,,
+VGB005,Virgin Gorda,,,,District,District,VGB.5_1,,
+VIR001,Saint Croix,,,,District,District,VIR.1_1,,
+VIR002,Saint John,,,,District,District,VIR.2_1,,
+VIR003,Saint Thomas,,,,District,District,VIR.3_1,,
+VNM001,Ha Noi,TP. Hà Nội,,,,,,,VN101
+VNM002,Hai Phong city,TP. Hải Phòng,,,,,,,VN103
+VNM003,Vinh Phuc,Vĩnh Phúc,,,,,,,VN104
+VNM004,Bac Ninh,Bắc Ninh,,,,,,,VN106
+VNM005,Hai Duong,Hải Dương,,,,,,,VN107
+VNM006,Hung Yen,Hưng Yên,,,,,,,VN109
+VNM007,Ha Nam,Hà Nam,,,,,,,VN111
+VNM008,Nam Dinh,Nam Định,,,,,,,VN113
+VNM009,Thai Binh,Thái Bình,,,,,,,VN115
+VNM010,Ninh Binh,Ninh Bình,,,,,,,VN117
+VNM011,Ha Giang,Hà Giang,,,,,,,VN201
+VNM012,Cao Bang,Cao Bằng,,,,,,,VN203
+VNM013,Lao Cai,Lào Cai,,,,,,,VN205
+VNM014,Bac Kan,Bắc Kạn,,,,,,,VN207
+VNM015,Lang Son,Lạng Sơn,,,,,,,VN209
+VNM016,Tuyen Quang,Tuyên Quang,,,,,,,VN211
+VNM017,Yen Bai,Yên Bái,,,,,,,VN213
+VNM018,Thai Nguyen,Thái Nguyên,,,,,,,VN215
+VNM019,Phu Tho,Phú Thọ,,,,,,,VN217
+VNM020,Bac Giang,Bắc Giang,,,,,,,VN221
+VNM021,Quang Ninh,Quảng Ninh,,,,,,,VN225
+VNM022,Lai Chau,Lai Châu,,,,,,,VN301
+VNM023,Dien Bien,Điện Biên,,,,,,,VN302
+VNM024,Son La,Sơn La,,,,,,,VN303
+VNM025,Hoa Binh,Hòa Bình,,,,,,,VN305
+VNM026,Thanh Hoa,Thanh Hóa,,,,,,,VN401
+VNM027,Nghe An,Nghệ An,,,,,,,VN403
+VNM028,Ha Tinh,Hà Tĩnh,,,,,,,VN405
+VNM029,Quang Binh,Quảng Bình,,,,,,,VN407
+VNM030,Quang Tri,Quảng Trị,,,,,,,VN409
+VNM031,Thura Thien Hue,Thừa Thiên Huế,,,,,,,VN411
+VNM032,Da Nang city,TP. Đà Nẵng,,,,,,,VN501
+VNM033,Quang Nam,Quảng Nam,,,,,,,VN503
+VNM034,Quang Ngai,Quảng Ngãi,,,,,,,VN505
+VNM035,Binh Dinh,Bình Định,,,,,,,VN507
+VNM036,Phu Yen,Phú Yên,,,,,,,VN509
+VNM037,Khanh Hoa,Khánh Hòa,,,,,,,VN511
+VNM038,Kon Tum,Kon Tum,,,,,,,VN601
+VNM039,Gia Lai,Gia Lai,,,,,,,VN603
+VNM040,Dak Lak,Đăk Lắk,,,,,,,VN605
+VNM041,Dak Nong,Đăk Nông,,,,,,,VN606
+VNM042,Lam Dong,Lâm Đồng,,,,,,,VN607
+VNM043,Ho Chi Minh city,TP. Hồ Chí Minh,,,,,,,VN701
+VNM044,Ninh Thuan,Ninh Thuận,,,,,,,VN705
+VNM045,Binh Phuoc,Bình Phước,,,,,,,VN707
+VNM046,Tay Ninh,Tây Ninh,,,,,,,VN709
+VNM047,Binh Duong,Bình Dương,,,,,,,VN711
+VNM048,Dong Nai,Đồng Nai,,,,,,,VN713
+VNM049,Binh Thuan,Bình Thuận,,,,,,,VN715
+VNM050,Ba Ria - Vung Tau,Bà Rịa - Vũng Tàu,,,,,,,VN717
+VNM051,Long An,Long An,,,,,,,VN801
+VNM052,Dong Thap,Đồng Tháp,,,,,,,VN803
+VNM053,An Giang,An Giang,,,,,,,VN805
+VNM054,Tien Giang,Tiền Giang,,,,,,,VN807
+VNM055,Vinh Long,Vĩnh Long,,,,,,,VN809
+VNM056,Ben Tre,Bến Tre,,,,,,,VN811
+VNM057,Kien Giang,Kiên Giang,,,,,,,VN813
+VNM058,Can Tho city,TP. Cần Thơ,,,,,,,VN815
+VNM059,Hau Giang,Hậu Giang,,,,,,,VN816
+VNM060,Tra Vinh,Trà Vinh,,,,,,,VN817
+VNM061,Soc Trang,Sóc Trăng,,,,,,,VN819
+VNM062,Bac Lieu,Bạc Liêu,,,,,,,VN821
+VNM063,Ca Mau,Cà Mau,,,,,,,VN823
+VUT001,Torba,,,,,,,,VU01
+VUT002,Sanma,,,,,,,,VU02
+VUT003,Penama,,,,,,,,VU03
+VUT004,Malampa,,,,,,,,VU04
+VUT005,Shefa,,,,,,,,VU05
+VUT006,Tafea,,,,,,,,VU06
+WLF001,Alo,,,,Kingdom,Kingdom,WLF.1_1,,
+WLF002,Singave,,,Sigave,Kingdom,Kingdom,WLF.2_1,,
+WLF003,Uvéa,,,Mata Utu,Kingdom,Kingdom,WLF.3_1,,
+WSM001,A'ana,,,Aana,District,Itumalo,WSM.1_1,,
+WSM002,Aiga-i-le-Tai,,,,District,Itumalo,WSM.2_1,,
+WSM003,Atua,,,,District,Itumalo,WSM.3_1,,
+WSM004,Fa'asaleleaga,,,Faasaleleaga,District,Itumalo,WSM.4_1,,
+WSM005,Gaga'emauga,,,Gagaemauga,District,Itumalo,WSM.5_1,,
+WSM006,Gagaifomauga,,,,District,Itumalo,WSM.6_1,,
+WSM007,Palauli,,,,District,Itumalo,WSM.7_1,,
+WSM008,Satupa'itea,,,Satupaitea,District,Itumalo,WSM.8_1,,
+WSM009,Tuamasaga,,,,District,Itumalo,WSM.9_1,,
+WSM010,Va'a-o-Fonoti,,,Vaa-o-Fonoti,District,Itumalo,WSM.10_1,,
+WSM011,Vaisigano,,,,District,Itumalo,WSM.11_1,,
+YEM001,Ibb,اب,,,,,,,YE11
+YEM002,Abyan,ابين,,,,,,,YE12
+YEM003,Sana'a City,امانة العاصمه,,,,,,,YE13
+YEM004,Al Bayda,البيضاء,,,,,,,YE14
+YEM005,Ta'iz,تعز,,,,,,,YE15
+YEM006,Al Jawf,الجوف,,,,,,,YE16
+YEM007,Hajjah,حجه,,,,,,,YE17
+YEM008,Al Hodeidah,الحديده,,,,,,,YE18
+YEM009,Hadramawt,حضرموت,,,,,,,YE19
+YEM010,Dhamar,ذمار,,,,,,,YE20
+YEM011,Shabwah,شبوه,,,,,,,YE21
+YEM012,Sa'dah,صعده,,,,,,,YE22
+YEM013,Sana'a,صنعاء,,,,,,,YE23
+YEM014,Aden,عدن,,,,,,,YE24
+YEM015,Lahj,لحج,,,,,,,YE25
+YEM016,Ma'rib,مارب,,,,,,,YE26
+YEM017,Al Mahwit,المحويت,,,,,,,YE27
+YEM018,Al Maharah,المهره,,,,,,,YE28
+YEM019,Amran,عمران,,,,,,,YE29
+YEM020,Ad Dali',الضالع,,,,,,,YE30
+YEM021,Raymah,ريمه,,,,,,,YE31
+YEM022,Socotra,سقطرى,,,,,,,YE32
+ZAF001,Western Cape,,,,,,,,ZA1
+ZAF002,Eastern Cape,,,,,,,,ZA2
+ZAF003,Nothern Cape,,,,,,,,ZA3
+ZAF004,Free State,,,,,,,,ZA4
+ZAF005,KwaZulu-Natal,,,,,,,,ZA5
+ZAF006,North West,,,,,,,,ZA6
+ZAF007,Gauteng,,,,,,,,ZA7
+ZAF008,Mpumalanga,,,,,,,,ZA8
+ZAF009,Limpopo,,,,,,,,ZA9
+ZMB001,Central,,,,,,,,ZM10
+ZMB002,Muchinga,,,,,,,,ZM11
+ZMB003,Copperbelt,,,,,,,,ZM20
+ZMB004,Eastern,,,,,,,,ZM30
+ZMB005,Luapula,,,,,,,,ZM40
+ZMB006,Lusaka,,,,,,,,ZM50
+ZMB007,Northern,,,,,,,,ZM60
+ZMB008,North-Western,,,,,,,,ZM70
+ZMB009,Southern,,,,,,,,ZM80
+ZMB010,Western,,,,,,,,ZM90
+ZWE001,Bulawayo,,,,,,,,ZW10
+ZWE002,Manicaland,,,,,,,,ZW11
+ZWE003,Mashonaland Central,,,,,,,,ZW12
+ZWE004,Mashonaland East,,,,,,,,ZW13
+ZWE005,Mashonaland West,,,,,,,,ZW14
+ZWE006,Matabeleland North,,,,,,,,ZW15
+ZWE007,Matabeleland South,,,,,,,,ZW16
+ZWE008,Midlands,,,,,,,,ZW17
+ZWE009,Masvingo,,,,,,,,ZW18
+ZWE010,Harare,,,,,,,,ZW19
