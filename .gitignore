@@ -132,3 +132,4 @@ dmypy.json
 *.xlsx
 tmp/
 qgis/
+0_data_*/
