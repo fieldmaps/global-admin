@@ -1,6 +1,5 @@
 from pathlib import Path
 import pandas as pd
-from itertools import filterfalse
 
 
 def col_str(df, col):
@@ -29,7 +28,7 @@ hdx_list_2 = map(lambda x: str(x)[-8:-5], hdx_list)
 gadm_list = map(lambda x: str(x)[-8:-5],
                 (cwd / 'gadm').resolve().glob('*.xlsx'))
 gadm_list_2 = set(gadm_list).difference(hdx_list_2)
-gadm_list_3 = filterfalse(lambda x: str(x)[0] == 'x', gadm_list_2)
+gadm_list_3 = filter(lambda x: str(x)[0] != 'x', gadm_list_2)
 gadm_list_4 = map(lambda x: (cwd / f'gadm/{x}.xlsx').resolve(), gadm_list_3)
 all_list = sorted(hdx_list + list(gadm_list_4))
 
@@ -63,7 +62,7 @@ for key, df in output.items():
         df['src_date'] = df['src_date'].dt.date
     if key != 'join' and not df['id'].is_unique:
         raise ValueError('Duplicate ID value')
-    cols = list(filterfalse(lambda x: x not in df.columns, col_index))
+    cols = list(filter(lambda x: x in df.columns, col_index))
     df = df.reindex(cols, axis=1)
     df = df.sort_values(by=cols)
     output_csv = f'../0_data_outputs/attributes/global_admin/{key}.csv'

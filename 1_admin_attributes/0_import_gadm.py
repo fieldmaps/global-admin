@@ -2,14 +2,13 @@ from datetime import date
 from pathlib import Path
 import pandas as pd
 import numpy as np
-from itertools import filterfalse
 
 
-def add_gadm(code):
+def add_gadm(code, code2):
     output = (cwd / f'gadm/{code.lower()}.xlsx').resolve()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     df_country = df[df.id_0.str.contains(code, na=False)]
-    df_split = get_columns(df_country)
+    df_split = get_columns(df_country, code2)
     for key, value in df_split.items():
         value.to_excel(writer, sheet_name=key, startrow=1,
                        header=False, index=False)
@@ -19,23 +18,24 @@ def add_gadm(code):
     writer.save()
 
 
-def get_columns(df_country):
-    if not df_country.id_5.isnull().all():
-        return split_df(df_country, ['0', '1', '2', '3', '4', '5'])
-    if not df_country.id_4.isnull().all():
-        return split_df(df_country, ['0', '1', '2', '3', '4'])
-    if not df_country.id_3.isnull().all():
-        return split_df(df_country, ['0', '1', '2', '3'])
-    if not df_country.id_2.isnull().all():
-        return split_df(df_country, ['0', '1', '2'])
-    if not df_country.id_1.isnull().all():
-        return split_df(df_country, ['0', '1'])
-    return split_df(df_country, ['0'])
+def get_columns(df, code2):
+    if not df.id_5.isnull().all():
+        return split_df(df, code2, ['0', '1', '2', '3', '4', '5'])
+    if not df.id_4.isnull().all():
+        return split_df(df, code2, ['0', '1', '2', '3', '4'])
+    if not df.id_3.isnull().all():
+        return split_df(df, code2, ['0', '1', '2', '3'])
+    if not df.id_2.isnull().all():
+        return split_df(df, code2, ['0', '1', '2'])
+    if not df.id_1.isnull().all():
+        return split_df(df, code2, ['0', '1'])
+    return split_df(df, code2, ['0'])
 
 
-def split_df(df, levels):
+def split_df(df, code2, levels):
     col_index = ['id', 'name_1', 'name_alt', 'lang_1', 'type_1', 'type_alt',
-                 'src_name', 'src_url', 'src_date', 'src_valid', 'code_gadm', 'code_govt']
+                 'src_name', 'src_url', 'src_date', 'src_valid',
+                 'code_gadm', 'code_govt', 'code_ocha']
     output = {}
     join = pd.DataFrame()
     for level in levels:
@@ -48,24 +48,27 @@ def split_df(df, levels):
             df_level['src_url'] = 'https://gadm.org'
             df_level['src_date'] = None
             df_level['src_valid'] = date(2018, 5, 6)
-        df_level = reformat_id(df_level)
-        cols = list(filterfalse(
-            lambda x: x not in df_level.columns, col_index))
+            df_level['code_ocha'] = code2
+        df_level = reformat_id(df_level, code2)
+        cols = list(filter(lambda x: x in df_level.columns, col_index))
         df_level = df_level.reindex(cols, axis=1)
         output[f'adm{level}'] = df_level.drop_duplicates()
         join[f'id_{level}'] = df_level['id']
     return {'join': join, **output}
 
 
-def reformat_id(df):
+def reformat_id(df, code2):
     for index, row in df.iterrows():
         split_id = row['id'].split('_')[0].split('.')
         new_id = split_id.pop(0)
+        new_ocha = code2
         for id in split_id:
             if int(id) > 999:
                 raise ValueError('Value above 999 not supported')
             new_id = f'{new_id}{int(id):03}'
+            new_ocha = f'{new_ocha}{int(id):03}'
         df.at[index, 'id'] = new_id
+        df.at[index, 'code_ocha'] = new_ocha
     return df
 
 
@@ -142,7 +145,7 @@ df['NAME_ALT_5'] = None
 df = df.filter(items=list(col_new.keys()))
 df = df.rename(columns=col_new)
 
-countries = sorted(list(df.id_0.unique()))
-for country in countries:
-    print(country)
-    add_gadm(country)
+countries = pd.read_excel((cwd / '../data.xlsx').resolve())
+for index, country in countries.iterrows():
+    print(country['alpha_3'])
+    add_gadm(country['alpha_3'], country['alpha_2'])

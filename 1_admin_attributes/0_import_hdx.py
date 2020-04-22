@@ -2,7 +2,6 @@ import os
 from pathlib import Path
 import pandas as pd
 import numpy as np
-from itertools import filterfalse
 
 
 def parse_sheet(sheets, sheet):
@@ -32,8 +31,8 @@ def rename_lang(df, adm0):
 
 
 def make_name_alt(df):
-    def join(row): return '|'.join(row.values.astype(str))
-    col_name_alt = list(df.filter(regex=r'^admin\dAltName_'))
+    def join(row): return '|'.join(row.fillna(''))
+    col_name_alt = list(df.filter(regex=r'^admin\dAltName'))
     df['name_alt'] = df[col_name_alt].apply(join, axis=1)
     df = df.replace(regex=[r'\|*$', r'^\|*'], value='')
     df = df.drop(col_name_alt, axis=1)
@@ -61,7 +60,7 @@ def admn_processing(df, db, level):
     db['join'] = db['join'].merge(sub, on=pcodes, how='outer')
     db['join'] = db['join'].drop_duplicates()
     db['join'] = db['join'].sort_values(list(db['join'].columns))
-    re = '^admin{0}Pcode|^admin{0}Name_|^admin{0}AltName_'.format(level)
+    re = '^admin{0}Pcode|^admin{0}Name_|^admin{0}AltName'.format(level)
     df = df.filter(regex=re)
     df = df.drop_duplicates()
     df = df.sort_values(f'admin{level}Pcode')
@@ -106,7 +105,7 @@ def clean_adm(df, join, level):
     sub = join.filter(items=[pcode, id])
     df = df.merge(sub, on=pcode, how='left')
     df = df.rename(columns={id: 'id', pcode: 'code_ocha'})
-    cols = list(filterfalse(lambda x: x not in df.columns, col_index))
+    cols = list(filter(lambda x: x in df.columns, col_index))
     df = df.reindex(cols, axis=1)
     df = df.drop_duplicates()
     return df
