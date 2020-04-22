@@ -112,7 +112,7 @@ def clean_adm(df, join, level):
 
 
 cwd = Path(__file__).parent
-Path((cwd / 'hdx').resolve()).mkdir(parents=True, exist_ok=True)
+Path((cwd / '0_import_hdx').resolve()).mkdir(parents=True, exist_ok=True)
 input_path = (cwd / '../data.xlsx').resolve()
 for index, row in pd.read_excel(input_path).iterrows():
     if row['url'] is np.nan:
@@ -134,7 +134,7 @@ for index, row in pd.read_excel(input_path).iterrows():
         if sheet != 'join':
             db[sheet] = clean_adm(db[sheet], db['join'], int(sheet[-1]))
     db['join'] = db['join'].filter(regex=r'^id_\d$')
-    output = (cwd / f"hdx/{row['iso_3']}.xlsx").resolve()
+    output = (cwd / f"0_import_hdx/{row['iso_3']}.xlsx").resolve()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     for key, value in db.items():
         value.to_excel(writer, sheet_name=key, startrow=1,

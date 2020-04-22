@@ -4,5 +4,5 @@ Repository is currently in active development, additional documentation to be ad
 
 Global Admin attribute file can be downloaded here (locations subject to change):
 
-- Attributes: https://data.fieldmaps.io/global-admin/attributes/global_admin.xlsx.zip
-- Boundaries: https://data.fieldmaps.io/global-admin/boundaries/wld_wfp.gpkg.zip
+- Attributes: https://data.fieldmaps.io/global-admin/wld.xlsx.zip
+- Boundaries: https://data.fieldmaps.io/global-admin/wld.gpkg.zip

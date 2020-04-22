@@ -59,8 +59,8 @@ def format_adm(attr, row, level, langs):
 na_values = ['', '#N/A']
 
 cwd = Path(__file__).parent
-input_path = (cwd / '../0_data_outputs/attributes/global_admin.xlsx').resolve()
-output_path = (cwd / '../0_data_outputs/attributes/hdx').resolve()
+input_path = (cwd / '1_merge_sources/wld.xlsx').resolve()
+output_path = (cwd / '2_export_hdx/').resolve()
 Path(output_path).mkdir(parents=True, exist_ok=True)
 
 db = {}
@@ -87,7 +87,13 @@ for index, row in db['adm0'].iterrows():
     join = join.merge(get_adm0(row, langs), how='outer', on='id_0')
     cty['join'] = join
 
-    output = f"../0_data_outputs/attributes/hdx/{row['id'].lower()}.xlsx"
+    for level in levels:
+        adm = f'adm{level}'
+        attr = db[adm][db[adm].id.str.contains(row['id'], na=False)]
+        lvl = format_adm(attr, row, level, langs)
+        join = join.merge(lvl, how='outer', on=f'id_{level}')
+
+    output = f"2_export_hdx/{row['id'].lower()}.xlsx"
     writer = pd.ExcelWriter((cwd / output).resolve(), engine='xlsxwriter')
     for key, df in sorted(cty.items(), reverse=True):
         df.to_excel(writer, sheet_name=key, startrow=1,
