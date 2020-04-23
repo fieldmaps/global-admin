@@ -117,8 +117,8 @@ input_path = (cwd / '../data.csv').resolve()
 for index, row in pd.read_csv(input_path).iterrows():
     if row['url'] is np.nan:
         continue
-    print(row['iso_3'])
-    hdx_file = f"../0_data_inputs/attributes/hdx/{row['iso_3']}.xlsx"
+    print(row['alpha_3'])
+    hdx_file = f"../0_data_inputs/attributes/hdx/{row['alpha_3'].lower()}.xlsx"
     sheets = pd.ExcelFile((cwd / hdx_file).resolve())
     sheet_list = sorted(sheets.sheet_names)
     db = {'join': pd.DataFrame()}
@@ -134,7 +134,7 @@ for index, row in pd.read_csv(input_path).iterrows():
         if sheet != 'join':
             db[sheet] = clean_adm(db[sheet], db['join'], int(sheet[-1]))
     db['join'] = db['join'].filter(regex=r'^id_\d$')
-    output = (cwd / f"1_import_hdx/{row['iso_3']}.xlsx").resolve()
+    output = (cwd / f"1_import_hdx/{row['alpha_3'].lower()}.xlsx").resolve()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     for key, value in db.items():
         value.to_excel(writer, sheet_name=key, startrow=1,
