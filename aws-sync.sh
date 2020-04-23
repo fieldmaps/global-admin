@@ -1,1 +1,0 @@
-aws s3 sync 0_data_outputs s3://fieldmaps-data/global-admin --exclude '*.DS_Store'

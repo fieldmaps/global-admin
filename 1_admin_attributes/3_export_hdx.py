@@ -77,8 +77,8 @@ def drop_col(join, level, max_level, langs):
 na_values = ['', '#N/A']
 
 cwd = Path(__file__).parent
-input_path = (cwd / '1_merge_sources/wld.xlsx').resolve()
-output_path = (cwd / '2_export_hdx/').resolve()
+input_path = (cwd / '2_merge_sources/wld.xlsx').resolve()
+output_path = (cwd / '3_export_hdx/').resolve()
 Path(output_path).mkdir(parents=True, exist_ok=True)
 
 db = {}
@@ -110,7 +110,7 @@ for index, row in db['adm0'].iterrows():
     join = join.drop(columns=ids)
     cty['join'] = join
 
-    output = f"2_export_hdx/{row['id'].lower()}.xlsx"
+    output = f"3_export_hdx/{row['id'].lower()}.xlsx"
     writer = pd.ExcelWriter((cwd / output).resolve(), engine='xlsxwriter')
     for key, df in sorted(cty.items(), reverse=True):
         df.to_excel(writer, sheet_name=key, startrow=1,

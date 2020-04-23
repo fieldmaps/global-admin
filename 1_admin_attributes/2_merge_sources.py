@@ -20,17 +20,17 @@ na_values = ['', '#N/A']
 output = {}
 
 cwd = Path(__file__).parent
-output_path = (cwd / '1_merge_sources').resolve()
+output_path = (cwd / '2_merge_sources').resolve()
 Path(output_path).mkdir(parents=True, exist_ok=True)
 
-hdx_list = list((cwd / '0_import_hdx').resolve().glob('*.xlsx'))
+hdx_list = list((cwd / '1_import_hdx').resolve().glob('*.xlsx'))
 hdx_list_2 = map(lambda x: str(x)[-8:-5], hdx_list)
 gadm_list = map(lambda x: str(x)[-8:-5],
-                (cwd / '0_import_gadm').resolve().glob('*.xlsx'))
+                (cwd / '1_import_gadm').resolve().glob('*.xlsx'))
 gadm_list_2 = set(gadm_list).difference(hdx_list_2)
 gadm_list_3 = filter(lambda x: str(x)[0] != 'x', gadm_list_2)
 gadm_list_4 = map(lambda x: (
-    cwd / f'0_import_gadm/{x}.xlsx').resolve(), gadm_list_3)
+    cwd / f'1_import_gadm/{x}.xlsx').resolve(), gadm_list_3)
 all_list = sorted(hdx_list + list(gadm_list_4))
 
 for path in all_list:
@@ -54,7 +54,7 @@ for path in all_list:
         else:
             output[sheet] = df
 
-output_path = '1_merge_sources/wld.xlsx'
+output_path = '2_merge_sources/wld.xlsx'
 writer = pd.ExcelWriter((cwd / output_path).resolve(), engine='xlsxwriter')
 for key, df in output.items():
     print(key)

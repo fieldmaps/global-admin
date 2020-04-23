@@ -5,7 +5,7 @@ import numpy as np
 
 
 def add_gadm(code, code2):
-    output = (cwd / f'0_import_gadm/{code.lower()}.xlsx').resolve()
+    output = (cwd / f'1_import_gadm/{code.lower()}.xlsx').resolve()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     df_country = df[df.id_0.str.contains(code, na=False)]
     df_split = get_columns(df_country, code2)
@@ -121,7 +121,7 @@ col_new = {**col_0, **col_1, **col_2, **col_3, **col_4, **col_5}
 re_filter = r'^[Ww]ater\s?[Bb]ody|Lake$'
 cwd = Path(__file__).parent
 
-Path((cwd / '0_import_gadm').resolve()).mkdir(parents=True, exist_ok=True)
+Path((cwd / '1_import_gadm').resolve()).mkdir(parents=True, exist_ok=True)
 input_1 = (cwd / '../0_data_inputs/attributes/gadm36.xlsx').resolve()
 print('Loading GADM xlsx...')
 df = pd.read_excel(input_1)
@@ -145,7 +145,7 @@ df['NAME_ALT_5'] = None
 df = df.filter(items=list(col_new.keys()))
 df = df.rename(columns=col_new)
 
-countries = pd.read_excel((cwd / '../data.xlsx').resolve())
+countries = pd.read_csv((cwd / '../data.csv').resolve())
 for index, country in countries.iterrows():
     print(country['alpha_3'])
     add_gadm(country['alpha_3'], country['alpha_2'])
