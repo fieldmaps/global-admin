@@ -98,4 +98,4 @@ The join table uses ID codes that are generated uniquely for this project. ID's 
 - Admin 2: `TZA001001`
 - Admin 3: `TZA001001001`
 
-Codes are automatically generated sequentially and using this coding, so if admin 1 contained three regions coded (`TZ00`, `TZ02`, `TZ04`), the output would still be (`TZA001`, `TZA002`, `TZA003`).
+Codes are automatically generated sequentially and using this coding, so if the input admin 1 originally contained three regions coded (`TZ00`, `TZ02`, `TZ04`), the output for this project would still be (`TZA001`, `TZA002`, `TZA003`), with the original coding from the source captured in metadata. More information on attributes and coding to be added soon...
