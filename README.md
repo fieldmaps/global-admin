@@ -23,6 +23,17 @@ Just as with boundaries, merging attribute columns between sources with differen
 - Types: Administration divisions may be governed differently based on their status, such as with territories, autonomous regions, etc.
 - Codes: Used for joining with additional data such as population statistics and other thematic data. A number of agencies have developed their own codes for giving areas unique IDs.
 
+## Installation
+
+This project has only been tested with macOS to date, compatibility with Windows 10 is not guarenteed. The minimum requrements for this project are Python 3 and  pandas. See [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html) for more details about installing this on your system.
+
+## Usage
+
+To replicate the results created by the download link, a `Makefile` is available to download input data too large to be stored in GitHub. To generate a new attribute dataset, the following commands must be run:
+
+- `make get_attributes`: fetches a zip file hosted from an S3 bucket and extracts it to a local directory. This can be done manually if there are issues using this utility.
+- `make build_attributes`: sequentially runs a series of 4 python scripts that import attributes from HDX and GADM, merge into a common dataset, and them re-export layers from all sources to the format originally found on HDX.
+
 ## Methodology: Boundaries
 
 For those looking to replicate or create workflows of their own, the following serve as a high level overview of the steps carried out during spatial data processing to create the digital boundary file that is clipped with a global admin 0 layer such as the one [here](https://geonode.wfp.org/layers/geonode%3Awld_bnd_adm0).
@@ -67,4 +78,23 @@ This new layer can be clipped with any other admin 0 layer for that country.
    5. Apply topology cleaning to ensure the integrity of the final result.
    6. Create higher admin levels by dissolving based on attributes.
    7. Clip all layers to desired global admin 0 layer.
+
+## Methodology: Attributes
+
+Tabular data is split into the following sheets:
+
+- join: ID codes used for describing hierarchal relations
+- adm0: country level metadata
+- adm1 - adm5: names, types, and codes for individual layers
+
+The join table uses ID codes that are generated uniquely for this project. ID's generated use the 3-letter ISO code to identify the country (admin 0 level), followed by sequential blocks of 3 numbers for every admin level. For example, the following would represent the first admin units of each level for Tanzania:
+
+- Admin 0: `TZA`
+- Admin 1: `TZA001`
+- Admin 2: `TZA001001`
+- Admin 3: `TZA001001001`
+
+Codes are automatically generated sequentially and using this coding, so if admin 1 contained three regions coded (`TZ00`, `TZ02`, `TZ04`), the output would still be (`TZA001`, `TZA002`, `TZA003`).
+
+
 
