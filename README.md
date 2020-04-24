@@ -1,6 +1,6 @@
 # Global Admin
 
-The Fieldmaps Global Admin project is a data processing pipeline designed to take the "best available" administration boundary information from multiple sources and aggregate them into a single dataset that can be used to automatically generate derivative products with. Data processing is done to create standardization for both spatial and tabular aspects of boundary data.
+The Fieldmaps Global Admin project is a data processing pipeline designed to take the "best available" administration boundary information from multiple sources and aggregate them into a single dataset. By normalizing inputs in this way, the intent is to ease the process for derivative products at the global level to be automatically generated. Data processing is done to create standardization for both spatial and tabular aspects of boundary data.
 
 ## Get the Data
 
