@@ -9,6 +9,10 @@ At its current stage, this project is undergoing active development, with schema
 - Attributes: https://data.fieldmaps.io/global-admin/wld.xlsx.zip
 - Boundaries: https://data.fieldmaps.io/global-admin/wld.gpkg.zip
 
+Special exports for particular use cases:
+
+- Attributes in HDX format: https://data.fieldmaps.io/global-admin/hdx_attributes.zip
+
 ## Normalization: Boundaries
 
 A common problem of merging spatial data from different sources is the existence of gaps and overlaps between sources. There are many ways to address this problem, with the approach taken here being to generate digital boundary files for each input. In this context, a digital boundary file is one that does not follow shorelines and international boundaries, but rather stretches out with simplified edges, intended for users to clip with their own shorelines and international boundaries. For example, Statistics Canada uses a digital boundary file when creating census blocks, later clipped with lakes and shorelines to derive a layer suitable for reference maps.

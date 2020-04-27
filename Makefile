@@ -1,14 +1,19 @@
 # Commands intended for project owner
-compress_attributes:
+compress_input_attributes:
 	mkdir -p 0_data_outputs
 	rm -f 0_data_outputs/input_attributes.zip
 	cd 0_data_inputs/attributes && \
 	zip -x '*.DS_Store' -r ../../0_data_outputs/input_attributes.zip .
-compress_boundaries:
+compress_input_boundaries:
 	mkdir -p 0_data_outputs
 	rm -f 0_data_outputs/input_boundaries.zip
 	cd 0_data_inputs/boundaries && \
 	zip -x '*.DS_Store' -r ../../0_data_outputs/input_boundaries.zip .
+compress_hdx_attributes:
+	mkdir -p 0_data_outputs
+	rm -f 0_data_outputs/hdx_attributes.zip
+	cd 1_admin_attributes/3_export_hdx && \
+	zip -x '*.DS_Store' -r ../../0_data_outputs/hdx_attributes.zip .
 sync:
 	aws s3 sync 0_data_outputs s3://fieldmaps-data/global-admin --exclude '*.DS_Store'
 
