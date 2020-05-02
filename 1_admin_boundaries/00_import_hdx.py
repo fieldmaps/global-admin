@@ -17,10 +17,14 @@ def add_hdx(code, level):
     for lvl in range(level + 1):
         renamed = {'id': f'id_{lvl}', 'code_ocha': f'admin{lvl}Pcode'}
         join = db[f'adm{lvl}'].filter(items=['id', 'code_ocha'])
+        join = join[join.id.str.contains(code.upper(), na=False)]
         join = join.rename(columns=renamed)
-        gdf = gdf.merge(join, on=f'admin{lvl}Pcode',)
+        gdf = gdf.merge(join, how='outer', on=f'admin{lvl}Pcode',
+                        validate='many_to_one')
     gdf = gdf.filter(items=columns)
     gdf = gdf.sort_values(by=list(gdf.columns[:-1]))
+    if gdf.isna().any(axis=None):
+        raise ValueError('Dataframe contains NaN values')
     gdf.to_file(output, layer=layer, driver="GPKG")
 
 
@@ -38,6 +42,8 @@ with open((cwd / '../data.csv').resolve()) as csvfile:
     for row in reader:
         code = row['alpha_3'].lower()
         level = int(row['admin_level_full'])
-        if row['url'].startswith('https://data.humdata.org'):
+        hdx_url = row['url'].startswith('https://data.humdata.org')
+        gadm_source = row['source'] == 'GADM'
+        if hdx_url and not gadm_source:
             print(code)
             add_hdx(code, level)

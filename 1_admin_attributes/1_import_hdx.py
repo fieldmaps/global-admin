@@ -115,7 +115,7 @@ cwd = Path(__file__).parent
 Path((cwd / '1_import_hdx').resolve()).mkdir(parents=True, exist_ok=True)
 input_path = (cwd / '../data.csv').resolve()
 for index, row in pd.read_csv(input_path).iterrows():
-    if row['url'] is np.nan:
+    if row['url'] is np.nan or row['source'] == 'GADM':
         continue
     print(row['alpha_3'])
     hdx_file = f"../0_data_inputs/attributes/hdx/{row['alpha_3'].lower()}.xlsx"
