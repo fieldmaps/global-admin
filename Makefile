@@ -14,6 +14,11 @@ compress_hdx_attributes:
 	rm -f 0_data_outputs/hdx_attributes.zip
 	cd 1_admin_attributes/3_export_hdx && \
 	zip -x '*.DS_Store' -r ../../0_data_outputs/hdx_attributes.zip .
+compress_wld_xlsx:
+	mkdir -p 0_data_outputs
+	rm -f 0_data_outputs/wld.xlsx.zip
+	cd 1_admin_attributes/2_merge_sources && \
+	zip -x '*.DS_Store' -r ../../0_data_outputs/wld.xlsx.zip .
 sync:
 	aws s3 sync 0_data_outputs s3://fieldmaps-data/global-admin --exclude '*.DS_Store'
 

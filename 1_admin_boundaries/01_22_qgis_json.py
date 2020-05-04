@@ -27,10 +27,10 @@ def admin_dissolve(batch, code, level, path, layer, input, output):
 
 
 def admin_to_lines(batch, code, level, path, layer, input, output):
-    input_1 = Path(f'{cwd}/tmp/{geo[0][0]}/{code}.gpkg')
-    input_2 = Path(f'{cwd}/tmp/{geo[1][0]}/{code}.gpkg')
-    output_1 = Path(f'{cwd}/tmp/{geo[2][0]}/{code}_1.gpkg')
-    output_2 = Path(f'{cwd}/tmp/{geo[2][0]}/{code}_2.gpkg')
+    input_1 = Path(f'{cwd}/{geo[0][0]}/{code}.gpkg')
+    input_2 = Path(f'{cwd}/{geo[1][0]}/{code}.gpkg')
+    output_1 = Path(f'{cwd}/{geo[2][0]}/{code}_1.gpkg')
+    output_2 = Path(f'{cwd}/{geo[2][0]}/{code}_2.gpkg')
     loop = [(input_1, output_1), (input_2, output_2)]
     for input_0, output_0 in loop:
         batch.append({
@@ -44,13 +44,13 @@ def admin_to_lines(batch, code, level, path, layer, input, output):
 
 
 def admin_intersect(batch, code, level, path, layer, input, output):
-    input_1 = Path(f'{cwd}/tmp/{geo[2][0]}/{code}_1.gpkg')
-    input_2 = Path(f'{cwd}/tmp/{geo[2][0]}/{code}_2.gpkg')
+    input_1 = Path(f'{cwd}/{geo[2][0]}/{code}_1.gpkg')
+    input_2 = Path(f'{cwd}/{geo[2][0]}/{code}_2.gpkg')
     batch.append({
         "PARAMETERS": {
             "INPUT": f"'{input_1}|layername={layer}'",
             "OVERLAY": f"'{input_2}|layername={layer}'",
-            "OVERLAY_FIELDS": "['admin0Pcode']",
+            "OVERLAY_FIELDS": "['id_0']",
         },
         "OUTPUTS": {
             "OUTPUT": f"'ogr:dbname={output} table=\"{layer}\" (geom) sql='",
@@ -83,12 +83,12 @@ def outline_to_lines(batch, code, level, path, layer, input, output):
 
 
 def corner_line_intersect(batch, code, level, path, layer, input, output):
-    input_1 = Path(f'{cwd}/tmp/{geo[3][0]}/{code}.gpkg')
+    input_1 = Path(f'{cwd}/{geo[3][0]}/{code}.gpkg')
     batch.append({
         "PARAMETERS": {
             "INPUT": f"'{input_1}|layername={layer}'",
             "INTERSECT": f"'{input}|layername={layer}'",
-            'INTERSECT_FIELDS': "['admin0Pcode']",
+            'INTERSECT_FIELDS': "['id_0']",
         },
         "OUTPUTS": {
             "OUTPUT": f"'ogr:dbname={output} table=\"{layer}\" (geom) sql='",
@@ -111,7 +111,7 @@ def corner_buffer(batch, code, level, path, layer, input, output):
 
 
 def outline_difference(batch, code, level, path, layer, input, output):
-    input_1 = Path(f'{cwd}/tmp/{geo[3][0]}/{code}.gpkg')
+    input_1 = Path(f'{cwd}/{geo[3][0]}/{code}.gpkg')
     batch.append({
         "PARAMETERS": {
             "INPUT": f"'{input_1}|layername={layer}'",
@@ -134,22 +134,10 @@ def outline_explode(batch, code, level, path, layer, input, output):
     })
 
 
-def outline_centroid(batch, code, level, path, layer, input, output):
+def outline_along(batch, code, level, path, layer, input, output):
     batch.append({
         "PARAMETERS": {
             "INPUT": f"'{input}|layername={layer}'",
-        },
-        "OUTPUTS": {
-            "OUTPUT": f"'ogr:dbname={output} table=\"{layer}\" (geom) sql='",
-        }
-    })
-
-
-def outline_along(batch, code, level, path, layer, input, output):
-    input_1 = Path(f'{cwd}/tmp/{geo[8][0]}/{code}.gpkg')
-    batch.append({
-        "PARAMETERS": {
-            "INPUT": f"'{input_1}|layername={layer}'",
             "DISTANCE": "0.001",
         },
         "OUTPUTS": {
@@ -178,7 +166,7 @@ def voronoi_dissolve(batch, code, level, path, layer, input, output):
     batch.append({
         "PARAMETERS": {
             "INPUT": f"'{input}|layername={layer}'",
-            "FIELD": f"['admin{level}Pcode']",
+            "FIELD": f"['id_{level}']",
         },
         "OUTPUTS": {
             "OUTPUT": f"'ogr:dbname={output} table=\"{layer}\" (geom) sql='",
@@ -187,7 +175,7 @@ def voronoi_dissolve(batch, code, level, path, layer, input, output):
 
 
 def final_union(batch, code, level, path, layer, input, output):
-    input_1 = Path(f'{cwd}/tmp/{geo[0][0]}/{code}.gpkg')
+    input_1 = Path(f'{cwd}/{geo[0][0]}/{code}.gpkg')
     batch.append({
         "PARAMETERS": {
             "INPUT": f"'{input_1}|layername={layer}'",
@@ -207,7 +195,7 @@ def final_dissolve(batch, code, level, path, layer, input, output):
     batch.append({
         "PARAMETERS": {
             "INPUT": f"'{input}|layername={layer}'",
-            "FIELD": f"['admin{level}Pcode']",
+            "FIELD": f"['id_{level}']",
         },
         "OUTPUTS": {
             "OUTPUT": f"'ogr:dbname={output} table=\"{layer}\" (geom) sql='",
@@ -256,7 +244,7 @@ def final_higher(batch, code, level, path, layer, input, output):
         batch.append({
             "PARAMETERS": {
                 "INPUT": f"'{input}|layername={layer}'",
-                "FIELD": f"['admin{l}Pcode']",
+                "FIELD": f"['id_{l}']",
             },
             "OUTPUTS": {
                 "OUTPUT": f"'ogr:dbname={output} table=\"{layer_0}\" (geom) sql='",
@@ -295,19 +283,18 @@ geo = [
     ('08_corner_buffer', corner_buffer, []),
     ('09_outline_difference', outline_difference, []),
     ('10_outline_explode', outline_explode, []),
-    ('11_outline_centroid', outline_centroid, []),
-    ('12_outline_along', outline_along, []),
-    ('13_points_merge', points_merge, []),
-    ('14_voronoi_generate', voronoi_generate, []),
-    ('15_voronoi_dissolve', voronoi_dissolve, []),
-    ('16_final_union', final_union, []),
-    ('17_final_attributes', final_attributes, []),
-    ('18_final_dissolve', final_dissolve, []),
-    ('19_final_clean', final_clean, []),
-    ('20_final_fix', final_fix, []),
-    ('21_final_higher', final_higher, []),
-    ('22_final_higher_attr', final_higher_attr, []),
-    ('23_final_clip', final_clip, []),
+    ('11_outline_along', outline_along, []),
+    ('12_points_merge', points_merge, []),
+    ('13_voronoi_generate', voronoi_generate, []),
+    ('14_voronoi_dissolve', voronoi_dissolve, []),
+    ('15_final_union', final_union, []),
+    ('16_final_attributes', final_attributes, []),
+    ('17_final_dissolve', final_dissolve, []),
+    ('18_final_clean', final_clean, []),
+    ('19_final_fix', final_fix, []),
+    ('20_final_higher', final_higher, []),
+    ('21_final_higher_attr', final_higher_attr, []),
+    ('22_final_clip', final_clip, []),
 ]
 
 cwd_path = Path(__file__).parent
@@ -327,7 +314,7 @@ with open((cwd_path / '../data.csv').resolve()) as csvfile:
             layer = f'{code}_adm{level}'
             input = Path(f'{cwd}/{geo[index - 1][0]}/{code}.gpkg')
             output = Path(f'{cwd}/{path}/{code}.gpkg')
-            func(batch, code, level, 'tmp/' + path, layer, input, output)
+            func(batch, code, level, path, layer, input, output)
 
 for item in geo:
     path, func, batch = item

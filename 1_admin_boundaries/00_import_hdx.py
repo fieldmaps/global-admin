@@ -14,6 +14,8 @@ def add_hdx(code, level):
     output = (cwd / f'00_inputs/{code}.gpkg').resolve()
     layer = f'{code}_adm{level}'
     gdf = gpd.read_file(input)
+    if gdf.crs['init'] != 'epsg:4326':
+        raise ValueError('Dataframe does not have projection of WGS84')
     for lvl in range(level + 1):
         renamed = {'id': f'id_{lvl}', 'code_ocha': f'admin{lvl}Pcode'}
         join = db[f'adm{lvl}'].filter(items=['id', 'code_ocha'])
@@ -25,7 +27,7 @@ def add_hdx(code, level):
     gdf = gdf.sort_values(by=list(gdf.columns[:-1]))
     if gdf.isna().any(axis=None):
         raise ValueError('Dataframe contains NaN values')
-    gdf.to_file(output, layer=layer, driver="GPKG")
+    gdf.to_file(output, layer=layer, driver='GPKG')
 
 
 db = {}

@@ -133,5 +133,5 @@ dmypy.json
 *.gpkg-wal
 *.gpkg-shm
 *.xlsx
-qgis_json/
+qgis_json*/
 0_data_*/
