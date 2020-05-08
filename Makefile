@@ -19,6 +19,16 @@ compress_wld_xlsx:
 	rm -f 0_data_outputs/wld.xlsx.zip
 	cd 1_admin_attributes/2_merge_sources && \
 	zip -x '*.DS_Store' -r ../../0_data_outputs/wld.xlsx.zip .
+compress_wld_gpkg:
+	mkdir -p 0_data_outputs
+	rm -f 0_data_outputs/wld.gpkg.zip
+	cd 1_admin_boundaries/24_final_export && \
+	zip -x '*.DS_Store' -r ../../0_data_outputs/wld.gpkg.zip wld_2020-05-08.gpkg
+compress_wld_levels_gpkg:
+	mkdir -p 0_data_outputs
+	rm -f 0_data_outputs/wld_levels.gpkg.zip
+	cd 1_admin_boundaries/24_final_export && \
+	zip -x '*.DS_Store' -r ../../0_data_outputs/wld_levels.gpkg.zip wld_levels_2020-05-08.gpkg
 sync:
 	aws s3 sync 0_data_outputs s3://fieldmaps-data/global-admin --exclude '*.DS_Store'
 

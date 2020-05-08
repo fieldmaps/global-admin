@@ -22,10 +22,11 @@ def final_attributes(code, level):
     output = Path(f'{cwd}/16_final_attributes/{code}.gpkg')
     layer = f'{code}_adm{level}'
     if os.path.isfile(input):
+        print(code)
         gdf = gpd.read_file(input, layer=layer)
         gdf = gdf.drop('fid_2', 1)
         for attribute in attributes[level]:
-            gdf[attribute] = np.where(gdf[attribute].isnull(),
+            gdf[attribute] = np.where(gdf[attribute].isna(),
                                       gdf[attribute + '_2'], gdf[attribute])
             gdf = gdf.drop(attribute + '_2', 1)
         gdf.to_file(output, layer=layer, driver="GPKG")

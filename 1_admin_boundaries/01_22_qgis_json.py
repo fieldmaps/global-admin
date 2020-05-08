@@ -134,6 +134,17 @@ def outline_explode(batch, code, level, path, layer, input, output):
     })
 
 
+def outline_centroid(batch, code, level, path, layer, input, output):
+    batch.append({
+        "PARAMETERS": {
+            "INPUT": f"'{input}|layername={layer}'",
+        },
+        "OUTPUTS": {
+            "OUTPUT": f"'ogr:dbname={output} table=\"{layer}\" (geom) sql='",
+        }
+    })
+
+
 def outline_along(batch, code, level, path, layer, input, output):
     batch.append({
         "PARAMETERS": {
@@ -239,11 +250,12 @@ def final_fix(batch, code, level, path, layer, input, output):
 
 
 def final_higher(batch, code, level, path, layer, input, output):
-    for l in range(level, -1, -1):
+    for l in range(level-1, -1, -1):
         layer_0 = f'{code}_adm{l}'
+        layer_1 = f'{code}_adm{l+1}'
         batch.append({
             "PARAMETERS": {
-                "INPUT": f"'{input}|layername={layer}'",
+                "INPUT": f"'{output}|layername={layer_1}'",
                 "FIELD": f"['id_{l}']",
             },
             "OUTPUTS": {
@@ -257,9 +269,9 @@ def final_higher_attr(batch, code, level, path, layer, input, output):
 
 
 def final_clip(batch, code, level, path, layer, input, output):
-    layer_1 = f'iso3_{code.upper()}'
+    layer_1 = f'id_0_{code.upper()}'
     input_1 = Path(f'{cwd}/00_inputs/wld/{layer_1}.gpkg')
-    for l in range(level, -1, -1):
+    for l in range(level + 1):
         layer_0 = f'{code}_adm{l}'
         batch.append({
             "PARAMETERS": {
@@ -283,7 +295,8 @@ geo = [
     ('08_corner_buffer', corner_buffer, []),
     ('09_outline_difference', outline_difference, []),
     ('10_outline_explode', outline_explode, []),
-    ('11_outline_along', outline_along, []),
+    # ('11_outline_along', outline_along, []),
+    ('11_outline_centroid', outline_centroid, []),
     ('12_points_merge', points_merge, []),
     ('13_voronoi_generate', voronoi_generate, []),
     ('14_voronoi_dissolve', voronoi_dissolve, []),

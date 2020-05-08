@@ -9,13 +9,17 @@ def col_str(df, col):
     return df
 
 
-col_index = ['id', 'id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'id_5',
-             'name_1', 'name_2', 'name_3', 'name_alt',
-             'type_1', 'type_2', 'type_3', 'type_alt',
-             'lang_1', 'lang_2', 'lang_3',
-             'src_name', 'src_url', 'src_date', 'src_valid',
-             'code_gadm', 'code_govt', 'code_ocha']
+def get_col_index():
+    res = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'id_5',
+           'src_name', 'src_url', 'src_date', 'src_valid', 'lang1', 'lang2', 'lang3']
+    for level in range(6):
+        column_names = ['name1', 'name2', 'name3', 'namealt',
+                        'type1', 'type2', 'type3', 'typealt', 'id_ocha', 'id_gadm', 'id_govt']
+        res.extend([s + f'_{level}' for s in column_names])
+    return res
 
+
+col_index = get_col_index()
 na_values = ['', '#N/A']
 output = {}
 
@@ -39,16 +43,18 @@ for path in all_list:
     for sheet in sheets.sheet_names:
         df = sheets.parse(sheet_name=sheet,
                           na_values=na_values, keep_default_na=False)
-        if sheet == 'adm0':
-            df['src_date'] = pd.to_datetime(df['src_date'])
-        df = col_str(df, 'name_1')
-        df = col_str(df, 'name_2')
-        df = col_str(df, 'name_3')
-        df = col_str(df, 'name_alt')
-        df = col_str(df, 'type_1')
-        df = col_str(df, 'type_alt')
-        df = col_str(df, 'code_govt')
-        df = col_str(df, 'code_ocha')
+        if sheet != 'join':
+            level = int(sheet[-1])
+            if level == 0:
+                df['src_date'] = pd.to_datetime(df['src_date'])
+            df = col_str(df, f'name1_{level}')
+            df = col_str(df, f'name2_{level}')
+            df = col_str(df, f'name3_{level}')
+            df = col_str(df, f'namealt_{level}')
+            df = col_str(df, f'type1_{level}')
+            df = col_str(df, f'typealt_{level}')
+            df = col_str(df, f'id_govt_{level}')
+            df = col_str(df, f'id_ocha_{level}')
         if sheet in output:
             output[sheet] = output[sheet].merge(df, how='outer')
         else:
@@ -61,7 +67,7 @@ for key, df in output.items():
     if key == 'adm0':
         df['src_valid'] = df['src_valid'].dt.date
         df['src_date'] = df['src_date'].dt.date
-    if key != 'join' and not df['id'].is_unique:
+    if key != 'join' and not df[f'id_{int(key[-1])}'].is_unique:
         raise ValueError('Duplicate ID value')
     cols = list(filter(lambda x: x in df.columns, col_index))
     df = df.reindex(cols, axis=1)

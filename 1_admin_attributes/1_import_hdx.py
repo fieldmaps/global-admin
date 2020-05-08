@@ -16,24 +16,24 @@ def parse_sheet(sheets, sheet):
     return df, level
 
 
-def rename_lang(df, adm0):
+def rename_lang(df, level):
     col_name = list(df.filter(regex=r'^admin\dName_'))
     langs = list(map(lambda x: x.split('_')[1], col_name))
     for i, name in enumerate(col_name):
-        kwargs = {f'name_{i+1}': df[name]}
+        kwargs = {f'name{i+1}_{level}': df[name]}
         df = df.assign(**kwargs)
-    df = make_name_alt(df)
-    if adm0 is True:
+    df = make_name_alt(df, level)
+    if level == 0:
         for i, lang in enumerate(langs):
-            df[f'lang_{i+1}'] = lang
+            df[f'lang{i+1}'] = lang
     df = df.drop(col_name, axis=1)
     return df
 
 
-def make_name_alt(df):
+def make_name_alt(df, level):
     def join(row): return '|'.join(row.fillna(''))
     col_name_alt = list(df.filter(regex=r'^admin\dAltName'))
-    df['name_alt'] = df[col_name_alt].apply(join, axis=1)
+    df[f'namealt_{level}'] = df[col_name_alt].apply(join, axis=1)
     df = df.replace(regex=[r'\|*$', r'^\|*'], value='')
     df = df.drop(col_name_alt, axis=1)
     return df
@@ -43,7 +43,7 @@ def adm0_processing(df, db, row):
     new_date = {'date': 'src_date', 'validOn': 'src_valid'}
     re_adm0 = r'^admin0Pcode|^admin0Name_|^admin0AltName_|^date$|^validOn$'
     df = df.filter(regex=re_adm0)
-    df = rename_lang(df, True)
+    df = rename_lang(df, 0)
     df['src_name'] = row['source']
     df['src_url'] = row['url']
     df = df.rename(columns=new_date)
@@ -64,7 +64,7 @@ def admn_processing(df, db, level):
     df = df.filter(regex=re)
     df = df.drop_duplicates()
     df = df.sort_values(f'admin{level}Pcode')
-    df = rename_lang(df, False)
+    df = rename_lang(df, level)
     return df
 
 
@@ -93,18 +93,22 @@ def clean_join(df, country):
     return df
 
 
+def get_col_index():
+    res = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'id_5',
+           'src_name', 'src_url', 'src_date', 'src_valid', 'lang1', 'lang2', 'lang3']
+    for level in range(6):
+        column_names = ['name1', 'name2', 'name3', 'namealt',
+                        'type1', 'type2', 'type3', 'typealt', 'id_ocha']
+        res.extend([s + f'_{level}' for s in column_names])
+    return res
+
+
 def clean_adm(df, join, level):
-    col_index = ['id',
-                 'name_1', 'name_2', 'name_3', 'name_alt',
-                 'type_1', 'type_2', 'type_3', 'type_alt',
-                 'lang_1', 'lang_2', 'lang_3',
-                 'src_name', 'src_url', 'src_date', 'src_valid',
-                 'code_ocha']
+    col_index = get_col_index()
     pcode = f'admin{level}Pcode'
-    id = f'id_{level}'
-    sub = join.filter(items=[pcode, id])
+    sub = join.filter(items=[pcode, f'id_{level}'])
     df = df.merge(sub, on=pcode, how='left')
-    df = df.rename(columns={id: 'id', pcode: 'code_ocha'})
+    df = df.rename(columns={pcode: f'id_ocha_{level}'})
     cols = list(filter(lambda x: x in df.columns, col_index))
     df = df.reindex(cols, axis=1)
     df = df.drop_duplicates()
