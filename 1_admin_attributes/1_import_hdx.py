@@ -98,7 +98,8 @@ def get_col_index():
            'src_name', 'src_url', 'src_date', 'src_valid', 'lang1', 'lang2', 'lang3']
     for level in range(6):
         column_names = ['name1', 'name2', 'name3', 'namealt',
-                        'type1', 'type2', 'type3', 'typealt', 'id_ocha']
+                        'type1', 'type2', 'type3', 'typealt',
+                        'id_ocha', 'id_wfp', 'id_gadm', 'id_govt']
         res.extend([s + f'_{level}' for s in column_names])
     return res
 
@@ -119,7 +120,7 @@ cwd = Path(__file__).parent
 Path((cwd / '1_import_hdx').resolve()).mkdir(parents=True, exist_ok=True)
 input_path = (cwd / '../data.csv').resolve()
 for index, row in pd.read_csv(input_path).iterrows():
-    if row['url'] is np.nan or row['source'] == 'GADM':
+    if row['url'] is np.nan or not row['url'].startswith('https://data.humdata.org') or row['source'] == 'GADM':
         continue
     print(row['alpha_3'])
     hdx_file = f"../0_data_inputs/attributes/hdx/{row['alpha_3'].lower()}.xlsx"

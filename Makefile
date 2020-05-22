@@ -18,17 +18,17 @@ compress_wld_xlsx:
 	mkdir -p 0_data_outputs
 	rm -f 0_data_outputs/wld.xlsx.zip
 	cd 1_admin_attributes/2_merge_sources && \
-	zip -x '*.DS_Store' -r ../../0_data_outputs/wld.xlsx.zip .
+	zip -x '*.DS_Store' -r ../../0_data_outputs/wld.xlsx.zip wld_2020-05-18.xlsx
 compress_wld_gpkg:
 	mkdir -p 0_data_outputs
 	rm -f 0_data_outputs/wld.gpkg.zip
 	cd 1_admin_boundaries/24_final_export && \
-	zip -x '*.DS_Store' -r ../../0_data_outputs/wld.gpkg.zip wld_2020-05-08.gpkg
+	zip -x '*.DS_Store' -r ../../0_data_outputs/wld.gpkg.zip wld_2020-05-18.gpkg
 compress_wld_levels_gpkg:
 	mkdir -p 0_data_outputs
 	rm -f 0_data_outputs/wld_levels.gpkg.zip
 	cd 1_admin_boundaries/24_final_export && \
-	zip -x '*.DS_Store' -r ../../0_data_outputs/wld_levels.gpkg.zip wld_levels_2020-05-08.gpkg
+	zip -x '*.DS_Store' -r ../../0_data_outputs/wld_levels.gpkg.zip wld_levels_2020-05-18.gpkg
 sync:
 	aws s3 sync 0_data_outputs s3://fieldmaps-data/global-admin --exclude '*.DS_Store'
 
@@ -62,3 +62,4 @@ build_attributes:
 	python3 1_admin_attributes/1_import_hdx.py
 	python3 1_admin_attributes/2_merge_sources.py
 	python3 1_admin_attributes/3_export_hdx.py
+	

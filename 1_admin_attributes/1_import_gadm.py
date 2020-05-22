@@ -37,7 +37,8 @@ def get_col_index():
            'src_name', 'src_url', 'src_date', 'src_valid', 'lang1', 'lang2', 'lang3']
     for level in range(6):
         column_names = ['name1', 'name2', 'name3', 'namealt',
-                        'type1', 'type2', 'type3', 'typealt', 'id_ocha', 'id_gadm', 'id_govt']
+                        'type1', 'type2', 'type3', 'typealt',
+                        'id_ocha', 'id_wfp', 'id_gadm', 'id_govt']
         res.extend([s + f'_{level}' for s in column_names])
     return res
 

@@ -19,6 +19,16 @@ def get_col_index():
     return res
 
 
+def get_converters():
+    res = {}
+    items = ['name1', 'name2', 'name3', 'namealt',
+             'type1', 'typealt', 'id_govt', 'id_ocha']
+    for lvl in range(6):
+        for item in items:
+            res[f'{item}_{lvl}'] = str
+    return res
+
+
 col_index = get_col_index()
 na_values = ['', '#N/A']
 output = {}
@@ -29,19 +39,24 @@ Path(output_path).mkdir(parents=True, exist_ok=True)
 
 hdx_list = list((cwd / '1_import_hdx').resolve().glob('*.xlsx'))
 hdx_list_2 = map(lambda x: str(x)[-8:-5], hdx_list)
+
+govt_list = list((cwd / '1_import_govt').resolve().glob('*.xlsx'))
+govt_list_2 = map(lambda x: str(x)[-8:-5], govt_list)
+
 gadm_list = map(lambda x: str(x)[-8:-5],
                 (cwd / '1_import_gadm').resolve().glob('*.xlsx'))
 gadm_list_2 = set(gadm_list).difference(hdx_list_2)
+gadm_list_2 = set(gadm_list_2).difference(govt_list_2)
 gadm_list_3 = filter(lambda x: str(x)[0] != 'x', gadm_list_2)
 gadm_list_4 = map(lambda x: (
     cwd / f'1_import_gadm/{x}.xlsx').resolve(), gadm_list_3)
-all_list = sorted(hdx_list + list(gadm_list_4))
+all_list = sorted(hdx_list + govt_list + list(gadm_list_4))
 
 for path in all_list:
     print(path)
     sheets = pd.ExcelFile(path)
     for sheet in sheets.sheet_names:
-        df = sheets.parse(sheet_name=sheet,
+        df = sheets.parse(sheet_name=sheet, converters=get_converters(),
                           na_values=na_values, keep_default_na=False)
         if sheet != 'join':
             level = int(sheet[-1])

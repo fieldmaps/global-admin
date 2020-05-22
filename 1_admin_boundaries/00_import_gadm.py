@@ -1,44 +1,53 @@
 import csv
 from pathlib import Path
+import pandas as pd
 import geopandas as gpd
 
-cwd_path = Path(__file__).parent
-cwd = cwd_path.resolve()
-attributes = {
-    '5': ['geometry', 'admin5Pcode', 'admin4Pcode', 'admin3Pcode', 'admin2Pcode', 'admin1Pcode', 'admin0Pcode'],
-    '4': ['geometry', 'admin4Pcode', 'admin3Pcode', 'admin2Pcode', 'admin1Pcode', 'admin0Pcode'],
-    '3': ['geometry', 'admin3Pcode', 'admin2Pcode', 'admin1Pcode', 'admin0Pcode'],
-    '2': ['geometry', 'admin2Pcode', 'admin1Pcode', 'admin0Pcode'],
-    '1': ['geometry', 'admin1Pcode', 'admin0Pcode'],
-    '0': ['geometry', 'admin0Pcode'],
-}
-columns = ['geometry', 'GID_5', 'GID_4', 'GID_3', 'GID_2', 'GID_1', 'GID_0']
-columns_new = {'GID_5': 'admin5Pcode', 'GID_4': 'admin4Pcode', 'GID_3': 'admin3Pcode',
-               'GID_2': 'admin2Pcode', 'GID_1': 'admin1Pcode', 'GID_0': 'admin0Pcode'}
+cwd = Path(__file__).parent
+lookup_input = '../1_admin_attributes/2_merge_sources/wld.xlsx'
+na_values = ['', '#N/A']
 re_filter = r'^[Ww]ater\s?[Bb]ody|[Ll]ake$'
 
 
 def add_gadm(code, level):
-    input = Path(
-        '{0}/originals/gadm36/GID_0_{1}.gpkg'.format(cwd, code.upper()))
-    output = Path('{0}/inputs/{1}.gpkg'.format(cwd, code))
-    layer = '{0}_adm{1}'.format(code, level)
+    columns = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'id_5', 'geometry']
+    input = (cwd / f'00_inputs/gadm/GID_0_{code}.gpkg').resolve()
+    output = (cwd / f'00_inputs/{code}.gpkg').resolve()
+    layer = f'{code}_adm{level}'
     gdf = gpd.read_file(input)
-    gdf = gdf[~gdf.ENGTYPE_1.str.contains(re_filter, na=False)]
-    gdf = gdf[~gdf.ENGTYPE_2.str.contains(re_filter, na=False)]
-    gdf = gdf[~gdf.ENGTYPE_3.str.contains(re_filter, na=False)]
-    gdf = gdf[~gdf.ENGTYPE_4.str.contains(re_filter, na=False)]
-    gdf = gdf[~gdf.ENGTYPE_5.str.contains(re_filter, na=False)]
-    gdf.rename(columns=columns_new, inplace=True)
-    gdf = gdf.filter(items=attributes[level])
-    gdf.to_file(output, layer=layer, driver="GPKG")
+    gdf = gdf[~gdf['ENGTYPE_1'].str.contains(re_filter, na=False)]
+    gdf = gdf[~gdf['ENGTYPE_2'].str.contains(re_filter, na=False)]
+    gdf = gdf[~gdf['ENGTYPE_3'].str.contains(re_filter, na=False)]
+    gdf = gdf[~gdf['ENGTYPE_4'].str.contains(re_filter, na=False)]
+    gdf = gdf[~gdf['ENGTYPE_5'].str.contains(re_filter, na=False)]
+    for lvl in range(level + 1):
+        renamed = {f'id_gadm_{lvl}': f'GID_{lvl}'}
+        join = db[f'adm{lvl}'].filter(items=[f'id_{lvl}', f'id_gadm_{lvl}'])
+        join = join[join[f'id_{lvl}'].str.contains(code.upper(), na=False)]
+        join = join.rename(columns=renamed)
+        gdf = gdf.merge(join, how='outer', on=f'GID_{lvl}',
+                        validate='many_to_one')
+    gdf = gdf.filter(items=columns)
+    gdf = gdf.sort_values(by=list(gdf.columns[:-1]))
+    if gdf.isna().any(axis=None):
+        raise ValueError('Dataframe contains NaN values')
+    gdf.to_file(output, layer=layer, driver='GPKG')
 
 
-with open((cwd_path / '../data.csv').resolve()) as csvfile:
+db = {}
+print('Loading Global Admin xlsx...')
+sheets = pd.ExcelFile((cwd / lookup_input).resolve())
+print('Global Admin xlsx loaded')
+for sheet in sheets.sheet_names:
+    db[sheet] = sheets.parse(sheet_name=sheet, na_values=na_values,
+                             keep_default_na=False)
+print('Global Admin xlsx parsed')
+
+with open((cwd / '../data.csv').resolve()) as csvfile:
     reader = csv.DictReader(csvfile, delimiter=',')
     for row in reader:
         code = row['alpha_3'].lower()
         level = int(row['admin_level_full'])
-        source = row['source']
-        if source in ['GADM', '']:
+        if row['source'] in ['GADM', '']:
+            print(code)
             add_gadm(code, level)

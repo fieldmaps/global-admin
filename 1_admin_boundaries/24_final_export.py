@@ -30,14 +30,14 @@ wfp_adm0 = pd.read_excel(wfp_adm0_path)
 
 print('Loading wld.gpkg...')
 gdf_1 = gpd.read_file(input_1, layer='wld')
-for level in range(5):
+for level in range(6):
     print(f'wld adm{level}')
     gdf_1 = gdf_1.merge(db[f'adm{level}'], how='left', on=f'id_{level}')
 gdf_1 = gdf_1.sort_values(by=list(gdf_1.columns[0:4]))
 print('Saving wld.gpkg...')
 gdf_1.to_file(output_1, layer='wld', driver="GPKG")
 
-for level in range(5):
+for level in range(6):
     print(f'Loading wld_levels.gpkg, layer=wld_adm{level}...')
     gdf_2 = gpd.read_file(input_2, layer=f'wld_adm{level}')
     for lvl in range(level + 1):

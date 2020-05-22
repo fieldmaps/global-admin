@@ -4,11 +4,13 @@ The Fieldmaps Global Admin project is a data processing pipeline designed to tak
 
 ## Get the Data
 
-At its current stage, this project is undergoing active development, with schemas and download links subject to change. Given this, data processing has produced sufficient results to gain familiarization with the format expected of future outputs. Currently, data is available for 100 countries originating from [Humanitarian Data Exchange](https://data.humdata.org/search?ext_cod=1).
+![dataset coverage](https://raw.githubusercontent.com/fieldmaps/global-admin/master/images/coverage.png)
 
-- Attributes: https://data.fieldmaps.io/global-admin/wld.xlsx.zip
-- Boundaries (most detailed level only): https://data.fieldmaps.io/global-admin/wld.gpkg.zip
-- Boundaries (all levels): https://data.fieldmaps.io/global-admin/wld_levels.gpkg.zip
+At its current stage, this project is undergoing active development, with schemas and download links subject to change. Currently, data is available for over 100 countries originating from [Humanitarian Data Exchange](https://data.humdata.org/search?ext_cod=1), with remaining countries sourced from [GADM](https://gadm.org/data.html).
+
+- Boundaries (most detailed level only, 1.4 GB): https://data.fieldmaps.io/global-admin/wld.gpkg.zip
+- Boundaries (all levels, 2.2 GB): https://data.fieldmaps.io/global-admin/wld_levels.gpkg.zip
+- Attributes only: https://data.fieldmaps.io/global-admin/wld.xlsx.zip
 
 Special exports for particular use cases:
 
@@ -45,7 +47,7 @@ To replicate the results created by the download link, a `Makefile` is available
 
 ## Methodology: Boundaries
 
-For those looking to replicate or create workflows of their own, the following serve as a high level overview of the steps carried out during spatial data processing to create the digital boundary file that is clipped with a global admin 0 layer such as the one from [WFP GeoNode](https://geonode.wfp.org/layers/geonode%3Aglb_bnd_adm0_1).
+For those looking to replicate or create workflows of their own, the following serve as a high level overview of the steps carried out during spatial data processing to create the digital boundary file that is clipped with a global admin 0 layer such as the one from [WFP GeoNode](https://geonode.wfp.org/layers/geonode%3Awld_bnd_adm0).
 
 ![Input boundaries](https://raw.githubusercontent.com/fieldmaps/global-admin/master/images/tza-1.png)
 
