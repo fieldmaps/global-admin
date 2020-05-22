@@ -6,7 +6,7 @@ The Fieldmaps Global Admin project is a data processing pipeline designed to tak
 
 ![dataset coverage](https://raw.githubusercontent.com/fieldmaps/global-admin/master/images/coverage.png)
 
-At its current stage, this project is undergoing active development, with schemas and download links subject to change. Currently, data is available for over 100 countries originating from [Humanitarian Data Exchange](https://data.humdata.org/search?ext_cod=1), with remaining countries sourced from [GADM](https://gadm.org/data.html).
+At its current stage, this project is undergoing active development, with schemas and download links subject to change. Currently, data is available for over 100 countries originating from [Humanitarian Data Exchange](https://data.humdata.org/search?ext_cod=1), with remaining countries sourced from [GADM](https://gadm.org/data.html). A full breakdown of sources and metadata is available [here](https://github.com/fieldmaps/global-admin/blob/master/data.csv).
 
 - Boundaries (most detailed level only, 1.4 GB): https://data.fieldmaps.io/global-admin/wld.gpkg.zip
 - Boundaries (all levels, 2.2 GB): https://data.fieldmaps.io/global-admin/wld_levels.gpkg.zip
