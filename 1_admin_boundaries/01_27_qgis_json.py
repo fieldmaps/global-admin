@@ -145,18 +145,6 @@ def outline_centroid(batch, code, level, path, layer, input, output):
     })
 
 
-def outline_along(batch, code, level, path, layer, input, output):
-    batch.append({
-        "PARAMETERS": {
-            "INPUT": f"'{input}|layername={layer}'",
-            "DISTANCE": "0.001",
-        },
-        "OUTPUTS": {
-            "OUTPUT": f"'ogr:dbname={output} table=\"{layer}\" (geom) sql='",
-        }
-    })
-
-
 def points_merge(batch, code, level, path, layer, input, output):
     batch = batch
 
@@ -232,8 +220,8 @@ def final_clean(batch, code, level, path, layer, input, output):
             "GRASS_VECTOR_EXPORT_NOCAT": "False"
         },
         "OUTPUTS": {
-            "output": f"'ogr:dbname={output} table=\"{layer}\" (geom) sql='",
-            "error": f"'ogr:dbname={output} table=\"{layer}_err\" (geom) sql='",
+            "output": f"'{output}'",
+            "error": f"''",
         }
     })
 
@@ -241,7 +229,7 @@ def final_clean(batch, code, level, path, layer, input, output):
 def final_fix(batch, code, level, path, layer, input, output):
     batch.append({
         "PARAMETERS": {
-            "INPUT": f"'{input}|layername={layer}'",
+            "INPUT": f"'{input}'",
         },
         "OUTPUTS": {
             "OUTPUT": f"'ogr:dbname={output} table=\"{layer}\" (geom) sql='",
@@ -284,6 +272,50 @@ def final_clip(batch, code, level, path, layer, input, output):
         })
 
 
+def lines_to_lines(batch, code, level, path, layer, input, output):
+    for l in range(level + 1):
+        layer_1 = f'{code}_adm{l}'
+        batch.append({
+            "PARAMETERS": {
+                "INPUT": f"'{input}|layername={layer_1}'",
+            },
+            "OUTPUTS": {
+                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_1}\" (geom) sql='",
+            }
+        })
+
+
+def lines_difference(batch, code, level, path, layer, input, output):
+    for l in range(level-1, -1, -1):
+        layer_1 = f'{code}_adm{l}'
+        layer_0 = f'{code}_adm{l+1}'
+        batch.append({
+            "PARAMETERS": {
+                "INPUT": f"'{input}|layername={layer_0}'",
+                "OVERLAY": f"'{input}|layername={layer_1}'",
+            },
+            "OUTPUTS": {
+                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_0}\" (geom) sql='",
+            }
+        })
+
+
+def lines_clip(batch, code, level, path, layer, input, output):
+    layer_1 = f'id_0_{code.upper()}'
+    input_1 = Path(f'{cwd}/00_inputs/wld/{layer_1}.gpkg')
+    for l in range(1, level + 1):
+        layer_0 = f'{code}_adm{l}'
+        batch.append({
+            "PARAMETERS": {
+                "INPUT": f"'{input}|layername={layer_0}'",
+                "OVERLAY": f"'{input_1}|layername={layer_1}'",
+            },
+            "OUTPUTS": {
+                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_0}\" (geom) sql='",
+            }
+        })
+
+
 geo = [
     ('01_fix_geometry', fix_geometry, []),
     ('02_admin_dissolve', admin_dissolve, []),
@@ -295,7 +327,6 @@ geo = [
     ('08_corner_buffer', corner_buffer, []),
     ('09_outline_difference', outline_difference, []),
     ('10_outline_explode', outline_explode, []),
-    # ('11_outline_along', outline_along, []),
     ('11_outline_centroid', outline_centroid, []),
     ('12_points_merge', points_merge, []),
     ('13_voronoi_generate', voronoi_generate, []),
@@ -308,6 +339,9 @@ geo = [
     ('20_final_higher', final_higher, []),
     ('21_final_higher_attr', final_higher_attr, []),
     ('22_final_clip', final_clip, []),
+    ('25_lines_to_lines', lines_to_lines, []),
+    ('26_lines_difference', lines_difference, []),
+    ('27_lines_clip', lines_clip, []),
 ]
 
 cwd_path = Path(__file__).parent

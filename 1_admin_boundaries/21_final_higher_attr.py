@@ -1,19 +1,16 @@
 import os
 import csv
 from pathlib import Path
-import geopandas as gpd
 
 cwd_path = Path(__file__).parent
 cwd = cwd_path.resolve()
 
-attributes = {
-    5: ['id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'id_5', 'geometry'],
-    4: ['id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'geometry'],
-    3: ['id_0', 'id_1', 'id_2', 'id_3', 'geometry'],
-    2: ['id_0', 'id_1', 'id_2', 'geometry'],
-    1: ['id_0', 'id_1', 'geometry'],
-    0: ['id_0', 'geometry'],
-}
+
+def get_attributes(level):
+    result = []
+    for l in range(level + 1):
+        result.append(f'id_{l}')
+    return ','.join(result)
 
 
 def final_higher(code, level):
@@ -21,11 +18,22 @@ def final_higher(code, level):
     output = Path(f'{cwd}/21_final_higher_attr/{code}.gpkg')
     if os.path.isfile(input):
         print(code)
-        for l in range(level, -1, -1):
+        os.system(
+            f"""ogr2ogr \
+            -select 'id_0' \
+            -nln {code}_adm0 \
+            {output} {input}"""
+        )
+        for l in range(1, level + 1):
             layer = f'{code}_adm{l}'
-            gdf = gpd.read_file(input, layer=layer)
-            gdf = gdf[gdf.columns[gdf.columns.isin(attributes[l])]]
-            gdf.to_file(output, layer=layer, driver="GPKG")
+            os.system(
+                f"""ogr2ogr \
+                -sql 'SELECT * FROM {layer}' \
+                -select '{get_attributes(l)}' \
+                -append \
+                -nln {layer} \
+                {output} {input}"""
+            )
 
 
 with open((cwd_path / '../data.csv').resolve()) as csvfile:

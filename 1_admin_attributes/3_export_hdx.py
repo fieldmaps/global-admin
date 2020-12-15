@@ -1,12 +1,19 @@
 from pathlib import Path
 import pandas as pd
 import numpy as np
+import shutil
 from unidecode import unidecode
+from sqlite3 import connect
+
+
+def tables_in_sqlite_db(conn):
+    cursor = conn.execute('SELECT name FROM sqlite_master WHERE type="table";')
+    tables = [v[0] for v in cursor.fetchall() if v[0] != "sqlite_sequence"]
+    cursor.close()
+    return tables
 
 
 def get_levels(df):
-    if not df['id_5'].isna().all():
-        return [5, 4, 3, 2, 1]
     if not df['id_4'].isna().all():
         return [4, 3, 2, 1]
     if not df['id_3'].isna().all():
@@ -32,9 +39,9 @@ def get_adm0(row, langs):
             df[f'admin0AltName1_{lang}'] = None
         df[f'admin0AltName2_{lang}'] = None
     df['date'] = row['src_date']
-    df['date'] = df['date'].dt.date
+    df['date'] = df['date']
     df['validOn'] = row['src_valid']
-    df['validOn'] = df['validOn'].dt.date
+    df['validOn'] = df['validOn']
     df['validTo'] = None
     return df
 
@@ -57,7 +64,7 @@ def format_adm(attr, row, level, langs):
 
 
 def drop_col(join, level, max_level, langs):
-    cols = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'id_5']
+    cols = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4']
     for lvl in range(max_level, -1, -1):
         if lvl == level:
             continue
@@ -74,21 +81,20 @@ def drop_col(join, level, max_level, langs):
     return df
 
 
-na_values = ['', '#N/A']
-
 cwd = Path(__file__).parent
-input_path = (cwd / '2_merge_sources/wld.xlsx').resolve()
+input_path = (cwd / '2_merge_sources/wld.db').resolve()
 output_path = (cwd / '3_export_hdx/').resolve()
-Path(output_path).mkdir(parents=True, exist_ok=True)
+shutil.rmtree(output_path, ignore_errors=True)
+output_path.mkdir(parents=True, exist_ok=True)
 
 db = {}
-print('Loading Global Admin xlsx...')
-sheets = pd.ExcelFile(input_path)
-print('Global Admin xlsx loaded')
-for sheet in sheets.sheet_names:
-    db[sheet] = sheets.parse(sheet_name=sheet, na_values=na_values,
-                             keep_default_na=False)
-print('Global Admin xlsx parsed')
+print('Loading Global Admin DB...')
+conn = connect(input_path)
+tables = tables_in_sqlite_db(conn)
+for table in tables:
+    db[table] = pd.read_sql_query(f'SELECT * FROM "{table}"', conn)
+conn.close()
+print('Global Admin DB loaded')
 
 for index, row in db['adm0'].iterrows():
     print(row['id_0'])
@@ -107,16 +113,12 @@ for index, row in db['adm0'].iterrows():
     drop_levels = levels + [0]
     for level in (drop_levels):
         cty[f'Admin{level}'] = drop_col(join, level, drop_levels[0], langs)
-    ids = map(lambda x: f'id_{x}', range(5, drop_levels[0], -1))
+    ids = map(lambda x: f'id_{x}', range(4, drop_levels[0], -1))
     join = join.drop(columns=ids)
     cty['join'] = join
 
     output = f"3_export_hdx/{row['id_0'].lower()}.xlsx"
-    writer = pd.ExcelWriter((cwd / output).resolve(), engine='xlsxwriter')
+    writer = pd.ExcelWriter((cwd / output).resolve(), engine='openpyxl')
     for key, df in sorted(cty.items(), reverse=True):
-        df.to_excel(writer, sheet_name=key, startrow=1,
-                    header=False, index=False)
-        worksheet = writer.sheets[key]
-        for idx, val in enumerate(df.columns):
-            worksheet.write(0, idx, val)
+        df.to_excel(writer, sheet_name=key, index=False)
     writer.save()

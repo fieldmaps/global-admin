@@ -1,26 +1,23 @@
 from datetime import date
 from pathlib import Path
+import csv
 import pandas as pd
 import numpy as np
+import shutil
+from sqlite3 import connect
 
 
 def add_gadm(code, code2):
-    output = (cwd / f'1_import_gadm/{code.lower()}.xlsx').resolve()
-    writer = pd.ExcelWriter(output, engine='xlsxwriter')
+    output = (cwd / f'1_import_gadm/{code.lower()}.db').resolve()
     df_country = df[df['id_gadm_0'].str.contains(code, na=False)]
     df_split = get_columns(df_country, code2)
-    for key, value in df_split.items():
-        value.to_excel(writer, sheet_name=key, startrow=1,
-                       header=False, index=False)
-        worksheet = writer.sheets[key]
-        for idx, val in enumerate(value.columns):
-            worksheet.write(0, idx, val)
-    writer.save()
+    conn = connect(output)
+    for table in df_split:
+        df_split[table].to_sql(table, conn, index=False)
+    conn.close()
 
 
 def get_columns(df, code2):
-    if not df['id_gadm_5'].isna().all():
-        return split_df(df, code2, ['0', '1', '2', '3', '4', '5'])
     if not df['id_gadm_4'].isna().all():
         return split_df(df, code2, ['0', '1', '2', '3', '4'])
     if not df['id_gadm_3'].isna().all():
@@ -33,9 +30,9 @@ def get_columns(df, code2):
 
 
 def get_col_index():
-    res = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'id_5',
+    res = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4',
            'src_name', 'src_url', 'src_date', 'src_valid', 'lang1', 'lang2', 'lang3']
-    for level in range(6):
+    for level in range(5):
         column_names = ['name1', 'name2', 'name3', 'namealt',
                         'type1', 'type2', 'type3', 'typealt',
                         'id_ocha', 'id_wfp', 'id_gadm', 'id_govt']
@@ -116,44 +113,45 @@ col_4 = {
     'TYPE_4': 'typealt_4',
     'CC_4': 'id_govt_4',
 }
-col_5 = {
-    'GID_5': 'id_gadm_5',
-    'NAME_5': 'name1_5',
-    'NAME_ALT_5': 'namealt_5',
-    'ENGTYPE_5': 'type1_5',
-    'TYPE_5': 'typealt_5',
-    'CC_5': 'id_govt_5',
-}
 
-col_new = {**col_0, **col_1, **col_2, **col_3, **col_4, **col_5}
+col_new = {**col_0, **col_1, **col_2, **col_3, **col_4}
 re_filter = r'^[Ww]ater\s?[Bb]ody|Lake$'
 cwd = Path(__file__).parent
 
-Path((cwd / '1_import_gadm').resolve()).mkdir(parents=True, exist_ok=True)
-input_1 = (cwd / '../0_data_inputs/attributes/gadm36.xlsx').resolve()
-print('Loading GADM xlsx...')
-df = pd.read_excel(input_1)
-print('GADM xlsx loaded')
+output_path = (cwd / '1_import_gadm').resolve()
+shutil.rmtree(output_path, ignore_errors=True)
+output_path.mkdir(parents=True, exist_ok=True)
+
+input_1 = (cwd / '../0_data_inputs/boundaries/gadm36.gpkg').resolve()
+print('Loading GADM DB...')
+conn_1 = connect(input_1)
+df = pd.read_sql_query('SELECT * FROM gadm', conn_1)
+conn_1.close()
+print('GADM DB loaded')
 
 df = df[~df['ENGTYPE_1'].str.contains(re_filter, na=False)]
 df = df[~df['ENGTYPE_2'].str.contains(re_filter, na=False)]
 df = df[~df['ENGTYPE_3'].str.contains(re_filter, na=False)]
 df = df[~df['ENGTYPE_4'].str.contains(re_filter, na=False)]
-df = df[~df['ENGTYPE_5'].str.contains(re_filter, na=False)]
 
 df['NAME_ALT_1'] = df['VARNAME_1'].apply(str).str.cat(df['NL_NAME_1'].apply(
-    str), sep='|').replace('nan|nan', np.nan).replace(r'^nan\||\|nan$', '', regex=True)
+    str), sep='|').replace('None|None', np.nan).replace(r'^None\||\|None$', '', regex=True)
 df['NAME_ALT_2'] = df['VARNAME_2'].apply(str).str.cat(df['NL_NAME_2'].apply(
-    str), sep='|').replace('nan|nan', np.nan).replace(r'^nan\||\|nan$', '', regex=True)
+    str), sep='|').replace('None|None', np.nan).replace(r'^None\||\|None$', '', regex=True)
 df['NAME_ALT_3'] = df['VARNAME_3'].apply(str).str.cat(df['NL_NAME_3'].apply(
-    str), sep='|').replace('nan|nan', np.nan).replace(r'^nan\||\|nan$', '', regex=True)
-df['NAME_ALT_4'] = df['VARNAME_4'].apply(str).replace('nan', np.nan)
-df['NAME_ALT_5'] = None
+    str), sep='|').replace('None|None', np.nan).replace(r'^None\||\|None$', '', regex=True)
+df['NAME_ALT_4'] = df['VARNAME_4'].apply(str).replace('None', np.nan)
 
 df = df.filter(items=list(col_new.keys()))
 df = df.rename(columns=col_new)
 
-countries = pd.read_csv((cwd / '../data.csv').resolve())
-for index, country in countries.iterrows():
-    print(country['alpha_3'])
-    add_gadm(country['alpha_3'], country['alpha_2'])
+iso2_lookup = {}
+with open((cwd / '../country-codes.csv').resolve(), mode='r') as csv_file:
+    csv_reader = csv.DictReader(csv_file)
+    for row in csv_reader:
+        iso2_lookup[row['alpha-3']] = row['alpha-2']
+
+for iso3 in df['id_gadm_0'].unique():
+    if not iso3.startswith('X'):
+        print(iso3)
+        add_gadm(iso3, iso2_lookup[iso3])

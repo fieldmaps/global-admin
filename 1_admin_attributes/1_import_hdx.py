@@ -1,7 +1,16 @@
-import os
 from pathlib import Path
 import pandas as pd
 import numpy as np
+import shutil
+from sqlite3 import connect
+
+
+cwd = Path(__file__).parent
+(cwd / '1_import_hdx').mkdir(parents=True, exist_ok=True)
+input_path = (cwd / '../0_data_inputs/attributes/hdx').resolve()
+output_path = (cwd / '1_import_hdx').resolve()
+shutil.rmtree(output_path, ignore_errors=True)
+output_path.mkdir(parents=True, exist_ok=True)
 
 
 def parse_sheet(sheets, sheet):
@@ -39,13 +48,13 @@ def make_name_alt(df, level):
     return df
 
 
-def adm0_processing(df, db, row):
+def adm0_processing(df, db):
     new_date = {'date': 'src_date', 'validOn': 'src_valid'}
     re_adm0 = r'^admin0Pcode|^admin0Name_|^admin0AltName_|^date$|^validOn$'
     df = df.filter(regex=re_adm0)
     df = rename_lang(df, 0)
-    df['src_name'] = row['source']
-    df['src_url'] = row['url']
+    df['src_name'] = 'HDX'
+    df['src_url'] = 'https://cod.unocha.org'
     df = df.rename(columns=new_date)
     df['src_date'] = df['src_date'].dt.date
     df['src_valid'] = df['src_valid'].dt.date
@@ -68,10 +77,10 @@ def admn_processing(df, db, level):
     return df
 
 
-def clean_join(df, country):
+def clean_join(df, code):
     for col in df.columns:
         if col == 'admin0Pcode':
-            df['id_0'] = country['alpha_3']
+            df['id_0'] = code
         else:
             level = int(col[5])
             col_higher = f'id_{level-1}'
@@ -94,9 +103,9 @@ def clean_join(df, country):
 
 
 def get_col_index():
-    res = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'id_5',
+    res = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4',
            'src_name', 'src_url', 'src_date', 'src_valid', 'lang1', 'lang2', 'lang3']
-    for level in range(6):
+    for level in range(5):
         column_names = ['name1', 'name2', 'name3', 'namealt',
                         'type1', 'type2', 'type3', 'typealt',
                         'id_ocha', 'id_wfp', 'id_gadm', 'id_govt']
@@ -116,35 +125,28 @@ def clean_adm(df, join, level):
     return df
 
 
-cwd = Path(__file__).parent
-Path((cwd / '1_import_hdx').resolve()).mkdir(parents=True, exist_ok=True)
-input_path = (cwd / '../data.csv').resolve()
-for index, row in pd.read_csv(input_path).iterrows():
-    if row['url'] is np.nan or not row['url'].startswith('https://data.humdata.org') or row['source'] == 'GADM':
-        continue
-    print(row['alpha_3'])
-    hdx_file = f"../0_data_inputs/attributes/hdx/{row['alpha_3'].lower()}.xlsx"
-    sheets = pd.ExcelFile((cwd / hdx_file).resolve())
-    sheet_list = sorted(sheets.sheet_names)
-    db = {'join': pd.DataFrame()}
-    for sheet in sheet_list:
-        df, level = parse_sheet(sheets, sheet)
-        if level == 0:
-            df = adm0_processing(df, db, row)
-        else:
-            df = admn_processing(df, db, level)
-        db[f'adm{level}'] = df
-    db['join'] = clean_join(db['join'], row)
-    for sheet in db:
-        if sheet != 'join':
-            db[sheet] = clean_adm(db[sheet], db['join'], int(sheet[-1]))
-    db['join'] = db['join'].filter(regex=r'^id_\d$')
-    output = (cwd / f"1_import_hdx/{row['alpha_3'].lower()}.xlsx").resolve()
-    writer = pd.ExcelWriter(output, engine='xlsxwriter')
-    for key, value in db.items():
-        value.to_excel(writer, sheet_name=key, startrow=1,
-                       header=False, index=False)
-        worksheet = writer.sheets[key]
-        for idx, val in enumerate(value.columns):
-            worksheet.write(0, idx, val)
-    writer.save()
+files_in_path = sorted(input_path.iterdir())
+for in_file in files_in_path:
+    if in_file.is_file() and in_file.suffix == '.xlsx':
+        code = in_file.name.split('.')[0]
+        print(code)
+        sheets = pd.ExcelFile(in_file, engine='openpyxl')
+        sheet_list = sorted(sheets.sheet_names)
+        db = {'join': pd.DataFrame()}
+        for sheet in sheet_list:
+            df, level = parse_sheet(sheets, sheet)
+            if level == 0:
+                df = adm0_processing(df, db)
+            else:
+                df = admn_processing(df, db, level)
+            db[f'adm{level}'] = df
+        db['join'] = clean_join(db['join'], code.upper())
+        for sheet in db:
+            if sheet != 'join':
+                db[sheet] = clean_adm(db[sheet], db['join'], int(sheet[-1]))
+        db['join'] = db['join'].filter(regex=r'^id_\d$')
+        output = (output_path / f'{code}.db').resolve()
+        conn = connect(output)
+        for table in db:
+            db[table].to_sql(table, conn, index=False)
+        conn.close()

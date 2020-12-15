@@ -1,18 +1,21 @@
-import os
+import csv
 from pathlib import Path
-from datetime import date
 import pandas as pd
 import numpy as np
+import shutil
+from sqlite3 import connect
 
 cwd = Path(__file__).parent
-Path((cwd / '1_import_govt').resolve()).mkdir(parents=True, exist_ok=True)
-input_path = (cwd / '../data.csv').resolve()
+input_path = (cwd / '../0_data_inputs/attributes/govt').resolve()
+output_path = (cwd / '1_import_govt').resolve()
+shutil.rmtree(output_path, ignore_errors=True)
+output_path.mkdir(parents=True, exist_ok=True)
 
 
 def get_col_index():
-    res = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4', 'id_5',
+    res = ['id_0', 'id_1', 'id_2', 'id_3', 'id_4',
            'src_name', 'src_url', 'src_date', 'src_valid', 'lang1', 'lang2', 'lang3']
-    for level in range(6):
+    for level in range(5):
         column_names = ['name1', 'name2', 'name3', 'namealt',
                         'type1', 'type2', 'type3', 'typealt',
                         'id_ocha', 'id_wfp', 'id_gadm', 'id_govt']
@@ -27,23 +30,23 @@ def col_str(df, col):
     return df
 
 
-def split_df(df, row, level):
+def split_df(df, iso3, iso2, level):
     col_index = get_col_index()
     output = {}
     join = pd.DataFrame()
-    df = add_standard_ids(df, row, level)
+    df = add_standard_ids(df, iso3, iso2, level)
     for lvl in range(level + 1):
         df2 = df.copy()
         df2 = df2.filter(regex=f'^.+_{lvl}$')
         if lvl == 0:
-            df2['src_name'] = row['source']
-            df2['src_url'] = row['url']
-            df2['src_date'] = date.fromisoformat(row['date'])
-            df2['src_valid'] = date.fromisoformat(row['valid_on'])
-            df2['id_ocha_0'] = row['alpha_2']
-            for lang in ['lang1', 'lang2', 'lang3']:
-                if str(row[lang]) != 'nan':
-                    df2[lang] = row[lang]
+            df2['src_name'] = 'GOVT'
+            df2['src_url'] = np.nan
+            df2['src_date'] = np.nan
+            df2['src_valid'] = np.nan
+            df2['id_ocha_0'] = iso2
+            df2['lang1'] = 'en'
+            if iso3 == 'CAN':
+                df2['lang2'] = 'fr'
         cols = list(filter(lambda x: x in df2.columns, col_index))
         df2 = df2.reindex(cols, axis=1)
         output[f'adm{lvl}'] = df2.drop_duplicates()
@@ -51,14 +54,14 @@ def split_df(df, row, level):
     return {'join': join, **output}
 
 
-def add_standard_ids(df, country, level):
+def add_standard_ids(df, iso3, iso2, level):
     for lvl in range(level + 1):
         df = df.sort_values(f'id_govt_{lvl}')
         if lvl == 0:
-            df['id_0'] = country['alpha_3']
-            df['id_ocha_0'] = country['alpha_2']
+            df['id_0'] = iso3
+            df['id_ocha_0'] = iso2
         else:
-            df[f'id_ocha_{lvl}'] = country['alpha_2'] + df[f'id_govt_{lvl}']
+            df[f'id_ocha_{lvl}'] = iso2 + df[f'id_govt_{lvl}']
             col = f'id_govt_{lvl}'
             col_higher = f'id_{lvl-1}'
             prev_id = None
@@ -79,24 +82,24 @@ def add_standard_ids(df, country, level):
     return df
 
 
-for index, row in pd.read_csv(input_path).iterrows():
-    code = row['alpha_3'].lower()
-    level = int(row['admin_level_full'])
-    if row['url'] is np.nan or row['url'].startswith('https://data.humdata.org'):
-        continue
-    print(code)
-    hdx_file = f'../0_data_inputs/attributes/govt/{code}.xlsx'
-    df = pd.read_excel((cwd / hdx_file).resolve(),
-                       converters={'id_govt_0': str, 'id_govt_1': str,
-                                   'id_govt_2': str, 'id_govt_3': str,
-                                   'id_govt_4': str, 'id_govt_5': str})
-    db = split_df(df, row, level)
-    output = (cwd / f'1_import_govt/{code}.xlsx').resolve()
-    writer = pd.ExcelWriter(output, engine='xlsxwriter')
-    for key, value in db.items():
-        value.to_excel(writer, sheet_name=key, startrow=1,
-                       header=False, index=False)
-        worksheet = writer.sheets[key]
-        for idx, val in enumerate(value.columns):
-            worksheet.write(0, idx, val)
-    writer.save()
+iso2_lookup = {}
+with open((cwd / '../country-codes.csv').resolve(), mode='r') as csv_file:
+    csv_reader = csv.DictReader(csv_file)
+    for row in csv_reader:
+        iso2_lookup[row['alpha-3']] = row['alpha-2']
+
+files_in_path = sorted(input_path.iterdir())
+for in_file in files_in_path:
+    if in_file.is_file() and in_file.suffix == '.xlsx':
+        code, level = in_file.name.split('.')[0].split('_adm')
+        level = int(level)
+        print(code, level)
+        df = pd.read_excel(in_file, engine='openpyxl', converters={
+            'id_govt_0': str, 'id_govt_1': str, 'id_govt_2': str,
+            'id_govt_3': str, 'id_govt_4': str})
+        db = split_df(df, code.upper(), iso2_lookup[code.upper()], level)
+        output = (output_path / f'{code}.db').resolve()
+        conn = connect(output)
+        for table in db:
+            db[table].to_sql(table, conn, index=False)
+        conn.close()
