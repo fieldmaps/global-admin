@@ -73,8 +73,8 @@ conn = connect((output_path / 'wld.db').resolve())
 
 for table, df in output.items():
     print(table)
-    if table != 'join' and not df[f'id_{int(table[-1])}'].is_unique:
-        raise ValueError('Duplicate ID value')
+    if table != 'join' and not df[f'id_{table[-1]}'].is_unique:
+        raise ValueError(f'Duplicate ID value in {table}')
     cols = list(filter(lambda x: x in df.columns, col_index))
     df = df.reindex(cols, axis=1)
     df = df.sort_values(by=cols)

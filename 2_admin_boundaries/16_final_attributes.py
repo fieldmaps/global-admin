@@ -1,5 +1,5 @@
 import os
-import csv
+import re
 from pathlib import Path
 import pandas as pd
 import numpy as np
@@ -7,12 +7,24 @@ from sqlite3 import connect
 
 cwd_path = Path(__file__).parent
 cwd = cwd_path.resolve()
+bounds = (cwd / '15_final_union').resolve()
+
+
+def max_level_in_gpkg(in_file):
+    conn = connect(in_file)
+    cursor = conn.execute('SELECT name FROM sqlite_master WHERE type="table";')
+    tables = [v[0] for v in cursor.fetchall() if v[0] != "sqlite_sequence"]
+    cursor.close()
+    conn.close()
+    adm_list = list(filter(lambda x: re.search(r'adm\d$', x), tables))
+    levels = map(lambda x: int(x[-1]), adm_list)
+    return max(levels)
 
 
 def final_attributes(code, level):
     input = Path(f'{cwd}/15_final_union/{code}.gpkg')
     tmp_1 = Path(f'{cwd}/16_final_attributes/{code}_tmp.gpkg')
-    tmp_2 = Path(f'{cwd}/16_final_attributes/{code}_tmp.sqlite')
+    tmp_2 = Path(f'{cwd}/16_final_attributes/{code}_tmp.db')
     output = Path(f'{cwd}/16_final_attributes/{code}.gpkg')
     layer = f'{code}_adm{level}'
     if os.path.isfile(input):
@@ -54,9 +66,10 @@ def final_attributes(code, level):
         os.remove(tmp_2)
 
 
-with open((cwd_path / '../data.csv').resolve()) as csvfile:
-    reader = csv.DictReader(csvfile, delimiter=',')
-    for row in reader:
-        code = row['alpha_3'].lower()
-        level = int(row['admin_level_full'])
+files_in_path = sorted(bounds.iterdir())
+for in_file in files_in_path:
+    if in_file.is_file() and in_file.suffix == '.gpkg':
+        code = in_file.name.split('.')[0]
+        level = max_level_in_gpkg(in_file)
+        print(code, level)
         final_attributes(code, level)

@@ -27,7 +27,7 @@ def add_govt(code, level):
     layer = f'{code}_adm{level}'
     os.system(
         f"""ogr2ogr \
-        -sql "SELECT geom, fid, fid AS fid_0 FROM {layer}" \
+        -sql "SELECT fid,geom,id_govt_{level} FROM {layer}" \
         -nln {layer} \
         {tmp_1} {input}"""
     )
@@ -48,8 +48,8 @@ def add_govt(code, level):
     conn_2.close()
     join_sql = f"""
         SELECT * FROM {layer} AS adm
-        INNER JOIN '{tmp_2}'.{layer} AS tbl
-        ON adm.fid_0 = tbl.rowid"""
+        LEFT JOIN '{tmp_2}'.{layer} AS tbl
+        ON adm.id_govt_{level} = tbl.id_govt_{level}"""
     os.system(
         f"""ogr2ogr \
         -dialect INDIRECT_SQLITE \

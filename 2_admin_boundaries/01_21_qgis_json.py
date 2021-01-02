@@ -1,6 +1,18 @@
-import csv
+import re
 import json
 from pathlib import Path
+from sqlite3 import connect
+
+
+def max_level_in_gpkg(in_file):
+    conn = connect(in_file)
+    cursor = conn.execute('SELECT name FROM sqlite_master WHERE type="table";')
+    tables = [v[0] for v in cursor.fetchall() if v[0] != "sqlite_sequence"]
+    cursor.close()
+    conn.close()
+    adm_list = list(filter(lambda x: re.search(r'adm\d$', x), tables))
+    levels = map(lambda x: int(x[-1]), adm_list)
+    return max(levels)
 
 
 def fix_geometry(batch, code, level, path, layer, input, output):
@@ -221,7 +233,7 @@ def final_clean(batch, code, level, path, layer, input, output):
         },
         "OUTPUTS": {
             "output": f"'{output}'",
-            "error": f"''",
+            "error": f"'{output}.err'",
         }
     })
 
@@ -237,13 +249,17 @@ def final_fix(batch, code, level, path, layer, input, output):
     })
 
 
-def final_higher(batch, code, level, path, layer, input, output):
-    for l in range(level-1, -1, -1):
+def final_higher_dissolve(batch, code, level, path, layer, input, output):
+    for l in range(level, -1, -1):
         layer_0 = f'{code}_adm{l}'
         layer_1 = f'{code}_adm{l+1}'
+        input_0 = output
+        if l == level:
+            input_0 = Path(f'{cwd}/{geo[18][0]}/{code}.gpkg')
+            layer_1 = f'{code}_adm{l}'
         batch.append({
             "PARAMETERS": {
-                "INPUT": f"'{output}|layername={layer_1}'",
+                "INPUT": f"'{input_0}|layername={layer_1}'",
                 "FIELD": f"['id_{l}']",
             },
             "OUTPUTS": {
@@ -254,66 +270,6 @@ def final_higher(batch, code, level, path, layer, input, output):
 
 def final_higher_attr(batch, code, level, path, layer, input, output):
     batch = batch
-
-
-def final_clip(batch, code, level, path, layer, input, output):
-    layer_1 = f'id_0_{code.upper()}'
-    input_1 = Path(f'{cwd}/00_inputs/wld/{layer_1}.gpkg')
-    for l in range(level + 1):
-        layer_0 = f'{code}_adm{l}'
-        batch.append({
-            "PARAMETERS": {
-                "INPUT": f"'{input}|layername={layer_0}'",
-                "OVERLAY": f"'{input_1}|layername={layer_1}'",
-            },
-            "OUTPUTS": {
-                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_0}\" (geom) sql='",
-            }
-        })
-
-
-def lines_to_lines(batch, code, level, path, layer, input, output):
-    for l in range(level + 1):
-        layer_1 = f'{code}_adm{l}'
-        batch.append({
-            "PARAMETERS": {
-                "INPUT": f"'{input}|layername={layer_1}'",
-            },
-            "OUTPUTS": {
-                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_1}\" (geom) sql='",
-            }
-        })
-
-
-def lines_difference(batch, code, level, path, layer, input, output):
-    for l in range(level-1, -1, -1):
-        layer_1 = f'{code}_adm{l}'
-        layer_0 = f'{code}_adm{l+1}'
-        batch.append({
-            "PARAMETERS": {
-                "INPUT": f"'{input}|layername={layer_0}'",
-                "OVERLAY": f"'{input}|layername={layer_1}'",
-            },
-            "OUTPUTS": {
-                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_0}\" (geom) sql='",
-            }
-        })
-
-
-def lines_clip(batch, code, level, path, layer, input, output):
-    layer_1 = f'id_0_{code.upper()}'
-    input_1 = Path(f'{cwd}/00_inputs/wld/{layer_1}.gpkg')
-    for l in range(1, level + 1):
-        layer_0 = f'{code}_adm{l}'
-        batch.append({
-            "PARAMETERS": {
-                "INPUT": f"'{input}|layername={layer_0}'",
-                "OVERLAY": f"'{input_1}|layername={layer_1}'",
-            },
-            "OUTPUTS": {
-                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_0}\" (geom) sql='",
-            }
-        })
 
 
 geo = [
@@ -336,26 +292,25 @@ geo = [
     ('17_final_dissolve', final_dissolve, []),
     ('18_final_clean', final_clean, []),
     ('19_final_fix', final_fix, []),
-    ('20_final_higher', final_higher, []),
-    ('21_final_higher_attr', final_higher_attr, []),
-    ('22_final_clip', final_clip, []),
-    ('25_lines_to_lines', lines_to_lines, []),
-    ('26_lines_difference', lines_difference, []),
-    ('27_lines_clip', lines_clip, []),
+    ('20_final_higher_dissolve', final_higher_dissolve, []),
+    ('21_final_higher_attrs', final_higher_attr, []),
 ]
 
 cwd_path = Path(__file__).parent
 cwd = cwd_path.resolve()
-Path(cwd, 'qgis_json').mkdir(parents=True, exist_ok=True)
+(cwd_path / 'qgis_json').mkdir(parents=True, exist_ok=True)
 
 for item in geo:
     Path(cwd, item[0]).mkdir(parents=True, exist_ok=True)
 
-with open((cwd_path / '../data.csv').resolve()) as csvfile:
-    reader = csv.DictReader(csvfile, delimiter=',')
-    for row in reader:
-        code = row['alpha_3'].lower()
-        level = int(row['admin_level_full'])
+
+bounds = (cwd_path / '00_inputs').resolve()
+files_in_path = sorted(bounds.iterdir())
+for in_file in files_in_path:
+    if in_file.is_file() and in_file.suffix == '.gpkg':
+        code = in_file.name.split('.')[0]
+        level = max_level_in_gpkg(in_file)
+        print(code, level)
         for index, item in enumerate(geo):
             path, func, batch = item
             layer = f'{code}_adm{level}'
@@ -365,5 +320,5 @@ with open((cwd_path / '../data.csv').resolve()) as csvfile:
 
 for item in geo:
     path, func, batch = item
-    with open(f'{cwd}/qgis_json/{path}.json', 'w') as outfile:
+    with open(Path(f'{cwd}/qgis_json/{path}.json'), 'w') as outfile:
         json.dump(batch, outfile)

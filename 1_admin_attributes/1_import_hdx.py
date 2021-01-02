@@ -147,6 +147,8 @@ for in_file in files_in_path:
         db['join'] = db['join'].filter(regex=r'^id_\d$')
         output = (output_path / f'{code}.db').resolve()
         conn = connect(output)
-        for table in db:
-            db[table].to_sql(table, conn, index=False)
+        for table, df in db.items():
+            if table != 'join' and not df[f'id_{table[-1]}'].is_unique:
+                raise ValueError(f'Duplicate ID value in {table}')
+            df.to_sql(table, conn, index=False)
         conn.close()
