@@ -5,6 +5,7 @@ import pandas as pd
 from sqlite3 import connect
 
 cwd = Path(__file__).parent
+(cwd / f'00_inputs').mkdir(parents=True, exist_ok=True)
 attrs = (cwd / '../1_admin_attributes/2_merge_sources/wld.db').resolve()
 bounds = (cwd / '../0_data_inputs/boundaries/hdx').resolve()
 

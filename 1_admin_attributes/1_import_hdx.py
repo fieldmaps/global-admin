@@ -1,6 +1,5 @@
 from pathlib import Path
 import pandas as pd
-import numpy as np
 import shutil
 from sqlite3 import connect
 
@@ -12,13 +11,18 @@ output_path = (cwd / '1_import_hdx').resolve()
 shutil.rmtree(output_path, ignore_errors=True)
 output_path.mkdir(parents=True, exist_ok=True)
 
+ocha_cod = pd.read_csv((cwd / '../ocha-cod.csv').resolve())
+country_codes = pd.read_csv((cwd / '../country-codes.csv').resolve())
+ocha_cod = ocha_cod.merge(country_codes, left_on='ISO 3166-1 Alpha 3-Codes',
+                          right_on='alpha-3')
+
 
 def parse_sheet(sheets, sheet):
     level = int(sheet[-1])
     na_values = ['', '#N/A']
     df = sheets.parse(sheet_name=sheet, na_values=na_values,
                       keep_default_na=False)
-    df = df.replace(regex=r'^\s+$', value=np.nan)
+    df = df.replace(regex=r'^\s+$', value=None)
     df = df.replace(regex=[r'^\s+', r'\s+$'], value='')
     df = df.dropna(how='all')
     df = df.drop_duplicates()
@@ -49,12 +53,14 @@ def make_name_alt(df, level):
 
 
 def adm0_processing(df, db):
-    new_date = {'date': 'src_date', 'validOn': 'src_valid'}
-    re_adm0 = r'^admin0Pcode|^admin0Name_|^admin0AltName_|^date$|^validOn$'
+    df = df.merge(ocha_cod, left_on='admin0Pcode',
+                  right_on='alpha-2', how='left')
+    new_date = {'date': 'src_date', 'validOn': 'src_valid',
+                'COD-AB URL': 'src_url'}
+    re_adm0 = r'^admin0Pcode|^admin0Name_|^admin0AltName_|^date$|^validOn$|^COD-AB URL$'
     df = df.filter(regex=re_adm0)
     df = rename_lang(df, 0)
-    df['src_name'] = 'HDX'
-    df['src_url'] = 'https://cod.unocha.org'
+    df['src_name'] = 'OCHA'
     df = df.rename(columns=new_date)
     df['src_date'] = df['src_date'].dt.date
     df['src_valid'] = df['src_valid'].dt.date

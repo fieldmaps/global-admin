@@ -4,6 +4,7 @@ import pandas as pd
 import geopandas as gpd
 
 cwd = Path(__file__).parent
+(cwd / f'00_inputs').mkdir(parents=True, exist_ok=True)
 lookup_input = '../1_admin_attributes/2_merge_sources/wld.xlsx'
 na_values = ['', '#N/A']
 re_filter = r'^[Ww]ater\s?[Bb]ody|[Ll]ake$'

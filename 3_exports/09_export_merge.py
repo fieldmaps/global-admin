@@ -5,17 +5,20 @@ from pathlib import Path
 from sqlite3 import connect
 
 cwd = Path(__file__).parent
-(cwd / '10_export_merge').mkdir(parents=True, exist_ok=True)
 
-polygons = ((cwd / '01_adm0_refactor/wld.gpkg').resolve(),
-            (cwd / '02_polygon_clip').resolve(),
+output_path = (cwd / '09_export_merge').resolve()
+shutil.rmtree(output_path, ignore_errors=True)
+output_path.mkdir(parents=True, exist_ok=True)
+
+polygons = ((cwd / '00_import_adm0/wld_polygons.gpkg').resolve(),
+            (cwd / '01_polygon_clip').resolve(),
             'polygons', 0)
-lines = ((cwd / '../0_data_inputs/boundaries/wld_adm0_lines.gpkg').resolve(),
-         (cwd / '07_lines_clip').resolve(),
-         'lines', -1)
-points = ((cwd / '01_adm0_refactor/wld_points.gpkg').resolve(),
-          (cwd / '09_point_refactor').resolve(),
+points = ((cwd / '00_import_adm0/wld_points.gpkg').resolve(),
+          (cwd / '07_refactor_points').resolve(),
           'points', 0)
+lines = ((cwd / '../0_data_inputs/boundaries/wld_lines.gpkg').resolve(),
+         (cwd / '08_refactor_lines').resolve(),
+         'lines', -1)
 
 
 def max_level_in_gpkg(in_file):
@@ -29,8 +32,8 @@ def max_level_in_gpkg(in_file):
     return max(levels)
 
 
-for template, bounds, layer, offset in [polygons, lines, points]:
-    output = (cwd / f'10_export_merge/wld_{layer}.gpkg').resolve()
+for template, bounds, layer, offset in [polygons, points, lines]:
+    output = (output_path / f'wld_{layer}.gpkg').resolve()
     shutil.copyfile(template, output)
     files_in_path = sorted(bounds.iterdir())
     for in_file in files_in_path:

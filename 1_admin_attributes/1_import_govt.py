@@ -1,7 +1,6 @@
 import csv
 from pathlib import Path
 import pandas as pd
-import numpy as np
 import shutil
 from sqlite3 import connect
 
@@ -40,9 +39,9 @@ def split_df(df, iso3, iso2, level):
         df2 = df2.filter(regex=f'^.+_{lvl}$')
         if lvl == 0:
             df2['src_name'] = 'GOVT'
-            df2['src_url'] = np.nan
-            df2['src_date'] = np.nan
-            df2['src_valid'] = np.nan
+            df2['src_url'] = df['src_url']
+            df2['src_date'] = df['src_date'].dt.date
+            df2['src_valid'] = df['src_valid'].dt.date
             df2['id_ocha_0'] = iso2
             df2['lang1'] = 'en'
             if iso3 == 'CAN':

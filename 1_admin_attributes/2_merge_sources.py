@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from sqlite3 import connect
 import shutil
 from pathlib import Path
@@ -15,6 +16,12 @@ def col_str(df, col):
     if col in df.columns:
         df[col] = df[col].fillna('')
         df[col] = df[col].apply(str)
+    return df
+
+
+def col_na(df, col):
+    if col in df.columns:
+        df[col] = df[col].replace('', np.nan)
     return df
 
 
@@ -73,8 +80,18 @@ conn = connect((output_path / 'wld.db').resolve())
 
 for table, df in output.items():
     print(table)
-    if table != 'join' and not df[f'id_{table[-1]}'].is_unique:
-        raise ValueError(f'Duplicate ID value in {table}')
+    if table != 'join':
+        level = int(table[-1])
+        df = col_na(df, f'name1_{level}')
+        df = col_na(df, f'name2_{level}')
+        df = col_na(df, f'name3_{level}')
+        df = col_na(df, f'namealt_{level}')
+        df = col_na(df, f'type1_{level}')
+        df = col_na(df, f'typealt_{level}')
+        df = col_na(df, f'id_govt_{level}')
+        df = col_na(df, f'id_ocha_{level}')
+        if not df[f'id_{level}'].is_unique:
+            raise ValueError(f'Duplicate ID value in {table}')
     cols = list(filter(lambda x: x in df.columns, col_index))
     df = df.reindex(cols, axis=1)
     df = df.sort_values(by=cols)

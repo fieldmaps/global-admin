@@ -2,7 +2,6 @@ from datetime import date
 from pathlib import Path
 import csv
 import pandas as pd
-import numpy as np
 import shutil
 from sqlite3 import connect
 
@@ -135,12 +134,12 @@ df = df[~df['ENGTYPE_3'].str.contains(re_filter, na=False)]
 df = df[~df['ENGTYPE_4'].str.contains(re_filter, na=False)]
 
 df['NAME_ALT_1'] = df['VARNAME_1'].apply(str).str.cat(df['NL_NAME_1'].apply(
-    str), sep='|').replace('None|None', np.nan).replace(r'^None\||\|None$', '', regex=True)
+    str), sep='|').replace('None|None', None).replace(r'^None\||\|None$', '', regex=True)
 df['NAME_ALT_2'] = df['VARNAME_2'].apply(str).str.cat(df['NL_NAME_2'].apply(
-    str), sep='|').replace('None|None', np.nan).replace(r'^None\||\|None$', '', regex=True)
+    str), sep='|').replace('None|None', None).replace(r'^None\||\|None$', '', regex=True)
 df['NAME_ALT_3'] = df['VARNAME_3'].apply(str).str.cat(df['NL_NAME_3'].apply(
-    str), sep='|').replace('None|None', np.nan).replace(r'^None\||\|None$', '', regex=True)
-df['NAME_ALT_4'] = df['VARNAME_4'].apply(str).replace('None', np.nan)
+    str), sep='|').replace('None|None', None).replace(r'^None\||\|None$', '', regex=True)
+df['NAME_ALT_4'] = df['VARNAME_4'].apply(str).replace('None', None)
 
 df = df.filter(items=list(col_new.keys()))
 df = df.rename(columns=col_new)
