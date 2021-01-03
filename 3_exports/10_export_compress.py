@@ -8,7 +8,9 @@ today = date.today().isoformat()
 cwd = Path(__file__).parent
 output_path = (cwd / '10_export_compress').resolve()
 shutil.rmtree(output_path, ignore_errors=True)
+
 output_path.mkdir(parents=True, exist_ok=True)
+(output_path / 'boundless').mkdir(parents=True, exist_ok=True)
 
 bounds = (cwd / '00_import_boundless').resolve()
 
@@ -25,7 +27,7 @@ for in_file in files_in_path:
     if in_file.is_file() and in_file.suffix == '.gpkg':
         code = in_file.name.split('.')[0]
         print(f'{code}.gpkg.zip')
-        output = (output_path / f'{code}.gpkg.zip').resolve()
+        output = (output_path / f'boundless/{code}.gpkg.zip').resolve()
         file = ZipFile(output, mode='w', compression=ZIP_DEFLATED)
         file.write(in_file, arcname=f'{code}_boundless_{today}.gpkg')
         file.close()
