@@ -5,8 +5,8 @@ s3cmd rm \
 
 s3cmd put \
     --acl-public \
-    3_exports/10_export_compress/wld_polygons.gpkg.zip \
-    s3://fieldmapsdata/global-admin/wld_polygons.gpkg.zip
+    3_exports/10_export_compress/wld_points.gpkg.zip \
+    s3://fieldmapsdata/global-admin/wld_points.gpkg.zip
 
 s3cmd put \
     --acl-public \
@@ -15,8 +15,8 @@ s3cmd put \
 
 s3cmd put \
     --acl-public \
-    3_exports/10_export_compress/wld_points.gpkg.zip \
-    s3://fieldmapsdata/global-admin/wld_points.gpkg.zip
+    3_exports/10_export_compress/wld_polygons.gpkg.zip \
+    s3://fieldmapsdata/global-admin/wld_polygons.gpkg.zip
 
 s3cmd put \
     --acl-public \

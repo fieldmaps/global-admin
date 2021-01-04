@@ -13,11 +13,12 @@ conn_0.close()
 db_1 = pd.read_excel(attrs_adm0, engine='openpyxl')
 db_1['lst_update'] = db_1['lst_update'].dt.date
 
-polygons = ((cwd / '../0_data_inputs/boundaries/wld_polygons.gpkg').resolve(),
-            (cwd / '00_import_adm0/wld_polygons.gpkg').resolve())
 points = ((cwd / '../0_data_inputs/boundaries/wld_points.gpkg').resolve(),
-          (cwd / '00_import_adm0/wld_points.gpkg').resolve())
-tmp = (cwd / f'00_import_adm0/tmp.gpkg').resolve()
+          (cwd / '00_import_adm0/wld_points.gpkg').resolve(),
+          'points')
+polygons = ((cwd / '../0_data_inputs/boundaries/wld_polygons.gpkg').resolve(),
+            (cwd / '00_import_adm0/wld_polygons.gpkg').resolve(),
+            'polygons')
 
 (cwd / '00_import_adm0').mkdir(parents=True, exist_ok=True)
 
@@ -65,10 +66,12 @@ col_adm0_wfp = {
 
 cols = {**col_base, **col_lvl(0), **col_adm0, **col_adm0_wfp}
 
-for input, output in [polygons, points]:
+for input, output, layer in [polygons, points]:
+    tmp = (cwd / f'00_import_adm0/tmp_{layer}.gpkg').resolve()
     os.system(
         f"""ogr2ogr \
-        -sql "SELECT * FROM adm0" \
+        -sql "SELECT * FROM adm0 ORDER BY id_0, id_wfp_0 ASC" \
+        -unsetFid \
         -nln adm0 \
         {tmp} {input}"""
     )
@@ -80,11 +83,5 @@ for input, output in [polygons, points]:
     df = df.rename(columns=cols)
     df.to_sql('adm0', conn, if_exists='replace', index=False)
     conn.close()
-    os.system(
-        f"""ogr2ogr \
-        -sql "SELECT * FROM adm0 ORDER BY adm0_id ASC" \
-        -unsetFid \
-        -nln adm0 \
-        {output} {tmp}"""
-    )
+    os.system(f'ogr2ogr {output} {tmp}')
     os.remove(tmp)

@@ -1,4 +1,3 @@
-import shutil
 from zipfile import ZipFile, ZIP_DEFLATED
 from pathlib import Path
 from datetime import date
@@ -7,14 +6,13 @@ today = date.today().isoformat()
 
 cwd = Path(__file__).parent
 output_path = (cwd / '10_export_compress').resolve()
-shutil.rmtree(output_path, ignore_errors=True)
 
 output_path.mkdir(parents=True, exist_ok=True)
 (output_path / 'boundless').mkdir(parents=True, exist_ok=True)
 
 bounds = (cwd / '00_import_boundless').resolve()
 
-for layer in ['polygons', 'lines', 'points']:
+for layer in ['points', 'lines', 'polygons']:
     print(f'wld_{layer}.gpkg.zip')
     input = (cwd / f'09_export_merge/wld_{layer}.gpkg').resolve()
     output = (output_path / f'wld_{layer}.gpkg.zip').resolve()
