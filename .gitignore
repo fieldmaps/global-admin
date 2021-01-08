@@ -9,5 +9,7 @@
 *.db-journal
 *.db-wal
 *.db-shm
+*.geojson
+*.geojsonl
 qgis_json*/
 0_data_*/
