@@ -65,25 +65,26 @@ def add_boundless(input, code: str, level: int):
         print(f'{code} {level}')
         os.system(
             f"""ogr2ogr \
-            -sql "SELECT * FROM {code}_adm{level}" \
-            -nln adm{level} \
+            -sql "SELECT * FROM {code}_adm{level} ORDER BY id_{level} ASC" \
+            -unsetFid \
+            -nln {code}_adm{level} \
             {'-append' if level > 0 else ''} \
             {tmp} {input}"""
         )
         conn = connect(tmp)
-        df = pd.read_sql_query(f'SELECT * FROM "adm{level}"', conn)
+        df = pd.read_sql_query(f'SELECT * FROM "{code}_adm{level}"', conn)
         for lvl in range(level, -1, -1):
             df = df.merge(db[f'adm{lvl}'], on=f'id_{lvl}')
         cols = {**col_base, **col_lvl(level), **col_adm0}
         df = df.filter(items=list(cols.keys()))
         df = df.rename(columns=cols)
-        df.to_sql(f'adm{level}', conn, if_exists='replace', index=False)
+        df.to_sql(f'{code}_adm{level}', conn, if_exists='replace', index=False)
         conn.close()
         os.system(
             f"""ogr2ogr \
-            -sql "SELECT * FROM adm{level} ORDER BY adm{level}_id ASC" \
+            -sql "SELECT * FROM {code}_adm{level} ORDER BY adm{level}_id ASC" \
             -unsetFid \
-            -nln adm{level} \
+            -nln {code}_adm{level} \
             {'-append' if level > 0 else ''} \
             {output} {tmp}"""
         )

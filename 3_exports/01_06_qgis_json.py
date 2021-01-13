@@ -21,14 +21,15 @@ def polygon_clip(batch, code, level, input, output):
     input_1 = (cwd_path /
                f'../0_data_inputs/boundaries/wld/{layer_1}.gpkg').resolve()
     for lvl in range(level + 1):
-        layer_0 = f'adm{lvl}'
+        layer_0 = f'{code}_adm{lvl}'
+        layer_2 = f'adm{lvl}'
         batch.append({
             "PARAMETERS": {
                 "INPUT": f"'{input}|layername={layer_0}'",
                 "OVERLAY": f"'{input_1}|layername={layer_1}'",
             },
             "OUTPUTS": {
-                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_0}\" (geom) sql='",
+                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_2}\" (geom) sql='",
             }
         })
 
@@ -50,13 +51,14 @@ def point_inaccessibility(batch, code, level, input, output):
 def polygon_to_lines(batch, code, level, input, output):
     input = Path(f'{cwd}/00_import_boundless/{code}.gpkg')
     for lvl in range(level + 1):
-        layer_1 = f'adm{lvl}'
+        layer_1 = f'{code}_adm{lvl}'
+        layer_2 = f'adm{lvl}'
         batch.append({
             "PARAMETERS": {
                 "INPUT": f"'{input}|layername={layer_1}'",
             },
             "OUTPUTS": {
-                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_1}\" (geom) sql='",
+                "OUTPUT": f"'ogr:dbname={output} table=\"{layer_2}\" (geom) sql='",
             }
         })
 

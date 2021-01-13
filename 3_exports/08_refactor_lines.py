@@ -34,7 +34,8 @@ def drop_fields(input, code: str, level: int):
         print(code, level)
         os.system(
             f"""ogr2ogr \
-            -sql "SELECT * FROM adm{level}" \
+            -sql "SELECT * FROM adm{level} ORDER BY adm{level-1}_id ASC" \
+            -unsetFid \
             -nln adm{level} \
             {'-append' if level > 0 else ''} \
             {tmp} {input}"""

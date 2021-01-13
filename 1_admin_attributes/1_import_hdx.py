@@ -1,6 +1,5 @@
 from pathlib import Path
 import pandas as pd
-import shutil
 from sqlite3 import connect
 
 
@@ -8,7 +7,6 @@ cwd = Path(__file__).parent
 (cwd / '1_import_hdx').mkdir(parents=True, exist_ok=True)
 input_path = (cwd / '../0_data_inputs/attributes/hdx').resolve()
 output_path = (cwd / '1_import_hdx').resolve()
-shutil.rmtree(output_path, ignore_errors=True)
 output_path.mkdir(parents=True, exist_ok=True)
 
 ocha_cod = pd.read_csv((cwd / '../ocha-cod.csv').resolve())

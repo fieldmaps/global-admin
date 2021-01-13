@@ -11,7 +11,7 @@ conn_0 = connect(attrs)
 db_0 = pd.read_sql_query(f'SELECT * FROM adm0', conn_0)
 conn_0.close()
 db_1 = pd.read_excel(attrs_adm0, engine='openpyxl')
-db_1['lst_update'] = db_1['lst_update'].dt.date
+db_1['wfp_update'] = db_1['wfp_update'].dt.date
 
 points = ((cwd / '../0_data_inputs/boundaries/wld_points.gpkg').resolve(),
           (cwd / '00_import_adm0/wld_points.gpkg').resolve(),
@@ -50,21 +50,10 @@ col_adm0 = {
     'src_url': 'src_url',
     'src_date': 'src_date',
     'src_valid': 'src_valid',
-}
-
-col_adm0_wfp = {
     'id_wfp_0': 'wfp_id',
-    'name_wfp': 'wfp_name',
-    'name_wfp1': 'wfp_namea',
-    'disp_area': 'wfp_disput',
-    'source': 'wfp_source',
-    'stscod': 'wfp_status',
-    'map_lab': 'wfp_label',
-    'mapclr': 'wfp_mapclr',
-    'lst_update': 'wfp_update',
 }
 
-cols = {**col_base, **col_lvl(0), **col_adm0, **col_adm0_wfp}
+cols = {**col_base, **col_lvl(0), **col_adm0}
 
 for input, output, layer in [polygons, points]:
     tmp = (cwd / f'00_import_adm0/tmp_{layer}.gpkg').resolve()
@@ -78,9 +67,9 @@ for input, output, layer in [polygons, points]:
     conn = connect(tmp)
     df = pd.read_sql_query(f'SELECT * FROM adm0', conn)
     df = df.merge(db_0, on='id_0', how='left')
-    df = df.merge(db_1, on=['id_0', 'id_wfp_0'], how='left')
     df = df.filter(items=list(cols.keys()))
     df = df.rename(columns=cols)
+    df = df.merge(db_1, on=['adm0_id', 'wfp_id'], how='left')
     df.to_sql('adm0', conn, if_exists='replace', index=False)
     conn.close()
     os.system(f'ogr2ogr {output} {tmp}')

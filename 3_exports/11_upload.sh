@@ -1,7 +1,7 @@
-s3cmd rm \
-    --force \
-    --recursive \
-    s3://fieldmapsdata/global-admin/
+# s3cmd rm \
+#     --force \
+#     --recursive \
+#     s3://fieldmapsdata/global-admin/
 
 s3cmd put \
     --acl-public \

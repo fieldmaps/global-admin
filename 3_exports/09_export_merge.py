@@ -10,6 +10,9 @@ cwd = Path(__file__).parent
 output_path = (cwd / '09_export_merge').resolve()
 output_path.mkdir(parents=True, exist_ok=True)
 
+attrs_zoom = (cwd / '../0_data_inputs/attributes/wld_zoom.xlsx').resolve()
+df_z = pd.read_excel(attrs_zoom, engine='openpyxl')
+
 points = ((cwd / '00_import_adm0/wld_points.gpkg').resolve(),
           (cwd / '07_refactor_points').resolve(),
           'points', 0)
@@ -59,6 +62,7 @@ for template, bounds, layer, offset in [points, lines, polygons]:
         if layer != 'lines' or level != 0:
             df = pd.read_sql_query(f'SELECT * FROM adm{level}', conn)
             df = df.merge(df_a, on='adm0_id', how='left')
+            df = df.merge(df_z, on='adm0_id', how='left')
             df = df.fillna({'adm_max': 0})
             df.to_sql(f'adm{level}', conn, if_exists='replace', index=False)
     conn.close()
