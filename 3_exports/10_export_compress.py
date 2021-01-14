@@ -16,7 +16,7 @@ for layer in ['points', 'lines', 'polygons']:
     print(f'wld_{layer}.gpkg.zip')
     input = (cwd / f'09_export_merge/wld_{layer}.gpkg').resolve()
     output = (output_path / f'wld_{layer}.gpkg.zip').resolve()
-    file = ZipFile(output, mode='w', compression=ZIP_DEFLATED)
+    file = ZipFile(output, mode='w', compression=ZIP_DEFLATED, compresslevel=9)
     file.write(input, arcname=f'wld_{layer}_{today}.gpkg')
     file.close()
 
@@ -26,6 +26,7 @@ for in_file in files_in_path:
         code = in_file.name.split('.')[0]
         print(f'{code}.gpkg.zip')
         output = (output_path / f'boundless/{code}.gpkg.zip').resolve()
-        file = ZipFile(output, mode='w', compression=ZIP_DEFLATED)
+        file = ZipFile(output, mode='w', compression=ZIP_DEFLATED,
+                       compresslevel=9)
         file.write(in_file, arcname=f'{code}_boundless_{today}.gpkg')
         file.close()
