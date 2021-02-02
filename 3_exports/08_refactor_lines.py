@@ -37,7 +37,7 @@ def drop_fields(input, code: str, level: int):
             -sql "SELECT * FROM adm{level} ORDER BY adm{level-1}_id ASC" \
             -unsetFid \
             -nln adm{level} \
-            {'-append' if level > 0 else ''} \
+            {'-append' if level > 1 else ''} \
             {tmp} {input}"""
         )
         conn = connect(tmp)
@@ -50,7 +50,7 @@ def drop_fields(input, code: str, level: int):
             -sql "SELECT * FROM adm{level} ORDER BY adm{level-1}_id ASC" \
             -unsetFid \
             -nln adm{level} \
-            {'-append' if level > 0 else ''} \
+            {'-append' if level > 1 else ''} \
             {output} {tmp}"""
         )
         os.remove(tmp)

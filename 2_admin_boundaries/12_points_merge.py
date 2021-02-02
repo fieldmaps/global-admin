@@ -1,5 +1,4 @@
 import os
-import shutil
 from pathlib import Path
 
 cwd_path = Path(__file__).parent
@@ -13,5 +12,5 @@ for in_file in files_in_path:
         print(code)
         input_2 = Path(f'{cwd}/07_corner_line_intersect/{code}.gpkg')
         output = Path(f'{cwd}/12_points_merge/{code}.gpkg')
-        shutil.copyfile(in_file, output)
-        os.system(f"ogr2ogr -f 'gpkg' -append {output} {input_2}")
+        os.system(f"ogr2ogr -a_srs 'EPSG:4326' {output} {in_file}")
+        os.system(f"ogr2ogr -a_srs 'EPSG:4326' -append {output} {input_2}")

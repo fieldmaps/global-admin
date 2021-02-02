@@ -25,14 +25,14 @@ def max_level_in_gpkg(in_file):
 def drop_fields(input, code: str, level: int):
     tmp = (output_path / f'{code}_tmp.gpkg').resolve()
     output = (output_path / f'{code}.gpkg').resolve()
-    for level in range(level+1):
+    for level in range(1, level+1):
         print(code, level)
         os.system(
             f"""ogr2ogr \
             -sql "SELECT * FROM adm{level} ORDER BY adm{level}_id ASC" \
             -unsetFid \
             -nln adm{level} \
-            {'-append' if level > 0 else ''} \
+            {'-append' if level > 1 else ''} \
             {tmp} {input}"""
         )
         conn = connect(tmp)
@@ -45,7 +45,7 @@ def drop_fields(input, code: str, level: int):
             -sql "SELECT * FROM adm{level} ORDER BY adm{level}_id ASC" \
             -unsetFid \
             -nln adm{level} \
-            {'-append' if level > 0 else ''} \
+            {'-append' if level > 1 else ''} \
             {output} {tmp}"""
         )
         os.remove(tmp)

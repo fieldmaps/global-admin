@@ -20,7 +20,7 @@ def polygon_clip(batch, code, level, input, output):
     layer_1 = f'id_0_{code.upper()}'
     input_1 = (cwd_path /
                f'../0_data_inputs/boundaries/wld/{layer_1}.gpkg').resolve()
-    for lvl in range(level + 1):
+    for lvl in range(1, level + 1):
         layer_0 = f'{code}_adm{lvl}'
         layer_2 = f'adm{lvl}'
         batch.append({
@@ -35,7 +35,7 @@ def polygon_clip(batch, code, level, input, output):
 
 
 def point_inaccessibility(batch, code, level, input, output):
-    for lvl in range(level + 1):
+    for lvl in range(1, level + 1):
         layer_0 = f'adm{lvl}'
         batch.append({
             "PARAMETERS": {

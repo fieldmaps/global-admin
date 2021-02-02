@@ -67,6 +67,7 @@ def add_boundless(input, code: str, level: int):
             f"""ogr2ogr \
             -sql "SELECT * FROM {code}_adm{level} ORDER BY id_{level} ASC" \
             -unsetFid \
+            -dim XY \
             -nln {code}_adm{level} \
             {'-append' if level > 0 else ''} \
             {tmp} {input}"""
@@ -84,6 +85,7 @@ def add_boundless(input, code: str, level: int):
             f"""ogr2ogr \
             -sql "SELECT * FROM {code}_adm{level} ORDER BY adm{level}_id ASC" \
             -unsetFid \
+            -dim XY \
             -nln {code}_adm{level} \
             {'-append' if level > 0 else ''} \
             {output} {tmp}"""
